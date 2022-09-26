@@ -2,7 +2,7 @@
 
 ## Groupe d'utilisateur.rice.s R pour le traitement de l'information géographique
 
-Consulter : [https://elementr.gitpages.huma-num.fr/website])(https://elementr.gitpages.huma-num.fr/website)
+Consulter : [https://elementr.gitpages.huma-num.fr/website](https://elementr.gitpages.huma-num.fr/website)
 
 ## Getting started
 
