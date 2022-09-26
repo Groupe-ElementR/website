@@ -1,6 +1,8 @@
-# Website
+# Site web d'elementr
 
+## Groupe d'utilisateur.rice.s R pour le traitement de l'information géographique
 
+Consulter : [https://elementr.gitpages.huma-num.fr/website])(https://elementr.gitpages.huma-num.fr/website)
 
 ## Getting started
 
