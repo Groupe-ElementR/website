@@ -1,9 +1,20 @@
 ---
-title: "Séance 1"
+title: "Séance introductive"
+date: 10/14/2022
 ---
 
-Resumé
+Résumé
 
-```{r}
-print("Et les diaporama")
-```
+### Le Groupe ElementR
+
+<iframe class="test" src="https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide"></iframe>
+
+### Présentation et contextualisation de R et Rstudio
+
+<iframe class="test" src="https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/"></iframe>
+
+
+
+### L'écosystème spatial de R
+
+<iframe class="test" src="https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide"></iframe>

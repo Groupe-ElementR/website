@@ -3,6 +3,9 @@ project:
 
 website:
   title: "ElementR"
+  favicon: img/ElementR.png
+  twitter-card: true
+  site-url: https://elementr.gitpages.huma-num.fr/website/
   navbar:
     background: "#1a8d73"
     right:
@@ -11,7 +14,7 @@ website:
       - text: Matériel
         menu:
           - href: session1.qmd
-            text: Séance 1
+            text: Séance introductive
           - href: session2.qmd
             text: Séance 2
       - href: about.qmd
@@ -26,11 +29,20 @@ website:
       - session2.qmd   
       - href: about.qmd
         text: Á propos
+  body-footer: | 
+    UMR Géographie-Cités - UMR PRODIG - UAR RIATE
+  margin-header: |
+    ![](img/ElementR.png)
+
+
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: superhero
+      dark: Spacelab
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 

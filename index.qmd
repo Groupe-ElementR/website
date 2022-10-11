@@ -2,6 +2,5 @@
 title: "ElementR"
 ---
 
-![](img/ElementR.png)
 
 Groupe d'utilisateur·rice·s pour le traitement de l'information géographique avec R
