@@ -1,0 +1,9 @@
+---
+title: "Séances à venir"
+---
+
+About next sessions
+
+```{r}
+1 + 1
+```

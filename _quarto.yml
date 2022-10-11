@@ -2,13 +2,30 @@ project:
   type: website
 
 website:
-  title: "Website"
+  title: "ElementR"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+    background: "#1a8d73"
+    right:
+      - href: pgm.qmd
+        text: Programme
+      - text: Matériel
+        menu:
+          - href: session1.qmd
+            text: Séance 1
+          - href: session2.qmd
+            text: Séance 2
+      - href: about.qmd
+        text: Á propos
+    tools:
+      - icon: github
+        href: https://gitlab.huma-num.fr/elementr/website
+  sidebar:
+    contents:
+      - session.qmd
+      - session1.qmd
+      - session2.qmd   
+      - href: about.qmd
+        text: Á propos
 format:
   html:
     theme: cosmo

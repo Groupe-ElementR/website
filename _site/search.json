@@ -1,16 +1,30 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Website",
-    "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Á propos",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ElementR",
+    "section": "",
+    "text": "Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R"
+  },
+  {
+    "objectID": "pgm.html",
+    "href": "pgm.html",
+    "title": "Séances à venir",
+    "section": "",
+    "text": "About next sessions\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "session.html",
+    "href": "session.html",
+    "title": "Matériels",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]

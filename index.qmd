@@ -1,11 +1,7 @@
 ---
-title: "Website"
+title: "ElementR"
 ---
 
-This is a Quarto website.
+![](img/ElementR.png)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Groupe d'utilisateur·rice·s pour le traitement de l'information géographique avec R

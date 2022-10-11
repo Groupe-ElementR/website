@@ -1,0 +1,9 @@
+---
+title: "Séance 2"
+---
+
+Resumé
+
+```{r}
+print("Et les diaporama")
+```
