@@ -2,10 +2,11 @@ project:
   type: website
 
 website:
-  title: "ElementR"
+  title: "<b>ElementR</b>"
   favicon: img/ElementR.png
   twitter-card: true
   site-url: https://elementr.gitpages.huma-num.fr/website/
+  page-navigation: true
   navbar:
     background: "#1a8d73"
     right:
@@ -29,8 +30,7 @@ website:
       - session2.qmd   
       - href: about.qmd
         text: Á propos
-  body-footer: | 
-    UMR Géographie-Cités - UMR PRODIG - UAR RIATE
+  page-footer: ElementR © UMR Géographie-Cités · UMR PRODIG · UAR RIATE
   margin-header: |
     ![](img/ElementR.png)
 
@@ -38,8 +38,8 @@ website:
 format:
   html:
     theme: 
-      light: superhero
-      dark: Spacelab
+      light: Minty
+      dark: cyborg
     css: styles.css
     toc: true
     page-layout: full

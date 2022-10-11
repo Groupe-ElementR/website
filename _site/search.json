@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "Á propos",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Ceci est un notebook\n\ntoto <- 30 + 9\n\ntoto + 200\n\n[1] 239"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ElementR",
     "section": "",
-    "text": "Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R\n\n\nUMR Géographie-Cités - UMR PRODIG - UAR RIATE"
+    "text": "Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R"
   },
   {
     "objectID": "pgm.html",
@@ -30,16 +30,16 @@
   {
     "objectID": "session1.html",
     "href": "session1.html",
-    "title": "Séance de rentrée",
+    "title": "Séance introductive",
     "section": "",
-    "text": "Résumé\n\nLe Groupe ElementR\n\n\n\n\nPrésentation et contextualisation de R et Rstudio\n\n\n\n\nL’écosystème spatial de R\n\n\n\n\n\nUMR Géographie-Cités - UMR PRODIG - UAR RIATE"
+    "text": "Résumé\n\nLe Groupe ElementR\n\n\n\n\n\n\nConsulter en ligne\nCode source\n\n\n\n\n\nPrésentation et contextualisation de R et Rstudio\n\n\n\n\n\n\nConsulter en ligne\nCode source\n\n\n\n\n\nL’écosystème spatial de R\n\n\n\n\n\n\nConsulter en ligne\nCode source\n\n\n\n\n\n\nUMR Géographie-Cités - UMR PRODIG - UAR RIATE"
   },
   {
     "objectID": "session2.html",
     "href": "session2.html",
-    "title": "Séance 2",
+    "title": "Séance 2 ?",
     "section": "",
-    "text": "Resumé\n\nprint(\"Et les diaporama\")\n\n[1] \"Et les diaporama\""
+    "text": "Date ?\nThème ?"
   },
   {
     "objectID": "session1.html#le-groupe-elementr",
@@ -47,5 +47,12 @@
     "title": "Séance de rentrée",
     "section": "Le Groupe ElementR",
     "text": "Le Groupe ElementR\n\n\n\nprint(\"Et les diaporama\")\n\n[1] \"Et les diaporama\"\n\n\n\nprint(\"Et les diaporama\")\n\n[1] \"Et les diaporama\"\n\n\n\nprint(\"Et les diaporama\")\n\n[1] \"Et les diaporama\""
+  },
+  {
+    "objectID": "index.html#groupe-dutilisateurrices-pour-le-traitement-de-linformation-géographique-avec-r",
+    "href": "index.html#groupe-dutilisateurrices-pour-le-traitement-de-linformation-géographique-avec-r",
+    "title": "ElementR",
+    "section": "Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R",
+    "text": "Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R"
   }
 ]

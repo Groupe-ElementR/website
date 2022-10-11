@@ -1,9 +1,7 @@
 ---
-title: "Séance 2"
+title: "Séance 2 ?"
 ---
 
-Resumé
+Date ?
 
-```{r}
-print("Et les diaporama")
-```
+Thème ?

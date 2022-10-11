@@ -7,14 +7,68 @@ Résumé
 
 ### Le Groupe ElementR
 
-<iframe class="test" src="https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide"></iframe>
+:::: {.columns}
+
+::: {.column width="60%"}
+
+<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide"></iframe>
+
+::: 
+
+::: {.column width="40%"}
+
+- [Consulter en ligne](https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide)
+
+- [Code source](https://gitlab.huma-num.fr/elementr/session_1/groupe_elementr)
+
+:::
+
+::::
 
 ### Présentation et contextualisation de R et Rstudio
 
-<iframe class="test" src="https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/"></iframe>
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/"></iframe>
 
 
+::: 
+
+::: {.column width="40%"}
+
+- [Consulter en ligne](https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/)
+
+- [Code source](https://gitlab.huma-num.fr/elementr/session_1/Presentation_R)
+
+:::
+
+::::
 
 ### L'écosystème spatial de R
 
-<iframe class="test" src="https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide"></iframe>
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide"></iframe>
+
+::: 
+
+::: {.column width="40%"}
+
+- [Consulter en ligne](https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide)
+
+- [Code source](https://gitlab.huma-num.fr/elementr/session_1/rspatial)
+
+:::
+
+::::
+
+
+
+

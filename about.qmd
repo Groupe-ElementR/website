@@ -2,8 +2,11 @@
 title: "Á propos"
 ---
 
-About this site
+Ceci est un notebook
 
 ```{r}
-1 + 1
+toto <- 30 + 9
+
+toto + 200
+
 ```

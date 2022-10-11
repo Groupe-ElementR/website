@@ -3,4 +3,18 @@ title: "ElementR"
 ---
 
 
-Groupe d'utilisateur·rice·s pour le traitement de l'information géographique avec R
+## Groupe d'utilisateur·rice·s pour le traitement de l'information géographique avec R
+
+</br></br>
+
+:::: {.columns}
+::: {.column width="33%"}
+<img src="img/8504.png" width="30%;" />
+:::
+::: {.column width="33%"}
+<img src="img/prodig.png" width=40%;" style="margin-top:15px;"/>
+:::
+::: {.column width="33%"}
+<img src="img/riate.png" width="50%;"style="margin-top:35px;"/>
+:::
+::::

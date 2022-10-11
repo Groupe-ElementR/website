@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/index.html</loc>
-    <lastmod>2022-10-11T18:09:04.432Z</lastmod>
+    <lastmod>2022-10-11T20:12:44.166Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/session1.html</loc>
-    <lastmod>2022-10-11T18:56:09.712Z</lastmod>
+    <lastmod>2022-10-11T19:32:22.637Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/pgm.html</loc>
     <lastmod>2022-10-11T19:02:35.170Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/session2.html</loc>
+    <lastmod>2022-10-11T19:49:38.105Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/about.html</loc>
+    <lastmod>2022-10-11T20:07:27.708Z</lastmod>
   </url>
 </urlset>
