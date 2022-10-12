@@ -6,9 +6,9 @@ nocite: '@*'
 csl: geo.csl
 ---
 
-Dix après sa création, le groupe ElementR relance une nouvelle vague de formation collective au traitement de l'information géographique avec R. Le périmètre de ce groupe d'utilisateur·rice·s s'est élargi, le groupe fédère désormais des membres de l'UMR [Géographie-Cités](https://geographie-cites.cnrs.fr/), de l'UMR [PRODIG](https://www.prodig.cnrs.fr/) et de l'UAR [RIATE](https://riate.cnrs.fr/).
+Presque dix ans après sa création, le groupe ElementR relance une nouvelle vague de formation collective au traitement de l'information géographique avec R. Le périmètre de ce groupe d'utilisateur·rice·s s'est élargi, le groupe fédère désormais des membres de l'UMR [Géographie-Cités](https://geographie-cites.cnrs.fr/), de l'UMR [PRODIG](https://www.prodig.cnrs.fr/) et de l'UAR [RIATE](https://riate.cnrs.fr/).
 
-Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'échanger sur les modalités de fonctionnement et les futures activités du groupe. La seconde partie de la séance à été consacrée à une présentation de R et des fonctionnalités proposées par ce langage en matière de traitement de l'information géographique.
+Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'échanger sur les modalités de fonctionnement et les futures activités du groupe. La seconde partie de la séance a été consacrée à une présentation de R et des fonctionnalités proposées par ce langage en matière de traitement de l'information géographique.
 
 **Plan de séance :** 
 
@@ -18,7 +18,7 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 4. L'écosystème spatiale de R
 
 
-### Support de présentation
+### Supports de présentation
 
 #### 1. Historique et bilan d'ElementR
 
@@ -36,7 +36,7 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 :::
 :::
 
-#### 2. Le Groupe ElementR
+#### 2. Nouvelle vague ElementR
 
 ::: columns
 ::: {.column width="70%"}
