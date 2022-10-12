@@ -1,74 +1,77 @@
 ---
 title: "Séance introductive"
 date: 10/14/2022
+bibliography: BibTeX/session1.bib
+nocite: '@*'
+csl: geo.csl
 ---
 
-Résumé
+Dix après sa création, le groupe ElementR relance une nouvelle vague de formation collective au traitement de l'information géographique avec R. Le périmètre du ce groupe d'utilisateur·rice·s s'est élargi, le groupe fédère désormais des membres de l'[UMR Géographie-Cités](https://geographie-cites.cnrs.fr/), de l'[UMR PRODIG](https://www.prodig.cnrs.fr/) et de l'[UAR RIATE](https://riate.cnrs.fr/).
 
-### Le Groupe ElementR
+Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'échanger sur les modalités de fonctionnement et les futures activités du groupe. La seconde partie de la séance à été consacrée à une présentation de R et des fonctionnalités proposées par ce langage en matière de traitement de l'information géographique.
 
-:::: {.columns}
+**Plan de séance :** 
 
-::: {.column width="60%"}
+1. Historique et bilan du groupe ElementR
+2. Objectifs, fonctionnement et activités envisagés (discussion) 
+3. Présentation et contextualisation de R et Rstudio
+4. L'écosystème spatiale de R
 
+
+### Support de présentation
+
+#### 1. Historique et bilan d'ElementR
+
+#### 2. Le Groupe ElementR
+
+::: columns
+::: {.column width="70%"}
 <iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide"></iframe>
-
-::: 
-
-::: {.column width="40%"}
-
-- [Consulter en ligne](https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide)
-
-- [Code source](https://gitlab.huma-num.fr/elementr/session_1/groupe_elementr)
-
 :::
 
-::::
+::: {.column width="30%"}
+<ul class="metaslide">
+- <i class="bi bi-person-video3"> **Robin Cura**</i>
+- <i class="bi bi-file-earmark-slides"></i>  Diaporama en [plein écran](https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide)  
+- <i class="bi bi-github"></i> Code source sur [GitLab](https://gitlab.huma-num.fr/elementr/session_1/groupe_elementr)
+</ul>
+:::
+:::
 
-### Présentation et contextualisation de R et Rstudio
+#### 3. Présentation et contextualisation de R et Rstudio
 
-
-:::: {.columns}
-
-::: {.column width="60%"}
-
+::: columns
+::: {.column width="70%"}
 <iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/"></iframe>
-
-
-::: 
-
-::: {.column width="40%"}
-
-- [Consulter en ligne](https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/)
-
-- [Code source](https://gitlab.huma-num.fr/elementr/session_1/Presentation_R)
-
 :::
 
-::::
+::: {.column width="30%"}
+<ul class="metaslide">
+- <i class="bi bi-person-fill"> **Hugues Pecout**</i>
+- <i class="bi bi-file-earmark-slides"></i>  Diaporama en [plein écran](https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/)  
+-   <i class="bi bi-github"></i> Code source sur [GitLab](https://gitlab.huma-num.fr/elementr/session_1/Presentation_R)
+</ul>
+:::
+:::
 
-### L'écosystème spatial de R
+#### 4. L'écosystème spatial de R
 
-
-:::: {.columns}
-
-::: {.column width="60%"}
-
-
+::: columns
+::: {.column width="70%"}
 <iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide"></iframe>
-
-::: 
-
-::: {.column width="40%"}
-
-- [Consulter en ligne](https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide)
-
-- [Code source](https://gitlab.huma-num.fr/elementr/session_1/rspatial)
-
 :::
 
-::::
+::: {.column width="30%"}
+<ul class="metaslide">
+- <i class="bi bi-person-circle"> **Timothée Giraud**</i>
+- <i class="bi bi-file-earmark-slides"></i> Diaporama en [plein écran](https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide)
+- <i class="bi bi-github"></i> Code source sur [GitLab](https://gitlab.huma-num.fr/elementr/session_1/rspatial)
+</ul>
+:::
+:::
 
+</br>
 
-
-
+##### Bibliographie
+::: {#refs}
+:::
