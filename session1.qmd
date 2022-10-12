@@ -6,7 +6,7 @@ nocite: '@*'
 csl: geo.csl
 ---
 
-Dix après sa création, le groupe ElementR relance une nouvelle vague de formation collective au traitement de l'information géographique avec R. Le périmètre du ce groupe d'utilisateur·rice·s s'est élargi, le groupe fédère désormais des membres de l'[UMR Géographie-Cités](https://geographie-cites.cnrs.fr/), de l'[UMR PRODIG](https://www.prodig.cnrs.fr/) et de l'[UAR RIATE](https://riate.cnrs.fr/).
+Dix après sa création, le groupe ElementR relance une nouvelle vague de formation collective au traitement de l'information géographique avec R. Le périmètre de ce groupe d'utilisateur·rice·s s'est élargi, le groupe fédère désormais des membres de l'UMR [Géographie-Cités](https://geographie-cites.cnrs.fr/), de l'UMR [PRODIG](https://www.prodig.cnrs.fr/) et de l'UAR [RIATE](https://riate.cnrs.fr/).
 
 Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'échanger sur les modalités de fonctionnement et les futures activités du groupe. La seconde partie de la séance à été consacrée à une présentation de R et des fonctionnalités proposées par ce langage en matière de traitement de l'information géographique.
 
@@ -22,6 +22,20 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 
 #### 1. Historique et bilan d'ElementR
 
+::: columns
+::: {.column width="70%"}
+<iframe class="slide" src=""></iframe>
+:::
+
+::: {.column width="30%"}
+<ul class="metaslide">
+- <i class="bi bi-person-fill"> **Hadrien Commenges**</i>
+- <i class="bi bi-file-earmark-slides"></i>  Diaporama en [plein écran]()  
+- <i class="bi bi-github"></i> Code source sur [GitLab]()
+</ul>
+:::
+:::
+
 #### 2. Le Groupe ElementR
 
 ::: columns
@@ -31,7 +45,7 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 
 ::: {.column width="30%"}
 <ul class="metaslide">
-- <i class="bi bi-person-video3"> **Robin Cura**</i>
+- <i class="bi bi-person-fill"> **Robin Cura**</i>
 - <i class="bi bi-file-earmark-slides"></i>  Diaporama en [plein écran](https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide)  
 - <i class="bi bi-github"></i> Code source sur [GitLab](https://gitlab.huma-num.fr/elementr/session_1/groupe_elementr)
 </ul>
@@ -63,7 +77,7 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 
 ::: {.column width="30%"}
 <ul class="metaslide">
-- <i class="bi bi-person-circle"> **Timothée Giraud**</i>
+- <i class="bi bi-person-fill"> **Timothée Giraud**</i>
 - <i class="bi bi-file-earmark-slides"></i> Diaporama en [plein écran](https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide)
 - <i class="bi bi-github"></i> Code source sur [GitLab](https://gitlab.huma-num.fr/elementr/session_1/rspatial)
 </ul>
