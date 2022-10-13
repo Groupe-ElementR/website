@@ -15,7 +15,7 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 1. Historique et bilan du groupe ElementR
 2. Objectifs, fonctionnement et activités envisagés (discussion) 
 3. Présentation et contextualisation de R et Rstudio
-4. L'écosystème spatiale de R
+4. L'écosystème spatial de R
 
 
 ### Supports de présentation
