@@ -24,14 +24,14 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 
 ::: columns
 ::: {.column width="70%"}
-<iframe class="slide" src=""></iframe>
+<iframe class="slide" src='support/elementr_historique.pdf'></iframe>
+
 :::
 
 ::: {.column width="30%"}
 <ul class="metaslide">
 - <i class="bi bi-person-fill"> **Hadrien Commenges**</i>
-- <i class="bi bi-file-earmark-slides"></i>  Diaporama en [plein écran]()  
-- <i class="bi bi-github"></i> Code source sur [GitLab]()
+- <i class="bi bi-file-earmark-slides"></i>  Diaporama en [plein écran](support/elementr_historique.pdf)  
 </ul>
 :::
 :::
