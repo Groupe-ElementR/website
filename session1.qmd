@@ -10,13 +10,12 @@ Presque dix ans après sa création, le groupe ElementR relance une nouvelle vag
 
 Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'échanger sur les modalités de fonctionnement et les futures activités du groupe. La seconde partie de la séance a été consacrée à une présentation de R et des fonctionnalités proposées par ce langage en matière de traitement de l'information géographique.
 
-**Plan de séance :** 
+**Plan de séance :**
 
-1. Historique et bilan du groupe ElementR
-2. Objectifs, fonctionnement et activités envisagés (discussion) 
-3. Présentation et contextualisation de R et Rstudio
-4. L'écosystème spatial de R
-
+1.  Historique et bilan du groupe ElementR
+2.  Objectifs, fonctionnement et activités envisagés (discussion)
+3.  Présentation et contextualisation de R et Rstudio
+4.  L'écosystème spatial de R
 
 ### Supports de présentation
 
@@ -24,14 +23,22 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 
 ::: columns
 ::: {.column width="70%"}
-<iframe class="slide" src='support/elementr_historique.pdf'></iframe>
+
+
+<object class="slide" data="support/elementr_historique.pdf" type="application/pdf">
+    <iframe  src="https://docs.google.com/viewer?url=your_url_to_pdf&embedded=true"></iframe>
+</object>
+
+
 
 :::
 
 ::: {.column width="30%"}
 <ul class="metaslide">
-- <i class="bi bi-person-fill"> **Hadrien Commenges**</i>
-- <i class="bi bi-file-earmark-slides"></i>  Diaporama en [plein écran](support/elementr_historique.pdf)  
+
+-   <i class="bi bi-person-fill"> **Hadrien Commenges**</i>
+-   <i class="bi bi-file-earmark-slides"></i> Diaporama en [plein écran](support/elementr_historique.pdf)\
+
 </ul>
 :::
 :::
@@ -40,14 +47,18 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 
 ::: columns
 ::: {.column width="70%"}
-<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide"></iframe>
+<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide">
+
+</iframe>
 :::
 
 ::: {.column width="30%"}
 <ul class="metaslide">
-- <i class="bi bi-person-fill"> **Robin Cura**</i>
-- <i class="bi bi-file-earmark-slides"></i>  Diaporama en [plein écran](https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide)  
-- <i class="bi bi-github"></i> Code source sur [GitLab](https://gitlab.huma-num.fr/elementr/session_1/groupe_elementr)
+
+-   <i class="bi bi-person-fill"> **Robin Cura**</i>
+-   <i class="bi bi-file-earmark-slides"></i> Diaporama en [plein écran](https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide)\
+-   <i class="bi bi-github"></i> Code source sur [GitLab](https://gitlab.huma-num.fr/elementr/session_1/groupe_elementr)
+
 </ul>
 :::
 :::
@@ -56,14 +67,18 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 
 ::: columns
 ::: {.column width="70%"}
-<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/"></iframe>
+<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/">
+
+</iframe>
 :::
 
 ::: {.column width="30%"}
 <ul class="metaslide">
-- <i class="bi bi-person-fill"> **Hugues Pecout**</i>
-- <i class="bi bi-file-earmark-slides"></i>  Diaporama en [plein écran](https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/)  
+
+-   <i class="bi bi-person-fill"> **Hugues Pecout**</i>
+-   <i class="bi bi-file-earmark-slides"></i> Diaporama en [plein écran](https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/)\
 -   <i class="bi bi-github"></i> Code source sur [GitLab](https://gitlab.huma-num.fr/elementr/session_1/Presentation_R)
+
 </ul>
 :::
 :::
@@ -72,14 +87,18 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 
 ::: columns
 ::: {.column width="70%"}
-<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide"></iframe>
+<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide">
+
+</iframe>
 :::
 
 ::: {.column width="30%"}
 <ul class="metaslide">
-- <i class="bi bi-person-fill"> **Timothée Giraud**</i>
-- <i class="bi bi-file-earmark-slides"></i> Diaporama en [plein écran](https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide)
-- <i class="bi bi-github"></i> Code source sur [GitLab](https://gitlab.huma-num.fr/elementr/session_1/rspatial)
+
+-   <i class="bi bi-person-fill"> **Timothée Giraud**</i>
+-   <i class="bi bi-file-earmark-slides"></i> Diaporama en [plein écran](https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide)
+-   <i class="bi bi-github"></i> Code source sur [GitLab](https://gitlab.huma-num.fr/elementr/session_1/rspatial)
+
 </ul>
 :::
 :::
@@ -87,5 +106,6 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 </br>
 
 ##### Bibliographie
+
 ::: {#refs}
 :::
