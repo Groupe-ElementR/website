@@ -9,10 +9,10 @@ website:
   page-navigation: true
   navbar:
     background: "#1a8d73"
-    right:
+    left: 
       - href: pgm.qmd
         text: Programme
-      - text: Matériel
+      - text: Ressources
         menu:
           - href: session1.qmd
             text: Séance introductive
@@ -20,16 +20,18 @@ website:
             text: Séance 2
       - href: about.qmd
         text: Á propos
+    right:
+      - href: contact.qmd
+        text: Contact
     tools:
       - icon: github
         href: https://gitlab.huma-num.fr/elementr/website
   sidebar:
     contents:
+      - pgm.qmd
       - session.qmd
       - session1.qmd
       - session2.qmd   
-      - href: about.qmd
-        text: Á propos
   page-footer: ElementR © UMR Géographie-Cités · UMR PRODIG · UAR RIATE
   margin-header: |
     ![](img/ElementR.png)

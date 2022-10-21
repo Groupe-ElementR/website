@@ -16,9 +16,9 @@
   {
     "objectID": "pgm.html",
     "href": "pgm.html",
-    "title": "Séances à venir",
+    "title": "Séances passées et à venir",
     "section": "",
-    "text": "Séminaire ElementR\n\n14/10/2022 - Séance introductive - Hybride"
+    "text": "À venirPassées\n\n\n\n??/??/2022 - Initiation à R (1) - Présentiel\n\nHoraire & salle :\nPrérequis :\nInscription :\n\n??/??/2022 - Initiation à R (2) - Présentiel\n\nHoraire & salle :\nPrérequis :\nInscription :\n\n\n\n\n\n14/10/2022 - Séance introductive - Hybride\n\nSupport & matériel"
   },
   {
     "objectID": "session.html",
@@ -32,14 +32,14 @@
     "href": "session1.html",
     "title": "Séance introductive",
     "section": "",
-    "text": "Presque dix ans après sa création, le groupe ElementR relance une nouvelle vague de formation collective au traitement de l’information géographique avec R. Le périmètre de ce groupe d’utilisateur·rice·s s’est élargi, le groupe fédère désormais des membres de l’UMR Géographie-Cités, de l’UMR PRODIG et de l’UAR RIATE.\nCette séance a été l’occasion de présenter l’historique d’ElementR, et d’échanger sur les modalités de fonctionnement et les futures activités du groupe. La seconde partie de la séance a été consacrée à une présentation de R et des fonctionnalités proposées par ce langage en matière de traitement de l’information géographique.\nPlan de séance :\n\nHistorique et bilan du groupe ElementR\nObjectifs, fonctionnement et activités envisagés (discussion)\nPrésentation et contextualisation de R et Rstudio\nL’écosystème spatial de R\n\n\nSupports de présentation\n\n1. Historique et bilan d’ElementR\n\n\n\n\n\n\n\n\n\n Hadrien Commenges\n Diaporama en plein écran\n\n\n\n\n\n\n\n2. Nouvelle vague ElementR\n\n\n\n\n\n\n\n Robin Cura\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n3. Présentation et contextualisation de R et Rstudio\n\n\n\n\n\n\n\n Hugues Pecout\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n4. L’écosystème spatial de R\n\n\n\n\n\n\n\n Timothée Giraud\n Diaporama en plein écran\n Code source sur GitLab\n\n\n\n\n\n\n\n\n\n\n\n\n\nBibliographie\n\nGiraud T, Pecout H. 2022b. Géomatique avec R Available at: https://rcarto.github.io/geomatique_avec_r/\n\n\nGiraud T, Pecout H. 2022a. Cartographie avec R Available at: https://rcarto.github.io/cartographie_avec_r/\n\n\nSmith D. 2017. An updated history of R Available at: https://blog.revolutionanalytics.com/2017/10/updated-history-of-r.html"
+    "text": "Cette séance a été l’occasion de présenter l’historique d’ElementR, et d’échanger sur les modalités de fonctionnement et les futures activités du groupe. La seconde partie de la séance a été consacrée à une présentation de R et des fonctionnalités proposées par ce langage en matière de traitement de l’information géographique.\nPlan de séance :\n\nHistorique et bilan du groupe ElementR\nObjectifs, fonctionnement et activités envisagés (discussion)\nPrésentation et contextualisation de R et Rstudio\nL’écosystème spatial de R\n\n\nSupports de présentation\n\n1. Historique et bilan d’ElementR\n\n\n\n\n\n\n\n\n\n Hadrien Commenges\n Diaporama en plein écran\n\n\n\n\n\n\n\n2. Nouvelle vague ElementR\n\n\n\n\n\n\n\n Robin Cura\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n3. Présentation et contextualisation de R et Rstudio\n\n\n\n\n\n\n\n Hugues Pecout\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n4. L’écosystème spatial de R\n\n\n\n\n\n\n\n Timothée Giraud\n Diaporama en plein écran\n Code source sur GitLab\n\n\n\n\n\n\nBibliographie\n\n\nGiraud T, Pecout H. 2022b. Géomatique avec R Available at: https://rcarto.github.io/geomatique_avec_r/\n\n\nGiraud T, Pecout H. 2022a. Cartographie avec R Available at: https://rcarto.github.io/cartographie_avec_r/\n\n\nSmith D. 2017. An updated history of R Available at: https://blog.revolutionanalytics.com/2017/10/updated-history-of-r.html"
   },
   {
     "objectID": "session2.html",
     "href": "session2.html",
     "title": "Séance 2",
     "section": "",
-    "text": "Date ?\nThème ?"
+    "text": "Thème ?"
   },
   {
     "objectID": "session1.html#le-groupe-elementr",
@@ -60,7 +60,7 @@
     "href": "session3.html",
     "title": "Séance 3",
     "section": "",
-    "text": "Date ?\nThème ?"
+    "text": "Thème ?"
   },
   {
     "objectID": "pgm.html#séminaire-elementr",
@@ -72,7 +72,7 @@
   {
     "objectID": "pgm.html#atelier-pratique",
     "href": "pgm.html#atelier-pratique",
-    "title": "Séances à venir",
+    "title": "Séances passées et à venir",
     "section": "Atelier pratique",
     "text": "Atelier pratique\n\nÀ venirPassés"
   },
@@ -82,5 +82,12 @@
     "title": "Séances à venir",
     "section": "Programme",
     "text": "Programme\n\nÀ venirPassées\n\n\n\n??/??/2022 - Initiation à R (1) - Présentiel\n\nHoraire & salle :\nPré-requis :\n\n??/??/2022 - Initiation à R (2) - Présentiel(mtcars)\n\n\n\n\n14/10/2022 - Séance introductive - Hybride\n\nSupport & matériel"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Contacter l’équipe d’animation d’ElementR :"
   }
 ]

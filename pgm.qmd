@@ -1,43 +1,34 @@
 ---
-title: "Séances à venir"
+title: "Séances passées et à venir"
 ---
 
-## Programme
+## Séminaire ElementR
 
-
-
-::: {.panel-tabset}
-
+::: panel-tabset
 #### À venir
 
 -   **??/??/2022 - Initiation à R (1)** - Présentiel
-    - Horaire & salle :
-    - Pré-requis :
-
--   **??/??/2022 - Initiation à R (2)** - Présentiel(mtcars)
-
+    -   Horaire & salle :
+    -   Prérequis :
+    -   Inscription :  
+    
+-   **??/??/2022 - Initiation à R (2)** - Présentiel
+    -   Horaire & salle :
+    -   Prérequis :
+    -   Inscription :  
 
 #### Passées
 
 -   **14/10/2022 - Séance introductive** - Hybride
-    - [Support & matériel](session1.html)
-
+    -   [Support & matériel](session1.html)
 :::
 
--------------------------------------------------------------------------------
+
 
 ## Atelier pratique
 
-
-
-::: {.panel-tabset}
-
+::: panel-tabset
 #### À venir
 
-
-
-
 #### Passés
-
 :::
-

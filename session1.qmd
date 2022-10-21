@@ -23,14 +23,13 @@ Cette séance a été l'occasion de présenter l'historique d'ElementR, et d'éc
 
 ::: columns
 ::: {.column width="70%"}
-
-
 <object class="slide" data="support/elementr_historique.pdf" type="application/pdf">
-    <iframe  src="https://docs.google.com/viewer?url=your_url_to_pdf&embedded=true"></iframe>
+
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true">
+
+</iframe>
+
 </object>
-
-
-
 :::
 
 ::: {.column width="30%"}
