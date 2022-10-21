@@ -2,8 +2,42 @@
 title: "Séances à venir"
 ---
 
-### Séminaire ElementR
+## Programme
 
-- 14/10/2022 - Séance introductive - Hybride
 
+
+::: {.panel-tabset}
+
+#### À venir
+
+-   **??/??/2022 - Initiation à R (1)** - Présentiel
+    - Horaire & salle :
+    - Pré-requis :
+
+-   **??/??/2022 - Initiation à R (2)** - Présentiel(mtcars)
+
+
+#### Passées
+
+-   **14/10/2022 - Séance introductive** - Hybride
+    - [Support & matériel](session1.html)
+
+:::
+
+-------------------------------------------------------------------------------
+
+## Atelier pratique
+
+
+
+::: {.panel-tabset}
+
+#### À venir
+
+
+
+
+#### Passés
+
+:::
 
