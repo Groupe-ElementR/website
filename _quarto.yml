@@ -1,38 +1,45 @@
 project:
   type: website
-
+lang: fr
 website:
   title: "<b>ElementR</b>"
   favicon: img/ElementR.png
   twitter-card: true
   site-url: https://elementr.gitpages.huma-num.fr/website/
+  description: "Site web du groupe d’utilisateur·rice·s ElementR"
   page-navigation: true
+  categories: ["introduction"]
+  search: 
+    location: navbar
+    type: overlay
   navbar:
     background: "#1a8d73"
     left: 
-      - href: pgm.qmd
+      - href: programme.qmd
         text: Programme
-      - text: Ressources
-        menu:
-          - href: session1.qmd
-            text: Séance introductive
-          - href: session2.qmd
-            text: Séance 2
-      - href: about.qmd
+      - href: seance.qmd
+        text: Ressources
+      - href: apropos.qmd
         text: Á propos
     right:
       - href: contact.qmd
         text: Contact
     tools:
-      - icon: github
+      - icon: git
+        aria-label: GitLab
+        text: GitLab
         href: https://gitlab.huma-num.fr/elementr/website
   sidebar:
     contents:
-      - pgm.qmd
-      - session.qmd
-      - session1.qmd
-      - session2.qmd   
-  page-footer: ElementR © UMR Géographie-Cités · UMR PRODIG · UAR RIATE
+      - programme.qmd
+      - seance.qmd
+      - href: posts/seance1.qmd
+        text: Introduction ElementR
+      - href: posts/seance2.qmd 
+        text: Initiation à R (1)
+      - href: posts/seance3.qmd
+        text: Initiation à R (2)
+  page-footer: ElementR © 2022 - UMR Géographie-Cités · UMR PRODIG · UAR RIATE
   margin-header: |
     ![](img/ElementR.png)
 

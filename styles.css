@@ -31,3 +31,24 @@
   font-size:14px;
 
 }
+
+#map {
+  float: left;
+  width:40%;
+}
+
+
+#maptext {
+  text-align: left;
+  float: right;
+  width:55%;
+}
+
+#title-list-post{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#center{
+ text-align:center;
+}

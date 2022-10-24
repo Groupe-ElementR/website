@@ -1,21 +1,72 @@
 ---
-title: "ElementR"
+title: "**ElementR**"
 ---
 
 ## Groupe d'utilisateur·rice·s pour le traitement de l'information géographique avec R
 
+
+
+::: {#map}
+
+```{r, echo=FALSE, eval=TRUE, warning=FALSE, message=FALSE}
+# Chargement des librairies
+library(sf)
+library(leaflet)
+
+lat = 48.910086749038385
+lng = 2.3670881126196304
+
+
+file <- 'https://upload.wikimedia.org/wikipedia/commons/8/8f/Campus_Condorcet_B%C3%A2timent_Recherche_Sud._-_IHEAL.jpg'
+
+# Création d'un point (localisation centre des colloques)
+ptsfg <- st_point(c(lng, lat)) 
+ptsfc <- st_sfc(ptsfg, crs = (4326))
+ptdf <- data.frame(id= 1, name = "UMR8504")
+Here <- st_sf(ptdf,geometry = ptsfc)
+
+icons <- awesomeIcons(
+  icon = 'ios-people',
+  iconColor = 'white',
+  library = 'ion',
+  markerColor = 'blue'
+)
+
+
+# Affichage du point - carte interactive
+mamap <- leaflet(Here, width = 350, height = 170) %>%
+            setView( lat = lat+0.01, lng = lng, zoom = 12) %>% addProviderTiles("CartoDB.Positron") %>%
+             addAwesomeMarkers( icon = icons,popup = paste0("<img src = ", file,  " width = 140>", "<br /><p style='font-style:bold;font-size:12pt;'>Campus Condorcet</p>"))
+```
+
+```{r, echo=FALSE}
+mamap
+```
+
+:::
+
+::: {#maptext}
+
+ElementR est un groupe qui fédère trois unités de recherche en géographie : l'UMR [Géographie-Cités](https://geographie-cites.cnrs.fr/), de l'UMR [PRODIG](https://www.prodig.cnrs.fr/) et de l'UAR [RIATE](https://riate.cnrs.fr/). Les activités du groupe sont accessibles à l'ensemble des membres du Campus Condorcet. 
+
+
+
 </br></br>
 
 ::: columns
-::: {.column width="33%"}
-<img src="img/8504.png" width="30%;"/>
+::: {.column width="35%"}
+<img src="img/8504.png" width="50%;"/>
 :::
 
-::: {.column width="33%"}
-<img src="img/prodig.png" width="40%;&quot;" style="margin-top:15px;"/>
+::: {.column width="35%"}
+<img src="img/prodig.png" width="63%;" style="margin-top:15px;"/>
 :::
 
-::: {.column width="33%"}
-<img src="img/riate.png" width="50%;" style="margin-top:35px;"/>
+::: {.column width="29%"}
+<img src="img/riate.png" width="72%;" style="margin-top:35px;"/>
 :::
 :::
+
+
+::: 
+

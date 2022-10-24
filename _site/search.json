@@ -4,90 +4,153 @@
     "href": "about.html",
     "title": "Á propos",
     "section": "",
-    "text": "toto <- 30 + 9\n\ntoto + 200\n\n[1] 239"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ElementR",
-    "section": "",
-    "text": "Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R"
-  },
-  {
-    "objectID": "pgm.html",
-    "href": "pgm.html",
-    "title": "Séances passées et à venir",
-    "section": "",
-    "text": "À venirPassées\n\n\n\n??/??/2022 - Initiation à R (1) - Présentiel\n\nHoraire & salle :\nPrérequis :\nInscription :\n\n??/??/2022 - Initiation à R (2) - Présentiel\n\nHoraire & salle :\nPrérequis :\nInscription :\n\n\n\n\n\n14/10/2022 - Séance introductive - Hybride\n\nSupport & matériel"
-  },
-  {
-    "objectID": "session.html",
-    "href": "session.html",
-    "title": "Le séminaire ElementR",
-    "section": "",
-    "text": "Présentation"
-  },
-  {
-    "objectID": "session1.html",
-    "href": "session1.html",
-    "title": "Séance introductive",
-    "section": "",
-    "text": "Cette séance a été l’occasion de présenter l’historique d’ElementR, et d’échanger sur les modalités de fonctionnement et les futures activités du groupe. La seconde partie de la séance a été consacrée à une présentation de R et des fonctionnalités proposées par ce langage en matière de traitement de l’information géographique.\nPlan de séance :\n\nHistorique et bilan du groupe ElementR\nObjectifs, fonctionnement et activités envisagés (discussion)\nPrésentation et contextualisation de R et Rstudio\nL’écosystème spatial de R\n\n\nSupports de présentation\n\n1. Historique et bilan d’ElementR\n\n\n\n\n\n\n\n\n\n Hadrien Commenges\n Diaporama en plein écran\n\n\n\n\n\n\n\n2. Nouvelle vague ElementR\n\n\n\n\n\n\n\n Robin Cura\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n3. Présentation et contextualisation de R et Rstudio\n\n\n\n\n\n\n\n Hugues Pecout\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n4. L’écosystème spatial de R\n\n\n\n\n\n\n\n Timothée Giraud\n Diaporama en plein écran\n Code source sur GitLab\n\n\n\n\n\n\nBibliographie\n\n\nGiraud T, Pecout H. 2022b. Géomatique avec R Available at: https://rcarto.github.io/geomatique_avec_r/\n\n\nGiraud T, Pecout H. 2022a. Cartographie avec R Available at: https://rcarto.github.io/cartographie_avec_r/\n\n\nSmith D. 2017. An updated history of R Available at: https://blog.revolutionanalytics.com/2017/10/updated-history-of-r.html"
-  },
-  {
-    "objectID": "session2.html",
-    "href": "session2.html",
-    "title": "Séance 2",
-    "section": "",
-    "text": "Thème ?"
-  },
-  {
-    "objectID": "session1.html#le-groupe-elementr",
-    "href": "session1.html#le-groupe-elementr",
-    "title": "Séance de rentrée",
-    "section": "Le Groupe ElementR",
-    "text": "Le Groupe ElementR\n\n\n\nprint(\"Et les diaporama\")\n\n[1] \"Et les diaporama\"\n\n\n\nprint(\"Et les diaporama\")\n\n[1] \"Et les diaporama\"\n\n\n\nprint(\"Et les diaporama\")\n\n[1] \"Et les diaporama\""
-  },
-  {
-    "objectID": "index.html#groupe-dutilisateurrices-pour-le-traitement-de-linformation-géographique-avec-r",
-    "href": "index.html#groupe-dutilisateurrices-pour-le-traitement-de-linformation-géographique-avec-r",
-    "title": "ElementR",
-    "section": "Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R",
-    "text": "Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R"
-  },
-  {
-    "objectID": "session3.html",
-    "href": "session3.html",
-    "title": "Séance 3",
-    "section": "",
-    "text": "Thème ?"
-  },
-  {
-    "objectID": "pgm.html#séminaire-elementr",
-    "href": "pgm.html#séminaire-elementr",
-    "title": "Séances à venir",
-    "section": "Séminaire ElementR",
-    "text": "Séminaire ElementR\n\nÀ venirPassées\n\n\n\n??/??/2022 - Initiation à R (1) - Présentiel\n\nHoraire & salle :\nPré-requis :\n\n??/??/2022 - Initiation à R (2) - Présentiel(mtcars)\n\n\n\n\n14/10/2022 - Séance introductive - Hybride"
-  },
-  {
-    "objectID": "pgm.html#atelier-pratique",
-    "href": "pgm.html#atelier-pratique",
-    "title": "Séances passées et à venir",
-    "section": "Atelier pratique",
-    "text": "Atelier pratique\n\nÀ venirPassés"
-  },
-  {
-    "objectID": "pgm.html#programme",
-    "href": "pgm.html#programme",
-    "title": "Séances à venir",
-    "section": "Programme",
-    "text": "Programme\n\nÀ venirPassées\n\n\n\n??/??/2022 - Initiation à R (1) - Présentiel\n\nHoraire & salle :\nPré-requis :\n\n??/??/2022 - Initiation à R (2) - Présentiel(mtcars)\n\n\n\n\n14/10/2022 - Séance introductive - Hybride\n\nSupport & matériel"
+    "text": "Ceci est un notebook\n\ntoto <- 30 + 9\n\ntoto + 200\n\n[1] 239"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Contacter l’équipe d’animation d’ElementR :"
+    "text": "Vous pouvez contacter le groupe d’animation ElementR via ces emails.\n\n\n\n\n\n\nComment rejoindre le groupe ?\n\n\n\nInscrivez-vous à la liste de diffusion d’ElementR : elementr@services.cnrs.fr.\nL’inscription est restreinte aux membres d’unités localisées sur le Campus Condorcet."
+  },
+  {
+    "objectID": "index.html#groupe-dutilisateurrices-pour-le-traitement-de-linformation-géographique-avec-r",
+    "href": "index.html#groupe-dutilisateurrices-pour-le-traitement-de-linformation-géographique-avec-r",
+    "title": "ElementR",
+    "section": "Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R",
+    "text": "Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R\n\n\n\n\n\n\n\n\n\n\n\n\nElementR est un groupe qui fédère trois unités de recherche en géographie : l’UMR Géographie-Cités, de l’UMR PRODIG et de l’UAR RIATE. Les activités du groupe sont accessibles à l’ensemble des membres du Campus Condorcet."
+  },
+  {
+    "objectID": "pgm.html#séminaire-elementr",
+    "href": "pgm.html#séminaire-elementr",
+    "title": "Programme",
+    "section": "Séminaire ElementR",
+    "text": "Séminaire ElementR\n\nÀ venirPassées\n\n\n\n?? ?? 2022 - Initiation à R (1) - Présentiel\n\nDescription : Première séance d’initiation à R\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :\n\n?? ?? 2022 - Initiation à R (2) - Présentiel\n\nDescription : Seconde séance d’initiation à R\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :\n\n\n\n\n\n14 octobre 2022 - Séance introductive - Hybride\n\nRésumé & supports"
+  },
+  {
+    "objectID": "pgm.html#atelier-pratique",
+    "href": "pgm.html#atelier-pratique",
+    "title": "Programme",
+    "section": "Atelier pratique",
+    "text": "Atelier pratique\n\nÀ venirPassés\n\n\n\n?? ?? 2022 - Exploration et manipulation d’un jeu de données spatio-temporel - Présentiel (débutant.e)\n\nDescription :\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :"
+  },
+  {
+    "objectID": "session.html",
+    "href": "session.html",
+    "title": "Le séminaire ElementR",
+    "section": "",
+    "text": "Présentation\n\n\n\n\n\n\n\n\n   \n     \n     \n       Trier par\n       Ordre par defaut\n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Titre\n        \n         \n          Auteur\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitre\n\n\nAuteur\n\n\n\n\n\n\n14 déc. 2022\n\n\nSéance d’initiation (1)\n\n\nisabelle jean\n\n\n\n\n14 déc. 2022\n\n\nSéance d’initiation (2)\n\n\nisabelle jean\n\n\n\n\n14 oct. 2022\n\n\nSéance introductive\n\n\nhugues Pecout\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "session1.html",
+    "href": "session1.html",
+    "title": "Séance introductive",
+    "section": "",
+    "text": "Plus de dix ans après sa création, le groupe ElementR relance une nouvelle vague de formation collective au traitement de l’information géographique avec R. Le périmètre de ce groupe d’utilisateur·rice·s s’est élargi, le groupe fédère désormais des membres de l’UMR Géographie-Cités, de l’UMR PRODIG et de l’UAR RIATE.\nCette séance a été l’occasion de présenter l’historique d’ElementR, et d’échanger sur les modalités de fonctionnement et les futures activités du groupe. La seconde partie de la séance a été consacrée à une présentation de R et des fonctionnalités proposées par ce langage en matière de traitement de l’information géographique.\nPlan de séance :\n\nHistorique et bilan du groupe ElementR\nObjectifs, fonctionnement et activités envisagés (discussion)\nPrésentation et contextualisation de R et Rstudio\nL’écosystème spatial de R\n\n\nSupports de présentation\n\n1. Historique et bilan d’ElementR\n\n\n\n\n\n\n\n\n\n Hadrien Commenges\n Diaporama en plein écran\n\n\n\n\n\n\n\n2. Nouvelle vague ElementR\n\n\n\n\n\n\n\n Robin Cura\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n3. Présentation et contextualisation de R et Rstudio\n\n\n\n\n\n\n\n Hugues Pecout\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n4. L’écosystème spatial de R\n\n\n\n\n\n\n\n Timothée Giraud\n Diaporama en plein écran\n Code source sur GitLab\n\n\n\n\n\n\n\n\n\n\n\n\nBibliographie\n\nGiraud T, Pecout H. 2022b. Géomatique avec R Disponible sur: https://rcarto.github.io/geomatique_avec_r/\n\n\nGiraud T, Pecout H. 2022a. Cartographie avec R Disponible sur: https://rcarto.github.io/cartographie_avec_r/\n\n\nSmith D. 2017. An Updated History of R Disponible sur: https://blog.revolutionanalytics.com/2017/10/updated-history-of-r.html"
+  },
+  {
+    "objectID": "session2.html",
+    "href": "session2.html",
+    "title": "Séance d’initiation (1)",
+    "section": "",
+    "text": "Date ?\nThème ?"
+  },
+  {
+    "objectID": "session3.html",
+    "href": "session3.html",
+    "title": "Séance d’initiation (2)",
+    "section": "",
+    "text": "Date ?\nThème ?"
+  },
+  {
+    "objectID": "session1.html#supports-de-présentation",
+    "href": "session1.html#supports-de-présentation",
+    "title": "Séance introductive",
+    "section": "Supports de présentation",
+    "text": "Supports de présentation\n\n1. Historique et bilan d’ElementR\n\n\n\n\n\n\n\n\n\n Hadrien Commenges\n Diaporama en plein écran\n\n\n\n\n\n\n\n2. Nouvelle vague ElementR\n\n\n\n\n\n\n\n Robin Cura\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n3. Présentation et contextualisation de R et Rstudio\n\n\n\n\n\n\n\n Hugues Pecout\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n4. L’écosystème spatial de R\n\n\n\n\n\n\n\n Timothée Giraud\n Diaporama en plein écran\n Code source sur GitLab"
+  },
+  {
+    "objectID": "programme.html#séminaire-elementr",
+    "href": "programme.html#séminaire-elementr",
+    "title": "Programme",
+    "section": "Séminaire ElementR",
+    "text": "Séminaire ElementR\n\nSéance(s) à venirSéances passées\n\n\n\n?? ?? 2022 - Initiation à R (1) - Présentiel\n\nDescription : Première séance d’initiation à R\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :\n\n?? ?? 2022 - Initiation à R (2) - Présentiel\n\nDescription : Seconde séance d’initiation à R\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :\n\n\n\n\n\n14 octobre 2022 - Séance introductive - Hybride\n\nRésumé & supports"
+  },
+  {
+    "objectID": "programme.html#atelier-pratique",
+    "href": "programme.html#atelier-pratique",
+    "title": "Programme",
+    "section": "Atelier pratique",
+    "text": "Atelier pratique\n\nÀ venirPassés\n\n\n\n?? ?? 2022 - Exploration et manipulation d’un jeu de données spatio-temporel - Présentiel (débutant.e)\n\nDescription :\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :"
+  },
+  {
+    "objectID": "posts/seance3.html",
+    "href": "posts/seance3.html",
+    "title": "Initiation à R (2)",
+    "section": "",
+    "text": "Date ?\nThème ?"
+  },
+  {
+    "objectID": "posts/seance1.html",
+    "href": "posts/seance1.html",
+    "title": "Séance introductive",
+    "section": "",
+    "text": "Plus de dix ans après sa création, le groupe ElementR relance une nouvelle vague de formation collective au traitement de l’information géographique avec R. Le périmètre de ce groupe d’utilisateur·rice·s s’est élargi, le groupe fédère désormais des membres de l’UMR Géographie-Cités, de l’UMR PRODIG et de l’UAR RIATE.\nCette séance a été l’occasion de présenter l’historique d’ElementR, et d’échanger sur les modalités de fonctionnement et les futures activités du groupe. La seconde partie de la séance a été consacrée à une présentation de R et des fonctionnalités proposées par ce langage en matière de traitement de l’information géographique.\nPlan de séance :\n\nHistorique et bilan du groupe ElementR\nObjectifs, fonctionnement et activités envisagés (discussion)\nPrésentation et contextualisation de R et Rstudio\nL’écosystème spatial de R\n\n\nSupports de présentation\n\n1. Historique et bilan d’ElementR\n\n\n\n\n\n\n\n\n\n Hadrien Commenges\n Diaporama en plein écran\n\n\n\n\n\n\n\n2. Nouvelle vague ElementR\n\n\n\n\n\n\n\n Robin Cura\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n3. Présentation et contextualisation de R et Rstudio\n\n\n\n\n\n\n\n Hugues Pecout\n Diaporama en plein écran\n\n Code source sur GitLab\n\n\n\n\n\n\n4. L’écosystème spatial de R\n\n\n\n\n\n\n\n Timothée Giraud\n Diaporama en plein écran\n Code source sur GitLab\n\n\n\n\n\n\n\n\n\n\n\n\nBibliographie\n\nElementR. 2014. R et espace. Traitement de l’information géographique. Framabook. Disponible sur: https://archives.framabook.org/r-et-espace/\n\n\nGiraud T, Pecout H. 2022. Géomatique avec R Disponible sur: https://rcarto.github.io/geomatique_avec_r/\n\n\nLovelace R, Nowosad J, Muenchow J. 2019. Geocomputation with R. DOI: 10.1201/9780203730058\n\n\nSmith D. 2017. An Updated History of R Disponible sur: https://blog.revolutionanalytics.com/2017/10/updated-history-of-r.html"
+  },
+  {
+    "objectID": "posts/seance2.html",
+    "href": "posts/seance2.html",
+    "title": "Initiation à R (1)",
+    "section": "",
+    "text": "Date ?\nThème ?"
+  },
+  {
+    "objectID": "seance.html",
+    "href": "seance.html",
+    "title": "Ressources",
+    "section": "",
+    "text": "Les séances du séminaire ElementR ont pour objectif d’être reproductibles. Retrouvez l’ensemble des supports de présentation et des données utilisés lors des différentes séances sur ce site web.\n\n\n\n\n\n\nPlus de ressources ?\n\n\n\nLe site rzine.fr référence de nombreuses ressources (cours, articles, manuels, sites, exercices…) ainsi que des projets qui participent à l’apprentissage de la pratique de R en sciences humaines et sociales.\n\n\n\nSéances archivées :\n\n\n\n\n\n\n   \n     \n     \n       Trier par\n       Ordre par defaut\n         \n          Titre\n        \n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Auteur\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nInitiation à R (2)\n\n\n\n\n\n\n\n\n\n14 déc. 2022\n\n\nisabelle jean\n\n\n\n\n\n\n\n\nInitiation à R (1)\n\n\n\n\n\n\n\n\n\n14 nov. 2022\n\n\nisabelle jean\n\n\n\n\n\n\n\n\nSéance introductive\n\n\n\n\n\n\n\n\n\n14 oct. 2022\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "programme.html#séance-à-venir",
+    "href": "programme.html#séance-à-venir",
+    "title": "Programme",
+    "section": "Séance à venir",
+    "text": "Séance à venir\n\nSéminaire ElementRAtelier pratique\n\n\n\n?? ?? 2022 - Initiation à R (1) - Présentiel\n\nDescription : Première séance d’initiation à R\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :\n\n?? ?? 2022 - Initiation à R (2) - Présentiel\n\nDescription : Seconde séance d’initiation à R\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :\n\n\n\n\n\n?? ?? 2022 - Exploration et manipulation d’un jeu de données spatio-temporel - Présentiel (débutant.e)\n\nDescription :\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :"
+  },
+  {
+    "objectID": "programme.html#séances-passées",
+    "href": "programme.html#séances-passées",
+    "title": "Programme",
+    "section": "Séances passées",
+    "text": "Séances passées\n\nSéminaire ElementRAtelier pratique\n\n\n\n14 octobre 2022 - Séance introductive - Hybride\n\nRésumé & supports"
+  },
+  {
+    "objectID": "apropos.html#le-groupe-elementr",
+    "href": "apropos.html#le-groupe-elementr",
+    "title": "Á propos",
+    "section": "Le Groupe ElementR",
+    "text": "Le Groupe ElementR\nLe logiciel R est né à la fin des années 1990. Alors qu’il s’est développé rapidement au sein de certaines disciplines — statistique, épidémiologie ou biologie par exemple — il a tardé à s’implanter dans les disciplines de sciences humaines et sociales. En 2010, les doctorants, chercheurs et ingénieurs du laboratoire Géographie-cités utilisaient principalement les grands logiciels commerciaux : SAS pour l’analyse de données, ArcGIS pour l’analyse spatiale et la cartographie. Ces logiciels sont fermés, ils travaillent avec leurs propres formats de fichiers qui changent avec les versions, les licences représentent un coût important pour le laboratoire et prohibitif pour les étudiants.\nCertains d’entre nous ont alors décidé d’essayer R, logiciel déjà très populaire dans d’autres disciplines. Pour progresser plus rapidement, nous avons formé un groupe et organisé des formations qui ont eu lieu en 2011-2012. Au terme de cette progression, nous avons décidé de mettre à disposition le produit de ces sessions de formation sous la forme d’un manuel accessible en ligne intitulé R pour les géographes. Avec des refontes, des mises à jour, des ajouts et un vrai travail éditorial, le manuel R et espace est le résultat poli par ce parcours.\nLe groupe ElementR s’est constitué en 2012 au sein de l’UMR Géographie-cités pour organiser des formations au logiciel R destinées aux géographes. Huit personnes y ont contribué qui étaient alors ingénieurs, doctorants ou anciens doctorants dans ce laboratoire :\nLaurent Beauguitte, chargé de recherche CNRS (UMR IDEES),\nÉlodie Buard, ingénieure de recherche à l’IGN,\nHadrien Commenges, post-doctorant au LEESU,\nRobin Cura, doctorant à Géographie-cités (UMR 8504),\nFlorent Le Néchet , maître de conférences à l’Université Paris-Est Marne-la-Vallée,\nMarion Le Texier, post-doctorante à l’Institut universitaire européen de Florence,\nHélène Mathian, ingénieure de recherche CNRS (UMR EVS),\nSébastien Rey-Coyrehourcq, doctorant à Géographie-cités (UMR 8504)."
+  },
+  {
+    "objectID": "programme.html#séances-à-venir",
+    "href": "programme.html#séances-à-venir",
+    "title": "Programme",
+    "section": "Séances à venir",
+    "text": "Séances à venir\n\nSéminaire ElementRAtelier pratique\n\n\n\n?? ?? 2022 - Initiation à R (1) - Présentiel\n\nDescription : Première séance d’initiation à R\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :\n\n?? ?? 2022 - Initiation à R (2) - Présentiel\n\nDescription : Seconde séance d’initiation à R\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :\n\n\n\n\n\n?? ?? 2022 - Exploration et manipulation d’un jeu de données spatio-temporel - Présentiel (débutant.e)\n\nDescription :\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :"
+  },
+  {
+    "objectID": "apropos.html",
+    "href": "apropos.html",
+    "title": "Le Groupe ElementR",
+    "section": "",
+    "text": "Le logiciel R est apparu à la fin des années 1990. Alors qu’il s’est développé rapidement au sein de certaines disciplines — statistique, épidémiologie ou biologie par exemple — il a tardé à s’implanter dans les disciplines de sciences humaines et sociales. En 2010, les doctorant·es, chercheur·euses et ingénieur·es du laboratoire Géographie-cités utilisaient principalement les grands logiciels commerciaux : SAS pour l’analyse de données, ArcGIS pour l’analyse spatiale et la cartographie. Ces logiciels sont fermés, ils travaillent avec leurs propres formats de fichiers qui changent avec les versions, les licences représentent un coût important pour le laboratoire et prohibitif pour les étudiants.\nCertain.e.s d’entre eux ont alors décidé d’essayer R, logiciel déjà très populaire dans d’autres disciplines. Pour progresser plus rapidement, un groupe s’est formé et organisé autour d’auto-formations entre 2011-2012. Au terme de cette progression, les participants ont alors décidé de mettre à disposition le produit de ces sessions de formation sous la forme d’un manuel accessible en ligne intitulé R pour les géographes. Avec des refontes, des mises à jour, des ajouts et un vrai travail éditorial, le manuel R et espace est le résultat poli par ce parcours.\nLe groupe ElementR s’est constitué en 2012 au sein de l’UMR Géographie-cités pour organiser des formations au logiciel R destinées aux géographes. Huit personnes, alors ingénieur·es, doctorant·es ou ancien doctorant·es dans ce laboratoire, y ont contribué :\n\nLaurent Beauguitte, chargé de recherche CNRS (UMR IDEES),\nÉlodie Buard, ingénieure de recherche à l’IGN,\nHadrien Commenges, post-doctorant au LEESU,\nRobin Cura, doctorant à Géographie-cités (UMR 8504),\nFlorent Le Néchet , maître de conférences à l’Université Paris-Est Marne-la-Vallée,\nMarion Le Texier, post-doctorante à l’Institut universitaire européen de Florence,\nHélène Mathian, ingénieure de recherche CNRS (UMR EVS),\nSébastien Rey-Coyrehourcq, doctorant à Géographie-cités (UMR 8504).\n\nLe groupe s’est ensuite renforcé, jusqu’à compter une vingtaine de membres de statut différents et affiliés à plusieurs laboratoires de SHS. Plusieurs vagues ElementR de séances de formation et de production de matériaux pédagogiques du logiciel R en SHS ont alors permis de constituer un socle fertile à l’apprentissage et à la formation à R.\nDepuis, l’utilisation de R en SHS s’est bien développé, mais le besoin en formation reste très fort… En 2022, une nouvelle vague ElementR est donc lancée ! Le périmètre du groupe est officiellement élargie à trois unités :\n\nUMR Géographie-cités (8504)\nUMR PRODIG (8586)\nUAR RIATE (2414)\n\nLes activités du groupe sont également ouvertes aux membres d’unités de recherche localisées sur le Campus Condorcet : Ladyss, EHESS, INED…\nPour cette nouvelle vague, deux types d’activités sont envisagées :\n\nLe séminaire ElementR : séances thématiques qui associent une présentation et une démonstration ou un exercice appliqué (présentiel ou hybride). L’ensemble des supports et des matériaux utilisés sont mis à disposition sur ce site web.\nAteliers pratiques : séances de pratique collective autour d’un jeu de données (présentiel).\n\nAprès dix ans d’existence, le groupe ElementR poursuit ainsi son activité, pour l’apprentissage et de montée en compétence collective de la pratique du traitement de l’information géographique avec R.\nPour rejoindre le groupe, vous pouvez vous inscrire à la liste de diffusion d’ElementR : elementr@services.cnrs.fr. L’inscription est restreinte aux membres d’unités localisées sur le Campus Condorcet."
+  },
+  {
+    "objectID": "programme.html",
+    "href": "programme.html",
+    "title": "Programme",
+    "section": "",
+    "text": "Séances à venir\n\nSéminaire ElementRAtelier pratique\n\n\n\n?? ?? 2022 - Initiation à R (1) - Présentiel\n\nDescription : Première séance d’initiation à R\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :\n\n?? ?? 2022 - Initiation à R (2) - Présentiel\n\nDescription : Seconde séance d’initiation à R\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :\n\n\n\n\n\n?? ?? 2022 - Exploration et manipulation d’un jeu de données spatio-temporel - Présentiel (débutant.e)\n\nDescription :\nHoraire & salle :\nPrérequis : un ordinateur avec R et Rstudio installés\nInscription (20 places) :\n\n\n\n\n\n\n\nSéances passées\n\nSéminaire ElementRAtelier pratique\n\n\n\n14 octobre 2022 - Séance introductive - Hybride\n\nRésumé & supports"
   }
 ]

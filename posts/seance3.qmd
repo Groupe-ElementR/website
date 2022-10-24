@@ -1,0 +1,18 @@
+---
+title: "Initiation à R (2)"
+date: 12/14/2022
+author: isabelle jean
+about:
+  template: marquee
+  image: img/wip.jpg
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/session_3
+categories: 
+- initiation
+---
+
+Date ?
+
+Thème ?

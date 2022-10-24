@@ -1,0 +1,39 @@
+---
+title: "**Programme**"
+---
+
+### Séances à venir
+
+::: panel-tabset
+#### **Séminaire ElementR**
+
+-   **?? ?? 2022 - Initiation à R (1)** - Présentiel
+    -   Description : Première séance d'initiation à R
+    -   Horaire & salle :
+    -   Prérequis : un ordinateur avec R et Rstudio installés
+    -   Inscription (20 places) :
+-   **?? ?? 2022 - Initiation à R (2)** - Présentiel
+    -   Description : Seconde séance d'initiation à R
+    -   Horaire & salle :
+    -   Prérequis : un ordinateur avec R et Rstudio installés
+    -   Inscription (20 places) :
+
+#### **Atelier pratique**
+
+-   **?? ?? 2022 - Exploration et manipulation d'un jeu de données spatio-temporel** - Présentiel (débutant.e)
+    -   Description :
+    -   Horaire & salle :
+    -   Prérequis : un ordinateur avec R et Rstudio installés
+    -   Inscription (20 places) :
+:::
+
+### Séances passées
+
+::: panel-tabset
+#### **Séminaire ElementR**
+
+-   **14 octobre 2022 - Séance introductive** - Hybride
+    -   [Résumé & supports](session1.html)
+
+#### **Atelier pratique**
+:::
