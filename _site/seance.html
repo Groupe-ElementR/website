@@ -70,9 +70,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-author','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -229,72 +229,83 @@ Plus de ressources ?
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="initiation" data-listing-date-sort="1670972400000" data-listing-file-modified-sort="1666612346849" data-listing-reading-time-sort="0.015">
-<div class="body">
-<a href="./posts/seance3.html">
-<h3 class="no-anchor listing-title">
-Initiation à R (2)
-</h3>
-<div class="listing-subtitle">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Trier par</option>
+       <option value="index" data-direction="asc">Ordre par défaut</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Le plus ancien
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Le plus récent
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Titre
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Auteur·rice
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance3.html">
-<div class="listing-date">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titre</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Auteur·rice</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="initiation" data-listing-date-sort="1670972400000" data-listing-file-modified-sort="1666624145465" data-listing-reading-time-sort="0.015" data-listing-title-sort="Initiation à R (2)" data-listing-filename-sort="seance3.qmd">
+<td class="listing-date">
 14 déc. 2022
-</div>
-<div class="listing-author">
-isabelle jean
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="initiation" data-listing-date-sort="1668380400000" data-listing-file-modified-sort="1666612346849" data-listing-reading-time-sort="0.015">
-<div class="body">
-<a href="./posts/seance2.html">
-<h3 class="no-anchor listing-title">
-Initiation à R (1)
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance2.html">
-<div class="listing-date">
+</td>
+<td class="listing-title">
+<a href="./posts/seance3.html" class="title">Initiation à R (2)</a>
+</td>
+<td class="listing-author">
+Mme xx, Mr xy
+</td>
+</tr>
+<tr data-index="1" data-categories="initiation" data-listing-date-sort="1668380400000" data-listing-file-modified-sort="1666624163249" data-listing-reading-time-sort="0.015" data-listing-title-sort="Initiation à R (1)" data-listing-filename-sort="seance2.qmd">
+<td class="listing-date">
 14 nov. 2022
-</div>
-<div class="listing-author">
-isabelle jean
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="introduction" data-listing-date-sort="1665698400000" data-listing-file-modified-sort="1666612346849" data-listing-reading-time-sort="1.38">
-<div class="body">
-<a href="./posts/seance1.html">
-<h3 class="no-anchor listing-title">
-Séance introductive
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance1.html">
-<div class="listing-date">
+</td>
+<td class="listing-title">
+<a href="./posts/seance2.html" class="title">Initiation à R (1)</a>
+</td>
+<td class="listing-author">
+Mr xy, Mme xx
+</td>
+</tr>
+<tr data-index="2" data-categories="introduction" data-listing-date-sort="1665698400000" data-listing-file-modified-sort="1666612346849" data-listing-reading-time-sort="1.38" data-listing-title-sort="Séance introductive" data-listing-filename-sort="seance1.qmd">
+<td class="listing-date">
 14 oct. 2022
-</div>
-</a>
-</div>
-</div>
-</div>
+</td>
+<td class="listing-title">
+<a href="./posts/seance1.html" class="title">Séance introductive</a>
+</td>
+<td class="listing-author">
+</td>
+</tr>
+</tbody>
+
+</table>
 <div class="listing-no-matching d-none">
 Aucun article correspondant
 </div>

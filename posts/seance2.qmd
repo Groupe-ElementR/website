@@ -1,7 +1,10 @@
 ---
 title: "Initiation à R (1)"
 date: 11/14/2022
-author: isabelle jean
+author: 
+- Mr xy
+- Mme xx
+
 about:
   template: marquee
   image: img/wip.jpg

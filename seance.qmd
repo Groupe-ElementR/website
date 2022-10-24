@@ -2,23 +2,19 @@
 title: "**Ressources**"
 subtitle: "**Supports et matériaux issues des séances ElementR**"
 listing:
-  fields: [author, date, title, subtitle]
+  fields: [ date, title, author]
   contents: posts
   sort: "date desc"
-  type: default
+  type: table
   categories: true
 ---
 
 Les séances du séminaire ElementR ont pour objectif d'être reproductibles. Retrouvez l'ensemble des supports de présentation et des données utilisés lors des différentes séances sur ce site web.
 
-::: {.callout-tip}
+::: callout-tip
 ## Plus de ressources ?
+
 Le site [**rzine.fr**](https://rzine.fr) référence de nombreuses [ressources](https://rzine.fr/publication/) (cours, articles, manuels, sites, exercices...) ainsi que des [projets](https://rzine.fr/communaute/#projects) qui participent à l'apprentissage de la pratique de R en sciences humaines et sociales.
 :::
 
-
 ##### Séances archivées : {#title-list-post}
-
-
-
-
