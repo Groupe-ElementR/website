@@ -5,7 +5,7 @@ title: "**ElementR**"
 ## Groupe d'utilisateur·rice·s pour le traitement de l'information géographique avec R
 
 ::: {#map}
-```{r, echo=FALSE, eval=FALSE, warning=FALSE, message=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
 library(sf)
 library(leaflet)
@@ -36,7 +36,7 @@ mamap <- leaflet(Here, width = 350, height = 170) %>%
              addAwesomeMarkers( icon = icons,popup = paste0("<img src = ", file,  " width = 140>", "<br /><p style='font-style:bold;font-size:12pt;'>Campus Condorcet</p>"))
 ```
 
-```{r, echo=FALSE, eval=FALSE}
+```{r, echo=FALSE}
 mamap
 ```
 :::
