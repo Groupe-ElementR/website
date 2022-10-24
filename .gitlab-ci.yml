@@ -5,7 +5,7 @@ variables:
   BASENAME: index # name of main .qmd file
 
 before_script:
-  - apt-get update -qq && apt-get install -y -qq libssl-dev libcurl4-openssl-dev git pandoc pandoc-citeproc 
+  - apt-get update -qq && apt-get install -y -qq libssl-dev libcurl4-openssl-dev libudunits2-dev git pandoc pandoc-citeproc 
 
 pages:
   script:
