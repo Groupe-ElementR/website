@@ -1,68 +1,73 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
-  <meta charset="utf-8">
-  <meta name="generator" content="quarto-0.9.80">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <meta name="author" content="isabelle jean">
-  <meta name="dcterms.date" content="2022-11-14">
-  <title>ElementR - Initiation à R (1)</title>
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-  </style>
 
-  <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-  <script src="../site_libs/quarto-nav/headroom.min.js"></script>
-  <script src="../site_libs/clipboard/clipboard.min.js"></script>
-  <meta name="quarto:offset" content="../">
-  <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-  <script src="../site_libs/quarto-search/fuse.min.js"></script>
-  <script src="../site_libs/quarto-search/quarto-search.js"></script>
-  <link href="../posts/seance3.html" rel="next">
-  <link href="../posts/seance1.html" rel="prev">
-  <link href="../img/ElementR.png" rel="icon" type="image/png">
-  <script src="../site_libs/quarto-html/quarto.js"></script>
-  <script src="../site_libs/quarto-html/popper.min.js"></script>
-  <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-  <script src="../site_libs/quarto-html/anchor.min.js"></script>
-  <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-  <link class="quarto-color-scheme" href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
-  <link class="quarto-color-scheme quarto-color-alternate" rel="prefetch" href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css">
-  <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-  <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-  <link class="quarto-color-scheme" href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
-  <link class="quarto-color-scheme quarto-color-alternate" rel="prefetch" href="../site_libs/bootstrap/bootstrap-dark.min.css">
-  <script id="quarto-search-options" type="application/json">{
-    "location": "navbar",
-    "copy-button": false,
-    "collapse-after": 2,
-    "panel-placement": "end",
-    "type": "overlay",
-    "limit": 20,
-    "language": {
-      "search-no-results-text": "Pas de résultats",
-      "search-matching-documents-text": "documents trouvés",
-      "search-copy-link-title": "Copier le lien vers la recherche",
-      "search-hide-matches-text": "Cacher les correspondances additionnelles",
-      "search-more-match-text": "correspondance de plus dans ce document",
-      "search-more-matches-text": "correspondances de plus dans ce document",
-      "search-clear-button-title": "Effacer",
-      "search-detached-cancel-button-title": "Annuler",
-      "search-submit-button-title": "Envoyer"
-    }
-  }</script>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-  <link rel="stylesheet" href="../styles.css">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="isabelle jean">
+
+<title>ElementR - Initiation à R (1)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../posts/seance3.html" rel="next">
+<link href="../posts/seance1.html" rel="prev">
+<link href="../img/ElementR.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
 <meta name="twitter:title" content="ElementR - Initiation à R (1)">
+<meta name="twitter:description" content="Date ?">
 <meta name="twitter:card" content="summary">
 </head>
-<body class="floating">
+
+<body class="nav-sidebar floating nav-fixed">
+
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
@@ -78,23 +83,9 @@
   <li class="nav-item">
     <a class="nav-link active" href="../programme.html" aria-current="page">Programme</a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ressources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ressources</a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-ressources">    
-        <li>
-    <a class="dropdown-item" href="../posts/seance1.html">
- <span class="dropdown-text">Séance introductive</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../seance.html">Ressources</a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../posts/seance2.html">
- <span class="dropdown-text">Initiation à R (1)</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../posts/seance3.html">
- <span class="dropdown-text">Initiation à R (2)</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="../apropos.html">Á propos</a>
   </li>  
@@ -104,12 +95,7 @@
     <a class="nav-link" href="../contact.html">Contact</a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../index.xml"><i class="bi bi-rss" role="img">
-</i> 
- </a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://gitlab.huma-num.fr/elementr/website"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://gitlab.huma-num.fr/elementr/website"><i class="bi bi-git" role="img" aria-label="GitLab">
 </i> 
  </a>
   </li>  
@@ -124,7 +110,7 @@
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
       <h1 class="quarto-secondary-nav-title">Initiation à R (1)</h1>
-      <button type="button" class="quarto-btn-toggle btn">
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
     </div>
@@ -138,17 +124,17 @@
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../programme.html" class="sidebar-item-text sidebar-link">Programme</a>
+  <a href="../programme.html" class="sidebar-item-text sidebar-link"><strong>Programme</strong></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../seance.html" class="sidebar-item-text sidebar-link">Le séminaire ElementR</a>
+  <a href="../seance.html" class="sidebar-item-text sidebar-link"><strong>Ressources</strong></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance1.html" class="sidebar-item-text sidebar-link">Séance introductive</a>
+  <a href="../posts/seance1.html" class="sidebar-item-text sidebar-link">Introduction ElementR</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -161,16 +147,6 @@
   <a href="../posts/seance3.html" class="sidebar-item-text sidebar-link">Initiation à R (2)</a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../apropos.html" class="sidebar-item-text sidebar-link">Á propos</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../contact.html" class="sidebar-item-text sidebar-link">Contact</a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -181,32 +157,68 @@
         
     </div>
 <!-- main -->
-<div class="marquee">
+<div class="quarto-about-marquee column-body">
   <div class="about-image-container">
     <img src="img/wip.jpg" class="about-image " style="width: 100%;">
   </div>
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
-
-
-
-<div class="quarto-title"><h1 class="title d-none d-lg-block display-7">Initiation à R (1)</h1></div><div class="quarto-categories"><div class="quarto-category">initiation</div></div><div class="quarto-title-meta"><div><div class="quarto-title-meta-heading">Auteur</div><div class="quarto-title-meta-contents"><div class="quarto-title-authors"><p>isabelle jean</p></div></div></div><div><div class="quarto-title-meta-heading">Date De Publication</div><div class="quarto-title-meta-contents"><p class="date">14 novembre 2022</p></div></div></div></header> <main class="content column-body" id="quarto-document-content">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Initiation à R (1)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">initiation</div>
+  </div>
+  </div>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Auteur·rice</div>
+    <div class="quarto-title-meta-contents">
+             <p>isabelle jean </p>
+          </div>
+  </div>
+    <div>
+    <div class="quarto-title-meta-heading">Date de publication</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">14 novembre 2022</p>
+    </div>
+  </div>
+  </div>
+</header> <main class="content column-body" id="quarto-document-content">
 <p>Date ?</p>
 <p>Thème ?</p>
+
 
 </main> 
     <div class="about-footer"><div class="about-links">
   <a href="https://gitlab.huma-num.fr/elementr/session_2" class="about-link">
     <i class="bi bi-github"></i>
-     GitLab
+     <span class="about-link-text">GitLab</span>
   </a>
 </div>
 </div>
   </div>
 </div>
  <!-- /main -->
-<script type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const disableStylesheet = (stylesheets) => {
     for (let i=0; i < stylesheets.length; i++) {
       const stylesheet = stylesheets[i];
@@ -236,8 +248,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     manageTransitions('#quarto-margin-sidebar .nav-link', false);
     if (alternate) {
       enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
     } else {
       disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
     }
     manageTransitions('#quarto-margin-sidebar .nav-link', true);
     // Switch the toggles
@@ -304,13 +322,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
   } 
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
@@ -323,7 +334,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.blur();
     // flash "checked"
     button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copié");
     setTimeout(function() {
+      button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
     // clear code selection
@@ -381,7 +395,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
       <a href="../posts/seance1.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Séance introductive</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction ElementR</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -393,9 +407,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">ElementR © UMR Géographie-Cités · UMR PRODIG · UAR RIATE</div>
+      <div class="nav-footer-center">ElementR © 2022 - UMR Géographie-Cités · UMR PRODIG · UAR RIATE</div>
   </div>
 </footer>
+
 
 
 </body></html>

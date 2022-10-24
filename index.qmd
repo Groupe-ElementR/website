@@ -4,11 +4,8 @@ title: "**ElementR**"
 
 ## Groupe d'utilisateur·rice·s pour le traitement de l'information géographique avec R
 
-
-
 ::: {#map}
-
-```{r, echo=FALSE, eval=TRUE, warning=FALSE, message=FALSE}
+```{r, echo=FALSE, eval=FALSE, warning=FALSE, message=FALSE}
 
 library(sf)
 library(leaflet)
@@ -39,17 +36,13 @@ mamap <- leaflet(Here, width = 350, height = 170) %>%
              addAwesomeMarkers( icon = icons,popup = paste0("<img src = ", file,  " width = 140>", "<br /><p style='font-style:bold;font-size:12pt;'>Campus Condorcet</p>"))
 ```
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=FALSE}
 mamap
 ```
-
 :::
 
 ::: {#maptext}
-
-ElementR est un groupe qui fédère trois unités de recherche en géographie : l'UMR [Géographie-Cités](https://geographie-cites.cnrs.fr/), de l'UMR [PRODIG](https://www.prodig.cnrs.fr/) et de l'UAR [RIATE](https://riate.cnrs.fr/). Les activités du groupe sont accessibles à l'ensemble des membres du Campus Condorcet. 
-
-
+ElementR est un groupe qui fédère trois unités de recherche en géographie : l'UMR [Géographie-Cités](https://geographie-cites.cnrs.fr/), de l'UMR [PRODIG](https://www.prodig.cnrs.fr/) et de l'UAR [RIATE](https://riate.cnrs.fr/). Les activités du groupe sont accessibles à l'ensemble des membres du Campus Condorcet.
 
 </br></br>
 
@@ -66,7 +59,4 @@ ElementR est un groupe qui fédère trois unités de recherche en géographie : 
 <img src="img/riate.png" width="72%;" style="margin-top:35px;"/>
 :::
 :::
-
-
-::: 
-
+:::

@@ -7,48 +7,36 @@ about:
   image-shape: rounded
 ---
 
+Le logiciel R est apparu à la fin des années 1990. Alors qu'il s'est développé rapidement au sein de certaines disciplines --- statistique, épidémiologie ou biologie par exemple --- il a tardé à s'implanter dans les disciplines de sciences humaines et sociales. En 2010, les doctorant·es, chercheur·euses et ingénieur·es du laboratoire [**Géographie-cités**](https://geographie-cites.cnrs.fr/) utilisaient principalement les grands logiciels commerciaux : SAS pour l'analyse de données, ArcGIS pour l'analyse spatiale et la cartographie. Ces logiciels sont fermés, ils travaillent avec leurs propres formats de fichiers qui changent avec les versions, les licences représentent un coût important pour le laboratoire et prohibitif pour les étudiants.
 
-Le logiciel R est apparu à la fin des années 1990. Alors qu’il s’est développé rapidement au sein de certaines disciplines — statistique, épidémiologie ou biologie par exemple — il a tardé à s’implanter dans les disciplines de sciences humaines et sociales. En 2010, les doctorant·es, chercheur·euses et ingénieur·es du laboratoire [**Géographie-cités**](https://geographie-cites.cnrs.fr/) utilisaient principalement les grands logiciels commerciaux : SAS pour l’analyse de données, ArcGIS pour l’analyse spatiale et la cartographie. Ces logiciels sont fermés, ils travaillent avec leurs propres formats de fichiers qui changent avec les versions, les licences représentent un coût important pour le laboratoire et prohibitif pour les étudiants.
+Certain.e.s d'entre eux ont alors décidé d'essayer R, logiciel déjà très populaire dans d'autres disciplines. Pour progresser plus rapidement, **un groupe s'est formé et organisé autour d'auto-formations entre 2011-2012**. Au terme de cette progression, les participants ont alors décidé de mettre à disposition le produit de ces sessions de formation sous la forme d'un manuel accessible en ligne intitulé **R pour les géographes**. Avec des refontes, des mises à jour, des ajouts et un vrai travail éditorial, **le manuel** [**R et espace**](https://archives.framabook.org/r-et-espace/) **est le résultat poli par ce parcours**.
 
-Certain.e.s d’entre eux ont alors décidé d’essayer R, logiciel déjà très populaire dans d’autres disciplines. Pour progresser plus rapidement, **un groupe s'est formé et organisé autour d'auto-formations entre 2011-2012**. Au terme de cette progression, les participants ont alors décidé de mettre à disposition le produit de ces sessions de formation sous la forme d’un manuel accessible en ligne intitulé **R pour les géographes**. Avec des refontes, des mises à jour, des ajouts et un vrai travail éditorial, **le manuel** [**R et espace**](https://archives.framabook.org/r-et-espace/) **est le résultat poli par ce parcours**.
+**Le groupe ElementR s'est constitué en 2012 au sein de l'UMR** [**Géographie-cités**](https://geographie-cites.cnrs.fr/) pour organiser des formations au logiciel R destinées aux géographes. Huit personnes, alors ingénieur·es, doctorant·es ou ancien doctorant·es dans ce laboratoire, y ont contribué :
 
-**Le groupe ElementR s’est constitué en 2012 au sein de l’UMR** [**Géographie-cités**](https://geographie-cites.cnrs.fr/) pour organiser des formations au logiciel R destinées aux géographes. Huit personnes, alors ingénieur·es, doctorant·es ou ancien doctorant·es dans ce laboratoire, y ont contribué :
+-   *Laurent Beauguitte*, chargé de recherche CNRS (UMR IDEES),
+-   *Élodie Buard*, ingénieure de recherche à l'IGN,
+-   *Hadrien Commenges*, post-doctorant au LEESU,
+-   *Robin Cura*, doctorant à Géographie-cités (UMR 8504),
+-   *Florent Le Néchet* , maître de conférences à l'Université Paris-Est Marne-la-Vallée,
+-   *Marion Le Texier*, post-doctorante à l'Institut universitaire européen de Florence,
+-   *Hélène Mathian*, ingénieure de recherche CNRS (UMR EVS),
+-   *Sébastien Rey-Coyrehourcq*, doctorant à Géographie-cités (UMR 8504).
 
-- *Laurent Beauguitte*, chargé de recherche CNRS (UMR IDEES),
-- *Élodie Buard*, ingénieure de recherche à l’IGN,
-- *Hadrien Commenges*, post-doctorant au LEESU,
-- *Robin Cura*, doctorant à Géographie-cités (UMR 8504),
-- *Florent Le Néchet* , maître de conférences à l’Université Paris-Est Marne-la-Vallée,
-- *Marion Le Texier*, post-doctorante à l’Institut universitaire européen de Florence,
-- *Hélène Mathian*, ingénieure de recherche CNRS (UMR EVS),
-- *Sébastien Rey-Coyrehourcq*, doctorant à Géographie-cités (UMR 8504).
-
-
-**Le groupe s'est ensuite renforcé, jusqu’à compter une vingtaine de membres de statut différents et affiliés à plusieurs laboratoires de SHS**. Plusieurs vagues ElementR de séances de formation et de production de matériaux pédagogiques du logiciel R en SHS ont alors permis de constituer un socle fertile à l'apprentissage et à la formation à R.
+**Le groupe s'est ensuite renforcé, jusqu'à compter une vingtaine de membres de statut différents et affiliés à plusieurs laboratoires de SHS**. Plusieurs vagues ElementR de séances de formation et de production de matériaux pédagogiques du logiciel R en SHS ont alors permis de constituer un socle fertile à l'apprentissage et à la formation à R.
 
 Depuis, l'utilisation de R en SHS s'est bien développé, mais le besoin en formation reste très fort... **En 2022, une nouvelle vague ElementR est donc lancée !** Le périmètre du groupe est officiellement élargie à trois unités :
 
-- **UMR** [**Géographie-cités**](https://geographie-cites.cnrs.fr/) (8504)
-- **UMR** [**PRODIG**](https://www.prodig.cnrs.fr/) (8586)
-- **UAR** [**RIATE**](https://riate.cnrs.fr/) (2414)
+-   **UMR** [**Géographie-cités**](https://geographie-cites.cnrs.fr/) (8504)
+-   **UMR** [**PRODIG**](https://www.prodig.cnrs.fr/) (8586)
+-   **UAR** [**RIATE**](https://riate.cnrs.fr/) (2414)
 
 Les activités du groupe sont également ouvertes aux membres d'unités de recherche localisées sur le [Campus Condorcet](https://www.campus-condorcet.fr/) : Ladyss, EHESS, INED...
 
 Pour cette nouvelle vague, deux types d'activités sont envisagées :
 
-- **Le séminaire ElementR** : séances thématiques qui associent une présentation et une démonstration ou un exercice appliqué (présentiel ou hybride). L'ensemble des supports et des matériaux utilisés sont [mis à disposition](seance.html) sur ce site web.
-- **Ateliers pratiques** : séances de pratique collective autour d'un jeu de données (présentiel).
+-   **Le séminaire ElementR** : séances thématiques qui associent une présentation et une démonstration ou un exercice appliqué (présentiel ou hybride). L'ensemble des supports et des matériaux utilisés sont [mis à disposition](seance.html) sur ce site web.
+-   **Ateliers pratiques** : séances de pratique collective autour d'un jeu de données (présentiel).
 
-**Après dix ans d'existence, le groupe ElementR poursuit ainsi son activité, pour l'apprentissage et de montée en compétence collective de la pratique du traitement de l’information géographique avec R.**
+**Après dix ans d'existence, le groupe ElementR poursuit ainsi son activité, pour l'apprentissage et de montée en compétence collective de la pratique du traitement de l'information géographique avec R.**
 
 Pour rejoindre le groupe, vous pouvez vous inscrire à la **liste de diffusion d'ElementR : [elementr@services.cnrs.fr](https://listes.services.cnrs.fr/wws/subscribe/elementr?previous_action=info)**. L'inscription est restreinte aux membres d'unités localisées sur le Campus Condorcet.
-
-
-
-
-
-
-
-
-
-
