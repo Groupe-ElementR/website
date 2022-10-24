@@ -9,7 +9,7 @@ title: "**ElementR**"
 ::: {#map}
 
 ```{r, echo=FALSE, eval=TRUE, warning=FALSE, message=FALSE}
-# Chargement des librairies
+
 library(sf)
 library(leaflet)
 
