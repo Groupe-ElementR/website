@@ -32,8 +32,8 @@ icons <- awesomeIcons(
 
 # Affichage du point - carte interactive
 mamap <- leaflet(Here, width = 350, height = 170) %>%
-            setView( lat = lat+0.01, lng = lng, zoom = 12) %>% addProviderTiles("CartoDB.Positron") %>%
-             addAwesomeMarkers( icon = icons,popup = paste0("<img src = ", file,  " width = 140>", "<br /><p style='font-style:bold;font-size:12pt;'>Campus Condorcet</p>"))
+            setView( lat = lat+0.015, lng = lng, zoom = 12) %>% addProviderTiles("CartoDB.Positron") %>%
+             addAwesomeMarkers( icon = icons,popup = paste0("<img src = ", file,  " width = 140>", "<br /><p style='font-size:11pt;text-align:center;'>Campus Condorcet</p>"))
 ```
 
 ```{r, echo=FALSE}
