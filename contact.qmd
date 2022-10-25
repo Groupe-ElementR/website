@@ -4,9 +4,11 @@ title: "Contact"
 
 Vous pouvez contacter le groupe d'animation ElementR via [ces emails](mailto:hugues.pecout@cnrs.fr;%20timothee.giraud@cnrs.fr;%20Robin.Cura@univ-paris1.fr).
 
-::: callout-tip
+:::: {.callout-tip}
 ## Comment rejoindre le groupe ?
 
-**Inscrivez-vous à la liste de diffusion d'ElementR** : [**elementr@services.cnrs.fr**](https://listes.services.cnrs.fr/wws/subscribe/elementr?previous_action=info).   
+
+**Inscrivez-vous à la liste de diffusion d'ElementR **:
+[**elementr@services.cnrs.fr**](https://listes.services.cnrs.fr/wws/subscribe/elementr?previous_action=info).   
 L'inscription est restreinte aux membres d'unités localisées sur le [Campus Condorcet](https://www.campus-condorcet.fr/).
-:::
+::::
