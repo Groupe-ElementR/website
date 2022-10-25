@@ -39,4 +39,4 @@ Pour cette nouvelle vague, deux types d'activités sont envisagées :
 
 **Après dix ans d'existence, le groupe ElementR poursuit ainsi son activité, pour l'apprentissage et de montée en compétence collective de la pratique du traitement de l'information géographique avec R.**
 
-Pour rejoindre le groupe, vous pouvez vous inscrire à la **liste de diffusion d'ElementR : [elementr@services.cnrs.fr](https://listes.services.cnrs.fr/wws/subscribe/elementr?previous_action=info)**. L'inscription est restreinte aux membres d'unités localisées sur le Campus Condorcet.
+Pour rejoindre le groupe, vous pouvez vous inscrire à la **liste de diffusion d'ElementR : [elementr\@services.cnrs.fr](https://listes.services.cnrs.fr/wws/subscribe/elementr?previous_action=info)**. L'inscription est restreinte aux membres d'unités localisées sur le Campus Condorcet.
