@@ -58,7 +58,7 @@
   <script>
 
     window.document.addEventListener("DOMContentLoaded", function (_event) {
-      const listingTargetEl = window.document.querySelector('#listing-listing .list');
+      const listingTargetEl = window.document.querySelector('#listing-seance .list');
       if (!listingTargetEl) {
         // No listing discovered, do not attach.
         return; 
@@ -71,7 +71,7 @@
       };
 
       window['quarto-listings'] = window['quarto-listings'] || {};
-      window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+      window['quarto-listings']['listing-seance'] = new List('listing-seance', options);
 
       if (window['quarto-listing-loaded']) {
         window['quarto-listing-loaded']();
@@ -180,31 +180,12 @@
 
 
 <div class="quarto-title"><h1 class="title d-none d-lg-block display-7"><strong>Ressources</strong></h1><p class="subtitle lead"><strong>Supports et matériaux issues des séances ElementR</strong></p></div></header>
-<p>Les séances du séminaire ElementR ont pour objectif d’être reproductibles. Retrouvez l’ensemble des supports de présentation et des données utilisés lors des différentes séances sur ce site web.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Plus de ressources ?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Le site <a href="https://rzine.fr"><strong>rzine.fr</strong></a> référence de nombreuses <a href="https://rzine.fr/publication/">ressources</a> (cours, articles, manuels, sites, exercices…) ainsi que des <a href="https://rzine.fr/communaute/#projects">projets</a> qui participent à l’apprentissage de la pratique de R en sciences humaines et sociales.</p>
-</div>
-</div>
-<section id="title-list-post" class="level5">
-<h5 class="anchored" data-anchor-id="title-list-post">Séances archivées :</h5>
-
-
-
-</section>
-<div class="quarto-listing" id="listing-listing">
+<p>Les séances du séminaire ElementR ont pour objectif d’être reproductibles. Retrouvez l’ensemble des supports de présentation et des données utilisés lors des différentes séances.</p>
+<div id="listing-seance" class="quarto-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-seance-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-seance'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Trier par</option>
        <option value="index" data-direction="asc">Ordre par defaut</option>
          <option value="listing-date-sort" data-direction="asc">
@@ -278,7 +259,24 @@ Mr xy, Mme xx
 <div class="listing-no-matching d-none">
 Aucun article correspondant
 </div>
-</div></main> <!-- /main -->
+</div>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Plus de ressources ?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Le site <a href="https://rzine.fr"><strong>rzine.fr</strong></a> référence de nombreuses <a href="https://rzine.fr/publication/">ressources</a> (cours, articles, manuels, sites, exercices…) ainsi que des <a href="https://rzine.fr/communaute/#projects">projets</a> qui participent à l’apprentissage de la pratique de R en sciences humaines et sociales.</p>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
 <script type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const disableStylesheet = (stylesheets) => {
