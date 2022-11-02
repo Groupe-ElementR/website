@@ -8,7 +8,6 @@ website:
   site-url: https://elementr.gitpages.huma-num.fr/website/
   description: "Site web du groupe d’utilisateur·rice·s ElementR"
   page-navigation: true
-  categories: ["introduction"]
   search: 
     location: navbar
     type: overlay
