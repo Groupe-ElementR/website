@@ -2,8 +2,10 @@
 title: "Initiation à R (2)"
 date: 12/14/2022
 author: 
-- Mme xx
-- Mr xy
+- Joséphin Béraud
+- Léa Christophe
+- Aurelie Douet
+
 about:
   template: marquee
   image: img/wip.jpg

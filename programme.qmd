@@ -7,24 +7,42 @@ title: "**Programme**"
 ::: panel-tabset
 #### **Séminaire ElementR**
 
--   **?? ?? 2022 - Initiation à R (1)** - Présentiel
-    -   Description : Première séance d'initiation à R
-    -   Horaire & salle :
-    -   Prérequis : un ordinateur avec R et Rstudio installés
-    -   Inscription (20 places) :
--   **?? ?? 2022 - Initiation à R (2)** - Présentiel
-    -   Description : Seconde séance d'initiation à R
-    -   Horaire & salle :
-    -   Prérequis : un ordinateur avec R et Rstudio installés
-    -   Inscription (20 places) :
+-   **2 décembre 2022 - Initiation à R (1)**
+    -   <u>Description</u> : Première séance d'initiation à R
+    -   <u>Format</u> : Présentiel
+    -   <u>Horaire</u> : 9h30-12h30 
+    -   <u>Lieu</u> : Salle 3.02, 3ème étage du [centre des colloques de Condorcet](https://www.campus-condorcet.fr/fr/le-campus/site-d-aubervilliers/les-batiments-du-site-d-aubervilliers/le-centre-de-colloques)
+    -   <u>Animation</u> : Léa Christophe, Joséphin Béraud, Aurelie Douet
+    -   <u>Prérequis</u> : Un ordinateur avec R et Rstudio installés
+    -   <u>Inscription</u> : [formulaire](https://framaforms.org/inscription-formation-dinitiation-elementr-s1s2-1667579292) (20 places maximum)
+    
+-   **16 décembre 2022 - Initiation à R (2)**
+    -   <u>Description</u> : Seconde séance d'initiation à R
+    -   <u>Format</u> : Présentiel
+    -   <u>Horaire</u> : 9h30-12h30 
+    -   <u>Lieu</u> : Salle 3.02, 3ème étage du [centre des colloques de Condorcet](https://www.campus-condorcet.fr/fr/le-campus/site-d-aubervilliers/les-batiments-du-site-d-aubervilliers/le-centre-de-colloques)
+    -   <u>Animation</u> : Léa Christophe, Joséphin Béraud, Aurelie Douet
+    -   <u>Prérequis</u> : Un ordinateur avec R et Rstudio installés
+    -   <u>Inscription</u> : [formulaire](https://framaforms.org/inscription-formation-dinitiation-elementr-s1s2-1667579292) (20 places maximum)
+    
+-   **25 Janvier 2023 - Représentation graphique (ggplot2 & cie)**
+    -   <u>Description</u> : À préciser
+    -   <u>Format</u> : Présentiel
+    -   <u>Horaire</u> : À définir
+    -   <u>Lieu</u> : À définir
+    -   <u>Animation</u> : Robin Cura, Léa Christophe... 
+    -   <u>Prérequis</u> : À préciser
+    -   <u>Inscription</u> : À préciser
 
 #### **Atelier pratique**
 
--   **?? ?? 2022 - Exploration et manipulation d'un jeu de données spatio-temporel** - Présentiel (débutant.e)
-    -   Description :
-    -   Horaire & salle :
-    -   Prérequis : un ordinateur avec R et Rstudio installés
-    -   Inscription (20 places) :
+-   **?? ?? 20?? - ????????????** - Présentiel (débutant.e)
+    -   <u>Description</u> : 
+    -   <u>Format</u> :
+    -   <u>Horaire</u> : 
+    -   <u>Lieu</u> : 
+    -   <u>Inscription</u> : 
+
 :::
 
 ### Séances passées
@@ -32,8 +50,9 @@ title: "**Programme**"
 ::: panel-tabset
 #### **Séminaire ElementR**
 
--   **14 octobre 2022 - Séance introductive** - Hybride
-    -   [Résumé & supports](session1.html)
+-   **14 octobre 2022 - Séance introductive ElementR** 
+    -   <u>Format</u> : Hybride
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](session1.html)
 
 #### **Atelier pratique**
 :::

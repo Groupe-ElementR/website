@@ -4,6 +4,12 @@ date: 10/14/2022
 bibliography: biblio/session1.bib
 nocite: '@*'
 csl: geo.csl
+author: 
+- Hadrien Commenges
+- Robin Cura
+- Hugues Pecout
+- Timothée Giraud
+image: img/logo_ElementR.png
 about:
   template: marquee
   image : img/logo_ElementR.png

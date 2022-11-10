@@ -1,9 +1,10 @@
 ---
 title: "Initiation à R (1)"
-date: 11/14/2022
+date: 12/02/2022
 author: 
-- Mr xy
-- Mme xx
+- Joséphin Béraud
+- Léa Christophe
+- Aurelie Douet
 
 about:
   template: marquee
@@ -15,7 +16,3 @@ about:
 categories: 
 - initiation
 ---
-
-Date ?
-
-Thème ?
