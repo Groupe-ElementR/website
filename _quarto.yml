@@ -42,7 +42,6 @@ website:
   margin-header: |
     ![](img/ElementR.png)
 
-
 format:
   html:
     theme: 
