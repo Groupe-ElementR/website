@@ -1,63 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/about.html</loc>
-    <lastmod>2022-10-22T17:59:21.672Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/contact.html</loc>
-    <lastmod>2022-11-10T13:03:10.353Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/index.html</loc>
-    <lastmod>2022-11-14T16:27:51.918Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/pgm.html</loc>
-    <lastmod>2022-10-22T17:38:39.380Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/session.html</loc>
-    <lastmod>2022-10-22T18:18:23.950Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/session1.html</loc>
-    <lastmod>2022-10-22T18:16:54.199Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/session2.html</loc>
-    <lastmod>2022-10-22T17:59:23.067Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/session3.html</loc>
-    <lastmod>2022-10-22T17:59:23.659Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/session.html/index.html</loc>
-    <lastmod>2022-10-22T17:07:51.071Z</lastmod>
-  </url>
-  <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/programme.html</loc>
-    <lastmod>2022-11-10T17:08:44.946Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance3.html</loc>
-    <lastmod>2022-11-10T17:14:10.367Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance1.html</loc>
-    <lastmod>2022-11-10T17:21:24.266Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/apropos.html</loc>
-    <lastmod>2022-11-10T17:16:10.506Z</lastmod>
+    <lastmod>2022-11-14T16:35:08.725Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance2.html</loc>
-    <lastmod>2022-11-10T17:14:14.003Z</lastmod>
+    <lastmod>2022-11-14T16:35:09.065Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance1.html</loc>
+    <lastmod>2022-11-14T16:35:09.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance3.html</loc>
+    <lastmod>2022-11-14T16:35:09.713Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/apropos.html</loc>
+    <lastmod>2022-11-14T16:35:10.013Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/contact.html</loc>
+    <lastmod>2022-11-14T16:35:10.289Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/seance.html</loc>
-    <lastmod>2022-11-10T17:21:24.638Z</lastmod>
+    <lastmod>2022-11-14T16:35:10.597Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/index.html</loc>
+    <lastmod>2022-11-14T16:35:12.041Z</lastmod>
   </url>
 </urlset>
