@@ -30,34 +30,21 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 4. Manipuler des objets (assignation, indexation, fonctions)
 5. Les packages
 
-Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable [ici]().
+**Diaporama** ([*plein écran*](support/Initiation_R_1.pdf)) **:**
 
-
-### Support de présentation
-
-
-::: columns
-::: {.column width="68%"}
+::: diapo
 <object class="slide" data="support/Initiation_R_1.pdf" type="application/pdf">
-
-<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true">
-
-</iframe>
-
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="20"></iframe>
 </object>
 :::
 
-::: {.column width="32%"}
-<ul class="metaslide">
-
--   <i class="bi bi-person-fill"> **Joséphin Béraud**</i>
--   <i class="bi bi-person-fill"> **Léa Christophe**</i>
--   <i class="bi bi-person-fill"> **Aurelie Douet**</i>
--   <i class="bi bi-file-earmark-slides"></i> Diaporama en [plein écran](support/Initiation_R_1.pdf)\
-
-</ul>
+:::auteurs
+<i class="bi bi-people-fill">  **Joséphin Béraud, Léa Christophe et Aurelie Douet**</i>
 :::
-:::
+
+**Données et scripts :**
+
+Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable [ici]().
 
 \
 
