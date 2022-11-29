@@ -1,14 +1,17 @@
 ---
 title: "Initiation à R (1)"
 date: 12/02/2022
+bibliography: biblio/session2.bib
+nocite: '@*'
+csl: geo.csl
 author: 
 - Joséphin Béraud
 - Léa Christophe
 - Aurelie Douet
-
+image: img/initR.png
 about:
   template: marquee
-  image: img/wip.jpg
+  image: img/initR.png
   links:
     - icon: github
       text: GitLab
@@ -16,3 +19,53 @@ about:
 categories: 
 - initiation
 ---
+
+Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases nécessaires à la pratique de R via l'interface de développement [Rstudio](https://posit.co/download/rstudio-desktop/).
+
+**Plan de séance :**
+
+1. Que peut-on faire avec R ?
+2. R et RStudio : quelle différence ?
+3. Créer un projet et un script
+4. Manipuler des objets (assignation, indexation, fonctions)
+5. Les packages
+
+Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable [ici]().
+
+
+### Support de présentation
+
+
+::: columns
+::: {.column width="68%"}
+<object class="slide" data="support/Initiation_R_1.pdf" type="application/pdf">
+
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true">
+
+</iframe>
+
+</object>
+:::
+
+::: {.column width="32%"}
+<ul class="metaslide">
+
+-   <i class="bi bi-person-fill"> **Joséphin Béraud**</i>
+-   <i class="bi bi-person-fill"> **Léa Christophe**</i>
+-   <i class="bi bi-person-fill"> **Aurelie Douet**</i>
+-   <i class="bi bi-file-earmark-slides"></i> Diaporama en [plein écran](support/Initiation_R_1.pdf)\
+
+</ul>
+:::
+:::
+
+\
+
+##### Bibliographie
+
+::: {#refs}
+:::
+
+
+
+
