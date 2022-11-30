@@ -24,22 +24,26 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 
 **Plan de séance :**
 
-1. Que peut-on faire avec R ?
-2. R et RStudio : quelle différence ?
-3. Créer un projet et un script
-4. Manipuler des objets (assignation, indexation, fonctions)
-5. Les packages
+1.  Que peut-on faire avec R ?
+2.  R et RStudio : quelle différence ?
+3.  Créer un projet et un script
+4.  Manipuler des objets (assignation, indexation, fonctions)
+5.  Les packages
 
 **Diaporama** ([*plein écran*](support/Initiation_R_1.pdf)) **:**
 
 ::: diapo
 <object class="slide" data="support/Initiation_R_1.pdf" type="application/pdf">
-<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="20"></iframe>
+
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="20">
+
+</iframe>
+
 </object>
 :::
 
-:::auteurs
-<i class="bi bi-people-fill">  **Joséphin Béraud, Léa Christophe et Aurelie Douet**</i>
+::: auteurs
+<i class="bi bi-people-fill"> **Joséphin Béraud, Léa Christophe et Aurelie Douet**</i>
 :::
 
 **Données et scripts :**
@@ -52,7 +56,3 @@ Un script comportant l'utilisation des différentes fonctionnalités présentée
 
 ::: {#refs}
 :::
-
-
-
-
