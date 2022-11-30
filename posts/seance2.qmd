@@ -48,7 +48,7 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 
 **Données et scripts :**
 
-Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable [ici]().
+Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable [ici](https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/introR_seance1.R?inline=false).
 
 \
 

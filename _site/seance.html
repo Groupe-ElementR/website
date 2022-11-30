@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.2.247">
@@ -54,15 +54,15 @@ ul.task-list li input[type="checkbox"] {
   "type": "overlay",
   "limit": 20,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer"
   }
 }</script>
 <script>
@@ -215,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/ElementR.png" class="img-fluid"></p>
 </div></div>
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="initiation">initiation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="introduction">introduction <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(3)</span></div><div class="category" data-category="initiation">initiation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="introduction">introduction <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
@@ -242,20 +242,20 @@ ul.task-list li input[type="checkbox"] {
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-seance-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-seance'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
+     <select id="listing-seance-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-seance'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Trier par</option>
+       <option value="index" data-direction="asc">Ordre par défaut</option>
          <option value="listing-title" data-direction="asc">
-          Title
+          Titre
         </option>
          <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
+          Date - Le plus ancien
         </option>
          <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
+          Date - Le plus récent
         </option>
          <option value="listing-author" data-direction="asc">
-          Author
+          Auteur·rice
         </option>
      </select>
   </div>
@@ -280,14 +280,14 @@ Séance introductive
 Hadrien Commenges, Robin Cura, Hugues Pecout, Timothée Giraud
 </div>
 <div class="listing-date">
-Oct 14, 2022
+14 oct. 2022
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="initiation" data-listing-date-sort="1669935600000" data-listing-file-modified-sort="1669819391772" data-listing-reading-time-sort="0.465">
+<div class="g-col-1" data-index="1" data-categories="initiation" data-listing-date-sort="1669935600000" data-listing-file-modified-sort="1669819801108" data-listing-reading-time-sort="0.465">
 <a href="./posts/seance2.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -302,7 +302,7 @@ Initiation à R (1)
 Joséphin Béraud, Léa Christophe, Aurelie Douet
 </div>
 <div class="listing-date">
-Dec 2, 2022
+2 déc. 2022
 </div>
 </div>
 </div>
@@ -324,7 +324,7 @@ Initiation à R (2)
 Joséphin Béraud, Léa Christophe, Aurelie Douet
 </div>
 <div class="listing-date">
-Dec 14, 2022
+14 déc. 2022
 </div>
 </div>
 </div>
@@ -333,7 +333,7 @@ Dec 14, 2022
 </div>
 </div>
 <div class="listing-no-matching d-none">
-No matching items
+Aucun article correspondant
 </div>
 </div>
 <div class="callout-tip callout callout-style-default callout-captioned">
@@ -509,12 +509,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copié");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copié");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
