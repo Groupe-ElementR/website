@@ -30,6 +30,8 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 4.  Manipuler des objets (assignation, indexation, fonctions)
 5.  Les packages
 
+\
+
 **Diaporama :**
 
 :::{.nonicremental style="font-size:80%;margin-top:-10px;margin-bottom:10px;"}
