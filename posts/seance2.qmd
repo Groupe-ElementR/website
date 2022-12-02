@@ -30,10 +30,15 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 4.  Manipuler des objets (assignation, indexation, fonctions)
 5.  Les packages
 
-**Diaporama** ([*plein écran*](support/Initiation_R_1.pdf)) **:**
+**Diaporama :**
+
+:::{.nonicremental style="font-size:80%;margin-top:-10px;margin-bottom:10px;"}
+ - Consulter en [**plein écran**](support/introR_seance1_diapo.pdf)  
+ - Télécharger le [**fichier source**](support/introR_seance1_diapo.pptx)
+:::   
 
 ::: diapo
-<object class="slide" data="support/Initiation_R_1.pdf" type="application/pdf">
+<object class="slide" data="support/introR_seance1_diapo.pdf" type="application/pdf">
 
 <iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="20">
 
@@ -51,6 +56,14 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable [ici](https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/introR_seance1.R?inline=false).
 
 \
+
+
+**Conditions d'utilisation :**
+
+Le support utilisé pour cette séance est libre d'utilisation et d'adaptation (licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)). Vous devez néanmoins créditer l'œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.
+
+\
+
 
 ##### Bibliographie
 
