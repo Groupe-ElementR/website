@@ -34,6 +34,8 @@ monObjet
 # Réutiliser le résultat stocké dans mon objet pour un nouveau calcul :
 monObjet + 100
 
+monObjet <- monObjet + 100
+
 # Réutiliser le résultat stocké dans mon objet 
 # pour un faire une chaîne de caractère :
 paste0("Réponse : ", monObjet)
@@ -61,7 +63,7 @@ rm(monObjet, monObjetAugmente)
 ## Vecteurs ----
 
 # Vecteur de nombres
-vNum <- c(41.5, 38, 37)
+(vNum <- c(41.5, 38, 37))
 class(vNum)
 
 # vecteur de chaînes de caractères
@@ -178,6 +180,7 @@ abc <- letters[1:3]
 
 # et ajouter une valeur à mon vecteur en utilisant l'indexation
 abc[4] <- "d"
+abcd <- c(abc, "d")
 
 # remplacer des valeurs existantes
 abc[1] <- "z"
@@ -227,7 +230,7 @@ species
 
 # Création d'un nouveau vecteur numérique avec seq()
 vNum <- seq(from=1, to=100, by=1)
-# Quand le step step de 1, on peut aussi écrire
+# Quand le step de 1, on peut aussi écrire
 1:100
 
 # Sélection des valeurs supérieures à 51
@@ -243,7 +246,7 @@ vNum[vNum <= 51]
 # Sélection des valeurs égales à 25
 vNum[vNum == 25]
 
-# sélection des valeurs qui ne sont pas égales à 51
+# sélection des valeurs qui ne sont pas égales à 25
 vNum[vNum != 25]
 
 # sélection des valeurs qui sont présentes dans un autre vecteur

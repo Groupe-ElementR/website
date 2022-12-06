@@ -13,7 +13,7 @@ image: img/logo_ElementR.png
 about:
   template: marquee
   image : img/logo_ElementR.png
-  image-width: 40em
+  image-width: 35em
   image-shape: rounded
   links:
     - icon: github

@@ -1,22 +1,25 @@
 ---
 title: "Initiation à R (2)"
-date: 12/14/2022
+date: 12/16/2022
+# bibliography: biblio/session3.bib
+nocite: '@*'
+csl: geo.csl
 author: 
 - Joséphin Béraud
 - Léa Christophe
 - Aurelie Douet
-
+image: img/initR.png
 about:
   template: marquee
-  image: img/wip.jpg
+  image: img/initR.png
+  image-width: 30em
+  image-shape: rounded
   links:
     - icon: github
       text: GitLab
-      href: https://gitlab.huma-num.fr/elementr/session_3
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance3.qmd
 categories: 
 - initiation
 ---
 
-Date ?
-
-Thème ?
+**Cette séance est en cours de préparation.**
