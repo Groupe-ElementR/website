@@ -35,9 +35,11 @@ website:
       - href: posts/seance1.qmd
         text: Introduction ElementR
       - href: posts/seance2.qmd 
-        text: Initiation à R (1)
+        text: Initiation à R (théorique)
       - href: posts/seance3.qmd
-        text: Initiation à R (2)
+        text: Initiation à R (pratique)
+      - href: posts/seance4_ggplot.qmd
+        text: Représentation graphique
   page-footer: ElementR 2022 - [![licensebuttons by-nc](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0) - UMR Géographie-Cités · UMR PRODIG · UAR RIATE
   margin-header: |
     ![](img/ElementR.png)

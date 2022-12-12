@@ -1,5 +1,5 @@
 ---
-title: "Initiation à R (1)"
+title: "Initiation à R (théorique)"
 date: 12/02/2022
 bibliography: biblio/session2.bib
 nocite: '@*'

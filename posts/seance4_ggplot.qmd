@@ -1,0 +1,25 @@
+---
+title: "Représentation graphique (Rbase et ggplot2)"
+date: 12/16/2022
+# bibliography: biblio/session3.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+- Léa Christophe
+- Robin Cura
+image: img/ggplot.png
+about:
+  template: marquee
+  image: img/ggplot.png
+  image-width: 35em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance4_ggplot.qmd
+categories: 
+- graphique
+- ggplot2
+---
+
+**Cette séance est en cours de préparation.**

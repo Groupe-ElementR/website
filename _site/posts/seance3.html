@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.189">
+<meta name="generator" content="quarto-1.2.247">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,7 +10,7 @@
 <meta name="author" content="Léa Christophe">
 <meta name="author" content="Aurelie Douet">
 
-<title>ElementR - Initiation à R (2)</title>
+<title>ElementR - Initiation à R (pratique)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,6 +23,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -33,6 +52,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../posts/seance4_ggplot.html" rel="next">
 <link href="../posts/seance2.html" rel="prev">
 <link href="../img/ElementR.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -84,8 +104,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="ElementR - Initiation à R (2)">
-<meta name="twitter:description" content="Cette séance est en cours de préparation.">
+<meta name="twitter:title" content="ElementR - Initiation à R (pratique)">
+<meta name="twitter:description" content="Cette séance est en cours de préparation">
 <meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/initR.png">
 <meta name="twitter:image-height" content="510">
 <meta name="twitter:image-width" content="1280">
@@ -109,23 +129,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../programme.html" aria-current="page">Programme</a>
+    <a class="nav-link active" href="../programme.html" aria-current="page">
+ <span class="menu-text">Programme</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../seance.html">Ressources</a>
+    <a class="nav-link" href="../seance.html">
+ <span class="menu-text">Ressources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../apropos.html">Á propos</a>
+    <a class="nav-link" href="../apropos.html">
+ <span class="menu-text">Á propos</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../contact.html">Contact</a>
+    <a class="nav-link" href="../contact.html">
+ <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://gitlab.huma-num.fr/elementr/website"><i class="bi bi-git" role="img" aria-label="GitLab">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -137,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Initiation à R (2)</h1>
+      <h1 class="quarto-secondary-nav-title">Initiation à R (pratique)</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -167,12 +191,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance2.html" class="sidebar-item-text sidebar-link">Initiation à R (1)</a>
+  <a href="../posts/seance2.html" class="sidebar-item-text sidebar-link">Initiation à R (théorique)</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance3.html" class="sidebar-item-text sidebar-link active">Initiation à R (2)</a>
+  <a href="../posts/seance3.html" class="sidebar-item-text sidebar-link active">Initiation à R (pratique)</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../posts/seance4_ggplot.html" class="sidebar-item-text sidebar-link">Représentation graphique</a>
   </div>
 </li>
     </ul>
@@ -193,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Initiation à R (2)</h1>
+<h1 class="title d-none d-lg-block">Initiation à R (pratique)</h1>
   <div class="quarto-categories">
     <div class="quarto-category">initiation</div>
   </div>
@@ -215,9 +244,47 @@ ul.task-list li input[type="checkbox"] {
   </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
-<p><strong>Cette séance est en cours de préparation.</strong></p>
+<p><strong>Cette séance est en cours de préparation</strong></p>
+<p><strong>Plan de séance :</strong></p>
+<ol type="1">
+<li>…</li>
+<li>…</li>
+<li>…</li>
+</ol>
+<p><br>
+</p>
+<p><strong>Diaporama :</strong></p>
+<div class="nonicremental" style="font-size:80%;margin-top:-10px;margin-bottom:10px;">
+<ul>
+<li>Consulter en <a href="support/introR_seance1_diapo.pdf"><strong>plein écran</strong></a><br>
+</li>
+<li>Télécharger le <a href="support/introR_seance1_diapo.pptx"><strong>fichier source</strong></a></li>
+</ul>
+</div>
+<div class="diapo">
+<object class="slide" data="support/" type="application/pdf">
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="20">
+</iframe>
+</object>
+</div>
+<div class="auteurs">
+<p><i class="bi bi-people-fill"> <strong>Joséphin Béraud, Léa Christophe et Aurelie Douet</strong></i></p>
+</div>
+<p><strong>Données et scripts :</strong></p>
+<p>Un projet comportant … est téléchargeable <a href="">ici</a>.</p>
+<p><br>
+</p>
+<p><strong>Conditions d’utilisation :</strong></p>
+<p>Le support utilisé pour cette séance est libre d’utilisation et d’adaptation (licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>). Vous devez néanmoins créditer l’œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.</p>
+<p><br>
+</p>
+<section id="bibliographie" class="level5">
+<h5 data-anchor-id="bibliographie">Bibliographie</h5>
+<div id="refs" role="doc-bibliography">
+</div>
 
 
+</section>
 </main> 
     <div class="about-footer"><div class="about-links">
   <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance3.qmd" class="about-link">
@@ -361,7 +428,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } 
+  } else {
+    toggleColorMode(false);
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
@@ -376,7 +445,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copié");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copié");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -412,34 +498,55 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
       <a href="../posts/seance2.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Initiation à R (1)</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Initiation à R (théorique)</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../posts/seance4_ggplot.html" class="pagination-link">
+        <span class="nav-page-text">Représentation graphique</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

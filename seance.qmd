@@ -19,6 +19,9 @@ Les séances du séminaire ElementR ont pour objectif d'être reproductibles. Re
 ::: {#seance}
 :::
 
+
+\
+
 ::: callout-tip
 ## Plus de ressources ?
 

@@ -7,8 +7,7 @@ title: "**Programme**"
 ::: panel-tabset
 #### **Séminaire ElementR**
 
-
--   **16 décembre 2022 - Initiation à R (2)**
+-   **16 décembre 2022 - Initiation à R (pratique)**
     -   <u>Description</u> : Seconde séance d'initiation à R
     -   <u>Format</u> : Présentiel
     -   <u>Horaire</u> : 9h30-12h30
@@ -38,13 +37,11 @@ title: "**Programme**"
 ### Séances passées
 
 ::: panel-tabset
-
 #### **Séminaire ElementR**
 
--   **2 décembre 2022 - Initiation à R (1)**
+-   **2 décembre 2022 - Initiation à R (théorique)**
     -   <u>Format</u> : Présentiel
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance2.html)
-    
 -   **14 octobre 2022 - Séance introductive ElementR**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance1.html)

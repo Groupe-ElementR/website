@@ -1,5 +1,5 @@
 ---
-title: "Initiation à R (2)"
+title: "Initiation à R (pratique)"
 date: 12/16/2022
 # bibliography: biblio/session3.bib
 nocite: '@*'
@@ -22,4 +22,51 @@ categories:
 - initiation
 ---
 
-**Cette séance est en cours de préparation.**
+**Cette séance est en cours de préparation**
+
+**Plan de séance :**
+
+1. ...
+2. ...
+3. ...
+
+\
+
+**Diaporama :**
+
+::: {.nonicremental style="font-size:80%;margin-top:-10px;margin-bottom:10px;"}
+-   Consulter en [**plein écran**](support/introR_seance1_diapo.pdf)\
+-   Télécharger le [**fichier source**](support/introR_seance1_diapo.pptx)
+:::
+
+::: diapo
+<object class="slide" data="support/" type="application/pdf">
+
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="20">
+
+</iframe>
+
+</object>
+:::
+
+::: auteurs
+<i class="bi bi-people-fill"> **Joséphin Béraud, Léa Christophe et Aurelie Douet**</i>
+:::
+
+**Données et scripts :**
+
+Un projet comportant ... est téléchargeable [ici]().
+
+\
+
+**Conditions d'utilisation :**
+
+Le support utilisé pour cette séance est libre d'utilisation et d'adaptation (licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)). Vous devez néanmoins créditer l'œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.
+
+\
+
+##### Bibliographie
+
+::: {#refs}
+:::
+

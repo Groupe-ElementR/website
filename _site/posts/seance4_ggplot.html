@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Léa Christophe">
+<meta name="author" content="Robin Cura">
 
-<title>ElementR - Le Groupe ElementR</title>
+<title>ElementR - Représentation graphique (Rbase et ggplot2)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/ElementR.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../posts/seance3.html" rel="prev">
+<link href="../img/ElementR.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,10 +82,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="ElementR - Le Groupe ElementR">
-<meta name="twitter:description" content="Le logiciel R est apparu à la fin des années 1990.">
-<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="ElementR - Représentation graphique (Rbase et ggplot2)">
+<meta name="twitter:description" content="Cette séance est en cours de préparation.">
+<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/ggplot.png">
+<meta name="twitter:image-height" content="726">
+<meta name="twitter:image-width" content="1280">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -92,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title"><b>ElementR</b></span>
     </a>
   </div>
@@ -102,21 +108,21 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./programme.html" aria-current="page">
+    <a class="nav-link active" href="../programme.html" aria-current="page">
  <span class="menu-text">Programme</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./seance.html">
+    <a class="nav-link" href="../seance.html">
  <span class="menu-text">Ressources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./apropos.html">
+    <a class="nav-link" href="../apropos.html">
  <span class="menu-text">Á propos</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
+    <a class="nav-link" href="../contact.html">
  <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item compact">
@@ -134,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Le Groupe ElementR</h1>
+      <h1 class="quarto-secondary-nav-title">Représentation graphique (Rbase et ggplot2)</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -149,32 +155,32 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./programme.html" class="sidebar-item-text sidebar-link"><strong>Programme</strong></a>
+  <a href="../programme.html" class="sidebar-item-text sidebar-link"><strong>Programme</strong></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./seance.html" class="sidebar-item-text sidebar-link"><strong>Ressources</strong></a>
+  <a href="../seance.html" class="sidebar-item-text sidebar-link"><strong>Ressources</strong></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance1.html" class="sidebar-item-text sidebar-link">Introduction ElementR</a>
+  <a href="../posts/seance1.html" class="sidebar-item-text sidebar-link">Introduction ElementR</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance2.html" class="sidebar-item-text sidebar-link">Initiation à R (théorique)</a>
+  <a href="../posts/seance2.html" class="sidebar-item-text sidebar-link">Initiation à R (théorique)</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance3.html" class="sidebar-item-text sidebar-link">Initiation à R (pratique)</a>
+  <a href="../posts/seance3.html" class="sidebar-item-text sidebar-link">Initiation à R (pratique)</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance4_ggplot.html" class="sidebar-item-text sidebar-link">Représentation graphique</a>
+  <a href="../posts/seance4_ggplot.html" class="sidebar-item-text sidebar-link active">Représentation graphique</a>
   </div>
 </li>
     </ul>
@@ -189,48 +195,45 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <div class="quarto-about-marquee column-body">
   <div class="about-image-container">
-    <img src="img/intro.png" class="about-image
-  rounded " style="width: 40em;">
+    <img src="img/ggplot.png" class="about-image
+  rounded " style="width: 35em;">
   </div>
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Le Groupe ElementR</h1>
-</div>
+<h1 class="title d-none d-lg-block">Représentation graphique (Rbase et ggplot2)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">graphique</div>
+    <div class="quarto-category">ggplot2</div>
+  </div>
+  </div>
 <div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Auteur·rice·s</div>
+    <div class="quarto-title-meta-contents">
+             <p>Léa Christophe </p>
+             <p>Robin Cura </p>
+          </div>
+  </div>
+    <div>
+    <div class="quarto-title-meta-heading">Date de publication</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">16 décembre 2022</p>
+    </div>
+  </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
-<p>Le logiciel R est apparu à la fin des années 1990. Alors qu’il s’est développé rapidement au sein de certaines disciplines — statistique, épidémiologie ou biologie par exemple — il a tardé à s’implanter dans les disciplines de sciences humaines et sociales. En 2010, les doctorant·es, chercheur·euses et ingénieur·es du laboratoire <a href="https://geographie-cites.cnrs.fr/"><strong>Géographie-cités</strong></a> utilisaient principalement les grands logiciels commerciaux : SAS pour l’analyse de données, ArcGIS pour l’analyse spatiale et la cartographie. Ces logiciels sont fermés, ils travaillent avec leurs propres formats de fichiers qui changent avec les versions, les licences représentent un coût important pour le laboratoire et prohibitif pour les étudiants.</p>
-<p>Certain.e.s d’entre eux ont alors décidé d’essayer R, logiciel déjà très populaire dans d’autres disciplines. Pour progresser plus rapidement, <strong>un groupe s’est formé et organisé autour d’auto-formations entre 2011-2012</strong>. Au terme de cette progression, les participants ont alors décidé de mettre à disposition le produit de ces sessions de formation sous la forme d’un manuel accessible en ligne intitulé <strong>R pour les géographes</strong>. Avec des refontes, des mises à jour, des ajouts et un vrai travail éditorial, <strong>le manuel</strong> <a href="https://archives.framabook.org/r-et-espace/"><strong>R et espace</strong></a> <strong>est le résultat poli par ce parcours</strong>.</p>
-<p><strong>Le groupe ElementR s’est constitué en 2012 au sein de l’UMR</strong> <a href="https://geographie-cites.cnrs.fr/"><strong>Géographie-cités</strong></a> pour organiser des formations au logiciel R destinées aux géographes. Huit personnes, alors ingénieur·es, doctorant·es ou ancien doctorant·es dans ce laboratoire, y ont contribué :</p>
-<ul>
-<li><em>Laurent Beauguitte</em>, chargé de recherche CNRS (UMR IDEES),</li>
-<li><em>Élodie Buard</em>, ingénieure de recherche à l’IGN,</li>
-<li><em>Hadrien Commenges</em>, post-doctorant au LEESU,</li>
-<li><em>Robin Cura</em>, doctorant à Géographie-cités (UMR 8504),</li>
-<li><em>Florent Le Néchet</em> , maître de conférences à l’Université Paris-Est Marne-la-Vallée,</li>
-<li><em>Marion Le Texier</em>, post-doctorante à l’Institut universitaire européen de Florence,</li>
-<li><em>Hélène Mathian</em>, ingénieure de recherche CNRS (UMR EVS),</li>
-<li><em>Sébastien Rey-Coyrehourcq</em>, doctorant à Géographie-cités (UMR 8504).</li>
-</ul>
-<p><strong>Le groupe s’est ensuite renforcé, jusqu’à compter une vingtaine de membres de statut différents et affiliés à plusieurs laboratoires de SHS</strong>. Plusieurs vagues ElementR de séances de formation et de production de matériaux pédagogiques du logiciel R en SHS ont alors permis de constituer un socle fertile à l’apprentissage et à la formation à R.</p>
-<p>Depuis, l’utilisation de R en SHS s’est bien développée, mais le besoin en formation reste très fort… <strong>En 2022, une nouvelle vague ElementR est donc lancée !</strong> Le périmètre du groupe est officiellement élargie à trois unités :</p>
-<ul>
-<li><strong>UMR</strong> <a href="https://geographie-cites.cnrs.fr/"><strong>Géographie-cités</strong></a> (8504)</li>
-<li><strong>UMR</strong> <a href="https://www.prodig.cnrs.fr/"><strong>PRODIG</strong></a> (8586)</li>
-<li><strong>UAR</strong> <a href="https://riate.cnrs.fr/"><strong>RIATE</strong></a> (2414)</li>
-</ul>
-<p>Les activités du groupe sont également ouvertes aux membres d’unités de recherche localisées sur le <a href="https://www.campus-condorcet.fr/">Campus Condorcet</a> : Ladyss, EHESS, INED…</p>
-<p>Pour cette nouvelle vague, deux types d’activités sont envisagées :</p>
-<ul>
-<li><strong>Le séminaire ElementR</strong> : séances thématiques qui associent une présentation et une démonstration ou un exercice appliqué (présentiel ou hybride). L’ensemble des supports et des matériaux utilisés sont <a href="seance.html">mis à disposition</a> sur ce site web.</li>
-<li><strong>Ateliers pratiques</strong> : séances de pratique collective autour d’un jeu de données (présentiel).</li>
-</ul>
-<p><strong>Après dix ans d’existence, le groupe ElementR poursuit ainsi son activité, pour l’apprentissage et de montée en compétence collective de la pratique du traitement de l’information géographique avec R.</strong></p>
-<p>Pour rejoindre le groupe, vous pouvez vous inscrire à la <strong>liste de diffusion d’ElementR : <a href="https://listes.services.cnrs.fr/wws/subscribe/elementr?previous_action=info">elementr@services.cnrs.fr</a></strong>. L’inscription est restreinte aux membres d’unités localisées sur le Campus Condorcet.</p>
+<p><strong>Cette séance est en cours de préparation.</strong></p>
 
 
 </main> 
+    <div class="about-footer"><div class="about-links">
+  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance4_ggplot.qmd" class="about-link">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitLab</span>
+  </a>
+</div>
+</div>
   </div>
 </div>
  <!-- /main -->
@@ -475,6 +478,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation column-body">
+  <div class="nav-page nav-page-previous">
+      <a href="../posts/seance3.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Initiation à R (pratique)</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
