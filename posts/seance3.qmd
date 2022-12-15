@@ -22,7 +22,8 @@ categories:
 - initiation
 ---
 
-Cette séance s'adresse aux débutant·e·s. Elle poursuit l'introduction au langage R réalisée lors de la [séance précédente](/posts/seance2.html) par une mise en pratique plus approfondie.
+Cette séance s'adresse aux débutant·e·s. Elle fait suite à l'introduction au langage R réalisée [précédement](/posts/seance2.html).
+
 
 **Plan de séance :**
 
