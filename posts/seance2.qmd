@@ -38,7 +38,7 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 
 ::: {.nonicremental style="font-size:80%;margin-top:-10px;margin-bottom:10px;"}
 -   Consulter en [**plein écran**](support/introR_seance1_diapo.pdf)\
--   Télécharger le [**fichier source**](support/introR_seance1_diapo.pptx)
+-   Télécharger le [**fichier source**](support/introR_seance1_diapo.pptx) (.pptx)
 :::
 
 ::: diapo
@@ -57,7 +57,9 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 
 **Données et scripts :**
 
-Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable [ici](https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/introR_seance1.R?inline=false).
+Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable ici : 
+
+<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/introR_seance1.R?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> introR_seance1.R</a></center>
 
 \
 

@@ -39,7 +39,7 @@ Cette séance s'adresse aux débutant·e·s. Elle fait suite à l'introduction a
 
 ::: {.nonicremental style="font-size:80%;margin-top:-10px;margin-bottom:10px;"}
 -   Consulter en [**plein écran**](support/introR_seance2_diapo.pdf)\
--   Télécharger le [**fichier source**](support/introR_seance2_diapo.pptx)
+-   Télécharger le [**fichier source**](support/introR_seance2_diapo.pptx) (.pptx)
 :::
 
 ::: diapo
@@ -58,7 +58,9 @@ Cette séance s'adresse aux débutant·e·s. Elle fait suite à l'introduction a
 
 **Données et scripts :**
 
-Un projet Rstudio contenant des données et des scripts R (exercice et correction) utilisés durant la séance est téléchargeable [ici](https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/introR_seance2.zip?inline=false).
+Un projet Rstudio contenant des données et des scripts R (exercice et correction) utilisés durant la séance est téléchargeable ici :
+
+<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/introR_seance2.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i>  introR_seance2.zip</a></center>
 
 \
 
