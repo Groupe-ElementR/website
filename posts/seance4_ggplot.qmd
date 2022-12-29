@@ -20,6 +20,8 @@ about:
 categories: 
 - graphique
 - ggplot2
+published-title: Date de séance
+author-title: Auteur·es
 ---
 
 **Cette séance est en cours de préparation.**

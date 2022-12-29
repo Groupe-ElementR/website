@@ -20,18 +20,19 @@ about:
       href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance3.qmd
 categories: 
 - initiation
+published-title: Date de séance
+author-title: Auteur·es
 ---
 
 Cette séance s'adresse aux débutant·e·s. Elle fait suite à l'introduction au langage R réalisée [précédement](/posts/seance2.html).
 
-
 **Plan de séance :**
 
-1. Rappel de la [séance 1](/posts/seance2.html)  
-2. Introduction au [tidyverse](https://www.tidyverse.org/)  
-3. Import de données  
-4. Manipulation de données  
-5. Export de données  
+1.  Rappel de la [séance 1](/posts/seance2.html)\
+2.  Introduction au [tidyverse](https://www.tidyverse.org/)\
+3.  Import de données\
+4.  Manipulation de données\
+5.  Export de données
 
 \
 
@@ -60,7 +61,7 @@ Cette séance s'adresse aux débutant·e·s. Elle fait suite à l'introduction a
 
 Un projet Rstudio contenant des données et des scripts R (exercice et correction) utilisés durant la séance est téléchargeable ici :
 
-<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/introR_seance2.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i>  introR_seance2.zip</a></center>
+<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/introR_seance2.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> introR_seance2.zip</a></center>
 
 \
 

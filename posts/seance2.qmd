@@ -20,6 +20,8 @@ about:
       href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance2.qmd
 categories: 
 - initiation
+published-title: Date de séance
+author-title: Auteur·es
 ---
 
 Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases nécessaires à la pratique de R via l'interface de développement [Rstudio](https://posit.co/download/rstudio-desktop/).
@@ -57,7 +59,7 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 
 **Données et scripts :**
 
-Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable ici : 
+Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable ici :
 
 <center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/introR_seance1.R?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> introR_seance1.R</a></center>
 
