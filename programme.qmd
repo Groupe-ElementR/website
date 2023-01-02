@@ -7,31 +7,17 @@ title: "**Programme**"
 ::: panel-tabset
 #### **Séminaire ElementR**
 
--   **16 décembre 2022 - Initiation à R (pratique)**
-    -   <u>Description</u> : Seconde séance d'initiation à R
-    -   <u>Format</u> : Présentiel
-    -   <u>Horaire</u> : 9h30-12h30
-    -   <u>Lieu</u> : Salle 3.02, 3ème étage du [centre des colloques de Condorcet](https://www.campus-condorcet.fr/fr/le-campus/site-d-aubervilliers/les-batiments-du-site-d-aubervilliers/le-centre-de-colloques)
-    -   <u>Animation</u> : Léa Christophe, Joséphin Béraud, Aurelie Douet
-    -   <u>Prérequis</u> : Un ordinateur avec R et Rstudio installés
-    -   <u>Inscription</u> : [formulaire](https://framaforms.org/inscription-formation-dinitiation-elementr-s1s2-1667579292) (20 places maximum)
--   **25 Janvier 2023 - Représentation graphique (ggplot2 & cie)**
+-   **25 Janvier 2023 - Représentation graphique avec R (et ggplot2)**
     -   <u>Description</u> : À préciser
     -   <u>Format</u> : Présentiel
     -   <u>Horaire</u> : À définir
     -   <u>Lieu</u> : À définir
     -   <u>Animation</u> : Robin Cura, Léa Christophe...
-    -   <u>Prérequis</u> : À préciser
-    -   <u>Inscription</u> : À préciser
+    -   <u>Prérequis</u> : Un ordinateur avec R, Rstudio installés
+    -   <u>Inscription</u> :\*\* Ouverture des inscriptions début janvier\*\*
 
 #### **Atelier pratique**
 
--   **?? ?? 20?? - ????????????** - Présentiel (débutant.e)
-    -   <u>Description</u> :
-    -   <u>Format</u> :
-    -   <u>Horaire</u> :
-    -   <u>Lieu</u> :
-    -   <u>Inscription</u> :
 :::
 
 ### Séances passées
@@ -39,6 +25,9 @@ title: "**Programme**"
 ::: panel-tabset
 #### **Séminaire ElementR**
 
+-   **16 décembre 2022 - Initiation à R (pratique)**
+    -   <u>Format</u> : Présentiel
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance3.html)
 -   **2 décembre 2022 - Initiation à R (théorique)**
     -   <u>Format</u> : Présentiel
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance2.html)

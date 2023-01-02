@@ -1,5 +1,6 @@
 ---
 title: "Séance introductive"
+subtitle: "Historique et objectifs d'ElementR & présentation du langage R"
 date: 10/14/2022
 bibliography: biblio/session1.bib
 nocite: '@*'
@@ -23,6 +24,7 @@ categories:
 - introduction
 published-title: Date de séance
 author-title: Auteurs
+title-block-categories: false
 ---
 
 Plus de dix ans après sa création, le groupe ElementR relance une nouvelle vague de formation collective au traitement de l'information géographique avec R. Le périmètre de ce groupe d'utilisateur·rice·s s'est élargi, le groupe fédère désormais des membres de l'UMR [Géographie-Cités](https://geographie-cites.cnrs.fr/), de l'UMR [PRODIG](https://www.prodig.cnrs.fr/) et de l'UAR [RIATE](https://riate.cnrs.fr/).

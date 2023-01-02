@@ -1,5 +1,6 @@
 ---
-title: "Représentation graphique (Rbase et ggplot2)"
+title: "Représentation graphique avec R"
+subtitle: "En cours de préparation"
 date: 01/25/2023
 # bibliography: biblio/session3.bib
 nocite: '@*'
@@ -22,6 +23,7 @@ categories:
 - ggplot2
 published-title: Date de séance
 author-title: Auteur·es
+title-block-categories: false
 ---
 
 **Cette séance est en cours de préparation.**

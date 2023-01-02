@@ -75,9 +75,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -243,14 +243,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Les séances du séminaire ElementR ont pour objectif d’être reproductibles. Retrouvez l’ensemble des supports de présentation et des données utilisés lors des différentes séances.</p>
-<div id="listing-seance" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-seance" class="quarto-listing quarto-listing-container-default">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
      <select id="listing-seance-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-seance'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Trier par</option>
        <option value="index" data-direction="asc">Ordre par défaut</option>
-         <option value="listing-title" data-direction="asc">
+         <option value="listing-title-sort" data-direction="asc">
           Titre
         </option>
          <option value="listing-date-sort" data-direction="asc">
@@ -269,94 +269,106 @@ ul.task-list li input[type="checkbox"] {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="introduction" data-listing-date-sort="1665698400000" data-listing-file-modified-sort="1672331018610" data-listing-reading-time-sort="1.38">
-<a href="./posts/seance1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/img/logo_ElementR.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Séance introductive
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Hadrien Commenges, Robin Cura, Hugues Pecout, Timothée Giraud
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="graphique,ggplot2" data-listing-date-sort="1674601200000" data-listing-file-modified-sort="1672679055108" data-listing-reading-time-sort="0.035" data-listing-title-sort="Représentation graphique avec R">
+<div class="thumbnail">
+<p><a href="./posts/seance4_ggplot.html"> <img src="./posts/img/ggplot.png" class="thumnail-image" style="height: 125px;"> </a></p>
 </div>
-<div class="listing-date">
-14 oct. 2022
-</div>
-</div>
-</div>
+<div class="body">
+<a href="./posts/seance4_ggplot.html">
+<h3 class="no-anchor listing-title">
+Représentation graphique avec R
+</h3>
+<div class="listing-subtitle">
+En cours de préparation
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="initiation" data-listing-date-sort="1669935600000" data-listing-file-modified-sort="1672331135994" data-listing-reading-time-sort="0.735">
-<a href="./posts/seance2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/img/initR.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Initiation à R (théorique)
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Joséphin Béraud, Léa Christophe, Aurelie Douet
-</div>
-<div class="listing-date">
-2 déc. 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="initiation" data-listing-date-sort="1671145200000" data-listing-file-modified-sort="1672331139033" data-listing-reading-time-sort="0.68">
-<a href="./posts/seance3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/img/initR.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Initiation à R (pratique)
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Joséphin Béraud, Léa Christophe, Aurelie Douet
-</div>
-<div class="listing-date">
-16 déc. 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="graphique,ggplot2" data-listing-date-sort="1674601200000" data-listing-file-modified-sort="1672331134415" data-listing-reading-time-sort="0.035">
-<a href="./posts/seance4_ggplot.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/img/ggplot.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Représentation graphique (Rbase et ggplot2)
-</h5>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Léa Christophe, Robin Cura
-</div>
+<div class="metadata">
+<a href="./posts/seance4_ggplot.html">
 <div class="listing-date">
 25 janv. 2023
 </div>
-</div>
-</div>
+<div class="listing-author">
+Léa Christophe, Robin Cura
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="initiation" data-listing-date-sort="1671145200000" data-listing-file-modified-sort="1672679062680" data-listing-reading-time-sort="0.68" data-listing-title-sort="Initiation à R (2)">
+<div class="thumbnail">
+<p><a href="./posts/seance3.html"> <img src="./posts/img/initR.png" class="thumnail-image" style="height: 125px;"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/seance3.html">
+<h3 class="no-anchor listing-title">
+Initiation à R (2)
+</h3>
+<div class="listing-subtitle">
+Atelier pratique d’introduction
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/seance3.html">
+<div class="listing-date">
+16 déc. 2022
+</div>
+<div class="listing-author">
+Joséphin Béraud, Léa Christophe, Aurelie Douet
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="initiation" data-listing-date-sort="1669935600000" data-listing-file-modified-sort="1672679049016" data-listing-reading-time-sort="0.735" data-listing-title-sort="Initiation à R (1)">
+<div class="thumbnail">
+<p><a href="./posts/seance2.html"> <img src="./posts/img/initR.png" class="thumnail-image" style="height: 125px;"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/seance2.html">
+<h3 class="no-anchor listing-title">
+Initiation à R (1)
+</h3>
+<div class="listing-subtitle">
+Cours théorique d’introduction
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/seance2.html">
+<div class="listing-date">
+2 déc. 2022
+</div>
+<div class="listing-author">
+Joséphin Béraud, Léa Christophe, Aurelie Douet
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="introduction" data-listing-date-sort="1665698400000" data-listing-file-modified-sort="1672679034780" data-listing-reading-time-sort="1.38" data-listing-title-sort="Séance introductive">
+<div class="thumbnail">
+<p><a href="./posts/seance1.html"> <img src="./posts/img/logo_ElementR.png" class="thumnail-image" style="height: 125px;"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/seance1.html">
+<h3 class="no-anchor listing-title">
+Séance introductive
+</h3>
+<div class="listing-subtitle">
+Historique et objectifs d’ElementR &amp; présentation du langage R
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/seance1.html">
+<div class="listing-date">
+14 oct. 2022
+</div>
+<div class="listing-author">
+Hadrien Commenges, Robin Cura, Hugues Pecout, Timothée Giraud
+</div>
+</a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">

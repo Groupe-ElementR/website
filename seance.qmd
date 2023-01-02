@@ -4,21 +4,26 @@ subtitle: "**Supports et matériaux issues des séances ElementR**"
 listing:
   id: seance
   fields: [image, title, subtitle, author, date]
+  field-links: ["title"]
+  image-height: 125px
   image-placeholder: img/wip.jpg
   contents: posts
   sort-ui:  [title, date, author]
-  sort: "date asc"
+  sort: "date desc"
   filter-ui: true
-  type: grid
+  table-hover: true
+  type: default
   page-size: 30
   categories: true
+  field-display-names:
+    categories: "Subtitle"
+
 ---
 
 Les séances du séminaire ElementR ont pour objectif d'être reproductibles. Retrouvez l'ensemble des supports de présentation et des données utilisés lors des différentes séances.
 
 ::: {#seance}
 :::
-
 
 \
 

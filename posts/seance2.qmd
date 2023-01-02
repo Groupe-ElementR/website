@@ -1,5 +1,6 @@
 ---
-title: "Initiation à R (théorique)"
+title: "Initiation à R (1)"
+subtitle: "Cours théorique d'introduction"
 date: 12/02/2022
 bibliography: biblio/session2.bib
 nocite: '@*'
@@ -22,6 +23,7 @@ categories:
 - initiation
 published-title: Date de séance
 author-title: Auteur·es
+title-block-categories: false
 ---
 
 Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases nécessaires à la pratique de R via l'interface de développement [Rstudio](https://posit.co/download/rstudio-desktop/).
