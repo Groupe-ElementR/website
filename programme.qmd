@@ -8,15 +8,36 @@ title: "**Programme**"
 #### **Séminaire ElementR**
 
 -   **25 Janvier 2023 - Représentation graphique avec R (et ggplot2)**
-    -   <u>Description</u> : À préciser
+    -   <u>Description</u> : Initiation à la construction de graphique, notamment via `ggplot2`
     -   <u>Format</u> : Présentiel
-    -   <u>Horaire</u> : À définir
-    -   <u>Lieu</u> : À définir
-    -   <u>Animation</u> : Robin Cura, Léa Christophe...
-    -   <u>Prérequis</u> : Un ordinateur avec R, Rstudio installés
-    -   <u>Inscription</u> :\*\* Ouverture des inscriptions début janvier\*\*
+    -   <u>Horaire</u> : 9h30-12h30
+    -   <u>Lieu</u> : salle 3.02 du centre de Colloques de Condorcet
+    -   <u>Animation</u> : Robin Cura & Léa Christophe
+    -   <u>Prérequis</u> : Un ordinateur avec R, Rstudio et la package `ggplot2` installés
+    -   <u>Inscription</u> : [formulaire](https://framaforms.org/formation-rconstruction-de-graphiqueggplot-1672759837)
+
+-   **27 mars 2023 - Cartographie avec R**
+    -   <u>Description</u> : Initiation à la cartographie thématique avec R
+    -   <u>Format</u> : Présentiel
+    -   <u>Horaire</u> : à définir
+    -   <u>Lieu</u> : à définir
+    -   <u>Animation</u> : Timothée Giraud, Hugues Pecout...
+    -   <u>Prérequis</u> : Un ordinateur avec R, Rstudio et la package `mapsf` installés
+    -   <u>Inscription</u> : Ouverture des inscriptions en février
+
 
 #### **Atelier pratique**
+
+-   **14 février 2023 - Atelier pratique d'exploration de données**
+    -   <u>Description</u> : Démonstration et exercice d'exploration de données d'enquête
+    -   <u>Données</u> : Enquête réalisée auprès de voyageurs SNCF à Paris, Lille et Rouen en 2021
+    -   <u>Format</u> : Présentiel
+    -   <u>Horaire</u> : 14h-17
+    -   <u>Lieu</u> : salle 3.01 du centre de Colloques de Condorcet
+    -   <u>Animation</u> : Marion Albertelli & Joséphin Béraud
+    -   <u>Prérequis</u> : Un ordinateur avec R, Rstudio installés
+    -   <u>Inscription</u> : [formulaire](https://framaforms.org/elementr-atelier-donnees-sncf-1673965270)
+
 
 :::
 
