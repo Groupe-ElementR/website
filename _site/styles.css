@@ -7,7 +7,19 @@
     max-height: 100%;
     min-height: 300px;
     height: inherit !important; 
+
 }
+
+
+.slide2{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 300px;
+    height: inherit !important; 
+   border: 1px solid #1a8d73;
+}
+
 
 .metaslide{
   margin-top:30px;

@@ -17,7 +17,6 @@ listing:
   categories: true
   field-display-names:
     categories: "Subtitle"
-
 ---
 
 Les séances du séminaire ElementR ont pour objectif d'être reproductibles. Retrouvez l'ensemble des supports de présentation et des données utilisés lors des différentes séances.
