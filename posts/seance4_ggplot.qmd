@@ -63,7 +63,7 @@ Cette séance s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. Elle
 
 Les exercices (scripts R, données et correction) et le support de cours sont mis à disposition sur un [dépôt GitLab](https://gitlab.huma-num.fr/elementr/session_graphique/ggplot2). Cliquez ci-dessous pour télécharger une archive du dépôt :
 
-<center><a href="https://gitlab.huma-num.fr/elementr/session_graphique/ggplot2/-/archive/main/ggplot2-main.zip" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> ggplot2-main.zip</a></center>
+<center><a href="https://gitlab.huma-num.fr/elementr/session_graphique/ggplot2/-/raw/main/ElementR_ggplot.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> ElementR_ggplot.zip</a></center>
 
 \
 
