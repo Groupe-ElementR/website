@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/apropos.html</loc>
-    <lastmod>2023-01-20T10:02:33.068Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/contact.html</loc>
-    <lastmod>2023-01-20T10:02:34.001Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/index.html</loc>
-    <lastmod>2023-01-20T10:02:39.432Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance1.html</loc>
-    <lastmod>2023-01-20T10:03:01.221Z</lastmod>
+    <loc>https://elementr.gitpages.huma-num.fr/website/programme.html</loc>
+    <lastmod>2023-01-24T11:04:50.386Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance2.html</loc>
-    <lastmod>2023-01-20T10:02:41.258Z</lastmod>
+    <lastmod>2023-01-24T11:03:52.051Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance1.html</loc>
+    <lastmod>2023-01-24T11:03:52.439Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance3.html</loc>
-    <lastmod>2023-01-20T10:02:42.013Z</lastmod>
+    <lastmod>2023-01-24T11:03:52.743Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance4_ggplot.html</loc>
-    <lastmod>2023-01-20T10:02:42.714Z</lastmod>
+    <lastmod>2023-01-24T11:03:53.047Z</lastmod>
   </url>
   <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/programme.html</loc>
-    <lastmod>2023-01-20T10:03:03.506Z</lastmod>
+    <loc>https://elementr.gitpages.huma-num.fr/website/apropos.html</loc>
+    <lastmod>2023-01-24T11:04:51.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/contact.html</loc>
+    <lastmod>2023-01-24T11:03:53.651Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/seance.html</loc>
-    <lastmod>2023-01-20T10:03:05.248Z</lastmod>
+    <lastmod>2023-01-24T11:03:53.995Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/index.html</loc>
+    <lastmod>2023-01-24T11:05:00.034Z</lastmod>
   </url>
 </urlset>

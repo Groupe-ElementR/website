@@ -24,7 +24,7 @@ Certain.e.s d'entre eux ont alors décidé d'essayer R, logiciel déjà très po
 
 **Le groupe s'est ensuite renforcé, jusqu'à compter une vingtaine de membres de statut différents et affiliés à plusieurs laboratoires de SHS**. Plusieurs vagues ElementR de séances de formation et de production de matériaux pédagogiques du logiciel R en SHS ont alors permis de constituer un socle fertile à l'apprentissage et à la formation à R.
 
-Depuis, l'utilisation de R en SHS s'est bien développée, mais le besoin en formation reste très fort... **En 2022, une nouvelle vague ElementR est donc lancée !** Le périmètre du groupe est officiellement élargie à trois unités :
+Depuis, l'utilisation de R en SHS s'est bien développée, mais le besoin en formation reste très fort... **En 2022, une nouvelle vague ElementR est donc lancée !** Le périmètre du groupe est officiellement élargi à trois unités :
 
 -   **UMR** [**Géographie-cités**](https://geographie-cites.cnrs.fr/) (8504)
 -   **UMR** [**PRODIG**](https://www.prodig.cnrs.fr/) (8586)
