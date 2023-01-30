@@ -5,24 +5,6 @@ title: "**Programme**"
 ### Séances à venir
 
 ::: panel-tabset
-#### **Séminaire ElementR**
-
--   **25 Janvier 2023 - Représentation graphique avec R (et ggplot2)**
-    -   <u>Description</u> : Initiation à la construction de graphique, notamment via `ggplot2`
-    -   <u>Format</u> : Présentiel
-    -   <u>Horaire</u> : 9h30-12h30
-    -   <u>Lieu</u> : salle 3.02 du centre de Colloques de Condorcet
-    -   <u>Animation</u> : Robin Cura & Léa Christophe
-    -   <u>Prérequis</u> : Un ordinateur avec R, Rstudio et le package `ggplot2` installés
-    -   <u>Inscription</u> : [formulaire](https://framaforms.org/formation-rconstruction-de-graphiqueggplot-1672759837)
--   **27 mars 2023 - Cartographie avec R**
-    -   <u>Description</u> : Initiation à la cartographie thématique avec R
-    -   <u>Format</u> : Présentiel
-    -   <u>Horaire</u> : à définir
-    -   <u>Lieu</u> : à définir
-    -   <u>Animation</u> : Timothée Giraud, Hugues Pecout...
-    -   <u>Prérequis</u> : Un ordinateur avec R, Rstudio et le package `mapsf` installés
-    -   <u>Inscription</u> : Ouverture des inscriptions en février
 
 #### **Atelier pratique**
 
@@ -35,6 +17,20 @@ title: "**Programme**"
     -   <u>Animation</u> : Marion Albertelli & Joséphin Béraud
     -   <u>Prérequis</u> : Un ordinateur avec R, Rstudio installés
     -   <u>Inscription</u> : [formulaire](https://framaforms.org/elementr-atelier-donnees-sncf-1673965270)
+
+
+#### **Séminaire ElementR**
+
+-   **27 mars 2023 - Cartographie avec R**
+    -   <u>Description</u> : Initiation à la cartographie thématique avec R
+    -   <u>Format</u> : Présentiel
+    -   <u>Horaire</u> : à définir
+    -   <u>Lieu</u> : à définir
+    -   <u>Animation</u> : Timothée Giraud, Hugues Pecout
+    -   <u>Prérequis</u> : Un ordinateur avec R, Rstudio et le package `mapsf` installés
+    -   <u>Inscription</u> : Ouverture des inscriptions en février
+
+
 :::
 
 ### Séances passées
@@ -42,6 +38,9 @@ title: "**Programme**"
 ::: panel-tabset
 #### **Séminaire ElementR**
 
+-   **25 Janvier 2023 - Représentation graphique avec R (et ggplot2)**
+    -   <u>Format</u> : Présentiel
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance4_ggplot.html)
 -   **16 décembre 2022 - Initiation à R (pratique)**
     -   <u>Format</u> : Présentiel
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance3.html)
