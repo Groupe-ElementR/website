@@ -2,6 +2,12 @@
 title: "**Programme**"
 ---
 
+
+### Calendrier
+
+<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC" width="100%" height="800"></iframe>
+
+
 ### Séances à venir
 
 ::: panel-tabset
