@@ -31,7 +31,8 @@ website:
   sidebar:
     contents:
       - programme.qmd
-      - seance.qmd
+      - href: seance.qmd
+        text: __Séances et ateliers__
       - href: posts/seance1.qmd
         text: Introduction ElementR
       - href: posts/seance2.qmd 
@@ -41,7 +42,7 @@ website:
       - href: posts/seance4_ggplot.qmd
         text: Représentation graphique
       - href: posts/atelier_enquete_sncf.qmd
-        text: Atelier - Trait. d'enquête
+        text: Atelier données d'enquête
   page-footer: ElementR 2022 - [![licensebuttons by-nc](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0) - UMR Géographie-Cités · UMR PRODIG · UAR RIATE
   margin-header: |
     ![](img/ElementR.png)

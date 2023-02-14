@@ -1,6 +1,6 @@
 ---
 title: "**Ressources**"
-subtitle: "**Supports et matériaux issues des séances ElementR**"
+subtitle: "**Supports et matériaux issues des séances et ateliers ElementR**"
 listing:
   id: seance
   fields: [image, title, subtitle, author, date]
