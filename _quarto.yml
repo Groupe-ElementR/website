@@ -40,6 +40,8 @@ website:
         text: Initiation à R (pratique)
       - href: posts/seance4_ggplot.qmd
         text: Représentation graphique
+      - href: posts/atelier_enquete_sncf.qmd
+        text: Atelier - Trait. d'enquête
   page-footer: ElementR 2022 - [![licensebuttons by-nc](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0) - UMR Géographie-Cités · UMR PRODIG · UAR RIATE
   margin-header: |
     ![](img/ElementR.png)
