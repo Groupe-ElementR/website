@@ -1,7 +1,7 @@
 ---
 title: "Atelier pratique"
 subtitle: "Manipulation et traitement de données d'enquête voyageurs SNCF"
-date: 14/02/2023
+date: 02/14/2023
 bibliography: biblio/atelier_enquete.bib
 nocite: '@*'
 csl: geo.csl
@@ -27,19 +27,18 @@ author-title: Auteur·es
 title-block-categories: false
 ---
 
-Cet atelier pratique propose de s'initier à la manipulation et au traitement de données d'enquête. Il s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. 
-Le jeu de données utilisé pour cette exploration collective est une enquête auprès de voyageurs SNCF sur leur parcours et leur pratiques, réalisée en juin 2021 auprès de 2071 personnes (Lille, Paris et Rouen).
+Cet atelier pratique propose de s'initier à la manipulation et au traitement de données d'enquête. Il s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. Le jeu de données utilisé pour cette exploration collective est une enquête auprès de voyageurs SNCF sur leur parcours et leur pratiques, réalisée en juin 2021 auprès de 2071 personnes (Lille, Paris et Rouen).
 
 \
 
 **Plan de séance :**
 
-1.  Contextualisation et présentation de l’enquête SNCF et des objectifs de recherche
-2.  Traitements de base d’une enquête et packages associés\
+1.  Contextualisation et présentation de l'enquête SNCF et des objectifs de recherche
+2.  Traitements de base d'une enquête et packages associés\
 3.  Prise en main des données\
-4.  Pistes d’explorations\
+4.  Pistes d'explorations\
 5.  Des ressources utiles ?\
-6.  Bonus cartographique ! 
+6.  Bonus cartographique !
 
 \
 
@@ -66,6 +65,7 @@ Le jeu de données utilisé pour cette exploration collective est une enquête a
 **Données d'enquête :**
 
 <!-- Un projet Rstudio contenant des données et des scripts R (exercice et correction) utilisés durant la séance est téléchargeable ici : -->
+
 Les données et les métadonnées utilisées pour cet atelier sont téléchargeables à ce lien :
 
 <center><a href="data/Donnees_atelier_enquete.zip" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> Donnes_atelier_enquete.zip</a></center>
@@ -84,9 +84,7 @@ Un projet Rstudio comportant les données et un script complet est mis à dispos
 
 Le support utilisé pour cette séance est libre d'utilisation et d'adaptation (licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)). Les données sont soumises à la licence [ODC-by (Open Database Commons)](https://opendatacommons.org/licenses/by/1-0/).
 
-
 \
-
 
 ##### Bibliographie
 

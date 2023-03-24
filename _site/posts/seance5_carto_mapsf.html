@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Timothée Giraud">
+<meta name="author" content="Hugues Pecout">
 
-<title>ElementR - Contact</title>
+<title>ElementR - Cartographie avec R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,28 +22,47 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/ElementR.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../posts/atelier_enquete_sncf.html" rel="prev">
+<link href="../img/ElementR.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,10 +101,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="ElementR - Contact">
-<meta name="twitter:description" content="Vous pouvez contacter le groupe d’animation ElementR via ces emails.">
-<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="ElementR - Cartographie avec R">
+<meta name="twitter:description" content="Produire des cartes thématiques avec le package `mapsf`">
+<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/carto_mapsf.png">
+<meta name="twitter:image-height" content="1030">
+<meta name="twitter:image-width" content="892">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -93,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title"><b>ElementR</b></span>
     </a>
   </div>
@@ -103,21 +127,21 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./programme.html" aria-current="page">
+    <a class="nav-link active" href="../programme.html" aria-current="page">
  <span class="menu-text">Programme</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./seance.html">
+    <a class="nav-link" href="../seance.html">
  <span class="menu-text">Ressources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./apropos.html">
+    <a class="nav-link" href="../apropos.html">
  <span class="menu-text">Á propos</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
+    <a class="nav-link" href="../contact.html">
  <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item compact">
@@ -135,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Contact</h1>
+      <h1 class="quarto-secondary-nav-title">Cartographie avec R</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -150,42 +174,42 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./programme.html" class="sidebar-item-text sidebar-link"><strong>Programme</strong></a>
+  <a href="../programme.html" class="sidebar-item-text sidebar-link"><strong>Programme</strong></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./seance.html" class="sidebar-item-text sidebar-link"><strong>Séances et ateliers</strong></a>
+  <a href="../seance.html" class="sidebar-item-text sidebar-link"><strong>Séances et ateliers</strong></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance1.html" class="sidebar-item-text sidebar-link">Introduction ElementR</a>
+  <a href="../posts/seance1.html" class="sidebar-item-text sidebar-link">Introduction ElementR</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance2.html" class="sidebar-item-text sidebar-link">Initiation à R (théorique)</a>
+  <a href="../posts/seance2.html" class="sidebar-item-text sidebar-link">Initiation à R (théorique)</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance3.html" class="sidebar-item-text sidebar-link">Initiation à R (pratique)</a>
+  <a href="../posts/seance3.html" class="sidebar-item-text sidebar-link">Initiation à R (pratique)</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance4_ggplot.html" class="sidebar-item-text sidebar-link">Représentation graphique</a>
+  <a href="../posts/seance4_ggplot.html" class="sidebar-item-text sidebar-link">Représentation graphique</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/atelier_enquete_sncf.html" class="sidebar-item-text sidebar-link">Atelier données d’enquête</a>
+  <a href="../posts/atelier_enquete_sncf.html" class="sidebar-item-text sidebar-link">Atelier données d’enquête</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance5_carto_mapsf.html" class="sidebar-item-text sidebar-link">Cartographie avec R</a>
+  <a href="../posts/seance5_carto_mapsf.html" class="sidebar-item-text sidebar-link active">Cartographie avec R</a>
   </div>
 </li>
     </ul>
@@ -198,44 +222,116 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title d-none d-lg-block">Contact</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<div class="quarto-about-marquee column-body">
+  <div class="about-image-container">
+    <img src="img/carto_mapsf.png" class="about-image
+  rounded " style="width: 35em;">
   </div>
-  
-
-</header>
-
-<p>Vous pouvez contacter le groupe d’animation ElementR via <a href="mailto:hugues.pecout@cnrs.fr;%20timothee.giraud@cnrs.fr;%20Robin.Cura@univ-paris1.fr">ces emails</a>.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Cartographie avec R</h1>
+<p class="subtitle lead">Produire des cartes thématiques avec le package <code>mapsf</code></p>
+  </div>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Auteur·es</div>
+    <div class="quarto-title-meta-contents">
+             <p>Timothée Giraud </p>
+             <p>Hugues Pecout </p>
+          </div>
+  </div>
+    <div>
+    <div class="quarto-title-meta-heading">Date de séance</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">27 mars 2023</p>
+    </div>
+  </div>
+  </div>
+</header> <main class="content column-body" id="quarto-document-content">
+<p>Cette séance s’adresse aussi bien aux débutant·e·s qu’aux intié·e·s. Elle a pour objectif de présenter un diaporama des packages permettant de construire différents types de carte avec R et d’initier les particpant·e·s à l’utilisation du package <a href="https://riatelab.github.io/mapsf/"><code>mapsf</code></a>, pour la production de cartes statistiques et/ou thématiques.</p>
+<p><br>
+</p>
+<p><strong>Plan de séance :</strong></p>
+<ol type="1">
+<li>Historique et panorama des solutions de cartographie thématique avec R</li>
+<li>Manipuler les données vectorielles avec R</li>
+<li>Le package de cartographie <code>mapsf</code></li>
+<li>La sémiologie graphique (rappels)</li>
+<li>Les types de cartes ( + exercice)</li>
+<li>La mise en page ( + exercice)</li>
+</ol>
+<p><br>
+</p>
+<p><strong>Diaporama d’introduction :</strong></p>
+<div class="diapo">
+<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_cartographie/panorama/#/title-slide">
+</iframe>
+</div>
+<p><br>
+</p>
+<center>
+<a href="https://elementr.gitpages.huma-num.fr/session_cartographie/panorama/#/title-slide" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a>
+</center>
+<p><br>
+<br>
+</p>
+<p><strong>Support de séance et exercices :</strong></p>
+<div class="quartodoc">
+<iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_cartographie/tutoriel/">
+</iframe>
+</div>
+<p><br>
+</p>
+<center>
+<a href="https://elementr.gitpages.huma-num.fr/session_cartographie/tutoriel/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a>
+</center>
+<p><br>
+</p>
+<div class="callout-note callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-caption-container flex-fill">
-Comment rejoindre le groupe ?
+Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Inscrivez-vous à la liste de diffusion d’ElementR </strong>: <a href="https://listes.services.cnrs.fr/wws/subscribe/elementr?previous_action=info"><strong>elementr@services.cnrs.fr</strong></a>.<br>
-L’inscription est restreinte aux membres d’unités localisées sur le <a href="https://www.campus-condorcet.fr/">Campus Condorcet</a>.</p>
+<p>Cette séance s’appuie très largement sur le manuel “<a href="https://rcarto.github.io/cartographie_avec_r/">Cartographie avec R</a>”.<br>
+Ce manuel, qui présente en détail le fonctionnement et l’utilisation du package <code>mapsf</code>, se complète avec le manuel “<a href="https://rcarto.github.io/cartographie_avec_r/">Géomatique avec R</a>”, qui présente la manipulation de données géographique avec R.</p>
+</div>
+</div>
+<p><br>
+</p>
+<p><strong>Conditions d’utilisation :</strong></p>
+<p>Les supports utilisés pour cette séance sont libres d’utilisation et d’adaptation (licence <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/fr/">CC BY-NC-SA 3.0</a>). Vous devez néanmoins créditer les œuvres, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.</p>
+<p><br>
+</p>
+<section id="bibliographie" class="level5">
+<h5 data-anchor-id="bibliographie">Bibliographie</h5>
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
+<div id="ref-giraud_timothee_2022_5905735" class="csl-entry" role="doc-biblioentry">
+Giraud T, Pecout H. 2022a. Cartographie avec R DOI: <a href="https://doi.org/10.5281/zenodo.5905735">10.5281/zenodo.5905735</a>
+</div>
+<div id="ref-giraud_timothee_2022_5906213" class="csl-entry" role="doc-biblioentry">
+Giraud T, Pecout H. 2022b. Géomatique avec R DOI: <a href="https://doi.org/10.5281/zenodo.5906213">10.5281/zenodo.5906213</a>
 </div>
 </div>
 
 
-
-</main> <!-- /main -->
+</section>
+</main> 
+    <div class="about-footer"><div class="about-links">
+  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance5_carto_mapsf.qmd" class="about-link">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitLab</span>
+  </a>
+</div>
+</div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -371,13 +467,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
@@ -484,6 +573,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation column-body">
+  <div class="nav-page nav-page-previous">
+      <a href="../posts/atelier_enquete_sncf.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Atelier données d’enquête</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

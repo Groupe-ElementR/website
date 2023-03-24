@@ -21,6 +21,10 @@
 }
 
 
+
+
+
+
 .metaslide{
   margin-top:30px;
   margin-left:-30px;
@@ -31,6 +35,12 @@
   width:100%;
   height:450px;
 }
+
+.quartodoc{
+  width:100%;
+  height:900px;
+}
+
 
 .metaslide li{
  margin-bottom: 0.9em;
