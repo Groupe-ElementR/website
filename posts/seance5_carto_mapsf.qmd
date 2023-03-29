@@ -34,16 +34,14 @@ Cette séance s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. Elle
 
 1.  Historique et panorama des solutions de cartographie thématique avec R
 2.  Manipuler les données vectorielles avec R
-3.  Le package de cartographie `mapsf` 
+3.  Le package de cartographie `mapsf`
 4.  La sémiologie graphique (rappels)
-4.  Les types de cartes ( + exercice)
-5.  La mise en page ( + exercice)
+5.  Les types de cartes ( + exercice)
+6.  La mise en page ( + exercice)
 
 \
 
-
 **Diaporama d'introduction :**
-
 
 ::: diapo
 <iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_cartographie/panorama/#/title-slide">
@@ -57,7 +55,6 @@ Cette séance s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. Elle
 
 \
 \
-
 
 **Support de séance et exercices :**
 
@@ -73,13 +70,10 @@ Cette séance s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. Elle
 
 \
 
-::: {.callout-note}
-
-Cette séance s'appuie très largement sur le manuel "[Cartographie avec R](https://rcarto.github.io/cartographie_avec_r/)".     
-Ce manuel, qui présente en détail le fonctionnement et l'utilisation du package `mapsf`, se complète avec le manuel "[Géomatique avec R](https://rcarto.github.io/cartographie_avec_r/)", qui présente la manipulation de données géographique avec R.
-
+::: callout-note
+Cette séance s'appuie très largement sur le manuel "[Cartographie avec R](https://rcarto.github.io/cartographie_avec_r/)".\
+Ce manuel, qui présente en détail le fonctionnement et l'utilisation du package `mapsf`, se complète avec le manuel "[Géomatique avec R](https://rcarto.github.io/geomatique_avec_r/)", qui présente la manipulation de données géographique avec R.
 :::
-
 
 \
 
