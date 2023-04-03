@@ -16,7 +16,7 @@ title: "**Programme**"
 -   **21 avril 2023 - Géomatique avec R (I)**
     -   <u>Description</u> : Initiation à la manipulation de données géographiques vectorielles avec `sf`
     -   <u>Format</u> : Présentiel
-    -   <u>Horaire</u> : 9h30 à 12h30 
+    -   <u>Horaire</u> : 14h30 à 17h30
     -   <u>Lieu</u> : salle 3.03 du centre de colloques de Condorcet
     -   <u>Animation</u> : Timothée Giraud, Hugues Pecout, ...
     -   <u>Prérequis</u> : Un ordinateur avec R, Rstudio et le package `sf` installés
