@@ -45,6 +45,8 @@ website:
         text: Atelier données d'enquête
       - href: posts/seance5_carto_mapsf.qmd
         text: Cartographie avec R
+      - href: posts/seance6_geomatique_sf.qmd
+        text: Geomatique avec R (I)       
   page-footer: ElementR 2022 - [![licensebuttons by-nc](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0) - UMR Géographie-Cités · UMR PRODIG · UAR RIATE
   margin-header: |
     ![](img/ElementR.png)

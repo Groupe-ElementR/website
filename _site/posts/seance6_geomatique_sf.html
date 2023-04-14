@@ -6,12 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Hadrien Commenges">
-<meta name="author" content="Robin Cura">
-<meta name="author" content="Hugues Pecout">
 <meta name="author" content="Timothée Giraud">
+<meta name="author" content="Hugues Pecout">
 
-<title>ElementR - Séance introductive</title>
+<title>ElementR - Géomatique avec R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -53,8 +51,7 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../posts/seance2.html" rel="next">
-<link href="../seance.html" rel="prev">
+<link href="../posts/seance5_carto_mapsf.html" rel="prev">
 <link href="../img/ElementR.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -105,11 +102,11 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="ElementR - Séance introductive">
-<meta name="twitter:description" content="Historique et objectifs d'ElementR &amp; présentation du langage R">
-<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/logo_ElementR.png">
-<meta name="twitter:image-height" content="175">
-<meta name="twitter:image-width" content="546">
+<meta name="twitter:title" content="ElementR - Géomatique avec R">
+<meta name="twitter:description" content="Manipulation de données vectorielles avec `sf`">
+<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/geom_sf.png">
+<meta name="twitter:image-height" content="480">
+<meta name="twitter:image-width" content="480">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -148,7 +145,7 @@ div.csl-indent {
  <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://gitlab.huma-num.fr/elementr/website"><i class="bi bi-git" role="img">
+    <a class="nav-link" href="https://gitlab.huma-num.fr/elementr/website"><i class="bi bi-git" role="img" aria-label="GitLab">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -162,7 +159,7 @@ div.csl-indent {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Séance introductive</h1>
+      <h1 class="quarto-secondary-nav-title">Géomatique avec R</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -187,7 +184,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance1.html" class="sidebar-item-text sidebar-link active">Introduction ElementR</a>
+  <a href="../posts/seance1.html" class="sidebar-item-text sidebar-link">Introduction ElementR</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -217,7 +214,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance6_geomatique_sf.html" class="sidebar-item-text sidebar-link">Geomatique avec R (I)</a>
+  <a href="../posts/seance6_geomatique_sf.html" class="sidebar-item-text sidebar-link active">Geomatique avec R (I)</a>
   </div>
 </li>
     </ul>
@@ -232,141 +229,83 @@ div.csl-indent {
 <!-- main -->
 <div class="quarto-about-marquee column-body">
   <div class="about-image-container">
-    <img src="img/logo_ElementR.png" class="about-image
+    <img src="img/geom_sf.png" class="about-image
   rounded " style="width: 35em;">
   </div>
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Séance introductive</h1>
-<p class="subtitle lead">Historique et objectifs d’ElementR &amp; présentation du langage R</p>
+<h1 class="title d-none d-lg-block">Géomatique avec R</h1>
+<p class="subtitle lead">Manipulation de données vectorielles avec <code>sf</code></p>
   </div>
 <div class="quarto-title-meta">
     <div>
-    <div class="quarto-title-meta-heading">Auteurs</div>
+    <div class="quarto-title-meta-heading">Auteur·es</div>
     <div class="quarto-title-meta-contents">
-             <p>Hadrien Commenges </p>
-             <p>Robin Cura </p>
-             <p>Hugues Pecout </p>
              <p>Timothée Giraud </p>
+             <p>Hugues Pecout </p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Date de séance</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">14 octobre 2022</p>
+      <p class="date">21 avril 2023</p>
     </div>
   </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
-<p>Plus de dix ans après sa création, le groupe ElementR relance une nouvelle vague de formation collective au traitement de l’information géographique avec R. Le périmètre de ce groupe d’utilisateur·rice·s s’est élargi, le groupe fédère désormais des membres de l’UMR <a href="https://geographie-cites.cnrs.fr/">Géographie-Cités</a>, de l’UMR <a href="https://www.prodig.cnrs.fr/">PRODIG</a> et de l’UAR <a href="https://riate.cnrs.fr/">RIATE</a>.</p>
-<p>Cette séance a été l’occasion de présenter l’historique d’ElementR, et d’échanger sur les modalités de fonctionnement et les futures activités du groupe. La seconde partie de la séance a été consacrée à une présentation de R et des fonctionnalités proposées par ce langage en matière de traitement de l’information géographique.</p>
-<p><strong>Plan de séance :</strong></p>
-<ol type="1">
-<li>Historique et bilan du groupe ElementR</li>
-<li>Objectifs, fonctionnement et activités envisagés (discussion)</li>
-<li>Présentation et contextualisation de R et Rstudio</li>
-<li>L’écosystème spatial de R</li>
-</ol>
-<section id="supports-de-présentation" class="level3">
-<h3 data-anchor-id="supports-de-présentation">Supports de présentation</h3>
-<section id="historique-et-bilan-delementr" class="level4">
-<h4 data-anchor-id="historique-et-bilan-delementr">1. Historique et bilan d’ElementR</h4>
-<div class="columns">
-<div class="column" style="width:70%;">
-<object class="slide" data="support/elementr_historique.pdf" type="application/pdf">
-<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true">
-</iframe>
-</object>
-</div><div class="column" style="width:30%;">
-<ul class="metaslide">
-<ul>
-<li><i class="bi bi-person-fill"> <strong>Hadrien Commenges</strong></i></li>
-<li><i class="bi bi-file-earmark-slides"></i> Diaporama en <a href="support/elementr_historique.pdf">plein écran</a><br>
-</li>
-</ul>
-</ul>
-</div>
-</div>
-</section>
-<section id="nouvelle-vague-elementr" class="level4">
-<h4 data-anchor-id="nouvelle-vague-elementr">2. Nouvelle vague ElementR</h4>
-<div class="columns">
-<div class="column" style="width:70%;">
-<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide">
-</iframe>
-</div><div class="column" style="width:30%;">
-<ul class="metaslide">
-<ul>
-<li><i class="bi bi-person-fill"> <strong>Robin Cura</strong></i></li>
-<li><i class="bi bi-file-earmark-slides"></i> Diaporama en <a href="https://elementr.gitpages.huma-num.fr/session_1/groupe_elementr/#/title-slide">plein écran</a><br>
-</li>
-<li><i class="bi bi-github"></i> Code source sur <a href="https://gitlab.huma-num.fr/elementr/session_1/groupe_elementr">GitLab</a></li>
-</ul>
-</ul>
-</div>
-</div>
-</section>
-<section id="présentation-et-contextualisation-de-r-et-rstudio" class="level4">
-<h4 data-anchor-id="présentation-et-contextualisation-de-r-et-rstudio">3. Présentation et contextualisation de R et Rstudio</h4>
-<div class="columns">
-<div class="column" style="width:70%;">
-<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/">
-</iframe>
-</div><div class="column" style="width:30%;">
-<ul class="metaslide">
-<ul>
-<li><i class="bi bi-person-fill"> <strong>Hugues Pecout</strong></i></li>
-<li><i class="bi bi-file-earmark-slides"></i> Diaporama en <a href="https://elementr.gitpages.huma-num.fr/session_1/Presentation_R/#/">plein écran</a><br>
-</li>
-<li><i class="bi bi-github"></i> Code source sur <a href="https://gitlab.huma-num.fr/elementr/session_1/Presentation_R">GitLab</a></li>
-</ul>
-</ul>
-</div>
-</div>
-</section>
-<section id="lécosystème-spatial-de-r" class="level4">
-<h4 data-anchor-id="lécosystème-spatial-de-r">4. L’écosystème spatial de R</h4>
-<div class="columns">
-<div class="column" style="width:70%;">
-<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide">
-</iframe>
-</div><div class="column" style="width:30%;">
-<ul class="metaslide">
-<ul>
-<li><i class="bi bi-person-fill"> <strong>Timothée Giraud</strong></i></li>
-<li><i class="bi bi-file-earmark-slides"></i> Diaporama en <a href="https://elementr.gitpages.huma-num.fr/session_1/rspatial/#/title-slide">plein écran</a></li>
-<li><i class="bi bi-github"></i> Code source sur <a href="https://gitlab.huma-num.fr/elementr/session_1/rspatial">GitLab</a></li>
-</ul>
-</ul>
-</div>
-</div>
-<p><br>
-</p>
-<section id="bibliographie" class="level5">
-<h5 data-anchor-id="bibliographie">Bibliographie</h5>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-elementr" class="csl-entry" role="doc-biblioentry">
-ElementR. 2014. <em>R et espace. Traitement de l’information géographique</em>. Framabook. Disponible sur: <a href="https://archives.framabook.org/r-et-espace/">https://archives.framabook.org/r-et-espace/</a>
-</div>
-<div id="ref-geo_avec_r" class="csl-entry" role="doc-biblioentry">
-Giraud T, Pecout H. 2022. Géomatique avec <span>R</span> Disponible sur: <a href="https://rcarto.github.io/geomatique_avec_r/">https://rcarto.github.io/geomatique_avec_r/</a>
-</div>
-<div id="ref-geocomputationR" class="csl-entry" role="doc-biblioentry">
-Lovelace R, Nowosad J, Muenchow J. 2019. <em>Geocomputation with R</em>. DOI: <a href="https://doi.org/10.1201/9780203730058">10.1201/9780203730058</a>
-</div>
-<div id="ref-revo" class="csl-entry" role="doc-biblioentry">
-Smith D. 2017. An Updated History of <span>R</span> Disponible sur: <a href="https://blog.revolutionanalytics.com/2017/10/updated-history-of-r.html">https://blog.revolutionanalytics.com/2017/10/updated-history-of-r.html</a>
-</div>
-</div>
+<p><strong>Work in progress</strong> (séance prévue le 21 avril : <a href="https://evento.renater.fr/survey/seance-elementr-geomatique-avec-r-i-manipulation-de-donnees-vectorielle-cl97rfc9">inscription</a>)</p>
+<!-- Cette séance s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. Elle a pour objectif de présenter un diaporama des packages permettant de construire différents types de carte avec R et d'initier les particpant·e·s à l'utilisation du package [`mapsf`](https://riatelab.github.io/mapsf/), pour la production de cartes statistiques et/ou thématiques. -->
+<!-- \ -->
+<!-- **Plan de séance :** -->
+<!-- 1.  Historique et panorama des solutions de cartographie thématique avec R -->
+<!-- 2.  Manipuler les données vectorielles avec R -->
+<!-- 3.  Le package de cartographie `mapsf`  -->
+<!-- 4.  La sémiologie graphique (rappels) -->
+<!-- 4.  Les types de cartes ( + exercice) -->
+<!-- 5.  La mise en page ( + exercice) -->
+<!-- \ -->
+<!-- **Diaporama d'introduction :** -->
+<!-- ::: diapo -->
+<!-- <iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_cartographie/panorama/#/title-slide"> -->
+<!-- </iframe> -->
+<!-- ::: -->
+<!-- \ -->
+<!-- <center><a href="https://elementr.gitpages.huma-num.fr/session_cartographie/panorama/#/title-slide" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center> -->
+<!-- \ -->
+<!-- \ -->
+<!-- **Support de séance et exercices :** -->
+<!-- ::: quartodoc -->
+<!-- <iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_geomatique/tutoriel/"> -->
+<!-- </iframe> -->
+<!-- ::: -->
+<!-- \ -->
+<!-- <center><a href="https://elementr.gitpages.huma-num.fr/session_cartographie/tutoriel/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center> -->
+<!-- \ -->
+<!-- ::: {.callout-note} -->
+<!-- Cette séance s'appuie très largement sur le manuel "[Cartographie avec R](https://rcarto.github.io/cartographie_avec_r/)".      -->
+<!-- Ce manuel, qui présente en détail le fonctionnement et l'utilisation du package `mapsf`, se complète avec le manuel "[Géomatique avec R](https://rcarto.github.io/cartographie_avec_r/)", qui présente la manipulation de données géographique avec R. -->
+<!-- ::: -->
+<!-- \ -->
+<!-- **Conditions d'utilisation :** -->
+<!-- Les supports utilisés pour cette séance sont libres d'utilisation et d'adaptation (licence [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/)). Vous devez néanmoins créditer les œuvres, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage. -->
+<!-- \ -->
+<!-- ##### Bibliographie -->
+<!-- ::: {#refs} -->
+<!-- ::: -->
 
 
-</section>
-</section>
-</section>
-</main> 
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Les références</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
+<div id="ref-giraud_timothee_2022_5905735" class="csl-entry" role="doc-biblioentry">
+Giraud T, Pecout H. 2022a. Cartographie avec R DOI: <a href="https://doi.org/10.5281/zenodo.5905735">10.5281/zenodo.5905735</a>
+</div>
+<div id="ref-giraud_timothee_2022_5906213" class="csl-entry" role="doc-biblioentry">
+Giraud T, Pecout H. 2022b. Géomatique avec R DOI: <a href="https://doi.org/10.5281/zenodo.5906213">10.5281/zenodo.5906213</a>
+</div>
+</div></section></div></main> 
     <div class="about-footer"><div class="about-links">
-  <a href="https://gitlab.huma-num.fr/elementr/session_1" class="about-link">
+  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance6_geomatique_sf.qmd" class="about-link">
     <i class="bi bi-github"></i>
      <span class="about-link-text">GitLab</span>
   </a>
@@ -618,14 +557,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="../seance.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><strong>Séances et ateliers</strong></span>
+      <a href="../posts/seance5_carto_mapsf.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Cartographie avec R</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../posts/seance2.html" class="pagination-link">
-        <span class="nav-page-text">Initiation à R (théorique)</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

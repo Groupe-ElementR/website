@@ -1,0 +1,100 @@
+---
+title: "Géomatique avec R"
+subtitle: "Manipulation de données vectorielles avec `sf`"
+date: 04/21/2023
+bibliography: biblio/session_sf.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+- Timothée Giraud
+- Hugues Pecout
+image: img/geom_sf.png
+about:
+  template: marquee
+  image: img/geom_sf.png
+  image-width: 35em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance6_geomatique_sf.qmd
+categories: 
+- geomatique
+- sf
+- géotraitement
+- analyse spatiale
+published-title: Date de séance
+author-title: Auteur·es
+title-block-categories: false
+---
+
+
+**Work in progress** (séance prévue le 21 avril : [inscription](https://evento.renater.fr/survey/seance-elementr-geomatique-avec-r-i-manipulation-de-donnees-vectorielle-cl97rfc9))
+
+<!-- Cette séance s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. Elle a pour objectif de présenter un diaporama des packages permettant de construire différents types de carte avec R et d'initier les particpant·e·s à l'utilisation du package [`mapsf`](https://riatelab.github.io/mapsf/), pour la production de cartes statistiques et/ou thématiques. -->
+
+<!-- \ -->
+
+<!-- **Plan de séance :** -->
+
+<!-- 1.  Historique et panorama des solutions de cartographie thématique avec R -->
+<!-- 2.  Manipuler les données vectorielles avec R -->
+<!-- 3.  Le package de cartographie `mapsf`  -->
+<!-- 4.  La sémiologie graphique (rappels) -->
+<!-- 4.  Les types de cartes ( + exercice) -->
+<!-- 5.  La mise en page ( + exercice) -->
+
+<!-- \ -->
+
+
+<!-- **Diaporama d'introduction :** -->
+
+
+<!-- ::: diapo -->
+<!-- <iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_cartographie/panorama/#/title-slide"> -->
+
+<!-- </iframe> -->
+<!-- ::: -->
+
+<!-- \ -->
+
+<!-- <center><a href="https://elementr.gitpages.huma-num.fr/session_cartographie/panorama/#/title-slide" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center> -->
+
+<!-- \ -->
+<!-- \ -->
+
+
+<!-- **Support de séance et exercices :** -->
+
+<!-- ::: quartodoc -->
+<!-- <iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_geomatique/tutoriel/"> -->
+
+<!-- </iframe> -->
+<!-- ::: -->
+
+<!-- \ -->
+
+<!-- <center><a href="https://elementr.gitpages.huma-num.fr/session_cartographie/tutoriel/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center> -->
+
+<!-- \ -->
+
+<!-- ::: {.callout-note} -->
+
+<!-- Cette séance s'appuie très largement sur le manuel "[Cartographie avec R](https://rcarto.github.io/cartographie_avec_r/)".      -->
+<!-- Ce manuel, qui présente en détail le fonctionnement et l'utilisation du package `mapsf`, se complète avec le manuel "[Géomatique avec R](https://rcarto.github.io/cartographie_avec_r/)", qui présente la manipulation de données géographique avec R. -->
+
+<!-- ::: -->
+
+
+<!-- \ -->
+
+<!-- **Conditions d'utilisation :** -->
+
+<!-- Les supports utilisés pour cette séance sont libres d'utilisation et d'adaptation (licence [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/)). Vous devez néanmoins créditer les œuvres, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage. -->
+
+<!-- \ -->
+
+<!-- ##### Bibliographie -->
+
+<!-- ::: {#refs} -->
+<!-- ::: -->
