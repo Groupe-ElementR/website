@@ -21,6 +21,7 @@ about:
 categories: 
 - cartographie
 - mapsf
+- information géographique
 published-title: Date de séance
 author-title: Auteur·es
 title-block-categories: false
@@ -72,7 +73,7 @@ Cette séance s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. Elle
 
 ::: callout-note
 Cette séance s'appuie très largement sur le manuel "[Cartographie avec R](https://rcarto.github.io/cartographie_avec_r/)".\
-Ce manuel, qui présente en détail le fonctionnement et l'utilisation du package `mapsf`, se complète avec le manuel "[Géomatique avec R](https://rcarto.github.io/geomatique_avec_r/)", qui présente la manipulation de données géographique avec R.
+Ce manuel, qui présente en détail le fonctionnement et l'utilisation du package `mapsf`, se complète avec le manuel "[Géomatique avec R](https://rcarto.github.io/geomatique_avec_r/)", qui présente la manipulation de données géographiques avec R.
 :::
 
 \

@@ -9,7 +9,7 @@
 <meta name="author" content="Timothée Giraud">
 <meta name="author" content="Hugues Pecout">
 
-<title>ElementR - Géomatique avec R</title>
+<title>ElementR - Géomatique avec R (I)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -102,7 +102,7 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="ElementR - Géomatique avec R">
+<meta name="twitter:title" content="ElementR - Géomatique avec R (I)">
 <meta name="twitter:description" content="Manipulation de données vectorielles avec `sf`">
 <meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/geom_sf.png">
 <meta name="twitter:image-height" content="480">
@@ -159,7 +159,7 @@ div.csl-indent {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Géomatique avec R</h1>
+      <h1 class="quarto-secondary-nav-title">Géomatique avec R (I)</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -235,7 +235,7 @@ div.csl-indent {
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Géomatique avec R</h1>
+<h1 class="title d-none d-lg-block">Géomatique avec R (I)</h1>
 <p class="subtitle lead">Manipulation de données vectorielles avec <code>sf</code></p>
   </div>
 <div class="quarto-title-meta">
@@ -254,56 +254,65 @@ div.csl-indent {
   </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
-<p><strong>Work in progress</strong> (séance prévue le 21 avril : <a href="https://evento.renater.fr/survey/seance-elementr-geomatique-avec-r-i-manipulation-de-donnees-vectorielle-cl97rfc9">inscription</a>)</p>
-<!-- Cette séance s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. Elle a pour objectif de présenter un diaporama des packages permettant de construire différents types de carte avec R et d'initier les particpant·e·s à l'utilisation du package [`mapsf`](https://riatelab.github.io/mapsf/), pour la production de cartes statistiques et/ou thématiques. -->
-<!-- \ -->
-<!-- **Plan de séance :** -->
-<!-- 1.  Historique et panorama des solutions de cartographie thématique avec R -->
-<!-- 2.  Manipuler les données vectorielles avec R -->
-<!-- 3.  Le package de cartographie `mapsf`  -->
-<!-- 4.  La sémiologie graphique (rappels) -->
-<!-- 4.  Les types de cartes ( + exercice) -->
-<!-- 5.  La mise en page ( + exercice) -->
-<!-- \ -->
-<!-- **Diaporama d'introduction :** -->
-<!-- ::: diapo -->
-<!-- <iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_cartographie/panorama/#/title-slide"> -->
-<!-- </iframe> -->
-<!-- ::: -->
-<!-- \ -->
-<!-- <center><a href="https://elementr.gitpages.huma-num.fr/session_cartographie/panorama/#/title-slide" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center> -->
-<!-- \ -->
-<!-- \ -->
-<!-- **Support de séance et exercices :** -->
-<!-- ::: quartodoc -->
-<!-- <iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_geomatique/tutoriel/"> -->
-<!-- </iframe> -->
-<!-- ::: -->
-<!-- \ -->
-<!-- <center><a href="https://elementr.gitpages.huma-num.fr/session_cartographie/tutoriel/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center> -->
-<!-- \ -->
-<!-- ::: {.callout-note} -->
-<!-- Cette séance s'appuie très largement sur le manuel "[Cartographie avec R](https://rcarto.github.io/cartographie_avec_r/)".      -->
-<!-- Ce manuel, qui présente en détail le fonctionnement et l'utilisation du package `mapsf`, se complète avec le manuel "[Géomatique avec R](https://rcarto.github.io/cartographie_avec_r/)", qui présente la manipulation de données géographique avec R. -->
-<!-- ::: -->
-<!-- \ -->
-<!-- **Conditions d'utilisation :** -->
-<!-- Les supports utilisés pour cette séance sont libres d'utilisation et d'adaptation (licence [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/)). Vous devez néanmoins créditer les œuvres, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage. -->
-<!-- \ -->
-<!-- ##### Bibliographie -->
-<!-- ::: {#refs} -->
-<!-- ::: -->
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Les références</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-giraud_timothee_2022_5905735" class="csl-entry" role="doc-biblioentry">
-Giraud T, Pecout H. 2022a. Cartographie avec R DOI: <a href="https://doi.org/10.5281/zenodo.5905735">10.5281/zenodo.5905735</a>
+<p>Cette séance s’adresse aux utilisateur·rices R maîtrisant les manipulations de base des objets R. Un minimum de connaissance en matière d’information géographique est également requis. Cette séance a pour objectif d’introduire à la manipulation de données géographiques vectorielles avec le package <a href="https://r-spatial.github.io/sf/"><code>sf</code></a>.</p>
+<p><br>
+</p>
+<p><strong>Plan de séance :</strong></p>
+<ol type="1">
+<li>Présentation du package <a href="https://r-spatial.github.io/sf/"><code>sf</code></a></li>
+<li>Import, export et affichage de données géographiques vectorielles</li>
+<li>Géocodage d’adresse et création d’information géographique</li>
+<li>Séléction attributaire et séléction spatiale</li>
+<li>Opérations sur les géométries</li>
+<li>Exercice(s) !</li>
+</ol>
+<p><br>
+</p>
+<p><strong>Support de séance et exercice :</strong></p>
+<div class="quartodoc">
+<iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_geomatique/tutoriel/">
+</iframe>
 </div>
+<p><br>
+</p>
+<center>
+<a href="https://elementr.gitpages.huma-num.fr/session_geomatique/tutoriel/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a>
+</center>
+<p><br>
+</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Cette séance s’appuie très largement sur le manuel “<a href="https://rcarto.github.io/geomatique_avec_r/">Géomatique avec R</a>”, qui présente la manipulation de données géographiques (vecteur et raster) avec R.</p>
+</div>
+</div>
+<p><br>
+</p>
+<p><strong>Conditions d’utilisation :</strong></p>
+<p>Les supports utilisés pour cette séance sont libres d’utilisation et d’adaptation (licence <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/fr/">CC BY-NC-SA 3.0</a>). Vous devez néanmoins créditer les œuvres, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.</p>
+<p><br>
+</p>
+<section id="bibliographie" class="level5">
+<h5 data-anchor-id="bibliographie">Bibliographie</h5>
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
 <div id="ref-giraud_timothee_2022_5906213" class="csl-entry" role="doc-biblioentry">
-Giraud T, Pecout H. 2022b. Géomatique avec R DOI: <a href="https://doi.org/10.5281/zenodo.5906213">10.5281/zenodo.5906213</a>
+Giraud T, Pecout H. 2022. Géomatique avec R DOI: <a href="https://doi.org/10.5281/zenodo.5906213">10.5281/zenodo.5906213</a>
 </div>
-</div></section></div></main> 
+<div id="ref-Geocomputation" class="csl-entry" role="doc-biblioentry">
+Robin L, Jakub N, Jannes M. 2019. <em>Geocomputation with R</em>. Chapman; Hall/CRC.
+</div>
+</div>
+
+
+</section>
+</main> 
     <div class="about-footer"><div class="about-links">
   <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance6_geomatique_sf.qmd" class="about-link">
     <i class="bi bi-github"></i>
