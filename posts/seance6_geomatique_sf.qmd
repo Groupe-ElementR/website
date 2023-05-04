@@ -33,18 +33,18 @@ Cette séance s'adresse aux utilisateur·rices R maîtrisant les manipulations d
 
 \
 
-**Plan de séance :**
+**Plan de séance**
 
 1.  Présentation du package [`sf`](https://r-spatial.github.io/sf/)
 2.  Import, export et affichage de données géographiques vectorielles
 3.  Géocodage d'adresse et création d'information géographique
 4.  Séléction attributaire et séléction spatiale
 5.  Opérations sur les géométries
-6.  Exercice(s) !
+6.  Exercices
 
 \
 
-**Support de séance et exercice :**
+**Support de séance et exercices**
 
 ::: quartodoc
 <iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_geomatique/tutoriel/">

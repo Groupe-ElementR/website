@@ -31,7 +31,7 @@ Cette séance s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. Elle
 
 \
 
-**Plan de séance :**
+**Plan de séance**
 
 1.  Historique et panorama des solutions de cartographie thématique avec R
 2.  Manipuler les données vectorielles avec R
@@ -42,7 +42,7 @@ Cette séance s'adresse aussi bien aux débutant·e·s qu'aux intié·e·s. Elle
 
 \
 
-**Diaporama d'introduction :**
+**Diaporama d'introduction**
 
 ::: diapo
 <iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_cartographie/panorama/#/title-slide">
