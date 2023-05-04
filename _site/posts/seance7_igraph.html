@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Timothée Giraud">
+<meta name="author" content="Laurent Beauguitte">
+<meta name="author" content="Megane Fernandez">
 <meta name="author" content="Hugues Pecout">
 
-<title>ElementR - Géomatique avec R (I)</title>
+<title>ElementR - Analyse de réseau avec igraph</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -51,8 +52,7 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../posts/seance7_igraph.html" rel="next">
-<link href="../posts/seance5_carto_mapsf.html" rel="prev">
+<link href="../posts/seance6_geomatique_sf.html" rel="prev">
 <link href="../img/ElementR.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -103,11 +103,11 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="ElementR - Géomatique avec R (I)">
-<meta name="twitter:description" content="Manipulation de données vectorielles avec `sf`">
-<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/geom_sf.png">
-<meta name="twitter:image-height" content="480">
-<meta name="twitter:image-width" content="480">
+<meta name="twitter:title" content="ElementR - Analyse de réseau avec igraph">
+<meta name="twitter:description" content="Introduction à l’analyse de réseau avec R">
+<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/igraph.png">
+<meta name="twitter:image-height" content="225">
+<meta name="twitter:image-width" content="225">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -160,7 +160,7 @@ div.csl-indent {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Géomatique avec R (I)</h1>
+      <h1 class="quarto-secondary-nav-title">Analyse de réseau avec igraph</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -215,12 +215,12 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance6_geomatique_sf.html" class="sidebar-item-text sidebar-link active">Geomatique avec R (I)</a>
+  <a href="../posts/seance6_geomatique_sf.html" class="sidebar-item-text sidebar-link">Geomatique avec R (I)</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance7_igraph.html" class="sidebar-item-text sidebar-link">Analyse de réseau (I)</a>
+  <a href="../posts/seance7_igraph.html" class="sidebar-item-text sidebar-link active">Analyse de réseau (I)</a>
   </div>
 </li>
     </ul>
@@ -235,70 +235,60 @@ div.csl-indent {
 <!-- main -->
 <div class="quarto-about-marquee column-body">
   <div class="about-image-container">
-    <img src="img/geom_sf.png" class="about-image
-  rounded " style="width: 30em;">
+    <img src="img/igraph.png" class="about-image
+  rounded " style="width: 20em;">
   </div>
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Géomatique avec R (I)</h1>
-<p class="subtitle lead">Manipulation de données vectorielles avec <code>sf</code></p>
+<h1 class="title d-none d-lg-block">Analyse de réseau avec igraph</h1>
+<p class="subtitle lead">Introduction à l’analyse de réseau avec R</p>
   </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Auteur·es</div>
     <div class="quarto-title-meta-contents">
-             <p>Timothée Giraud </p>
+             <p>Laurent Beauguitte </p>
+             <p>Megane Fernandez </p>
              <p>Hugues Pecout </p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Date de séance</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">21 avril 2023</p>
+      <p class="date">23 mai 2023</p>
     </div>
   </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
-<p>Cette séance s’adresse aux utilisateur·rices R maîtrisant les manipulations de base des objets R. Un minimum de connaissance en matière d’information géographique est également requis. Cette séance a pour objectif d’introduire à la manipulation de données géographiques vectorielles avec le package <a href="https://r-spatial.github.io/sf/"><code>sf</code></a>.</p>
+<p>Cette séance s’adresse aux utilisateur·rices R maîtrisant les manipulations de base des objets R. Un minimum de connaissance en matière d’analyse de réseau est également requis. Cette séance a pour objectif d’introduire à la manipulation de graphe (réseau) via le package <a href="https://r.igraph.org/"><code>igraph</code></a>.</p>
 <p><br>
 </p>
 <p><strong>Plan de séance :</strong></p>
 <ol type="1">
-<li>Présentation du package <a href="https://r-spatial.github.io/sf/"><code>sf</code></a></li>
-<li>Import, export et affichage de données géographiques vectorielles</li>
-<li>Géocodage d’adresse et création d’information géographique</li>
-<li>Séléction attributaire et séléction spatiale</li>
-<li>Opérations sur les géométries</li>
+<li>Présentation du package <a href="https://r.igraph.org/"><code>igraph</code></a><br>
+</li>
+<li>L’objet <code>igraph</code> : Création, export et manipulation<br>
+</li>
+<li>Calcul d’indicateurs globaux<br>
+</li>
+<li>Mesures locales</li>
+<li>Cliques et communautés</li>
+<li>Représentation graphique</li>
 <li>Exercice(s) !</li>
 </ol>
 <p><br>
 </p>
 <p><strong>Support de séance et exercice :</strong></p>
 <div class="quartodoc">
-<iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_geomatique/tutoriel/">
+<iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_reseau/intro_reseau_igraph/">
 </iframe>
 </div>
 <p><br>
 </p>
 <center>
-<a href="https://elementr.gitpages.huma-num.fr/session_geomatique/tutoriel/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a>
+<a href="https://elementr.gitpages.huma-num.fr/session_reseau/intro_reseau_igraph/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a>
 </center>
-<p><br>
-</p>
-<div class="callout-note callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Cette séance s’appuie très largement sur le manuel “<a href="https://rcarto.github.io/geomatique_avec_r/">Géomatique avec R</a>”, qui présente la manipulation de données géographiques (vecteur et raster) avec R.</p>
-</div>
-</div>
 <p><br>
 </p>
 <p><strong>Conditions d’utilisation :</strong></p>
@@ -307,20 +297,14 @@ Note
 </p>
 <section id="bibliographie" class="level5">
 <h5 data-anchor-id="bibliographie">Bibliographie</h5>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-giraud_timothee_2022_5906213" class="csl-entry" role="doc-biblioentry">
-Giraud T, Pecout H. 2022. Géomatique avec R DOI: <a href="https://doi.org/10.5281/zenodo.5906213">10.5281/zenodo.5906213</a>
-</div>
-<div id="ref-Geocomputation" class="csl-entry" role="doc-biblioentry">
-Robin L, Jakub N, Jannes M. 2019. <em>Geocomputation with R</em>. Chapman; Hall/CRC.
-</div>
+<div id="refs" role="doc-bibliography">
 </div>
 
 
 </section>
 </main> 
     <div class="about-footer"><div class="about-links">
-  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance6_geomatique_sf.qmd" class="about-link">
+  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance7_igraph.qmd" class="about-link">
     <i class="bi bi-github"></i>
      <span class="about-link-text">GitLab</span>
   </a>
@@ -572,14 +556,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="../posts/seance5_carto_mapsf.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Cartographie avec R</span>
+      <a href="../posts/seance6_geomatique_sf.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Geomatique avec R (I)</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../posts/seance7_igraph.html" class="pagination-link">
-        <span class="nav-page-text">Analyse de réseau (I)</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

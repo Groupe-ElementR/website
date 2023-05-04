@@ -12,7 +12,7 @@ image: img/geom_sf.png
 about:
   template: marquee
   image: img/geom_sf.png
-  image-width: 35em
+  image-width: 30em
   image-shape: rounded
   links:
     - icon: github
@@ -29,11 +29,7 @@ author-title: Auteur·es
 title-block-categories: false
 ---
 
-
-
-Cette séance s'adresse aux utilisateur·rices R maîtrisant les manipulations de base des objets R. Un minimum de connaissance en matière d'information géographique est également requis. Cette séance a pour objectif d'introduire à la manipulation de données géographiques vectorielles avec le package [`sf`](https://r-spatial.github.io/sf/). 
-
-
+Cette séance s'adresse aux utilisateur·rices R maîtrisant les manipulations de base des objets R. Un minimum de connaissance en matière d'information géographique est également requis. Cette séance a pour objectif d'introduire à la manipulation de données géographiques vectorielles avec le package [`sf`](https://r-spatial.github.io/sf/).
 
 \
 
@@ -43,13 +39,10 @@ Cette séance s'adresse aux utilisateur·rices R maîtrisant les manipulations d
 2.  Import, export et affichage de données géographiques vectorielles
 3.  Géocodage d'adresse et création d'information géographique
 4.  Séléction attributaire et séléction spatiale
-4.  Opérations sur les géométries
-5.  Exercice(s) !
+5.  Opérations sur les géométries
+6.  Exercice(s) !
 
 \
-
-
-
 
 **Support de séance et exercice :**
 
@@ -65,12 +58,9 @@ Cette séance s'adresse aux utilisateur·rices R maîtrisant les manipulations d
 
 \
 
-::: {.callout-note}
-
+::: callout-note
 Cette séance s'appuie très largement sur le manuel "[Géomatique avec R](https://rcarto.github.io/geomatique_avec_r/)", qui présente la manipulation de données géographiques (vecteur et raster) avec R.
-
 :::
-
 
 \
 

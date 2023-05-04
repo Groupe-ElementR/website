@@ -12,7 +12,7 @@ image: img/carto_mapsf.png
 about:
   template: marquee
   image: img/carto_mapsf.png
-  image-width: 35em
+  image-width: 25em
   image-shape: rounded
   links:
     - icon: github
