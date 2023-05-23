@@ -50,15 +50,15 @@ Cette séance s'adresse aux utilisateur·rices R maîtrisant les manipulations d
 
 **Support de séance et exercices** : ***Work in progress***
 
-<!-- ::: quartodoc -->
-<!-- <iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_reseau/intro_reseau_igraph/"> -->
+::: quartodoc
+<iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_reseau/intro_reseau_igraph/">
 
-<!-- </iframe> -->
-<!-- ::: -->
+</iframe>
+:::
 
 \
 
-<!-- <center><a href="https://elementr.gitpages.huma-num.fr/session_reseau/intro_reseau_igraph/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center> -->
+<center><a href="https://elementr.gitpages.huma-num.fr/session_reseau/intro_reseau_igraph/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
 
 
 
@@ -66,7 +66,7 @@ Cette séance s'adresse aux utilisateur·rices R maîtrisant les manipulations d
 
 **Conditions d'utilisation :**
 
-Le supportsutilisé pour cette séance est libre d'utilisation et d'adaptation (licence [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/)). Vous devez néanmoins créditer l'œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.
+Le support sutilisé pour cette séance est libre d'utilisation et d'adaptation (licence [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/fr/)). Vous devez néanmoins créditer l'œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.
 
 \
 

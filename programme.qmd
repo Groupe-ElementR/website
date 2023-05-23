@@ -14,14 +14,6 @@ title: "**Programme**"
 #### **Séminaire ElementR**
 
 
--   **23 mai 2023 - Analyse de réseau avec R**
-    -   <u>Description</u> : Mesures et représentation de réseau avec le package `igraph`
-    -   <u>Format</u> : Présentiel
-    -   <u>Horaire</u> : 14h à 17h 
-    -   <u>Lieu</u> : salle 3.02 du centre de colloques de Condorcet
-    -   <u>Animation</u> : Laurent Beauguitte, Hugues Pecout & Mégane Fernandez
-    -   <u>Prérequis</u> : Un ordinateur avec R, Rstudio et le package `igraph` installés
-    -   <u>Inscription</u> : [Remplir le formulaire](https://evento.renater.fr/survey/seance-elementr-analyse-de-reseau-avec-r-mesures-et-representation-de-reseau-avec-le-package-igraph-eoi17phq)
     
 #### **Atelier pratique**
 
@@ -33,6 +25,11 @@ title: "**Programme**"
 ::: panel-tabset
 #### **Séminaire ElementR**
 
+
+
+-   **23 mai 2023 - Analyse de réseau avec le package `igraph`**
+    -   <u>Format</u> : Hybride
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance7_igraph.html)  
 -   **21 avril 2023 - Manipulation de données géographiques vectorielles avec le package `sf`**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance6_geomatique_sf.html)   
