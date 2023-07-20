@@ -7,7 +7,7 @@ website:
   twitter-card: true
   site-url: https://elementr.gitpages.huma-num.fr/website/
   description: "Site web du groupe d’utilisateur·rice·s ElementR"
-  page-navigation: true
+  page-navigation: false
   search: 
     location: navbar
     type: overlay
