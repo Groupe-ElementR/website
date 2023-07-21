@@ -1,0 +1,34 @@
+---
+title: "Programmation lettrée et notebook"
+subtitle: "Production de documents computationnels avec R"
+date: 10/03/2023
+bibliography: biblio/quarto.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+- Hugues Pecout
+image: img/quarto.png
+about:
+  template: marquee
+  image: img/quarto.png
+  image-width: 30em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance8_quarto.qmd
+categories: 
+- notebook
+published-title: Date de séance
+author-title: Auteur·es
+title-block-categories: false
+---
+
+**WORK IN PROGRESS**
+
+\
+
+##### Bibliographie
+
+::: {#refs}
+:::
