@@ -2,22 +2,25 @@
 title: "**Programme**"
 ---
 
-
 ### Calendrier
 
-<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listYear/now" width="100%" height="460"></iframe>
+<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listYear/now" width="100%" height="460">
+
+</iframe>
 
 ### Informations séances à venir
 
 ::: panel-tabset
-
 #### **Séminaire ElementR**
 
+-   **3 octobre 2023 - Production de documents computationnels**
+    -   <u>Format</u> : Présentiel
+    -   <u>Horaire</u> : 14h-17h
+    -   <u>Lieu</u> : à définir
+    -   <u>Inscription</u> : Ouverture début septembre
 
-    
+
 #### **Atelier pratique**
-
-
 :::
 
 ### Séances passées
@@ -25,17 +28,15 @@ title: "**Programme**"
 ::: panel-tabset
 #### **Séminaire ElementR**
 
-
-
 -   **23 mai 2023 - Analyse de réseau avec le package `igraph`**
     -   <u>Format</u> : Hybride
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance7_igraph.html)  
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance7_igraph.html)\
 -   **21 avril 2023 - Manipulation de données géographiques vectorielles avec le package `sf`**
     -   <u>Format</u> : Hybride
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance6_geomatique_sf.html)   
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance6_geomatique_sf.html)\
 -   **27 mars 2023 - Initiation à la cartographie avec le package `mapsf`**
     -   <u>Format</u> : Hybride
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance5_carto_mapsf.html)   
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance5_carto_mapsf.html)\
 -   **25 Janvier 2023 - Représentation graphique avec R (et ggplot2)**
     -   <u>Format</u> : Présentiel
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance4_ggplot.html)
@@ -54,6 +55,4 @@ title: "**Programme**"
 -   **14 février 2023 - Atelier pratique d'exploration de données d'enquête**
     -   <u>Format</u> : Présentiel
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/atelier_enquete_sncf.html)
-
-
 :::
