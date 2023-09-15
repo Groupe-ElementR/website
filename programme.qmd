@@ -4,7 +4,7 @@ title: "**Programme**"
 
 ### Calendrier
 
-<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listYear/now" width="100%" height="460">
+<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listYear/now" width="100%" height="650">
 
 </iframe>
 
@@ -16,9 +16,14 @@ title: "**Programme**"
 -   **3 octobre 2023 - Production de documents computationnels**
     -   <u>Format</u> : Présentiel
     -   <u>Horaire</u> : 14h-17h
-    -   <u>Lieu</u> : à définir
-    -   <u>Inscription</u> : Ouverture début septembre
-
+    -   <u>Lieu</u> : Salle 0.019 Bâtiment de recherche Sud
+    -   <u>Inscription</u>  (obligatoire) : [Formulaire](https://evento.renater.fr/survey/seance-elementr-document-computationnel-avec-r-pour-le-partage-et-la-reproductibilite-de-ses-analyses-zmca9zfn)
+    
+-   **14 novembre 2023 - Retour d’expérience sur une recherche menée en thèse : construire, organiser, et valoriser son projet avec R**
+    -   <u>Format</u> : Présentiel
+    -   <u>Horaire</u> : 14h-17h
+    -   <u>Lieu</u> : Salle 3.01 Centre des Colloques de Condorcet
+    -   <u>Inscription</u> (obligatoire) : [Formulaire](https://evento.renater.fr/survey/seance-elementr-retour-d-experience-sur-une-recherche-menee-en-these-construire-organiser-valoriser-son-projet-avec-r-jrqmeotb)
 
 #### **Atelier pratique**
 :::
