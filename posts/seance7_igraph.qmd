@@ -27,28 +27,23 @@ author-title: Auteur·es
 title-block-categories: false
 ---
 
-
-
-Cette séance s'adresse aux utilisateur·rices R maîtrisant les manipulations de base des objets R. Un minimum de connaissance en matière d'analyse de réseau est également requis. Cette séance a pour objectif d'introduire à la manipulation de réseau avec le *package* [`igraph`](https://r.igraph.org/). 
-
+Cette séance s'adresse aux utilisateur·rices R maîtrisant les manipulations de base des objets R. Un minimum de connaissance en matière d'analyse de réseau est également requis. Cette séance a pour objectif d'introduire à la manipulation de réseau avec le *package* [`igraph`](https://r.igraph.org/).
 
 \
 
 **Plan de séance**
 
-1.  Présentation du package [`igraph`](https://r.igraph.org/)    
-2.  L'objet `igraph` : création, manipulation et export   
-3.  Indicateurs globaux    
+1.  Présentation du package [`igraph`](https://r.igraph.org/)\
+2.  L'objet `igraph` : création, manipulation et export\
+3.  Indicateurs globaux\
 4.  Mesures locales
 5.  Cliques et communautés
 6.  Représentation graphique
-5.  Exercice
+7.  Exercice
 
 \
 
-
-
-**Support de séance et exercices** : ***Work in progress***
+**Support de séance et exercices** : 
 
 ::: quartodoc
 <iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_reseau/intro_reseau_igraph/">
@@ -59,8 +54,6 @@ Cette séance s'adresse aux utilisateur·rices R maîtrisant les manipulations d
 \
 
 <center><a href="https://elementr.gitpages.huma-num.fr/session_reseau/intro_reseau_igraph/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
-
-
 
 \
 

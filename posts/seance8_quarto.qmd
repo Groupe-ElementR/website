@@ -1,6 +1,6 @@
 ---
-title: "Programmation lettrée et notebook"
-subtitle: "Production de documents computationnels avec R"
+title: "Document computationnel avec R"
+subtitle: "Pour le partage et la reproductibilité de ses analyses"
 date: 10/03/2023
 bibliography: biblio/quarto.bib
 nocite: '@*'
@@ -11,7 +11,7 @@ image: img/quarto.png
 about:
   template: marquee
   image: img/quarto.png
-  image-width: 30em
+  image-width: 35em
   image-shape: rounded
   links:
     - icon: github
@@ -19,12 +19,50 @@ about:
       href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance8_quarto.qmd
 categories: 
 - notebook
+- document comutationnel
+- quarto
+- reproductibilité
 published-title: Date de séance
 author-title: Auteur·es
 title-block-categories: false
 ---
 
-**WORK IN PROGRESS**
+Après plus de 50 en de recherche & développement, les *notebooks* (documents computationnels) apparaissent aujourd’hui comme un format de publication efficace dans le domaine de recherche scientifique. Cette pratique, bien développée dans la communauté R, permet autre autre de partager et valoriser ses traitements et ses analyses réaliser en langage de programmation. Les différentes fonctionnalités mises à disposition par les systèmes de notebook en font également aujourd’hui un format légitime pour la publication de diaporama, de manuel, de livre et même de site web.
+
+
+Cette séance vise à introduire le paradigme de programmation lettrée, le concept des *notebooks*, ainsi que les fonctionnalités et les différents cas d'usage des documents computationnels. Des exercices pratique sont proposées avec `rmarkdown` et `quarto`.
+
+\
+
+**Plan de séance**
+
+1. Introduction au *Literate Programming*
+2. Les documents computationnels ?
+3. Principes et fonctionnement d'un *notebook*
+3. Premiers pas avec le package `rmarkdown`
+4. Mise en pratique avec `Quarto`
+
+\
+
+**Support de présentation et exercices** : 
+
+::: diapo
+<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_notebook/programmation_lettree">
+
+</iframe>
+:::
+
+
+\
+
+<center><a href="https://elementr.gitpages.huma-num.fr/session_notebook/programmation_lettree" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
+
+\
+
+
+**Conditions d'utilisation :**
+
+Le support utilisé pour cette séance est libre d'utilisation et d'adaptation (licence [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/)). Vous devez néanmoins créditer l'œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.
 
 \
 
@@ -32,3 +70,4 @@ title-block-categories: false
 
 ::: {#refs}
 :::
+

@@ -8,7 +8,7 @@
 
 <meta name="author" content="Hugues Pecout">
 
-<title>ElementR - Programmation lettrée et notebook</title>
+<title>ElementR - Document computationnel avec R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,8 +101,8 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="ElementR - Programmation lettrée et notebook">
-<meta name="twitter:description" content="Production de documents computationnels avec R">
+<meta name="twitter:title" content="ElementR - Document computationnel avec R">
+<meta name="twitter:description" content="Pour le partage et la reproductibilité de ses analyses">
 <meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/quarto.png">
 <meta name="twitter:image-height" content="77">
 <meta name="twitter:image-width" content="320">
@@ -157,7 +157,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Programmation lettrée et notebook</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance8_quarto.html">Document computationnel</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -229,6 +229,12 @@ div.csl-indent {
  <span class="menu-text">Analyse de réseau (I)</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../posts/seance8_quarto.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Document computationnel</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -243,13 +249,13 @@ div.csl-indent {
 <div class="quarto-about-marquee column-body">
   <div class="about-image-container">
     <img src="img/quarto.png" class="about-image
-  rounded " style="width: 30em;">
+  rounded " style="width: 35em;">
   </div>
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Programmation lettrée et notebook</h1>
-<p class="subtitle lead">Production de documents computationnels avec R</p>
+<h1 class="title">Document computationnel avec R</h1>
+<p class="subtitle lead">Pour le partage et la reproductibilité de ses analyses</p>
   </div>
 <div class="quarto-title-meta">
     <div>
@@ -266,12 +272,54 @@ div.csl-indent {
   </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
-<p><strong>WORK IN PROGRESS</strong></p>
+<p>Après plus de 50 en de recherche &amp; développement, les <em>notebooks</em> (documents computationnels) apparaissent aujourd’hui comme un format de publication efficace dans le domaine de recherche scientifique. Cette pratique, bien développée dans la communauté R, permet autre autre de partager et valoriser ses traitements et ses analyses réaliser en langage de programmation. Les différentes fonctionnalités mises à disposition par les systèmes de notebook en font également aujourd’hui un format légitime pour la publication de diaporama, de manuel, de livre et même de site web.</p>
+<p>Cette séance vise à introduire le paradigme de programmation lettrée, le concept des <em>notebooks</em>, ainsi que les fonctionnalités et les différents cas d’usage des documents computationnels. Des exercices pratique sont proposées avec <code>rmarkdown</code> et <code>quarto</code>.</p>
+<p><br>
+</p>
+<p><strong>Plan de séance</strong></p>
+<ol type="1">
+<li>Introduction au <em>Literate Programming</em></li>
+<li>Les documents computationnels ?</li>
+<li>Principes et fonctionnement d’un <em>notebook</em></li>
+<li>Premiers pas avec le package <code>rmarkdown</code></li>
+<li>Mise en pratique avec <code>Quarto</code></li>
+</ol>
+<p><br>
+</p>
+<p><strong>Support de présentation et exercices</strong> :</p>
+<div class="diapo">
+<iframe class="slide" src="https://elementr.gitpages.huma-num.fr/session_notebook/programmation_lettree">
+</iframe>
+</div>
+<p><br>
+</p>
+<center>
+<a href="https://elementr.gitpages.huma-num.fr/session_notebook/programmation_lettree" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a>
+</center>
+<p><br>
+</p>
+<p><strong>Conditions d’utilisation :</strong></p>
+<p>Le support utilisé pour cette séance est libre d’utilisation et d’adaptation (licence <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/fr/">CC BY-NC-SA 3.0</a>). Vous devez néanmoins créditer l’œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.</p>
 <p><br>
 </p>
 <section id="bibliographie" class="level5">
 <h5 data-anchor-id="bibliographie">Bibliographie</h5>
-<div id="refs" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-rmarkdown" class="csl-entry" role="listitem">
+Allaire J, Xie Y, Dervieux C, McPherson J, Luraschi J, Ushey K, Atkins A, Wickham H, Cheng J, Chang W, et al. 2023. <em>rmarkdown: Dynamic Documents for R</em>. Disponible sur: <a href="https://github.com/rstudio/rmarkdown">https://github.com/rstudio/rmarkdown</a>
+</div>
+<div id="ref-Allaire_Quarto_2022" class="csl-entry" role="listitem">
+Allaire JJ, Teague C, Scheidegger C, Xie Y, Dervieux C. 2022. <span>Quarto</span> DOI: <a href="https://doi.org/10.5281/zenodo.5960048">10.5281/zenodo.5960048</a>
+</div>
+<div id="ref-rmdformats" class="csl-entry" role="listitem">
+Barnier J. 2022. <em>rmdformats: HTML Output Formats and Templates for ’rmarkdown’ Documents</em>. Disponible sur: <a href="https://CRAN.R-project.org/package=rmdformats">https://CRAN.R-project.org/package=rmdformats</a>
+</div>
+<div id="ref-def_guide" class="csl-entry" role="listitem">
+Xie Y, Allaire JJ, Grolemund G. 2018. <em>R Markdown: The Definitive Guide</em>. Chapman; Hall/CRC: Boca Raton, Florida. Disponible sur: <a href="https://bookdown.org/yihui/rmarkdown">https://bookdown.org/yihui/rmarkdown</a>
+</div>
+<div id="ref-cookbookR" class="csl-entry" role="listitem">
+Xie Y, Dervieux C, Riederer E. 2020. <em>R Markdown Cookbook</em>. Chapman; Hall/CRC: Boca Raton, Florida. Disponible sur: <a href="https://bookdown.org/yihui/rmarkdown-cookbook">https://bookdown.org/yihui/rmarkdown-cookbook</a>
+</div>
 </div>
 
 
