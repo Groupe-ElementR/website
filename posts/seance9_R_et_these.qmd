@@ -1,0 +1,27 @@
+---
+title: "Retour d’expérience sur une recherche menée en thèse"
+subtitle: "construire, organiser et valoriser son projet avec R"
+date: 11/14/2023
+# bibliography: biblio/quarto.bib
+# nocite: '@*'
+# csl: geo.csl
+author: 
+- Maxime Guinepain
+image: img/ElementR.png
+about:
+  template: marquee
+  image:  img/ElementR.png
+  image-width: 35em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance9_R_et_these.qmd
+categories: 
+- thèse
+published-title: Date de séance
+author-title: Auteur·es
+title-block-categories: false
+---
+
+**Mise en ligne prévue le 14 Novembre 2023**

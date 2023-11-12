@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Joséphin Béraud">
-<meta name="author" content="Léa Christophe">
-<meta name="author" content="Aurelie Douet">
+<meta name="author" content="Maxime Guinepain">
 
-<title>ElementR - Initiation à R (1)</title>
+<title>ElementR - Retour d’expérience sur une recherche menée en thèse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +21,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -103,11 +82,11 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="ElementR - Initiation à R (1)">
-<meta name="twitter:description" content="Cours théorique d’introduction">
-<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/initR.png">
-<meta name="twitter:image-height" content="510">
-<meta name="twitter:image-width" content="1280">
+<meta name="twitter:title" content="ElementR - Retour d’expérience sur une recherche menée en thèse">
+<meta name="twitter:description" content="construire, organiser et valoriser son projet avec R">
+<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/ElementR.png">
+<meta name="twitter:image-height" content="611">
+<meta name="twitter:image-width" content="529">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -159,7 +138,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance2.html">Initiation à R (théorique)</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance9_R_et_these.html">R dans ma thèse</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -191,7 +170,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance2.html" class="sidebar-item-text sidebar-link active">
+  <a href="../posts/seance2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Initiation à R (théorique)</span></a>
   </div>
 </li>
@@ -239,7 +218,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance9_R_et_these.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance9_R_et_these.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">R dans ma thèse</span></a>
   </div>
 </li>
@@ -256,96 +235,36 @@ div.csl-indent {
 <!-- main -->
 <div class="quarto-about-marquee column-body">
   <div class="about-image-container">
-    <img src="img/initR.png" class="about-image
-  rounded " style="width: 30em;">
+    <img src="img/ElementR.png" class="about-image
+  rounded " style="width: 35em;">
   </div>
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Initiation à R (1)</h1>
-<p class="subtitle lead">Cours théorique d’introduction</p>
+<h1 class="title">Retour d’expérience sur une recherche menée en thèse</h1>
+<p class="subtitle lead">construire, organiser et valoriser son projet avec R</p>
   </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Auteur·es</div>
     <div class="quarto-title-meta-contents">
-             <p>Joséphin Béraud </p>
-             <p>Léa Christophe </p>
-             <p>Aurelie Douet </p>
+             <p>Maxime Guinepain </p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Date de séance</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2 décembre 2022</p>
+      <p class="date">14 novembre 2023</p>
     </div>
   </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
-<p>Cette séance s’adresse aux débutant·e·s. Elle initie à l’ensemble des bases nécessaires à la pratique de R via l’interface de développement <a href="https://posit.co/download/rstudio-desktop/">Rstudio</a>.</p>
-<p><strong>Plan de séance :</strong></p>
-<ol type="1">
-<li>Que peut-on faire avec R ?</li>
-<li>R et RStudio : quelle différence ?</li>
-<li>Créer un projet et un script</li>
-<li>Manipuler des objets (assignation, indexation, fonctions)</li>
-<li>Les packages</li>
-</ol>
-<p><br>
-</p>
-<p><strong>Diaporama :</strong></p>
-<div class="nonicremental" style="font-size:80%;margin-top:-10px;margin-bottom:10px;">
-<ul>
-<li>Consulter en <a href="support/introR_seance1_diapo.pdf"><strong>plein écran</strong></a><br>
-</li>
-<li>Télécharger le <a href="support/introR_seance1_diapo.pptx"><strong>fichier source</strong></a> (.pptx)</li>
-</ul>
-</div>
-<div class="diapo">
-<object class="slide" data="support/introR_seance1_diapo.pdf" type="application/pdf">
-<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="20">
-</iframe>
-</object>
-</div>
-<div class="auteurs">
-<p><i class="bi bi-people-fill"> <strong>Joséphin Béraud, Léa Christophe et Aurelie Douet</strong></i></p>
-</div>
-<p><strong>Données et scripts :</strong></p>
-<p>Un script comportant l’utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable ici :</p>
-<center>
-<a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/introR_seance1.R?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> introR_seance1.R</a>
-</center>
-<p><br>
-</p>
-<p><strong>Conditions d’utilisation :</strong></p>
-<p>Le support utilisé pour cette séance est libre d’utilisation et d’adaptation (licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>). Vous devez néanmoins créditer l’œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.</p>
-<p><br>
-</p>
-<section id="bibliographie" class="level5">
-<h5 data-anchor-id="bibliographie">Bibliographie</h5>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
-<div id="ref-barnier:halshs-01925234" class="csl-entry" role="listitem">
-Barnier J. 2017. <em><span>Introduction <span>à</span> R et au tidyverse</span></em>. Disponible sur: <a href="https://halshs.archives-ouvertes.fr/halshs-01925234">https://halshs.archives-ouvertes.fr/halshs-01925234</a>
-</div>
-<div id="ref-joseph_2019_2669067" class="csl-entry" role="listitem">
-Larmarange J, Briatte F, chl. 2019. Analyse-R : Introduction à l’analyse d’enquêtes avec R et RStudio DOI: <a href="https://doi.org/10.5281/zenodo.2669067">10.5281/zenodo.2669067</a>
-</div>
-<div id="ref-install_R_Perdoncin" class="csl-entry" role="listitem">
-Perdoncin A. 2020. Installer R et RStudio (presque !) sans peine Disponible sur: <a href="https://quanti.hypotheses.org/1813">https://quanti.hypotheses.org/1813</a>
-</div>
-<div id="ref-ParcoursR_1" class="csl-entry" role="listitem">
-Thierry Zorn VR&amp;PI Murielle Lethrosne. 2019. <em>Découvrir R et RStudio</em>. MTES, MCTRCT. Disponible sur: <a href="https://mtes-mct.github.io/parcours_r_socle_introduction/">https://mtes-mct.github.io/parcours_r_socle_introduction/</a>
-</div>
-<div id="ref-ex_pratique_R" class="csl-entry" role="listitem">
-Ysebaert R. 2020. Vers une chaine de traitement reproductible : exemple d’application Disponible sur: <a href="https://rysebaert.gitpages.huma-num.fr/intro_r_use_case/#/">https://rysebaert.gitpages.huma-num.fr/intro_r_use_case/#/</a>
-</div>
-</div>
+<p><strong>Mise en ligne prévue le 14 Novembre 2023</strong></p>
 
 
-</section>
 </main> 
     <div class="about-footer"><div class="about-links">
-  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance2.qmd" class="about-link" rel="" target="">
+  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance9_R_et_these.qmd" class="about-link" rel="" target="">
     <i class="bi bi-github"></i>
      <span class="about-link-text">GitLab</span>
   </a>
