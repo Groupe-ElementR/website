@@ -1,6 +1,6 @@
 ---
-title: "Retour d’expérience sur une recherche menée en thèse"
-subtitle: "construire, organiser et valoriser son projet avec R"
+title: " R au long cours"
+subtitle: "Trois années de thèse avec R en géographie"
 date: 11/14/2023
 # bibliography: biblio/quarto.bib
 # nocite: '@*'
@@ -10,8 +10,8 @@ author:
 image: img/ElementR.png
 about:
   template: marquee
-  image:  img/ElementR.png
-  image-width: 35em
+  image:  img/R_these.png
+  image-width: 44em
   image-shape: rounded
   links:
     - icon: github
@@ -24,4 +24,44 @@ author-title: Auteur·es
 title-block-categories: false
 ---
 
-**Mise en ligne prévue le 14 Novembre 2023**
+Cette séance s'articule autour d'un travail doctoral sur les mobilités quotidiennes des Français⋅es, qui utilise les enquêtes déplacements du CEREMA et qui s'appuie en grande partie sur l'analyse de ces bases de données dans l'environnement R. À travers les thématiques abordées (comment se former, comment organiser son code, quelles configurations logicielles recommander...), elle est conçue pour susciter la discussion autour des usages de R au quotidien, sur le temps long d'un projet de recherche.
+
+\
+
+**Plan de séance**
+
+1. Courte présentation de mon travail doctoral
+2. Ressources utilisées pour se former ou pour faire face à des problèmes
+3. Présentation des caractéristiques des enquêtes de déplacement utilisées
+4. Modes d'organisation d'un travail d'analyse au long cours (méthode et *workflow*) 
+5. L'environnement logiciel utilisé (*packages*, IDE, outils)
+6. Discussion d'ouverture sur la portée pédagogique de R et le logiciel libre.
+
+
+\
+
+
+
+**Diaporama :**
+
+
+::: quartodoc
+<object class="slide" data="support/prez_r_au_long_cours.pdf" type="application/pdf">
+
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true">
+
+</iframe>
+
+</object>
+:::
+
+
+\
+
+**Conditions d'utilisation :**
+
+Les supports utilisés pour cette séance sont libres d'utilisation et d'adaptation (licence [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/)). Vous devez néanmoins créditer les œuvres, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.
+
+\
+
+

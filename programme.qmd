@@ -1,5 +1,5 @@
 ---
-title: "**Programme**"
+title: "**Programme & inscriptions**"
 ---
 
 ### Calendrier
@@ -13,12 +13,6 @@ title: "**Programme**"
 ::: panel-tabset
 #### **Séminaire ElementR**
 
--   **14 novembre 2023 - Retour d’expérience sur une recherche menée en thèse : construire, organiser, et valoriser son projet avec R**
-    -   <u>Format</u> : Présentiel
-    -   <u>Horaire</u> : 14h-17h
-    -   <u>Lieu</u> : Salle 3.01 Centre des Colloques de Condorcet
-    -   <u>Inscription</u> (obligatoire) : [Formulaire](https://evento.renater.fr/survey/seance-elementr-retour-d-experience-sur-une-recherche-menee-en-these-construire-organiser-valoriser-son-projet-avec-r-jrqmeotb)
-
 #### **Atelier pratique**
 :::
 
@@ -28,6 +22,9 @@ title: "**Programme**"
 #### **Séminaire ElementR**
 
 
+-   **14 novembre 2023 - R au long cours : trois années de thèse avec R en géographie**
+    -   <u>Format</u> : Hybride
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance9_R_et_these.qmd)\
 -   **3 octobre 2023 - Production de documents computationnels**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance8_quarto.html)\
