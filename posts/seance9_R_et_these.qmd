@@ -30,30 +30,29 @@ Cette séance s'articule autour d'un travail doctoral sur les mobilités quotidi
 
 **Plan de séance**
 
-1. Courte présentation de mon travail doctoral
-2. Ressources utilisées pour se former ou pour faire face à des problèmes
-3. Présentation des caractéristiques des enquêtes de déplacement utilisées
-4. Modes d'organisation d'un travail d'analyse au long cours (méthode et *workflow*) 
-5. L'environnement logiciel utilisé (*packages*, IDE, outils)
-6. Discussion d'ouverture sur la portée pédagogique de R et le logiciel libre.
-
+1.  Courte présentation de mon travail doctoral
+2.  Ressources utilisées pour se former ou pour faire face à des problèmes
+3.  Présentation des caractéristiques des enquêtes de déplacement utilisées
+4.  Modes d'organisation d'un travail d'analyse au long cours (méthode et *workflow*)
+5.  L'environnement logiciel utilisé (*packages*, IDE, outils)
+6.  Discussion d'ouverture sur la portée pédagogique de R et le logiciel libre.
 
 \
 
 
-
 **Diaporama :**
 
-
-::: quartodoc
-<object class="slide" data="support/prez_r_au_long_cours.pdf" type="application/pdf">
-
-<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true">
-
-</iframe>
-
-</object>
+::: {.nonicremental style="font-size:80%;margin-top:-10px;margin-bottom:10px;"}
+-   Consulter en [**plein écran**](support/prez_r_au_long_cours.pdf)\
 :::
+
+::: diapo
+
+<iframe width="100%" height="450" src="https://elementr.netlify.app/posts/support/prez_r_au_long_cours.pdf"></iframe>
+
+:::
+
+
 
 
 \
@@ -63,5 +62,3 @@ Cette séance s'articule autour d'un travail doctoral sur les mobilités quotidi
 Les supports utilisés pour cette séance sont libres d'utilisation et d'adaptation (licence [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/)). Vous devez néanmoins créditer les œuvres, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.
 
 \
-
-
