@@ -61,6 +61,11 @@ website:
           - href: posts/seance9_R_et_these.qmd
             text: R au long cours
       - text: "---"
+      - section: "<b>Tables rondes</b>"
+        contents: 
+          - href: posts/seance10_table_ronde_analyse_textuelle.qmd
+            text: Analyse textuelle
+      - text: "---"
       - contact.qmd
 
             

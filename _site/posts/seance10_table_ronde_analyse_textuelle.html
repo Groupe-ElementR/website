@@ -6,10 +6,16 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Timothée Giraud">
-<meta name="author" content="Hugues Pecout">
+<meta name="author" content="Léa Cristophe">
+<meta name="author" content="Robin Cura">
+<meta name="author" content="Camille Dabestani">
+<meta name="author" content="Mégane Fernandez">
+<meta name="author" content="Paul Gourdon">
+<meta name="author" content="Romain Leconte">
+<meta name="author" content="Anne-Cécile Ott">
+<meta name="author" content="Etienne Toureille">
 
-<title>ElementR - Géomatique avec R (I)</title>
+<title>ElementR - Table ronde</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,26 +28,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -102,11 +89,9 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="ElementR - Géomatique avec R (I)">
-<meta name="twitter:description" content="Manipulation de données vectorielles avec sf">
-<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/geom_sf.png">
-<meta name="twitter:image-height" content="480">
-<meta name="twitter:image-width" content="480">
+<meta name="twitter:title" content="ElementR - Table ronde">
+<meta name="twitter:description" content="Faire de l’analyse textuelle sur R : pourquoi et comment ?">
+<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/ana_txt.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -159,7 +144,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance1.html"><b>Séances de formation</b></a></li><li class="breadcrumb-item"><a href="../posts/seance6_geomatique_sf.html">Geomatique avec R (I)</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance10_table_ronde_analyse_textuelle.html"><b>Tables rondes</b></a></li><li class="breadcrumb-item"><a href="../posts/seance10_table_ronde_analyse_textuelle.html">Analyse textuelle</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -219,7 +204,7 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance6_geomatique_sf.html" class="sidebar-item-text sidebar-link active">
+  <a href="../posts/seance6_geomatique_sf.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Geomatique avec R (I)</span></a>
   </div>
 </li>
@@ -285,7 +270,7 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance10_table_ronde_analyse_textuelle.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance10_table_ronde_analyse_textuelle.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Analyse textuelle</span></a>
   </div>
 </li>
@@ -311,57 +296,37 @@ div.csl-indent {
 <!-- main -->
 <div class="quarto-about-marquee column-body">
   <div class="about-image-container">
-    <img src="img/geom_sf.png" class="about-image
-  rounded " style="width: 30em;">
+    <img src="img/ana_txt.jpg" class="about-image
+  rounded " style="width: 40em;">
   </div>
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Géomatique avec R (I)</h1>
-<p class="subtitle lead">Manipulation de données vectorielles avec <code>sf</code></p>
+<h1 class="title">Table ronde</h1>
+<p class="subtitle lead">Faire de l’analyse textuelle sur R : pourquoi et comment ?</p>
   </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Auteur·es</div>
     <div class="quarto-title-meta-contents">
-             <p>Timothée Giraud </p>
-             <p>Hugues Pecout </p>
+             <p>Léa Cristophe </p>
+             <p>Robin Cura </p>
+             <p>Camille Dabestani </p>
+             <p>Mégane Fernandez </p>
+             <p>Paul Gourdon </p>
+             <p>Romain Leconte </p>
+             <p>Anne-Cécile Ott </p>
+             <p>Etienne Toureille </p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Date de séance</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">21 avril 2023</p>
+      <p class="date">16 janvier 2024</p>
     </div>
   </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
-<p>Cette séance s’adresse aux utilisateur·rices R maîtrisant les manipulations de base des objets R. Un minimum de connaissance en matière d’information géographique est également requis. Cette séance a pour objectif d’introduire à la manipulation de données géographiques vectorielles avec le package <a href="https://r-spatial.github.io/sf/"><code>sf</code></a>.</p>
-<p><br>
-</p>
-<p><strong>Plan de séance</strong></p>
-<ol type="1">
-<li>Présentation du package <a href="https://r-spatial.github.io/sf/"><code>sf</code></a></li>
-<li>Import, export et affichage de données géographiques vectorielles</li>
-<li>Géocodage d’adresse et création d’information géographique</li>
-<li>Séléction attributaire et séléction spatiale</li>
-<li>Opérations sur les géométries</li>
-<li>Exercices</li>
-</ol>
-<p><br>
-</p>
-<p><strong>Support de séance et exercices</strong></p>
-<div class="quartodoc">
-<iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_geomatique/tutoriel/">
-</iframe>
-</div>
-<p><br>
-</p>
-<center>
-<a href="https://elementr.gitpages.huma-num.fr/session_geomatique/tutoriel/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a>
-</center>
-<p><br>
-</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -372,31 +337,38 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Cette séance s’appuie très largement sur le manuel “<a href="https://rcarto.github.io/geomatique_avec_r/">Géomatique avec R</a>”, qui présente la manipulation de données géographiques (vecteur et raster) avec R.</p>
+<p>Page en cours de construction</p>
 </div>
 </div>
+<p><strong>Animation</strong></p>
+<ul>
+<li>Léa Cristophe <em>(Géographie-Cités, Université Paris 1 )</em></li>
+<li>Robin Cura <em>(PRODIG, Université Paris 1 Panthéon-Sorbonne)</em></li>
+</ul>
+<p><strong>Intervenant·es</strong></p>
+<ul>
+<li>Camille Dabestani</li>
+<li>Mégane Fernandez</li>
+<li>Paul Gourdon</li>
+<li>Romain Leconte</li>
+<li>Anne-Cécile Ott</li>
+<li>Etienne Toureille</li>
+</ul>
+<p><br>
+</p>
+<p><strong>Plan de séance</strong></p>
+<p><strong>Compte rendu</strong></p>
 <p><br>
 </p>
 <p><strong>Conditions d’utilisation :</strong></p>
 <p>Les supports utilisés pour cette séance sont libres d’utilisation et d’adaptation (licence <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/fr/">CC BY-NC-SA 3.0</a>). Vous devez néanmoins créditer les œuvres, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.</p>
 <p><br>
 </p>
-<section id="bibliographie" class="level5">
-<h5 data-anchor-id="bibliographie">Bibliographie</h5>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
-<div id="ref-giraud_timothee_2022_5906213" class="csl-entry" role="listitem">
-Giraud T, Pecout H. 2022. Géomatique avec R DOI: <a href="https://doi.org/10.5281/zenodo.5906213">10.5281/zenodo.5906213</a>
-</div>
-<div id="ref-Geocomputation" class="csl-entry" role="listitem">
-Robin L, Jakub N, Jannes M. 2019. <em>Geocomputation with R</em>. Chapman; Hall/CRC.
-</div>
-</div>
 
 
-</section>
 </main> 
     <div class="about-footer"><div class="about-links">
-  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance6_geomatique_sf.qmd" class="about-link" rel="" target="">
+  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance9_R_et_these.qmd" class="about-link" rel="" target="">
     <i class="bi bi-github"></i>
      <span class="about-link-text">GitLab</span>
   </a>

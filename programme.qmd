@@ -4,27 +4,33 @@ title: "**Programme & inscriptions**"
 
 ### Calendrier
 
-<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listYear/now" width="100%" height="650">
+<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listYear/now" width="100%" height="250">
 
 </iframe>
 
-### Informations séances à venir
+### Informations séances ElementR à venir
 
 ::: panel-tabset
-#### **Séminaire ElementR**
+#### **Séance de formation**
+
+-   **9 février 2024 - Manipulation de données géographiques RASTER avec R**
+    -   <u>Horaires</u> : 9h à 12h
+    -   <u>Lieu</u> : Salle 3.01 du Centre des Colloques de Condorcet
+    -   <u>Animation</u> : Malika Madelin et Paul Passy
+    -   <u>Inscription obligatoire</u> : [Formulaire](https://evento.renater.fr/survey/seance-elementr-manipulation-raster-avec-r-j4w2ql2c)\
 
 #### **Atelier pratique**
+
+#### **Retour d'experience**
+
+#### **Table ronde** 
 :::
 
-### Séances passées
+### Séances ElementR passées
 
 ::: panel-tabset
-#### **Séminaire ElementR**
+#### **Séance de formation**
 
-
--   **14 novembre 2023 - R au long cours : trois années de thèse avec R en géographie**
-    -   <u>Format</u> : Hybride
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance9_R_et_these.qmd)\
 -   **3 octobre 2023 - Production de documents computationnels**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance8_quarto.html)\
@@ -55,4 +61,17 @@ title: "**Programme & inscriptions**"
 -   **14 février 2023 - Atelier pratique d'exploration de données d'enquête**
     -   <u>Format</u> : Présentiel
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/atelier_enquete_sncf.html)
+
+#### **Retour d'experience**
+-   **14 novembre 2023 - R au long cours : trois années de thèse avec R en géographie**
+    -   <u>Format</u> : Hybride
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance9_R_et_these.qmd)\
+
+
+#### **Table ronde**    
+-   **16 janvier 2024 - Faire de l’analyse textuelle sur R : pourquoi et comment ?**
+    -   <u>Format</u> : Hybride
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance10_table_ronde_analyse_textuelle.qmd)\
+    
+    
 :::
