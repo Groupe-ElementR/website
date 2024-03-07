@@ -4,20 +4,35 @@ title: "**Programme & inscriptions**"
 
 ### Calendrier
 
-<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listYear/now" width="100%" height="250">
+<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listYear/now" width="100%" height="470">
 
 </iframe>
 
-### Informations séances ElementR à venir
+### Informations séances à venir
 
 ::: panel-tabset
 #### **Séance de formation**
 
--   **9 février 2024 - Manipulation de données géographiques RASTER avec R**
-    -   <u>Horaires</u> : 9h à 12h
+-   **21 mars 2024 - Initiation à la statistique univariée et bivariée avec R**
+    -   <u>Horaires</u> : 14h à 17h
     -   <u>Lieu</u> : Salle 3.01 du Centre des Colloques de Condorcet
+    -   <u>Animation</u> : Sylvestre Duroudier
+    -   <u>Inscription obligatoire</u> : [Formulaire](https://evento.renater.fr/survey/seance-elementr-statistiques-uni-et-bi-variees-ws7txsda)\    
+  
+
+-   **21 mai 2024 - Manipulation de données géographiques RASTER avec R**  
+    -   <u>Horaires</u> : 14h à 17h
+    -   <u>Lieu</u> : Salle 0.030 du Centre des Colloques de Condorcet
     -   <u>Animation</u> : Malika Madelin et Paul Passy
-    -   <u>Inscription obligatoire</u> : [Formulaire](https://evento.renater.fr/survey/seance-elementr-manipulation-raster-avec-r-j4w2ql2c)\
+    -   <u>Inscription obligatoire</u> : Ouverture début avril\  
+  
+
+-   **21 juin 2024 - Introduction au web scraping avec R**
+    -   <u>Horaires</u> : 9h à 12h
+    -   <u>Lieu</u> : Centre des Colloques de Condorcet
+    -   <u>Animation</u> : R. Cura, L. Christophe, H. Pecout, S. Rey-Coyrehourcq, A. Cebeillac
+    -   <u>Inscription obligatoire</u> : Ouverture début mai\    
+
 
 #### **Atelier pratique**
 
@@ -38,7 +53,7 @@ title: "**Programme & inscriptions**"
 -   **23 mai 2023 - Analyse de réseau avec le package `igraph`**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance7_igraph.html)\
--   **21 avril 2023 - Manipulation de données géographiques vectorielles avec le package `sf`**
+-   **21 avril 2023 - Manipulation de données géographiques vectorielles avec`sf`**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance6_geomatique_sf.html)\
 -   **27 mars 2023 - Initiation à la cartographie avec le package `mapsf`**
