@@ -46,7 +46,9 @@ title: "**Programme & inscriptions**"
 
 ::: panel-tabset
 #### **Séance de formation**
-
+-   **21 mars 2024 - Séance statistiques uni et bivariées **
+    -   <u>Format</u> : Hybride
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance11_uni_bivarie.html)
 -   **3 octobre 2023 - Production de documents computationnels**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance8_quarto.html)\

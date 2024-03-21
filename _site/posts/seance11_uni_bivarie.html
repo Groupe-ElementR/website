@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sylvestre Duroudier">
 
-<title>ElementR - Ressources</title>
+<title>ElementR - Statistiques uni et bivariées</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,30 +21,46 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/ElementR.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/ElementR.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -64,35 +81,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-seance .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-seance'] = new List('listing-seance', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
@@ -111,12 +99,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- End Matomo Code -->
 
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="ElementR - Ressources">
-<meta name="twitter:description" content="Supports et matériaux issues des séances et ateliers ElementR">
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="ElementR - Statistiques uni et bivariées">
+<meta name="twitter:description" content="Cours pratique">
 <meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/initR.png">
 <meta name="twitter:image-height" content="510">
 <meta name="twitter:image-width" content="1280">
@@ -131,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title"><b>ElementR</b></span>
     </a>
   </div>
@@ -142,21 +128,21 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./programme.html" rel="" target="" aria-current="page">
+    <a class="nav-link active" href="../programme.html" rel="" target="" aria-current="page">
  <span class="menu-text">Programme</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./seance.html" rel="" target="">
+    <a class="nav-link" href="../seance.html" rel="" target="">
  <span class="menu-text">Supports &amp; matériaux</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./apropos.html" rel="" target="">
+    <a class="nav-link" href="../apropos.html" rel="" target="">
  <span class="menu-text">Á propos</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html" rel="" target="">
+    <a class="nav-link" href="../contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -172,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><strong>Ressources</strong></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Statistiques uni et bivariées</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -186,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./programme.html" class="sidebar-item-text sidebar-link">
+  <a href="../programme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><strong>Programme &amp; inscriptions</strong></span></a>
   </div>
 </li>
@@ -202,49 +188,49 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance1.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction ElementR</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance2.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Initiation à R (théorique)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance3.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Initiation à R (pratique)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance4_ggplot.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance4_ggplot.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Représentation graphique</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance5_carto_mapsf.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance5_carto_mapsf.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cartographie avec R</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance6_geomatique_sf.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance6_geomatique_sf.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Geomatique avec R (I)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance7_igraph.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance7_igraph.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analyse de réseau (I)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance8_quarto.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance8_quarto.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Document computationnel</span></a>
   </div>
 </li>
@@ -262,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/atelier_enquete_sncf.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/atelier_enquete_sncf.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Données enquête SNCF</span></a>
   </div>
 </li>
@@ -280,7 +266,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance9_R_et_these.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance9_R_et_these.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">R au long cours</span></a>
   </div>
 </li>
@@ -298,7 +284,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance10_table_ronde_analyse_textuelle.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance10_table_ronde_analyse_textuelle.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analyse textuelle</span></a>
   </div>
 </li>
@@ -307,7 +293,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./contact.html" class="sidebar-item-text sidebar-link">
+  <a href="../contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><strong>Contact</strong></span></a>
   </div>
 </li>
@@ -320,381 +306,68 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/ElementR.png" class="img-fluid"></p>
 </div></div>
         
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(12)</span></div><div class="category" data-category="analyse de réseau">analyse de réseau <span class="quarto-category-count">(1)</span></div><div class="category" data-category="analyse spatiale">analyse spatiale <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cartographie">cartographie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="document comutationnel">document comutationnel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="enquête">enquête <span class="quarto-category-count">(1)</span></div><div class="category" data-category="geomatique">geomatique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ggplot2">ggplot2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="graphique">graphique <span class="quarto-category-count">(2)</span></div><div class="category" data-category="géotraitement">géotraitement <span class="quarto-category-count">(1)</span></div><div class="category" data-category="igraph">igraph <span class="quarto-category-count">(1)</span></div><div class="category" data-category="information géographique">information géographique <span class="quarto-category-count">(2)</span></div><div class="category" data-category="initiation">initiation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="introduction">introduction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mapsf">mapsf <span class="quarto-category-count">(1)</span></div><div class="category" data-category="notebook">notebook <span class="quarto-category-count">(1)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reproductibilité">reproductibilité <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sf">sf <span class="quarto-category-count">(1)</span></div><div class="category" data-category="statistique">statistique <span class="quarto-category-count">(1)</span></div><div class="category" data-category="thèse">thèse <span class="quarto-category-count">(2)</span></div></div></div>
-<!-- main -->
-<main class="content column-body" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title"><strong>Ressources</strong></h1>
-<p class="subtitle lead"><strong>Supports et matériaux issues des séances et ateliers ElementR</strong></p>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>Les séances du séminaire ElementR ont pour objectif d’être reproductibles. Retrouvez l’ensemble des supports de présentation et des données utilisés lors des différentes séances.</p>
-<div id="listing-seance" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-seance-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-seance'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Trier par</option>
-       <option value="index" data-direction="asc">Ordre par défaut</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Titre
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Le plus ancien
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Le plus récent
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Auteur·rice
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
     </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="initiation" data-listing-date-sort="1756850400000" data-listing-file-modified-sort="1711018706790" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Statistiques uni et bivariées">
-<div class="thumbnail">
-<p><a href="./posts/seance11_uni_bivarie.html"> <img src="./posts/img/initR.png" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/seance11_uni_bivarie.html">
-<h3 class="no-anchor listing-title">
-Statistiques uni et bivariées
-</h3>
-<div class="listing-subtitle">
-Cours pratique
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance11_uni_bivarie.html">
-<div class="listing-date">
-3 sept. 2025
-</div>
-<div class="listing-author">
-Sylvestre Duroudier
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="thèse" data-listing-date-sort="1705359600000" data-listing-file-modified-sort="1711017474866" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Table ronde">
-<div class="thumbnail">
-<p><a href="./posts/seance10_table_ronde_analyse_textuelle.html"> <img src="./posts/img/ana_txt.jpg" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/seance10_table_ronde_analyse_textuelle.html">
-<h3 class="no-anchor listing-title">
-Table ronde
-</h3>
-<div class="listing-subtitle">
-Faire de l’analyse textuelle sur R : pourquoi et comment ?
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance10_table_ronde_analyse_textuelle.html">
-<div class="listing-date">
-16 janv. 2024
-</div>
-<div class="listing-author">
-Léa Cristophe, Robin Cura, Camille Dabestani, Mégane Fernandez, Paul Gourdon, Romain Leconte, Anne-Cécile Ott, Etienne Toureille
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="thèse" data-listing-date-sort="1699916400000" data-listing-file-modified-sort="1711017474867" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="R au long cours">
-<div class="thumbnail">
-<p><a href="./posts/seance9_R_et_these.html"> <img src="./posts/img/R_these2.png" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/seance9_R_et_these.html">
-<h3 class="no-anchor listing-title">
-R au long cours
-</h3>
-<div class="listing-subtitle">
-Trois années de thèse avec R en géographie
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance9_R_et_these.html">
-<div class="listing-date">
-14 nov. 2023
-</div>
-<div class="listing-author">
-Maxime Guinepain
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="notebook,document comutationnel,quarto,reproductibilité" data-listing-date-sort="1696284000000" data-listing-file-modified-sort="1711017474867" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Document computationnel avec R">
-<div class="thumbnail">
-<p><a href="./posts/seance8_quarto.html"> <img src="./posts/img/quarto.png" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/seance8_quarto.html">
-<h3 class="no-anchor listing-title">
-Document computationnel avec R
-</h3>
-<div class="listing-subtitle">
-Pour le partage et la reproductibilité de ses analyses
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance8_quarto.html">
-<div class="listing-date">
-3 oct. 2023
-</div>
-<div class="listing-author">
-Hugues Pecout
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="igraph,analyse de réseau" data-listing-date-sort="1684792800000" data-listing-file-modified-sort="1711017474867" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Introduction à l’analyse de réseau avec R">
-<div class="thumbnail">
-<p><a href="./posts/seance7_igraph.html"> <img src="./posts/img/igraph.png" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/seance7_igraph.html">
-<h3 class="no-anchor listing-title">
-Introduction à l’analyse de réseau avec R
-</h3>
-<div class="listing-subtitle">
-Analyse de réseau avec <code>igraph</code>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance7_igraph.html">
-<div class="listing-date">
-23 mai 2023
-</div>
-<div class="listing-author">
-Laurent Beauguitte, Megane Fernandez, Hugues Pecout
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="geomatique,sf,information géographique,géotraitement,analyse spatiale" data-listing-date-sort="1682028000000" data-listing-file-modified-sort="1689950967967" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Géomatique avec R (I)">
-<div class="thumbnail">
-<p><a href="./posts/seance6_geomatique_sf.html"> <img src="./posts/img/geom_sf.png" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/seance6_geomatique_sf.html">
-<h3 class="no-anchor listing-title">
-Géomatique avec R (I)
-</h3>
-<div class="listing-subtitle">
-Manipulation de données vectorielles avec <code>sf</code>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance6_geomatique_sf.html">
-<div class="listing-date">
-21 avr. 2023
-</div>
-<div class="listing-author">
-Timothée Giraud, Hugues Pecout
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="cartographie,mapsf,information géographique" data-listing-date-sort="1679868000000" data-listing-file-modified-sort="1689950967967" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Cartographie avec R">
-<div class="thumbnail">
-<p><a href="./posts/seance5_carto_mapsf.html"> <img src="./posts/img/carto_mapsf.png" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/seance5_carto_mapsf.html">
-<h3 class="no-anchor listing-title">
-Cartographie avec R
-</h3>
-<div class="listing-subtitle">
-Produire des cartes thématiques avec le package <code>mapsf</code>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance5_carto_mapsf.html">
-<div class="listing-date">
-27 mars 2023
-</div>
-<div class="listing-author">
-Timothée Giraud, Hugues Pecout
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="enquête,graphique,statistique" data-listing-date-sort="1676329200000" data-listing-file-modified-sort="1689950967932" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Atelier pratique">
-<div class="thumbnail">
-<p><a href="./posts/atelier_enquete_sncf.html"> <img src="./posts/img/enquete_sncf.png" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/atelier_enquete_sncf.html">
-<h3 class="no-anchor listing-title">
-Atelier pratique
-</h3>
-<div class="listing-subtitle">
-Manipulation et traitement de données d’enquête voyageurs SNCF
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/atelier_enquete_sncf.html">
-<div class="listing-date">
-14 févr. 2023
-</div>
-<div class="listing-author">
-Marion Albertelli, Joséphin Béraud
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="graphique,ggplot2" data-listing-date-sort="1674601200000" data-listing-file-modified-sort="1689950967966" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Représentation graphique avec R">
-<div class="thumbnail">
-<p><a href="./posts/seance4_ggplot.html"> <img src="./posts/img/ggplot.png" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/seance4_ggplot.html">
-<h3 class="no-anchor listing-title">
-Représentation graphique avec R
-</h3>
-<div class="listing-subtitle">
-ggplot2 et la grammaire graphique
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance4_ggplot.html">
-<div class="listing-date">
-25 janv. 2023
-</div>
-<div class="listing-author">
-Léa Christophe, Robin Cura
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="initiation" data-listing-date-sort="1671145200000" data-listing-file-modified-sort="1689950967966" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Initiation à R (2)">
-<div class="thumbnail">
-<p><a href="./posts/seance3.html"> <img src="./posts/img/initR.png" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/seance3.html">
-<h3 class="no-anchor listing-title">
-Initiation à R (2)
-</h3>
-<div class="listing-subtitle">
-Atelier pratique d’introduction
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance3.html">
-<div class="listing-date">
-16 déc. 2022
-</div>
-<div class="listing-author">
-Joséphin Béraud, Léa Christophe, Aurelie Douet
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="initiation" data-listing-date-sort="1669935600000" data-listing-file-modified-sort="1689950967965" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Initiation à R (1)">
-<div class="thumbnail">
-<p><a href="./posts/seance2.html"> <img src="./posts/img/initR.png" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/seance2.html">
-<h3 class="no-anchor listing-title">
-Initiation à R (1)
-</h3>
-<div class="listing-subtitle">
-Cours théorique d’introduction
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance2.html">
-<div class="listing-date">
-2 déc. 2022
-</div>
-<div class="listing-author">
-Joséphin Béraud, Léa Christophe, Aurelie Douet
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-categories="introduction" data-listing-date-sort="1665698400000" data-listing-file-modified-sort="1689950967965" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Séance introductive">
-<div class="thumbnail">
-<p><a href="./posts/seance1.html"> <img src="./posts/img/logo_ElementR.png" class="thumbnail-image" style="height: 125px;"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/seance1.html">
-<h3 class="no-anchor listing-title">
-Séance introductive
-</h3>
-<div class="listing-subtitle">
-Historique et objectifs d’ElementR &amp; présentation du langage R
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/seance1.html">
-<div class="listing-date">
-14 oct. 2022
-</div>
-<div class="listing-author">
-Hadrien Commenges, Robin Cura, Hugues Pecout, Timothée Giraud
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Aucun article correspondant
-</div>
-</div>
+<!-- main -->
+<div class="quarto-about-marquee column-body">
+  <div class="about-image-container">
+    <img src="img/initR.png" class="about-image
+  rounded " style="width: 30em;">
+  </div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Statistiques uni et bivariées</h1>
+<p class="subtitle lead">Cours pratique</p>
+  </div>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Auteur·es</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sylvestre Duroudier </p>
+          </div>
+  </div>
+    <div>
+    <div class="quarto-title-meta-heading">Date de séance</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">3 septembre 2025</p>
+    </div>
+  </div>
+  </div>
+</header> <main class="content column-body" id="quarto-document-content">
+<p>Cette séance s’adresse aux débutant·e·s. Elle initie à l’ensemble des bases nécessaires à la pratique de R via l’interface de développement <a href="https://posit.co/download/rstudio-desktop/">Rstudio</a>.</p>
+<p><strong>Plan de séance (à venir) :</strong></p>
 <p><br>
 </p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Plus de ressources ?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Le site <a href="https://rzine.fr"><strong>rzine.fr</strong></a> référence de nombreuses <a href="https://rzine.fr/publication/">ressources</a> (cours, articles, manuels, sites, exercices…) ainsi que des <a href="https://rzine.fr/communaute/#projects">projets</a> qui participent à l’apprentissage de la pratique de R en sciences humaines et sociales.</p>
-</div>
+<p><strong>Diaporama (à venir) :</strong></p>
+<p><strong>Données et scripts :</strong></p>
+<p>Un script comportant l’utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable ici :</p>
+<center>
+<a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/stats_uni_bi.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> stats_uni_bi.zip</a>
+</center>
+<p><br>
+</p>
+<p><strong>Conditions d’utilisation :</strong></p>
+<p>Le support utilisé pour cette séance est libre d’utilisation et d’adaptation (licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>). Vous devez néanmoins créditer l’œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.</p>
+<p><br>
+</p>
+<section id="bibliographie" class="level5">
+<h5 data-anchor-id="bibliographie">Bibliographie</h5>
+<div id="refs" role="list">
 </div>
 
 
-
-
-</main> <!-- /main -->
+</section>
+</main> 
+    <div class="about-footer"><div class="about-links">
+  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance11_uni_bivarie.qmd" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitLab</span>
+  </a>
+</div>
+</div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -830,13 +503,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
