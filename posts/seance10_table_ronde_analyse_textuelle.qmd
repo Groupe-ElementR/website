@@ -31,9 +31,6 @@ author-title: Auteur·es
 title-block-categories: false
 ---
 
-::: callout-note
-Page en cours de construction
-:::
 
 **Animation**
 
@@ -51,11 +48,9 @@ Page en cours de construction
 
 **Plan de séance :**
 
-1.  Tour d'horizon des projets des intervenant.es et de leurs résultats
-
-2.  Retour d'expérience sur les aspects techniques et méthodologiques
-
-3.  Echanges croisés sur différentes questions
+1.  Tour d'horizon des projets des intervenant.es et de leurs résultats     
+2.  Retour d'expérience sur les aspects techniques et méthodologiques    
+3.  Echanges croisés sur différentes questions    
 
 **Diaporama :**
 
