@@ -1,7 +1,7 @@
 ---
-title: "Statistiques uni et bivariées"
+title: "Initiation à la statistique univariée et bivariée avec R"
 subtitle: "Cours pratique"
-date: 21/03/2024
+date: 03/21/2024
 bibliography: biblio/session11.bib
 nocite: '@*'
 csl: geo.csl

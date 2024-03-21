@@ -6,7 +6,7 @@ date: 01/16/2024
 # nocite: '@*'
 # csl: geo.csl
 author: 
-- Léa Cristophe
+- Léa Christophe
 - Robin Cura
 - Camille Dabestani
 - Mégane Fernandez
@@ -31,30 +31,53 @@ author-title: Auteur·es
 title-block-categories: false
 ---
 
-:::{.callout-note}
+::: callout-note
 Page en cours de construction
 :::
 
 **Animation**
 
-- Léa Cristophe *(Géographie-Cités, Université Paris 1 )*
-- Robin Cura *(PRODIG, Université Paris 1 Panthéon-Sorbonne)*  
-
+-   Léa Christophe *(Géographie-Cités, Université Paris 1 )*
+-   Robin Cura *(PRODIG, Université Paris 1 Panthéon-Sorbonne)*
 
 **Intervenant·es**
 
-- Camille Dabestani
-- Mégane Fernandez
-- Paul Gourdon
-- Romain Leconte
-- Anne-Cécile Ott
-- Etienne Toureille
+-   Camille Dabestani
+-   Mégane Fernandez
+-   Paul Gourdon
+-   Romain Leconte
+-   Anne-Cécile Ott
+-   Etienne Toureille
 
-\
+**Plan de séance :**
 
-**Plan de séance**
+1.  Tour d'horizon des projets des intervenant.es et de leurs résultats
 
-**Compte rendu**
+2.  Retour d'expérience sur les aspects techniques et méthodologiques
+
+3.  Echanges croisés sur différentes questions
+
+**Diaporama :**
+
+::: {.nonicremental style="font-size:80%;margin-top:-10px;margin-bottom:10px;"}
+-   Consulter en [**plein écran**](support/Table_ronde_16_01.pdf)
+:::
+
+::: diapo
+<object class="slide" data="support/Table_ronde_16_01.pdf" type="application/pdf">
+
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true">
+
+</iframe>
+
+</object>
+:::
+
+::: auteurs
+<i class="bi bi-people-fill"> **Léa Christophe & Robin Cura**</i>
+:::
+
+**Compte rendu (à venir)**
 
 \
 

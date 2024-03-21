@@ -13,12 +13,6 @@ title: "**Programme & inscriptions**"
 ::: panel-tabset
 #### **Séance de formation**
 
--   **21 mars 2024 - Initiation à la statistique univariée et bivariée avec R**
-    -   <u>Horaires</u> : 14h à 17h
-    -   <u>Lieu</u> : Salle 3.01 du Centre des Colloques de Condorcet
-    -   <u>Animation</u> : Sylvestre Duroudier
-    -   <u>Inscription obligatoire</u> : [Formulaire](https://evento.renater.fr/survey/seance-elementr-statistiques-uni-et-bi-variees-ws7txsda)\    
-  
 
 -   **21 mai 2024 - Manipulation de données géographiques RASTER avec R**  
     -   <u>Horaires</u> : 14h à 17h
