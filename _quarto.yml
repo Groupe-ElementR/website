@@ -51,7 +51,7 @@ website:
           - href: posts/seance8_quarto.qmd
             text: Document computationnel
           - href: posts/seance11_uni_bivarie.qmd
-            text: Statistique univariée et bivariée
+            text: Statistique uni et bivariée
       - text: "---"
       - section: "<b>Ateliers pratiques</b>"
         contents: 

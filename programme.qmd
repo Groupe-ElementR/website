@@ -13,34 +13,37 @@ title: "**Programme & inscriptions**"
 ::: panel-tabset
 #### **Séance de formation**
 
-
--   **21 mai 2024 - Manipulation de données géographiques RASTER avec R**  
+-   **21 mai 2024 - Manipulation de données géographiques RASTER avec R**
     -   <u>Horaires</u> : 14h à 17h
     -   <u>Lieu</u> : Salle 0.030 du Centre des Colloques de Condorcet
     -   <u>Animation</u> : Malika Madelin et Paul Passy
-    -   <u>Inscription obligatoire</u> : Ouverture début avril\  
-  
+    -   <u>Inscription obligatoire</u> : [Formulaire d'inscription](https://evento.renater.fr/survey/seance-elementr-manipulation-de-donnees-geographiques-raster-zx11y95a)    
 
+\    
+    
 -   **21 juin 2024 - Introduction au web scraping avec R**
     -   <u>Horaires</u> : 9h à 12h
-    -   <u>Lieu</u> : Centre des Colloques de Condorcet
+    -   <u>Lieu</u> : Salle 0.016 du Bâtiment Recherche Sud du Campus Condorcet
     -   <u>Animation</u> : R. Cura, L. Christophe, H. Pecout, S. Rey-Coyrehourcq, A. Cebeillac
-    -   <u>Inscription obligatoire</u> : Ouverture début mai\    
+    -   <u>Inscription obligatoire</u> : [Formulaire d'inscription](https://evento.renater.fr/survey/seance-elementr-introduction-au-web-scraping-1x4943z1)
 
 
 #### **Atelier pratique**
 
-
 #### **Retour d'experience**
 
-#### **Table ronde** 
+#### **Table ronde**
+
 :::
+
+\
 
 ### Séances ElementR passées
 
 ::: panel-tabset
 #### **Séance de formation**
--   **21 mars 2024 - Séance statistiques uni et bivariées **
+
+-   **21 mars 2024 - Séance statistiques uni et bivariées**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance11_uni_bivarie.html)
 -   **3 octobre 2023 - Production de documents computationnels**
@@ -75,15 +78,14 @@ title: "**Programme & inscriptions**"
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/atelier_enquete_sncf.html)
 
 #### **Retour d'experience**
+
 -   **14 novembre 2023 - R au long cours : trois années de thèse avec R en géographie**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance9_R_et_these.qmd)\
 
+#### **Table ronde**
 
-#### **Table ronde**    
 -   **16 janvier 2024 - Faire de l’analyse textuelle sur R : pourquoi et comment ?**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance10_table_ronde_analyse_textuelle.qmd)\
-    
-    
 :::
