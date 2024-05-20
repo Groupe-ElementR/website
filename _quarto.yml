@@ -30,7 +30,8 @@ website:
         href: https://gitlab.huma-num.fr/elementr/website
   sidebar:
     contents:
-      - programme.qmd
+      - href: programme.qmd
+        text: "<b>Programme & inscriptions</b>"
       - text: "---"
       - section: "<b>Séances de formation</b>"
         contents:
