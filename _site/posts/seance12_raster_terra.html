@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Malika Madelin">
+<meta name="author" content="Paul Passy">
 
-<title>ElementR - ElementR</title>
+<title>ElementR - Manipulation de données géographiques en format raster avec R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,28 +22,46 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/ElementR.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/ElementR.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,20 +88,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
-<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
-<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
-<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
-<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
-<script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
-<script src="site_libs/leaflet-providers-plugin-2.2.2/leaflet-providers-plugin.js"></script>
-<link href="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.css" rel="stylesheet">
-<script src="site_libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.min.js"></script>
-<link href="site_libs/ionicons-2.0.1/ionicons.min.css" rel="stylesheet">
 <!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
@@ -101,9 +107,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="ElementR - ElementR">
-<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="ElementR - Manipulation de données géographiques en format raster avec R">
+<meta name="twitter:description" content="Site web du groupe d’utilisateur·rice·s ElementR">
+<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/terra.png">
+<meta name="twitter:image-height" content="881">
+<meta name="twitter:image-width" content="785">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -113,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title"><b>ElementR</b></span>
     </a>
   </div>
@@ -124,21 +134,21 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./programme.html" aria-current="page"> 
+    <a class="nav-link active" href="../programme.html" aria-current="page"> 
 <span class="menu-text">Programme</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./seance.html"> 
+    <a class="nav-link" href="../seance.html"> 
 <span class="menu-text">Supports &amp; matériaux</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./apropos.html"> 
+    <a class="nav-link" href="../apropos.html"> 
 <span class="menu-text">Á propos</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -154,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><strong>ElementR</strong></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance1.html"><b>Séances de formation</b></a></li><li class="breadcrumb-item"><a href="../posts/seance12_raster_terra.html">Manipulation de raster avec R</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -168,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./programme.html" class="sidebar-item-text sidebar-link">
+  <a href="../programme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><b>Programme &amp; inscriptions</b></span></a>
   </div>
 </li>
@@ -184,67 +194,67 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance1.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction ElementR</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance2.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Initiation à R (théorique)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance3.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Initiation à R (pratique)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance4_ggplot.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance4_ggplot.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Représentation graphique</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance5_carto_mapsf.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance5_carto_mapsf.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cartographie avec R</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance6_geomatique_sf.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance6_geomatique_sf.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Geomatique avec R (I)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance7_igraph.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance7_igraph.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analyse de réseau (I)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance8_quarto.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance8_quarto.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Document computationnel</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance11_uni_bivarie.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance11_uni_bivarie.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Statistique uni et bivariée</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance12_raster_terra.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance12_raster_terra.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Manipulation de raster avec R</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance13_webscraping.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance13_webscraping.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Premier pas en webscraping</span></a>
   </div>
 </li>
@@ -262,7 +272,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/atelier_enquete_sncf.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/atelier_enquete_sncf.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Données enquête SNCF</span></a>
   </div>
 </li>
@@ -280,7 +290,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance9_R_et_these.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance9_R_et_these.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">R au long cours</span></a>
   </div>
 </li>
@@ -298,7 +308,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/seance10_table_ronde_analyse_textuelle.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance10_table_ronde_analyse_textuelle.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analyse textuelle</span></a>
   </div>
 </li>
@@ -307,7 +317,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./contact.html" class="sidebar-item-text sidebar-link">
+  <a href="../contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><strong>Contact</strong></span></a>
   </div>
 </li>
@@ -319,64 +329,72 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <p><img src="img/ElementR.png" class="img-fluid"></p>
 </div></div>
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#groupe-dutilisateurrices-pour-le-traitement-de-linformation-géographique-avec-r" id="toc-groupe-dutilisateurrices-pour-le-traitement-de-linformation-géographique-avec-r" class="nav-link active" data-scroll-target="#groupe-dutilisateurrices-pour-le-traitement-de-linformation-géographique-avec-r">Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title"><strong>ElementR</strong></h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-body">
-
-    
-  
-    
+<div class="quarto-about-marquee content column-body">
+  <div class="about-image-container">
+    <img src="img/terra.png" class="about-image
+  rounded " style="width: 20em;">
   </div>
-  
-
-
-</header>
-
-
-<section id="groupe-dutilisateurrices-pour-le-traitement-de-linformation-géographique-avec-r" class="level2">
-<h2 class="anchored" data-anchor-id="groupe-dutilisateurrices-pour-le-traitement-de-linformation-géographique-avec-r">Groupe d’utilisateur·rice·s pour le traitement de l’information géographique avec R</h2>
-<div id="map">
-<div class="cell">
-<div class="cell-output-display">
-<div id="htmlwidget-42b734e11dc942e94dd4" style="width:100%;height:315px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-42b734e11dc942e94dd4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[48.92508674903839,2.36708811261963],12,[]],"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addAwesomeMarkers","args":[48.91008674903838,2.36708811261963,{"icon":"ios-people","markerColor":"blue","iconColor":"white","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"ion"},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"<img src = https://upload.wikimedia.org/wikipedia/commons/8/8f/Campus_Condorcet_B%C3%A2timent_Recherche_Sud._-_IHEAL.jpg width = 140><br /><p style='font-size:11pt;text-align:center;'>Campus Condorcet<\/p>",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[48.91008674903838,48.91008674903838],"lng":[2.36708811261963,2.36708811261963]}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</div>
-<div id="maptext">
-<p>ElementR est un groupe qui fédère trois unités de recherche en géographie : l’UMR <a href="https://geographie-cites.cnrs.fr/">Géographie-Cités</a>, de l’UMR <a href="https://www.prodig.cnrs.fr/">PRODIG</a> et de l’UAR <a href="https://riate.cnrs.fr/">RIATE</a>. Les activités du groupe sont accessibles à l’ensemble des membres du Campus Condorcet.</p>
-<p><br><br></p>
-<div class="columns">
-<div class="column" style="width:35%;">
-<p><img src="img/8504.png" width="50%;"></p>
-</div><div class="column" style="width:35%;">
-<p><img src="img/prodig.png" width="63%;" style="margin-top:15px;"></p>
-</div><div class="column" style="width:29%;">
-<p><img src="img/riate.png" width="72%;" style="margin-top:35px;"></p>
-</div>
-</div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance1.html"><b>Séances de formation</b></a></li><li class="breadcrumb-item"><a href="../posts/seance12_raster_terra.html">Manipulation de raster avec R</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Manipulation de données géographiques en format raster avec R</h1>
+  </div>
+<div class="quarto-title-meta column-body">
+    <div>
+    <div class="quarto-title-meta-heading">Auteur·es</div>
+    <div class="quarto-title-meta-contents">
+             <p>Malika Madelin </p>
+             <p>Paul Passy </p>
+          </div>
+  </div>
+    <div>
+    <div class="quarto-title-meta-heading">Date de séance</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">21 mai 2024</p>
+    </div>
+  </div>
+  </div>
+</header> <main class="content column-body" id="quarto-document-content">
+<p>Cette séance initie à la manipulation de raster avec R et le package <code>terra</code>.</p>
+<p><br>
+</p>
+<p><strong>Plan de séance (à venir) :</strong></p>
+<p><br>
+</p>
+<p><strong>Diaporama (à venir) :</strong></p>
+<p><strong>Support de cours (à venir) :</strong></p>
+<p><strong>Données et scripts :</strong></p>
+<p>Un script comportant l’utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable ici :</p>
+<center>
+<a href="" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> raster.zip</a>
+</center>
+<p><br>
+</p>
+<p><strong>Conditions d’utilisation :</strong></p>
+<p>Le support utilisé pour cette séance est libre d’utilisation et d’adaptation (licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>). Vous devez néanmoins créditer l’œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.</p>
+<p><br>
+</p>
+<section id="bibliographie" class="level5">
+<h5 data-anchor-id="bibliographie">Bibliographie</h5>
+<div id="refs" role="list">
 </div>
 
 
 </section>
-
-</main> <!-- /main -->
+</main> 
+    <div class="about-footer"><div class="about-links">
+  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance12_raster_terra.qmd" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitLab</span>
+  </a>
+</div>
+</div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -541,13 +559,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

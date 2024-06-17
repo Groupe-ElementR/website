@@ -13,14 +13,7 @@ title: "**Programme & inscriptions**"
 ::: panel-tabset
 #### **Séance de formation**
 
--   **21 mai 2024 - Manipulation de données géographiques RASTER avec R**
-    -   <u>Horaires</u> : 14h à 17h
-    -   <u>Lieu</u> : Salle 0.030 du Centre des Colloques de Condorcet
-    -   <u>Animation</u> : Malika Madelin et Paul Passy
-    -   <u>Inscription obligatoire</u> : [Formulaire d'inscription](https://evento.renater.fr/survey/seance-elementr-manipulation-de-donnees-geographiques-raster-zx11y95a)    
 
-\    
-    
 -   **21 juin 2024 - Introduction au web scraping avec R**
     -   <u>Horaires</u> : 9h à 12h
     -   <u>Lieu</u> : Salle 0.016 du Bâtiment Recherche Sud du Campus Condorcet
@@ -43,6 +36,10 @@ title: "**Programme & inscriptions**"
 ::: panel-tabset
 #### **Séance de formation**
 
+
+-   **21 mai 2024 - Manipulation de données géographiques raster avec R**
+    -   <u>Format</u> : présentiel
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance12_raster_terra.html)  
 -   **21 mars 2024 - Séance statistiques uni et bivariées**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance11_uni_bivarie.html)

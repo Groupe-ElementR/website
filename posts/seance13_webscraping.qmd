@@ -1,0 +1,91 @@
+---
+title: "Premier pas en webscraping"
+subtitle: "Initiation au webscraping avec `rvest`"
+date: 03/21/2024
+bibliography: biblio/session13.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+- Alexandre Cebeillac
+- Léa Christophe
+- Robin Cura
+- Hugues Pecout
+- Sébastien Rey-Coyrehourcq
+image: img/logo4.png
+about:
+  template: marquee
+  image: img/logo4.png
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance13_webscraping.qmd
+categories: 
+- web scraping
+- collecte
+published-title: Date de séance
+author-title: Auteur·es
+title-block-categories: false
+---
+
+Cette séance s'adresse aux débutant·e·s. Elle initie au concept de collecte automatisée de données du web (web scraping), avec une mise en pratique à l'aide du package \``rvest`\`.
+
+
+**Plan de séance :**
+
+-   Introduction
+-   Exemple d'application
+-   Mise en pratique :
+    -   Bases techniques
+    -   Présentation du site web de démonstration
+    -    Scraping de données de biens mis en vente
+    -   Exploration des données
+-   Conclusion
+
+\
+
+**Diaporama d'introduction :**
+
+<object class="slide" data="https://slides.com/sebastienreycoyrehourcq/element-r-webscraping-2024#/1" type="application/pdf">
+
+<iframe src="https://slides.com/sebastienreycoyrehourcq/element-r-webscraping-2024#/1&amp;embedded=true">
+
+</iframe>
+
+</object>
+
+\
+
+**Support d'atelier :**
+
+::: quartodoc
+<iframe class="slide2" src="https://webscraping.gitpages.huma-num.fr/rzine_webscraping/#content">
+
+</iframe>
+:::
+
+\
+
+<center><a href="https://webscraping.gitpages.huma-num.fr/rzine_webscraping/#content" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
+
+\
+
+**Données et scripts :**
+
+Un projet Rstudio comportant le script utilisé pendant la séance est téléchargeable ici :
+
+<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/XXX.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> scraping.zip</a></center>
+
+\
+
+**Conditions d'utilisation :**
+
+Le support utilisé pour cette séance est libre d'utilisation et d'adaptation (licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)). Vous devez néanmoins créditer l'œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.
+
+\
+
+##### Bibliographie
+
+::: {#refs}
+:::

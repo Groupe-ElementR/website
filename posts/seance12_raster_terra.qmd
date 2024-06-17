@@ -1,0 +1,60 @@
+---
+title: "Manipulation de données géographiques en format raster avec R"
+subtitle: ""
+date: 05/21/2024
+bibliography: biblio/session12.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+- Malika Madelin
+- Paul Passy
+image: img/terra.png
+about:
+  template: marquee
+  image: img/terra.png
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance12_raster_terra.qmd
+categories: 
+- géotraitement
+- geomatique
+- analyse spatiale
+- raster
+published-title: Date de séance
+author-title: Auteur·es
+title-block-categories: false
+---
+
+Cette séance initie à la manipulation de raster avec R et le package `terra`.
+
+\
+
+**Plan de séance (à venir) :**
+
+\
+
+**Diaporama (à venir) :**
+
+**Support de cours (à venir) :**
+
+**Données et scripts :**
+
+Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable ici :
+
+<center><a href="" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> raster.zip</a></center>
+
+\
+
+**Conditions d'utilisation :**
+
+Le support utilisé pour cette séance est libre d'utilisation et d'adaptation (licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)). Vous devez néanmoins créditer l'œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.
+
+\
+
+##### Bibliographie
+
+::: {#refs}
+:::

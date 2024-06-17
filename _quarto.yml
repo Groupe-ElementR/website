@@ -53,6 +53,10 @@ website:
             text: Document computationnel
           - href: posts/seance11_uni_bivarie.qmd
             text: Statistique uni et bivariée
+          - href: posts/seance12_raster_terra.qmd
+            text: Manipulation de raster avec R
+          - href: posts/seance13_webscraping.qmd
+            text: Premier pas en webscraping
       - text: "---"
       - section: "<b>Ateliers pratiques</b>"
         contents: 
