@@ -1,7 +1,7 @@
 ---
 title: "Premier pas en webscraping"
 subtitle: "Initiation au webscraping avec `rvest`"
-date: 03/21/2024
+date: 06/21/2024
 bibliography: biblio/session13.bib
 nocite: '@*'
 csl: geo.csl
