@@ -31,7 +31,6 @@ title-block-categories: false
 
 Cette séance s'adresse aux débutant·e·s. Elle initie au concept de collecte automatisée de données du web (web scraping), avec une mise en pratique à l'aide du package \``rvest`\`.
 
-
 **Plan de séance :**
 
 -   Introduction
@@ -39,7 +38,7 @@ Cette séance s'adresse aux débutant·e·s. Elle initie au concept de collecte 
 -   Mise en pratique :
     -   Bases techniques
     -   Présentation du site web de démonstration
-    -    Scraping de données de biens mis en vente
+    -   Scraping de données de biens mis en vente
     -   Exploration des données
 -   Conclusion
 
@@ -75,7 +74,7 @@ Cette séance s'adresse aux débutant·e·s. Elle initie au concept de collecte 
 
 Un projet Rstudio comportant le script utilisé pendant la séance est téléchargeable ici :
 
-<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/XXX.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> scraping.zip</a></center>
+<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/webscraping_projet.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> scraping.zip</a></center>
 
 \
 
