@@ -72,9 +72,9 @@ Cette séance s'adresse aux débutant·e·s. Elle initie au concept de collecte 
 
 **Données et scripts :**
 
-Un projet Rstudio comportant le script utilisé pendant la séance est téléchargeable ici :
+Un projet Rstudio comportant les scripts utilisés pendant la séance est téléchargeable ici :
 
-<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/webscraping_projet.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> scraping.zip</a></center>
+<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/webscraping_projet.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> webscraping_projet.zip</a></center>
 
 \
 
