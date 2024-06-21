@@ -44,15 +44,26 @@ Cette séance s'adresse aux débutant·e·s. Elle initie au concept de collecte 
 
 \
 
+
+
 **Diaporama d'introduction :**
 
-<object class="slide" data="https://slides.com/sebastienreycoyrehourcq/element-r-webscraping-2024#/1" type="application/pdf">
 
-<iframe src="https://slides.com/sebastienreycoyrehourcq/element-r-webscraping-2024#/1&amp;embedded=true">
+
+::: diapo
+<object class="slide" data="support/element-r-webscraping-2024.pdf" type="application/pdf">
+
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="20">
 
 </iframe>
 
 </object>
+:::
+
+\
+
+<center><a href="support/element-r-webscraping-2024.pdf" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
+
 
 \
 
