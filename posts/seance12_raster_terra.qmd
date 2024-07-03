@@ -34,17 +34,48 @@ Cette séance initie à la manipulation de raster avec R et le package `terra`.
 
 **Plan de séance (à venir) :**
 
+1.
+2.
+3.
+
+
 \
 
-**Diaporama (à venir) :**
+**Diaporama d'introduction :**
 
-**Support de cours (à venir) :**
+::: {.nonicremental style="font-size:80%;margin-top:-10px;margin-bottom:10px;"}
+-   Consulter en [**plein écran**](support/)\
+-   Télécharger le [**fichier source**](support/) (.pptx)
+:::
 
-**Données et scripts :**
+::: diapo
+<object class="slide" data="support/" type="application/pdf">
 
-Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable ici :
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="20">
 
-<center><a href="" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> raster.zip</a></center>
+</iframe>
+
+</object>
+:::
+
+**Support du TP :**
+
+::: quartodoc
+<iframe class="slide3" src="https://elementr-raster-elementr-session-geomatique-eefbb27c2522efe93ff.gitpages.huma-num.fr/">
+
+</iframe>
+
+:::
+
+<center><a href="https://elementr-raster-elementr-session-geomatique-eefbb27c2522efe93ff.gitpages.huma-num.fr/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
+
+\
+
+**Données, scripts et support :**
+
+Un projet Rstudio contenant les données, le code et le support du TD est téléchargeable ici :
+
+<center><a href="https://gitlab.huma-num.fr/elementr/session_geomatique/elementr-raster/-/archive/master/elementr-raster-master.zip" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> elementr-raster-master.zip</a></center>
 
 \
 
