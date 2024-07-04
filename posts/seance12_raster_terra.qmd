@@ -28,15 +28,17 @@ author-title: Auteur·es
 title-block-categories: false
 ---
 
-Cette séance initie à la manipulation de raster avec R et le package `terra`.
+Cette séance initie à la manipulation de raster avec R et le package `terra`. Les manipulations seront centrées sur le delta intérieur du fleuve Okavango (Botswana). Nous mettrons en relation les dynamiques spatio-temoprelles de la végétation dans le delta avec les précipitations dans le bassin-versant contributeur.
+
 
 \
 
-**Plan de séance (à venir) :**
+**Plan de séance :**
 
-1.
-2.
-3.
+1. Contexte de l'étude     
+2. Analyse de la végétation à l'aide d'images Landsat   
+3. Analyse des précipitations à l'amont du delta avec les produits CHIRPS    
+4. Caractérisation des corrélations entre précipitations et végétation
 
 
 \
@@ -61,10 +63,7 @@ Cette séance initie à la manipulation de raster avec R et le package `terra`.
 **Support du TP :**
 
 ::: quartodoc
-<iframe class="slide3" src="https://elementr-raster-elementr-session-geomatique-eefbb27c2522efe93ff.gitpages.huma-num.fr/">
-
-</iframe>
-
+<iframe class="slide3" src="https://elementr-raster-elementr-session-geomatique-eefbb27c2522efe93ff.gitpages.huma-num.fr/"></iframe>
 :::
 
 <center><a href="https://elementr-raster-elementr-session-geomatique-eefbb27c2522efe93ff.gitpages.huma-num.fr/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>

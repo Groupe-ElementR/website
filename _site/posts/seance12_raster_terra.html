@@ -26,6 +26,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -375,14 +376,18 @@ div.csl-indent {
   </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
-<p>Cette séance initie à la manipulation de raster avec R et le package <code>terra</code>.</p>
+<p>Cette séance initie à la manipulation de raster avec R et le package <code>terra</code>. Les manipulations seront centrées sur le delta intérieur du fleuve Okavango (Botswana). Nous mettrons en relation les dynamiques spatio-temoprelles de la végétation dans le delta avec les précipitations dans le bassin-versant contributeur.</p>
 <p><br>
 </p>
-<p><strong>Plan de séance (à venir) :</strong></p>
+<p><strong>Plan de séance :</strong></p>
 <ol type="1">
-<li></li>
-<li></li>
-<li></li>
+<li>Contexte de l’étude<br>
+</li>
+<li>Analyse de la végétation à l’aide d’images Landsat<br>
+</li>
+<li>Analyse des précipitations à l’amont du delta avec les produits CHIRPS<br>
+</li>
+<li>Caractérisation des corrélations entre précipitations et végétation</li>
 </ol>
 <p><br>
 </p>
@@ -410,8 +415,8 @@ div.csl-indent {
 </center>
 <p><br>
 </p>
-<p><strong>Données et scripts :</strong></p>
-<p>Un projet Rstudio contenant les données, les code présenté et le support du TD est téléchargeable ici :</p>
+<p><strong>Données, scripts et support :</strong></p>
+<p>Un projet Rstudio contenant les données, le code et le support du TD est téléchargeable ici :</p>
 <center>
 <a href="https://gitlab.huma-num.fr/elementr/session_geomatique/elementr-raster/-/archive/master/elementr-raster-master.zip" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> elementr-raster-master.zip</a>
 </center>
@@ -423,7 +428,22 @@ div.csl-indent {
 </p>
 <section id="bibliographie" class="level5">
 <h5 data-anchor-id="bibliographie">Bibliographie</h5>
-<div id="refs" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-caloz_analyse_2011" class="csl-entry" role="listitem">
+Caloz R, Collet C. 2011. <em>Analyse spatiale de l’information géographique</em>. <span>EPFL</span> Press.
+</div>
+<div id="ref-crawford_50-year_2023" class="csl-entry" role="listitem">
+Crawford CJ, Roy DP, Arab S, Barnes C, Vermote E, Hulley G, Gerace A, Choate M, Engebretson C, Micijevic E, et al. 2023. The 50-year Landsat collection 2 archive. <em>Science of Remote Sensing</em> <strong>8</strong>: 100103 DOI: <a href="https://doi.org/10.1016/j.srs.2023.100103">10.1016/j.srs.2023.100103</a>
+</div>
+<div id="ref-gong_global-scale_2011" class="csl-entry" role="listitem">
+Gong L, Halldin S, Xu C-Y. 2011. Global-scale river routing—an efficient time-delay algorithm based on <span>HydroSHEDS</span> high-resolution hydrography. <em>Hydrological Processes</em> <strong>25</strong>: 1114‑1128 DOI: <a href="https://doi.org/10.1002/hyp.7795">10.1002/hyp.7795</a>
+</div>
+<div id="ref-gumbricht_channels_2004" class="csl-entry" role="listitem">
+Gumbricht T, McCarthy J, McCarthy TS. 2004. Channels, wetlands and islands in the Okavango Delta, Botswana, and their relation to hydrological and sedimentological processes. <em>Earth Surface Processes and Landforms</em> <strong>29</strong>: 15‑29 DOI: <a href="https://doi.org/10.1002/esp.1008">10.1002/esp.1008</a>
+</div>
+<div id="ref-muthoni_long-term_2019" class="csl-entry" role="listitem">
+Muthoni FK, Odongo VO, Ochieng J, Mugalavai EM, Mourice SK, Hoesche-Zeledon I, Mwila M, Bekunda M. 2019. Long-term spatial-temporal trends and variability of rainfall over Eastern and Southern Africa. <em>Theoretical and Applied Climatology</em> <strong>137</strong>: 1869‑1882 DOI: <a href="https://doi.org/10.1007/s00704-018-2712-1">10.1007/s00704-018-2712-1</a>
+</div>
 </div>
 
 
