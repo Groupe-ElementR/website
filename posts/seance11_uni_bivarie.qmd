@@ -28,6 +28,10 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 
 **Plan de séance (à venir) :**
 
+1.  Des statistiques en géographie
+2.  Statistiques univariées
+3.  Bivarié quantitatif
+
 \
 
 **Diaporama (à venir) :**
@@ -36,7 +40,9 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 
 Un script comportant l'utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable ici :
 
-<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/stats_uni_bi.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> stats_uni_bi.zip</a></center>\
+<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/stats_uni_bi.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> stats_uni_bi.zip</a></center>
+
+\
 
 **Conditions d'utilisation :**
 
