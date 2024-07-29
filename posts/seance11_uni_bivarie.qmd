@@ -26,7 +26,7 @@ title-block-categories: false
 
 Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases nécessaires à la pratique de R via l'interface de développement [Rstudio](https://posit.co/download/rstudio-desktop/).
 
-**Plan de séance (à venir) :**
+**Plan de séance :**
 
 1.  Des statistiques en géographie
 2.  Statistiques univariées
@@ -34,7 +34,25 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 
 \
 
-**Diaporama (à venir) :**
+**Diaporama :**
+
+
+::: {.nonicremental style="font-size:80%;margin-top:-10px;margin-bottom:10px;"}
+-   Consulter en [**plein écran**](support/20240321_ElementR_Duroudier_Univarié et Bivarié quanti.pdf)
+:::
+
+::: diapo
+<object class="slide" data="support/20240321_ElementR_Duroudier_Univarié et Bivarié quanti.pdf" type="application/pdf">
+
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true">
+
+</iframe>
+
+</object>
+:::
+
+::: auteurs
+<i class="bi bi-people-fill"> **Sylvestre Duroudier**</i>
 
 **Données et scripts :**
 
