@@ -1,0 +1,92 @@
+---
+title: "Manipulation de données géographiques en format raster avec R"
+subtitle: ""
+date: 05/21/2024
+bibliography: biblio/session12.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+- Malika Madelin
+- Paul Passy
+image: img/terra.png
+about:
+  template: marquee
+  image: img/terra.png
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance12_raster_terra.qmd
+categories: 
+- géotraitement
+- geomatique
+- analyse spatiale
+- raster
+published-title: Date de séance
+author-title: Auteur·es
+title-block-categories: false
+---
+
+Cette séance initie à la manipulation de raster avec R et le package `terra`. Les manipulations seront centrées sur le delta intérieur du fleuve Okavango (Botswana). Nous mettrons en relation les dynamiques spatio-temoprelles de la végétation dans le delta avec les précipitations dans le bassin-versant contributeur.
+
+\
+
+**Plan de séance :**
+
+1.  Contexte de l'étude\
+2.  Analyse de la végétation à l'aide d'images Landsat\
+3.  Analyse des précipitations à l'amont du delta avec les produits CHIRPS\
+4.  Caractérisation des corrélations entre précipitations et végétation
+
+\
+
+**Diaporama d'introduction :**
+
+::: {.nonicremental style="font-size:80%;margin-top:-10px;margin-bottom:10px;"}
+-   Consulter en [**plein écran**](support/ElementR_Raster_21mai24.pdf)\
+-   Télécharger le [**fichier source**](support/ElementR_Raster_21mai24.pptx) (.pptx)
+:::
+
+::: diapo
+<object class="slide" data="support/ElementR_Raster_21mai24.pdf" type="application/pdf">
+
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="20">
+
+</iframe>
+
+</object>
+:::
+
+\
+
+**Support du TP :**
+
+::: quartodoc
+<iframe class="slide3" src="https://elementr-raster-elementr-session-geomatique-eefbb27c2522efe93ff.gitpages.huma-num.fr/">
+
+</iframe>
+:::
+
+<center><a href="https://elementr-raster-elementr-session-geomatique-eefbb27c2522efe93ff.gitpages.huma-num.fr/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
+
+\
+
+**Données, scripts et support :**
+
+Un projet Rstudio contenant les données, le code et le support du TD est téléchargeable ici :
+
+<center><a href="https://gitlab.huma-num.fr/elementr/session_geomatique/elementr-raster/-/archive/master/elementr-raster-master.zip" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> elementr-raster-master.zip</a></center>
+
+\
+
+**Conditions d'utilisation :**
+
+Le support utilisé pour cette séance est libre d'utilisation et d'adaptation (licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)). Vous devez néanmoins créditer l'œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.
+
+\
+
+##### Bibliographie
+
+::: {#refs}
+:::
