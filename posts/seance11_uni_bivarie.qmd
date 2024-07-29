@@ -36,9 +36,8 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 
 **Diaporama :**
 
-
 ::: {.nonicremental style="font-size:80%;margin-top:-10px;margin-bottom:10px;"}
--   Consulter en [**plein écran**](support/20240321_ElementR_Duroudier_Univarié et Bivarié quanti.pdf)
+-   Consulter en [**plein écran**](support/20240321_ElementR_Duroudier_Univarié%20et%20Bivarié%20quanti.pdf)
 :::
 
 ::: diapo
@@ -51,8 +50,7 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 </object>
 :::
 
-::: auteurs
-<i class="bi bi-people-fill"> **Sylvestre Duroudier**</i>
+
 
 **Données et scripts :**
 

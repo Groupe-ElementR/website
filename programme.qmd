@@ -13,20 +13,11 @@ title: "**Programme & inscriptions**"
 ::: panel-tabset
 #### **Séance de formation**
 
-
--   **21 juin 2024 - Introduction au web scraping avec R**
-    -   <u>Horaires</u> : 9h à 12h
-    -   <u>Lieu</u> : Salle 0.016 du Bâtiment Recherche Sud du Campus Condorcet
-    -   <u>Animation</u> : R. Cura, L. Christophe, H. Pecout, S. Rey-Coyrehourcq, A. Cebeillac
-    -   <u>Inscription obligatoire</u> : [Formulaire d'inscription](https://evento.renater.fr/survey/seance-elementr-introduction-au-web-scraping-1x4943z1)
-
-
 #### **Atelier pratique**
 
 #### **Retour d'experience**
 
 #### **Table ronde**
-
 :::
 
 \
@@ -36,10 +27,12 @@ title: "**Programme & inscriptions**"
 ::: panel-tabset
 #### **Séance de formation**
 
-
+-   **21 juin 2024 - Introduction au web scraping avec R**
+    -   <u>Format</u> : présentiel
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance13_webscraping.qmd)\
 -   **21 mai 2024 - Manipulation de données géographiques raster avec R**
     -   <u>Format</u> : présentiel
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance12_raster_terra.html)  
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance12_raster_terra.html)\
 -   **21 mars 2024 - Séance statistiques uni et bivariées**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance11_uni_bivarie.html)
