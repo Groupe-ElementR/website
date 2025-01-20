@@ -11,13 +11,30 @@ title: "**Programme & inscriptions**"
 ### Informations séances à venir
 
 ::: panel-tabset
+#### **Table ronde**  
+
+- **24 Janvier 2025 - Les mains dans le code :  organisation du travail, bricolage, reproductibilité avec R**\     
+    -   <u>Horaire</u> : de 14h à 17h\    
+    -   <u>Lieu</u> : UPC, Bâtiment Olympes de Gouges, salle M019\     
+    -   <u>Animation</u> : Paul Gourdon (CNRS, LATTS)\   
+    -   <u>Intervenant·es</u> : Kim Antunez (INSEE), Aurélie Douet (CNRS, CRH) , Louis Laurian & Ronan Ysebaert (RIATE), Julie Pierson (CNRS, LETG), Kevin Poisson (Géographie-cités) et  Nicolas Robette (Printemps - UVSQ)\    
+    -   <u>Format</u> : présentiel / distanciel\     
+    -   <u>Inscription</u> : [formulaire](https://evento.renater.fr/survey/table-ronde-elementr-le-24-janvier-a-14h-les-mains-dans-le-codes-organisation-du-travail-bricolage-reproductibilite-avec-r-511wcgku)\   
+
+
 #### **Séance de formation**
+
+- **17 Février 2025 - Analyse de semis de points sur réseau physique (viaire, hydrographique, ...)**
+    -   <u>Horaire</u> : à définir (matin)
+    -   <u>Lieu</u> : à définir
+    -   <u>Animation</u> : Julie Gravier (CNRS, THEMA) et Laurent Beauguitte (CNRS, Géographie-cités)
+    -   <u>Format</u> : présentiel
+    -   <u>Inscription</u> : à venir
 
 #### **Atelier pratique**
 
 #### **Retour d'experience**
 
-#### **Table ronde**
 :::
 
 \
@@ -75,7 +92,7 @@ title: "**Programme & inscriptions**"
 
 #### **Table ronde**
 
--   **16 janvier 2024 - Faire de l’analyse textuelle sur R : pourquoi et comment ?**
+-   **16 janvier 2024 - Faire de l'analyse textuelle sur R : pourquoi et comment ?**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance10_table_ronde_analyse_textuelle.qmd)\
 :::
