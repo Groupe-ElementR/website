@@ -6,11 +6,14 @@ bibliography: biblio/session13.bib
 nocite: '@*'
 csl: geo.csl
 author: 
-- Alexandre Cebeillac
-- Léa Christophe
-- Robin Cura
-- Hugues Pecout
-- Sébastien Rey-Coyrehourcq
+- name: Alexandre Cebeillac
+- name: Léa Christophe
+- name: Robin Cura
+  orcid: 0000-0001-5926-1828
+- name: Hugues Pecout
+  orcid: 0000-0002-0246-0954
+- name: Sébastien Rey-Coyrehourcq
+  orcid: 0000-0001-7296-9695
 image: img/logo4.png
 about:
   template: marquee
@@ -44,11 +47,7 @@ Cette séance s'adresse aux débutant·e·s. Elle initie au concept de collecte 
 
 \
 
-
-
 **Diaporama d'introduction :**
-
-
 
 ::: diapo
 <object class="slide" data="support/element-r-webscraping-2024.pdf" type="application/pdf">
@@ -64,20 +63,19 @@ Cette séance s'adresse aux débutant·e·s. Elle initie au concept de collecte 
 
 <center><a href="support/element-r-webscraping-2024.pdf" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
 
-
 \
 
 **Support d'atelier :**
 
 ::: quartodoc
-<iframe class="slide2" src="https://webscraping.gitpages.huma-num.fr/rzine_webscraping/#content">
+<iframe class="slide2" src="https://rzine-reviews.github.io/rzine_webscraping/">
 
 </iframe>
 :::
 
 \
 
-<center><a href="https://webscraping.gitpages.huma-num.fr/rzine_webscraping/#content" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
+<center><a href="https://rzine-reviews.github.io/rzine_webscraping/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
 
 \
 

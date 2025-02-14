@@ -33,7 +33,7 @@ website:
       - href: programme.qmd
         text: "<b>Programme & inscriptions</b>"
       - text: "---"
-      - section: "<b>Séances de formation</b>"
+      - section: "<b>Séances thématiques</b>"
         contents:
           - href: posts/seance1.qmd
             text: Introduction ElementR
@@ -57,6 +57,15 @@ website:
             text: Manipulation de raster avec R
           - href: posts/seance13_webscraping.qmd
             text: Premier pas en webscraping
+          - href: posts/seance15_AR_semi_de_points.qmd
+            text: Réseau et semi de points
+      - text: "---"
+      - section: "<b>Tables rondes</b>"
+        contents: 
+          - href: posts/seance10_table_ronde_analyse_textuelle.qmd
+            text: Analyse textuelle
+          - href: posts/seance14_TR_workflow.qmd
+            text: Workflow
       - text: "---"
       - section: "<b>Ateliers pratiques</b>"
         contents: 
@@ -67,11 +76,6 @@ website:
         contents: 
           - href: posts/seance9_R_et_these.qmd
             text: R au long cours
-      - text: "---"
-      - section: "<b>Tables rondes</b>"
-        contents: 
-          - href: posts/seance10_table_ronde_analyse_textuelle.qmd
-            text: Analyse textuelle
       - text: "---"
       - contact.qmd
 

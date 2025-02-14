@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.47">
+<meta name="generator" content="quarto-1.7.6">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -58,12 +58,12 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-6c21014d9765ba549c6ebad95917e4d7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0a9048d95e02c7ff9c82715fd5ddea4.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-9bb7853d5e38463a2a926dfc6ae2446f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bd91c6ac3848f1c999605ad9773365e4.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -91,38 +91,21 @@ div.csl-indent {
   }
 }</script>
 <!-- Matomo -->
-
 <script>
-
   var _paq = window._paq = window._paq || [];
-
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-
   _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-
   _paq.push(['trackPageView']);
-
   _paq.push(['enableLinkTracking']);
-
   (function() {
-
     var u="https://analyseweb.huma-num.fr/";
-
     _paq.push(['setTrackerUrl', u+'matomo.php']);
-
     _paq.push(['setSiteId', '471']);
-
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-
   })();
-
 </script>
-
 <!-- End Matomo Code -->
-
-
 
 
 
@@ -379,10 +362,10 @@ div.csl-indent {
   </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
-<p>Cette séance s’adresse aux débutant·e·s. Elle fait suite à l’introduction au langage R réalisée <a href="..\posts/seance2.html">précédement</a>.</p>
+<p>Cette séance s’adresse aux débutant·e·s. Elle fait suite à l’introduction au langage R réalisée <a href="../posts/seance2.html">précédement</a>.</p>
 <p><strong>Plan de séance :</strong></p>
 <ol type="1">
-<li>Rappel de la <a href="..\posts/seance2.html">séance 1</a><br>
+<li>Rappel de la <a href="../posts/seance2.html">séance 1</a><br>
 </li>
 <li>Introduction au <a href="https://www.tidyverse.org/">tidyverse</a><br>
 </li>
@@ -662,8 +645,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -774,7 +755,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

@@ -6,8 +6,10 @@ bibliography: biblio/session_mapsf.bib
 nocite: '@*'
 csl: geo.csl
 author: 
-- Timothée Giraud
-- Hugues Pecout
+- name: Hugues Pecout
+  orcid: 0000-0002-0246-0954
+- name: Timothée Giraud
+  orcid: 0000-0002-1932-3323
 image: img/carto_mapsf.png
 about:
   template: marquee

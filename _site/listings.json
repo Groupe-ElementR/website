@@ -2,6 +2,8 @@
   {
     "listing": "/seance.html",
     "items": [
+      "/posts/seance15_AR_semi_de_points.html",
+      "/posts/seance14_TR_workflow.html",
       "/posts/seance13_webscraping.html",
       "/posts/seance12_raster_terra.html",
       "/posts/seance11_uni_bivarie.html",

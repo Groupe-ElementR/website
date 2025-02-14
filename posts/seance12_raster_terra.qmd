@@ -6,8 +6,9 @@ bibliography: biblio/session12.bib
 nocite: '@*'
 csl: geo.csl
 author: 
-- Malika Madelin
-- Paul Passy
+- name: Malika Madelin
+- name: Paul Passy
+  orcid: 0000-0002-6645-174X
 image: img/terra.png
 about:
   template: marquee

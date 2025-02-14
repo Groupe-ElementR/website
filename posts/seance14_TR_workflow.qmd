@@ -1,0 +1,56 @@
+---
+title: "Les mains dans le code"
+subtitle: "Organisation du travail, bricolage, reproductibilité avec R"
+date: 01/24/2025
+bibliography: biblio/session14.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+- name: Kim Antunez
+- name: Aurélie Douet
+- name: Paul Gourdon
+  orcid: 0009-0008-7303-8583
+- name: Louis Laurian
+  orcid: 0009-0002-7275-5536
+- name: Julie Pierson
+  orcid: 0000-0002-7119-6165
+- name: Kevin Poisson
+  orcid: 0000-0002-1977-4968
+- name: Nicolas Robette
+  orcid: 0000-0003-3932-5964
+- name: Ronan Ysebaert
+  orcid: 0000-0002-7344-5911
+image: img/workflows.png
+about:
+  template: marquee
+  image: img/workflows.png
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance14_TR_workflow.qmd
+categories: 
+- workflow
+published-title: Date de séance
+author-title: Auteur·es
+title-block-categories: false
+---
+
+
+Table ronde animée par : **Paul Gourdon** (LATTS, CNRS )
+
+Liste des intervenant·es :
+
+- **Kim Antunez** (INSEE)
+- **Aurélie Douet** (CRH, CNRS)
+- **Louis Laurian** (RIATE, CNRS)
+- **Julie Pierson** (LETG, CNRS)
+- **Kevin Poisson** (Géographie-cités, Université Paris Cité)
+- **Nicolas Robette** (Printemps, UVSQ)
+- **Ronan Ysebaert** (RIATE, CNRS)
+
+\
+\
+
+**Compte rendu à venir**

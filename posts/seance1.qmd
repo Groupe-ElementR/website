@@ -6,10 +6,15 @@ bibliography: biblio/session1.bib
 nocite: '@*'
 csl: geo.csl
 author: 
-- Hadrien Commenges
-- Robin Cura
-- Hugues Pecout
-- Timothée Giraud
+- name:  Hadrien Commenges
+  orcid: 0000-0003-0277-263X
+- name: Robin Cura
+  orcid: 0000-0001-5926-1828
+- name: Hugues Pecout
+  orcid: 0000-0002-0246-0954
+- name: Timothée Giraud
+  orcid: 0000-0002-1932-3323
+  
 image: img/logo_ElementR.png
 about:
   template: marquee

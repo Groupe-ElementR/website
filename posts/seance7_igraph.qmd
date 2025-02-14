@@ -6,9 +6,13 @@ bibliography: biblio/igraph.bib
 nocite: '@*'
 csl: geo.csl
 author: 
-- Laurent Beauguitte
-- Megane Fernandez
-- Hugues Pecout
+- name: Laurent Beauguitte
+  orcid: 0000-0001-8803-6056
+- name: Megane Fernandez
+  orcid: 0000-0001-9010-8370
+- name: Hugues Pecout
+  orcid: 0000-0002-0246-0954
+
 image: img/igraph.png
 about:
   template: marquee
@@ -43,7 +47,7 @@ Cette séance s'adresse aux utilisateur·rices R maîtrisant les manipulations d
 
 \
 
-**Support de séance et exercices** : 
+**Support de séance et exercices** :
 
 ::: quartodoc
 <iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_reseau/intro_reseau_igraph/">

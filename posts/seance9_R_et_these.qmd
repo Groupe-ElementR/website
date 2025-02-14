@@ -6,7 +6,8 @@ date: 11/14/2023
 # nocite: '@*'
 # csl: geo.csl
 author: 
-- Maxime Guinepain
+- name: Maxime Guinepain
+  orcid: 0009-0009-7675-5809
 image: img/R_these2.png
 about:
   template: marquee

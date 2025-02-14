@@ -6,7 +6,8 @@ bibliography: biblio/session11.bib
 nocite: '@*'
 csl: geo.csl
 author: 
-- Sylvestre Duroudier
+- name: Sylvestre Duroudier
+  orcid: 0000-0002-4415-2431
 image: img/initR.png
 about:
   template: marquee
@@ -49,8 +50,6 @@ Cette séance s'adresse aux débutant·e·s. Elle initie à l'ensemble des bases
 
 </object>
 :::
-
-
 
 **Données et scripts :**
 

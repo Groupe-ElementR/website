@@ -6,14 +6,20 @@ date: 01/16/2024
 # nocite: '@*'
 # csl: geo.csl
 author: 
-- Léa Christophe
-- Robin Cura
-- Camille Dabestani
-- Mégane Fernandez
-- Paul Gourdon
-- Romain Leconte
-- Anne-Cécile Ott
-- Etienne Toureille
+- name: Léa Christophe
+- name: Robin Cura
+  orcid: 0000-0001-5926-1828
+- name: Camille Dabestani
+  orcid: 0009-0001-5907-1773
+- name: Megane Fernandez
+  orcid: 0000-0001-9010-8370
+- name: Paul Gourdon
+  orcid: 0009-0008-7303-8583
+- name: Romain Leconte
+  orcid: 0000-0001-5844-741X
+- name: Anne-Cécile Ott
+- name: Etienne Toureille
+  orcid: 0000-0002-9530-5071  
 image: img/ana_txt.jpg
 about:
   template: marquee
@@ -23,14 +29,13 @@ about:
   links:
     - icon: github
       text: GitLab
-      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance9_R_et_these.qmd
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance10_table_ronde_analyse_textuelle.qmd
 categories: 
 - thèse
 published-title: Date de séance
 author-title: Auteur·es
 title-block-categories: false
 ---
-
 
 **Animation**
 
@@ -48,9 +53,9 @@ title-block-categories: false
 
 **Plan de séance :**
 
-1.  Tour d'horizon des projets des intervenant.es et de leurs résultats     
-2.  Retour d'expérience sur les aspects techniques et méthodologiques    
-3.  Echanges croisés sur différentes questions    
+1.  Tour d'horizon des projets des intervenant.es et de leurs résultats\
+2.  Retour d'expérience sur les aspects techniques et méthodologiques\
+3.  Echanges croisés sur différentes questions
 
 **Diaporama :**
 

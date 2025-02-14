@@ -7,7 +7,8 @@ nocite: '@*'
 csl: geo.csl
 author: 
 - Léa Christophe
-- Robin Cura
+- name: Robin Cura
+  orcid: 0000-0001-5926-1828
 image: img/ggplot.png
 about:
   template: marquee
