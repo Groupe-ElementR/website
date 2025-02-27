@@ -4,7 +4,31 @@
     "href": "seance.html",
     "title": "Ressources",
     "section": "",
-    "text": "Les séances du séminaire ElementR ont pour objectif d’être reproductibles. Retrouvez l’ensemble des supports de présentation et des données utilisés lors des différentes séances.\n\n\n   \n     \n     \n       Trier par\n       Ordre par défaut\n         \n          Titre\n        \n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Auteur·rice\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyse de semis de points sur un réseau spatial\n\n\n \n\n\n\n17 févr. 2025\nJulie Gravier, Laurent Beauguitte\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes mains dans le code\nOrganisation du travail, bricolage, reproductibilité avec R\n\n \n\n\n\n24 janv. 2025\nKim Antunez, Aurélie Douet, Paul Gourdon, Louis Laurian, Julie Pierson, Kevin Poisson, Nicolas Robette, Ronan Ysebaert\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPremier pas en webscraping\nInitiation au webscraping avec `rvest`\n\n \n\n\n\n21 juin 2024\nAlexandre Cebeillac, Léa Christophe, Robin Cura, Hugues Pecout, Sébastien Rey-Coyrehourcq\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManipulation de données géographiques en format raster avec R\n\n\n \n\n\n\n21 mai 2024\nMalika Madelin, Paul Passy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitiation à la statistique univariée et bivariée avec R\nCours pratique\n\n \n\n\n\n21 mars 2024\nSylvestre Duroudier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable ronde\nFaire de l'analyse textuelle sur R : pourquoi et comment ?\n\n \n\n\n\n16 janv. 2024\nLéa Christophe, Robin Cura, Camille Dabestani, Megane Fernandez, Paul Gourdon, Romain Leconte, Anne-Cécile Ott, Etienne Toureille\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR au long cours\nTrois années de thèse avec R en géographie\n\n \n\n\n\n14 nov. 2023\nMaxime Guinepain\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocument computationnel avec R\nPour le partage et la reproductibilité de ses analyses\n\n \n\n\n\n3 oct. 2023\nHugues Pecout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction à l’analyse de réseau avec R\nAnalyse de réseau avec `igraph`\n\n \n\n\n\n23 mai 2023\nLaurent Beauguitte, Megane Fernandez, Hugues Pecout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGéomatique avec R (I)\nManipulation de données vectorielles avec `sf`\n\n \n\n\n\n21 avr. 2023\nHugues Pecout, Timothée Giraud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCartographie avec R\nProduire des cartes thématiques avec le package `mapsf`\n\n \n\n\n\n27 mars 2023\nHugues Pecout, Timothée Giraud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAtelier pratique\nManipulation et traitement de données d'enquête voyageurs SNCF\n\n \n\n\n\n14 févr. 2023\nMarion Albertelli, Joséphin Béraud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReprésentation graphique avec R\nggplot2 et la grammaire graphique\n\n \n\n\n\n25 janv. 2023\nLéa Christophe, Robin Cura\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitiation à R (2)\nAtelier pratique d'introduction\n\n \n\n\n\n16 déc. 2022\nJoséphin Béraud, Léa Christophe, Aurelie Douet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitiation à R (1)\nCours théorique d'introduction\n\n \n\n\n\n2 déc. 2022\nJoséphin Béraud, Léa Christophe, Aurelie Douet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSéance introductive\nHistorique et objectifs d'ElementR & présentation du langage R\n\n \n\n\n\n14 oct. 2022\nHadrien Commenges, Robin Cura, Hugues Pecout, Timothée Giraud\n\n\n\n\n\n\n\nAucun article correspondant\n\n\n\n\n\n\n\n\n\n\nPlus de ressources ?\n\n\n\nLe site rzine.fr référence de nombreuses ressources (cours, articles, manuels, sites, exercices…) ainsi que des projets qui participent à l’apprentissage de la pratique de R en sciences humaines et sociales."
+    "text": "Les séances du séminaire ElementR ont pour objectif d’être reproductibles. Retrouvez l’ensemble des supports de présentation et des données utilisés lors des différentes séances.\n\n\n   \n     \n     \n       Trier par\n       Ordre par défaut\n         \n          Titre\n        \n         \n          Date - Le plus ancien\n        \n         \n          Date - Le plus récent\n        \n         \n          Auteur·rice\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRetour d'experience et pratique de la GWR\n\n\n \n\n\n\n20 mars 2025\nThierry Feuillet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyse de semis de points sur un réseau spatial\n\n\n \n\n\n\n17 févr. 2025\nJulie Gravier, Laurent Beauguitte\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes mains dans le code\nOrganisation du travail, bricolage, reproductibilité avec R\n\n \n\n\n\n24 janv. 2025\nKim Antunez, Aurélie Douet, Paul Gourdon, Louis Laurian, Julie Pierson, Kevin Poisson, Nicolas Robette, Ronan Ysebaert\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPremier pas en webscraping\nInitiation au webscraping avec `rvest`\n\n \n\n\n\n21 juin 2024\nAlexandre Cebeillac, Léa Christophe, Robin Cura, Hugues Pecout, Sébastien Rey-Coyrehourcq\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManipulation de données géographiques en format raster avec R\n\n\n \n\n\n\n21 mai 2024\nMalika Madelin, Paul Passy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitiation à la statistique univariée et bivariée avec R\nCours pratique\n\n \n\n\n\n21 mars 2024\nSylvestre Duroudier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable ronde\nFaire de l'analyse textuelle sur R : pourquoi et comment ?\n\n \n\n\n\n16 janv. 2024\nLéa Christophe, Robin Cura, Camille Dabestani, Megane Fernandez, Paul Gourdon, Romain Leconte, Anne-Cécile Ott, Etienne Toureille\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR au long cours\nTrois années de thèse avec R en géographie\n\n \n\n\n\n14 nov. 2023\nMaxime Guinepain\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocument computationnel avec R\nPour le partage et la reproductibilité de ses analyses\n\n \n\n\n\n3 oct. 2023\nHugues Pecout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction à l’analyse de réseau avec R\nAnalyse de réseau avec `igraph`\n\n \n\n\n\n23 mai 2023\nLaurent Beauguitte, Megane Fernandez, Hugues Pecout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGéomatique avec R (I)\nManipulation de données vectorielles avec `sf`\n\n \n\n\n\n21 avr. 2023\nHugues Pecout, Timothée Giraud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCartographie avec R\nProduire des cartes thématiques avec le package `mapsf`\n\n \n\n\n\n27 mars 2023\nHugues Pecout, Timothée Giraud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAtelier pratique\nManipulation et traitement de données d'enquête voyageurs SNCF\n\n \n\n\n\n14 févr. 2023\nMarion Albertelli, Joséphin Béraud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReprésentation graphique avec R\nggplot2 et la grammaire graphique\n\n \n\n\n\n25 janv. 2023\nLéa Christophe, Robin Cura\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitiation à R (2)\nAtelier pratique d'introduction\n\n \n\n\n\n16 déc. 2022\nJoséphin Béraud, Léa Christophe, Aurelie Douet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInitiation à R (1)\nCours théorique d'introduction\n\n \n\n\n\n2 déc. 2022\nJoséphin Béraud, Léa Christophe, Aurelie Douet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSéance introductive\nHistorique et objectifs d'ElementR & présentation du langage R\n\n \n\n\n\n14 oct. 2022\nHadrien Commenges, Robin Cura, Hugues Pecout, Timothée Giraud\n\n\n\n\n\n\n\nAucun article correspondant\n\n\n\n\n\n\n\n\n\n\nPlus de ressources ?\n\n\n\nLe site rzine.fr référence de nombreuses ressources (cours, articles, manuels, sites, exercices…) ainsi que des projets qui participent à l’apprentissage de la pratique de R en sciences humaines et sociales."
+  },
+  {
+    "objectID": "posts/seance16_GWR.html",
+    "href": "posts/seance16_GWR.html",
+    "title": "Retour d’experience et pratique de la GWR",
+    "section": "",
+    "text": "Séance prévue le 20 mars 2025.\nFormulaire d’inscription : https://evento.renater.fr/survey/la-regression-geographique…",
+    "crumbs": [
+      "Programme",
+      "<b>Retours d'expériences</b>",
+      "Pratique de la GWR"
+    ]
+  },
+  {
+    "objectID": "posts/seance14_TR_workflow.html",
+    "href": "posts/seance14_TR_workflow.html",
+    "title": "Les mains dans le code",
+    "section": "",
+    "text": "Table ronde animée par : Paul Gourdon (LATTS, CNRS )\nListe des intervenant·es :\n\nKim Antunez (INSEE)\nAurélie Douet (CRH, CNRS)\nLouis Laurian (RIATE, CNRS)\nJulie Pierson (LETG, CNRS)\nKevin Poisson (Géographie-cités, Université Paris Cité)\nNicolas Robette (Printemps, UVSQ)\nRonan Ysebaert (RIATE, CNRS)\n\n\n\n\nCompte rendu à venir",
+    "crumbs": [
+      "Programme",
+      "<b>Tables rondes</b>",
+      "Workflow"
+    ]
   },
   {
     "objectID": "posts/seance8_quarto.html",
@@ -166,7 +190,7 @@
     "text": "Cette séance s’adresse aux débutant·e·s. Elle fait suite à l’introduction au langage R réalisée précédement.\nPlan de séance :\n\nRappel de la séance 1\n\nIntroduction au tidyverse\n\nImport de données\n\nManipulation de données\n\nExport de données\n\n\n\nDiaporama :\n\n\nConsulter en plein écran\n\nTélécharger le fichier source (.pptx)\n\n\n\n\n\n\n\n\n\n Joséphin Béraud, Léa Christophe et Aurelie Douet\n\nDonnées et scripts :\nUn projet Rstudio contenant des données et des scripts R (exercice et correction) utilisés durant la séance est téléchargeable ici :\n\n introR_seance2.zip\n\n\n\nConditions d’utilisation :\nLe support utilisé pour cette séance est libre d’utilisation et d’adaptation (licence CC BY-SA 4.0). Vous devez néanmoins créditer l’œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.\n\n\n\nBibliographie\n\n\nWickham H, Grolemund G. 2017. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. Paperback; O’Reilly Media. Disponible sur: http://r4ds.had.co.nz/",
     "crumbs": [
       "Programme",
-      "<b>Séances de formation</b>",
+      "<b>Séances thématiques</b>",
       "Initiation à R (pratique)"
     ]
   },
@@ -207,22 +231,11 @@
     ]
   },
   {
-    "objectID": "programme.html",
-    "href": "programme.html",
-    "title": "Programme & inscriptions",
-    "section": "",
-    "text": "Calendrier\n\n\n\n\nInformations séances à venir\n\nSéance thématiqueTable rondeAtelier pratiqueRetour d’experience\n\n\n\n17 Février 2025 - Analyse de semis de points sur un réseau spatial\n\nHoraire : 9h30-12h30\nLieu : Salle 1.122, Bât. Sud Campus Condorcet\nAnimation : Julie Gravier (CNRS, THEMA) et Laurent Beauguitte (CNRS, Géographie-cités)\nFormat : présentiel\nInscription obligatoire : Formulaire d’inscription\n\n20 mars 2025 - Retour d’experience et pratique de la GWR\n\nHoraire : 14h-17h\nLieu : À définir\nAnimation : Thierry Feuillet (Université de Caen Normandie, UMR IDEES)\nFormat : À définir\nInscription : À venir\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSéances ElementR passées\n\nTable rondeSéance thématiqueAtelier pratiqueRetour d’experience\n\n\n\n24 Janvier 2025 - Les mains dans le code : organisation du travail, bricolage, reproductibilité avec R\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n16 janvier 2024 - Faire de l’analyse textuelle sur R : pourquoi et comment ?\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n\n\n\n\n21 juin 2024 - Introduction au web scraping avec R\n\nFormat : présentiel\nRésumé & supports : Consulter la page dédiée\n\n\n21 mai 2024 - Manipulation de données géographiques raster avec R\n\nFormat : présentiel\nRésumé & supports : Consulter la page dédiée\n\n\n21 mars 2024 - Séance statistiques uni et bivariées\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n3 octobre 2023 - Production de documents computationnels\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n23 mai 2023 - Analyse de réseau avec le package igraph\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n21 avril 2023 - Manipulation de données géographiques vectorielles avecsf\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n27 mars 2023 - Initiation à la cartographie avec le package mapsf\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n25 Janvier 2023 - Représentation graphique avec R (et ggplot2)\n\nFormat : Présentiel\nRésumé & supports : Consulter la page dédiée\n\n16 décembre 2022 - Initiation à R (pratique)\n\nFormat : Présentiel\nRésumé & supports : Consulter la page dédiée\n\n2 décembre 2022 - Initiation à R (théorique)\n\nFormat : Présentiel\nRésumé & supports : Consulter la page dédiée\n\n14 octobre 2022 - Séance introductive ElementR\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n\n\n\n14 février 2023 - Atelier pratique d’exploration de données d’enquête\n\nFormat : Présentiel\nRésumé & supports : Consulter la page dédiée\n\n\n\n\n\n14 novembre 2023 - R au long cours : trois années de thèse avec R en géographie\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée",
-    "crumbs": [
-      "Programme",
-      "<b>Programme & inscriptions</b>"
-    ]
-  },
-  {
     "objectID": "posts/seance15_AR_semi_de_points.html",
     "href": "posts/seance15_AR_semi_de_points.html",
     "title": "Analyse de semis de points sur un réseau spatial",
     "section": "",
-    "text": "Formulaire d’inscription : https://evento.renater.fr/survey/elementr-seance-2-an…-h7qp97p2",
+    "text": "Mise en ligne du support et du matériel utilisés à venir.",
     "crumbs": [
       "Programme",
       "<b>Séances thématiques</b>",
@@ -230,15 +243,14 @@
     ]
   },
   {
-    "objectID": "posts/seance14_TR_workflow.html",
-    "href": "posts/seance14_TR_workflow.html",
-    "title": "Les mains dans le code",
+    "objectID": "programme.html",
+    "href": "programme.html",
+    "title": "Programme & inscriptions",
     "section": "",
-    "text": "Table ronde animée par : Paul Gourdon (LATTS, CNRS )\nListe des intervenant·es :\n\nKim Antunez (INSEE)\nAurélie Douet (CRH, CNRS)\nLouis Laurian (RIATE, CNRS)\nJulie Pierson (LETG, CNRS)\nKevin Poisson (Géographie-cités, Université Paris Cité)\nNicolas Robette (Printemps, UVSQ)\nRonan Ysebaert (RIATE, CNRS)\n\n\n\n\nCompte rendu à venir",
+    "text": "Calendrier\n\n\n\n\nInformations séances à venir\n\nRetour d’experienceSéance thématiqueAtelier pratiqueTable ronde\n\n\n\n20 mars 2025 - Retour d’experience et pratique de la GWR\n\nHoraire : 13h-16h\nLieu : Salle 1.122, Bât. Sud Campus Condorcet\nAnimation : Thierry Feuillet (Université de Caen Normandie, UMR 6266 CNRS - IDEES)\nFormat : présentiel\nInscription obligatoire : Formulaire d’inscription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSéances ElementR passées\n\nSéance thématiqueTable rondeAtelier pratiqueRetour d’experience\n\n\n\n17 février 2025 - Analyse de semis de points sur un réseau spatial\n\nFormat : présentiel\nRésumé & supports : Consulter la page dédiée\n\n\n21 juin 2024 - Introduction au web scraping avec R\n\nFormat : présentiel\nRésumé & supports : Consulter la page dédiée\n\n\n21 mai 2024 - Manipulation de données géographiques raster avec R\n\nFormat : présentiel\nRésumé & supports : Consulter la page dédiée\n\n\n21 mars 2024 - Séance statistiques uni et bivariées\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n3 octobre 2023 - Production de documents computationnels\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n23 mai 2023 - Analyse de réseau avec le package igraph\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n21 avril 2023 - Manipulation de données géographiques vectorielles avecsf\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n27 mars 2023 - Initiation à la cartographie avec le package mapsf\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n25 Janvier 2023 - Représentation graphique avec R (et ggplot2)\n\nFormat : Présentiel\nRésumé & supports : Consulter la page dédiée\n\n16 décembre 2022 - Initiation à R (pratique)\n\nFormat : Présentiel\nRésumé & supports : Consulter la page dédiée\n\n2 décembre 2022 - Initiation à R (théorique)\n\nFormat : Présentiel\nRésumé & supports : Consulter la page dédiée\n\n14 octobre 2022 - Séance introductive ElementR\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n\n\n\n24 Janvier 2025 - Les mains dans le code : organisation du travail, bricolage, reproductibilité avec R\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n16 janvier 2024 - Faire de l’analyse textuelle sur R : pourquoi et comment ?\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée\n\n\n\n\n\n\n14 février 2023 - Atelier pratique d’exploration de données d’enquête\n\nFormat : Présentiel\nRésumé & supports : Consulter la page dédiée\n\n\n\n\n\n14 novembre 2023 - R au long cours : trois années de thèse avec R en géographie\n\nFormat : Hybride\nRésumé & supports : Consulter la page dédiée",
     "crumbs": [
       "Programme",
-      "<b>Tables rondes</b>",
-      "Workflow"
+      "<b>Programme & inscriptions</b>"
     ]
   }
 ]

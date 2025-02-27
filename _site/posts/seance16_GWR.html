@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Léa Christophe">
-<meta name="author" content="Robin Cura">
+<meta name="author" content="Thierry Feuillet">
 
-<title>Représentation graphique avec R – ElementR</title>
+<title>Retour d’experience et pratique de la GWR – &lt;b&gt;ElementR&lt;/b&gt;</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,27 +21,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -109,11 +88,11 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="Représentation graphique avec R – ElementR">
-<meta name="twitter:description" content="ggplot2 et la grammaire graphique">
-<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/ggplot.png">
-<meta name="twitter:image-height" content="726">
-<meta name="twitter:image-width" content="1280">
+<meta name="twitter:title" content="Retour d’experience et pratique de la GWR – ElementR">
+<meta name="twitter:description" content="Site web du groupe d’utilisateur·rice·s ElementR">
+<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/GWR.png">
+<meta name="twitter:image-height" content="471">
+<meta name="twitter:image-width" content="672">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -165,7 +144,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance1.html"><b>Séances thématiques</b></a></li><li class="breadcrumb-item"><a href="../posts/seance4_ggplot.html">Représentation graphique</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance9_R_et_these.html"><b>Retours d’expériences</b></a></li><li class="breadcrumb-item"><a href="../posts/seance16_GWR.html">Pratique de la GWR</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -213,7 +192,7 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance4_ggplot.html" class="sidebar-item-text sidebar-link active">
+  <a href="../posts/seance4_ggplot.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Représentation graphique</span></a>
   </div>
 </li>
@@ -327,7 +306,7 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance16_GWR.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/seance16_GWR.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Pratique de la GWR</span></a>
   </div>
 </li>
@@ -353,95 +332,38 @@ div.csl-indent {
 <!-- main -->
 <div class="quarto-about-marquee column-body">
   <div class="about-image-container">
-    <img src="img/ggplot.png" class="about-image
-  rounded " style="width: 35em;">
+    <img src="img/GWR.png" class="about-image
+  rounded " style="width: 20em;">
   </div>
   <div class="about-contents">
-    <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance1.html"><b>Séances thématiques</b></a></li><li class="breadcrumb-item"><a href="../posts/seance4_ggplot.html">Représentation graphique</a></li></ol></nav>
+    <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance9_R_et_these.html"><b>Retours d’expériences</b></a></li><li class="breadcrumb-item"><a href="../posts/seance16_GWR.html">Pratique de la GWR</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Représentation graphique avec R</h1>
-<p class="subtitle lead">ggplot2 et la grammaire graphique</p>
+<h1 class="title">Retour d’experience et pratique de la GWR</h1>
   </div>
 <div class="quarto-title-meta column-body">
     <div>
     <div class="quarto-title-meta-heading">Auteur·es</div>
     <div class="quarto-title-meta-contents">
-             <p>Léa Christophe </p>
-             <p>Robin Cura <a href="https://orcid.org/0000-0001-5926-1828" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Thierry Feuillet <a href="https://orcid.org/0000-0002-5494-538X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Date de séance</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">25 janvier 2023</p>
+      <p class="date">20 mars 2025</p>
     </div>
   </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
-<p>Cette séance s’adresse aussi bien aux débutant·e·s qu’aux intié·e·s. Elle a pour objectif de présenter le package <a href="https://ggplot2.tidyverse.org/index.html">ggplot2</a>. Ce package généraliste de représentation graphique, basé sur la <a href="https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl">grammaire graphique</a> théorisée par Leland Wilkinson, est une référence dans la communauté R.</p>
 <p><br>
 </p>
-<p><strong>Plan de séance :</strong></p>
-<ol type="1">
-<li>Faire un graphique avec R</li>
-<li>La <a href="https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl">grammaire graphique</a><br>
-</li>
-<li><strong>ggplot2</strong> : une implémentation de la grammar of graphics<br>
-</li>
-<li>Documentation &amp; aide</li>
-<li>Atelier pratique !</li>
-</ol>
-<p><br>
-</p>
-<p><strong>Diaporama :</strong></p>
-<div class="nonicremental" style="font-size:80%;margin-top:-10px;margin-bottom:10px;">
-<ul>
-<li>Consulter en <a href="https://elementr.gitpages.huma-num.fr/session_graphique/ggplot2/#/title-slide"><strong>plein écran</strong></a><br>
-</li>
-<li>Consulter le <a href="https://gitlab.huma-num.fr/elementr/session_graphique/ggplot2"><strong>code source</strong></a></li>
-</ul>
-</div>
-<div class="diapo">
-<iframe class="slide2" src="https://elementr.gitpages.huma-num.fr/session_graphique/ggplot2/#/title-slide">
-</iframe>
-</div>
-<div class="auteurs">
-<p><i class="bi bi-people-fill"> <strong>Léa Christophe &amp; robin Cura</strong></i></p>
-</div>
-<p><strong>Données et scripts :</strong></p>
-<!-- Un projet Rstudio contenant des données et des scripts R (exercice et correction) utilisés durant la séance est téléchargeable ici : -->
-<p>Les exercices (scripts R, données et correction) et le support de cours sont mis à disposition sur un <a href="https://gitlab.huma-num.fr/elementr/session_graphique/ggplot2">dépôt GitLab</a>. Cliquez ci-dessous pour télécharger une archive du dépôt :</p>
-<center>
-<a href="https://gitlab.huma-num.fr/elementr/session_graphique/ggplot2/-/raw/main/ElementR_ggplot.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> ElementR_ggplot.zip</a>
-</center>
-<p><br>
-</p>
-<p><strong>Conditions d’utilisation :</strong></p>
-<p>Le support utilisé pour cette séance est libre d’utilisation et d’adaptation (licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>). Vous devez néanmoins créditer l’œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.</p>
-<p><br>
-</p>
-<section id="bibliographie" class="level5">
-<h5 data-anchor-id="bibliographie">Bibliographie</h5>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-ggplotgallery" class="csl-entry" role="listitem">
-Emaasit D. 2023. ggplot2 extensions - gallery Disponible sur: <a href="https://exts.ggplot2.tidyverse.org/gallery/">https://exts.ggplot2.tidyverse.org/gallery/</a> [Consulté le 24 janvier 2023]
-</div>
-<div id="ref-ggplot2book" class="csl-entry" role="listitem">
-Wickham H. 2016b. <em>ggplot2: Elegant Graphics for Data Analysis</em>. Springer-Verlag New York. Disponible sur: <a href="https://ggplot2-book.org/">https://ggplot2-book.org/</a>
-</div>
-<div id="ref-ggplot2" class="csl-entry" role="listitem">
-Wickham H. 2016a. <em>ggplot2: Elegant Graphics for Data Analysis</em>. Springer-Verlag New York. Disponible sur: <a href="https://ggplot2.tidyverse.org">https://ggplot2.tidyverse.org</a>
-</div>
-<div id="ref-wilkinson:2006" class="csl-entry" role="listitem">
-Wilkinson L. 2005. <em>The Grammar of Graphics</em>. Springer.
-</div>
-</div>
+<p>Séance prévue le <strong>20 mars 2025</strong>.</p>
+<p>Formulaire d’inscription : <a href="https://evento.renater.fr/survey/la-regression-geographique-ponderee-gwr-par-thierry-feuillet-3bq7shgp"><strong>https://evento.renater.fr/survey/la-regression-geographique…</strong></a></p>
 
 
-</section>
 </main> 
     <div class="about-footer"><div class="about-links">
-  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance4_ggplot.qmd" class="about-link" rel="" target="">
+  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance16_GWR.qmd" class="about-link" rel="" target="">
     <i class="bi bi-github"></i>
      <span class="about-link-text">GitLab</span>
   </a>

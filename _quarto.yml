@@ -76,6 +76,8 @@ website:
         contents: 
           - href: posts/seance9_R_et_these.qmd
             text: R au long cours
+          - href: posts/seance16_GWR.qmd
+            text: Pratique de la GWR
       - text: "---"
       - contact.qmd
 

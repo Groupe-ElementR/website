@@ -12,29 +12,23 @@ title: "**Programme & inscriptions**"
 
 ::: panel-tabset
 
-#### **Séance thématique**
-
--   **17 Février 2025 - Analyse de semis de points sur un réseau spatial**
-    -   <u>Horaire</u> : 9h30-12h30
-    -   <u>Lieu</u> : Salle 1.122, Bât. Sud Campus Condorcet
-    -   <u>Animation</u> : Julie Gravier (CNRS, THEMA) et Laurent Beauguitte (CNRS, Géographie-cités)
-    -   <u>Format</u> : présentiel
-    -   <u>Inscription obligatoire</u> : [Formulaire d'inscription](https://evento.renater.fr/survey/elementr-seance-2-an...-h7qp97p2)
-
+#### **Retour d'experience**
 
 -   **20 mars 2025 - Retour d'experience et pratique de la GWR**
-    -   <u>Horaire</u> : 14h-17h
-    -   <u>Lieu</u> : À définir
-    -   <u>Animation</u> : Thierry Feuillet (Université de Caen Normandie, UMR IDEES)
-    -   <u>Format</u> : À définir
-    -   <u>Inscription</u> : À venir
-    
+    -   <u>Horaire</u> : 13h-16h
+    -   <u>Lieu</u> : Salle 1.122, Bât. Sud Campus Condorcet
+    -   <u>Animation</u> : Thierry Feuillet (Université de Caen Normandie, UMR 6266 CNRS - IDEES) 
+    -   <u>Format</u> : présentiel
+    -   <u>Inscription obligatoire</u> : [Formulaire d'inscription](https://evento.renater.fr/survey/la-regression-geographique-ponderee-gwr-par-thierry-feuillet-3bq7shgp)
 
-#### **Table ronde**
+#### **Séance thématique**
 
 #### **Atelier pratique**
 
-#### **Retour d'experience**
+#### **Table ronde**
+
+
+
 :::
 
 \
@@ -42,17 +36,12 @@ title: "**Programme & inscriptions**"
 ### Séances ElementR passées
 
 ::: panel-tabset
-#### **Table ronde**
-
--   **24 Janvier 2025 - Les mains dans le code : organisation du travail, bricolage, reproductibilité avec R**
-    -   <u>Format</u> : Hybride
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance14_TR_workflow.qmd)\
--   **16 janvier 2024 - Faire de l'analyse textuelle sur R : pourquoi et comment ?**
-    -   <u>Format</u> : Hybride
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance10_table_ronde_analyse_textuelle.qmd)\
 
 #### **Séance thématique**
 
+-   **17 février 2025 - Analyse de semis de points sur un réseau spatial**
+    -   <u>Format</u> : présentiel
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance15_AR_semi_de_points.qmd)\
 -   **21 juin 2024 - Introduction au web scraping avec R**
     -   <u>Format</u> : présentiel
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance13_webscraping.qmd)\
@@ -86,6 +75,17 @@ title: "**Programme & inscriptions**"
 -   **14 octobre 2022 - Séance introductive ElementR**
     -   <u>Format</u> : Hybride
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance1.html)
+    
+    
+#### **Table ronde**
+
+-   **24 Janvier 2025 - Les mains dans le code : organisation du travail, bricolage, reproductibilité avec R**
+    -   <u>Format</u> : Hybride
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance14_TR_workflow.qmd)\
+-   **16 janvier 2024 - Faire de l'analyse textuelle sur R : pourquoi et comment ?**
+    -   <u>Format</u> : Hybride
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance10_table_ronde_analyse_textuelle.qmd)\
+
 
 #### **Atelier pratique**
 

@@ -1,0 +1,36 @@
+---
+title: "Retour d'experience et pratique de la GWR"
+subtitle: ""
+date: 03/20/2025
+bibliography: biblio/session16.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+- name: Thierry Feuillet
+  orcid: 0000-0002-5494-538X
+
+image: img/GWR.png
+about:
+  template: marquee
+  image: img/GWR.png
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance16_GWR.qmd
+categories: 
+- modélisation
+- statistique
+- analyse spatiale
+published-title: Date de séance
+author-title: Auteur·es
+title-block-categories: false
+---
+
+\
+
+
+Séance prévue le **20 mars 2025**.
+
+Formulaire d'inscription : [**https://evento.renater.fr/survey/la-regression-geographique...**](https://evento.renater.fr/survey/la-regression-geographique-ponderee-gwr-par-thierry-feuillet-3bq7shgp)

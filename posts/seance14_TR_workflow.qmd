@@ -37,18 +37,17 @@ author-title: Auteur·es
 title-block-categories: false
 ---
 
-
 Table ronde animée par : **Paul Gourdon** (LATTS, CNRS )
 
 Liste des intervenant·es :
 
-- **Kim Antunez** (INSEE)
-- **Aurélie Douet** (CRH, CNRS)
-- **Louis Laurian** (RIATE, CNRS)
-- **Julie Pierson** (LETG, CNRS)
-- **Kevin Poisson** (Géographie-cités, Université Paris Cité)
-- **Nicolas Robette** (Printemps, UVSQ)
-- **Ronan Ysebaert** (RIATE, CNRS)
+-   **Kim Antunez** (INSEE)
+-   **Aurélie Douet** (CRH, CNRS)
+-   **Louis Laurian** (RIATE, CNRS)
+-   **Julie Pierson** (LETG, CNRS)
+-   **Kevin Poisson** (Géographie-cités, Université Paris Cité)
+-   **Nicolas Robette** (Printemps, UVSQ)
+-   **Ronan Ysebaert** (RIATE, CNRS)
 
 \
 \
