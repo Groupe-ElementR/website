@@ -31,7 +31,7 @@ title-block-categories: false
 
 \
 
-**Diaporama d'intoduction**
+### Diaporama d'intoduction
 
 ::: diapo
 <iframe class="slide" src="https://slides.com/tfeuillet/elementr/fullscreen">
@@ -46,7 +46,7 @@ title-block-categories: false
 \
 \
 
-**Support de mise en pratique :**
+### Support de mise en pratique :
 
 ::: quartodoc
 <iframe class="slide2" src="https://analyse-spatiale-cf206d.gitpages.huma-num.fr/gwrGeodiv.html">

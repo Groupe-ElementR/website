@@ -1,6 +1,6 @@
 ---
 title: "Utilisation de la base de données OpenStreetMap"
-subtitle: "Géocodage, extraction de données, routing…"
+subtitle: "Géocodage, extraction de données, routage…"
 date: 05/13/2025
 bibliography: biblio/session17.bib
 nocite: '@*'
@@ -12,6 +12,8 @@ author:
   orcid: 0009-0002-7275-5536
 - name: Timothée Giraud
   orcid: 0000-0002-1932-3323
+- name: Matthieu Viry
+  orcid: 0000-0002-0693-8556
 
 image: img/osm.png
 about:
@@ -23,6 +25,8 @@ categories:
 - cartographie
 - statistique
 - analyse spatiale
+- information géographique
+- routage
 published-title: Date de séance
 author-title: Auteurs
 title-block-categories: false
@@ -36,7 +40,35 @@ La présentation sera étayée d’exemples d’application issus des travaux et
 
 Cette intervention se conclura par la présentation d’une chaine de traitement reproductible qui résumera les éléments abordés durant la séance et qui pourra utilement être remobilisée dans d’autres contextes spatiaux ou thématiques.
 
-[&#128187; Présentation - Mise en contexte](https://riatecom.github.io/osm-elementr-2025/) 
 
-[&#128736; Atelier- Mise en pratique](https://riatecom.github.io/osm-elementr-2025-application/) 
 
+\
+
+### 💻 Présentation - Mise en contexte
+
+::: diapo
+<iframe class="slide" src="https://riatecom.github.io/osm-elementr-2025/">
+
+</iframe>
+:::
+
+\
+
+<center><a href="https://riatecom.github.io/osm-elementr-2025/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
+
+\
+\
+
+### 🛠 Atelier- Mise en pratique :
+
+::: quartodoc
+<iframe class="slide2" src="https://riatecom.github.io/osm-elementr-2025-application/">
+
+</iframe>
+:::
+
+\
+
+<center><a href="https://riatecom.github.io/osm-elementr-2025-application/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
+
+\
