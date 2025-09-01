@@ -10,15 +10,26 @@ title: "**Programme & inscriptions**"
 
 ### Séances à venir :
 
+
+-   **18 septembre 2025 - AG ElementR 2025**\
+    -   <u>Format</u> : Hybride\
+    -   <u>Salle</u> : salle 1.122 bâtiment Sud de Condorcet\
+    -   <u>Lien de visio</u> : à venir\
+    
+    
+
 :::{.callout-important}
 
-Le programme de fin d'année 2025 sera communiqué cet été. 
-
-Une assemblée générale pour discuter des séances de 2026 est prévue à la rentrée. Pour rester informé, inscrivez-vous à la liste de diffusion : [**elementr\@services.cnrs.fr**](https://listes.services.cnrs.fr/wws/subscribe/elementr?previous_action=info)
+Le programme de 2026 sera discuté lors de l'AG du 18 septembre. \
+Pour rester informé, inscrivez-vous à la liste de diffusion : [**elementr\@services.cnrs.fr**](https://listes.services.cnrs.fr/wws/subscribe/elementr?previous_action=info)
 
 :::
 
 \
+
+-   **21 Octobre 2025 - Séance *Big data***\
+    -   <u>Intervenant.es</u> : Robin Cura et Elina Marveaux\
+    -   <u>Salle et horaire</u> : à définir 
 
 <!-- ::: panel-tabset -->
 <!-- #### **Retour d'experience** -->
@@ -31,7 +42,7 @@ Une assemblée générale pour discuter des séances de 2026 est prévue à la r
 <!-- #### **Table ronde** -->
 <!-- ::: -->
 
-<!-- \ -->
+\
 
 ### Séances passées :
 
