@@ -4,19 +4,17 @@ title: "**Programme & inscriptions**"
 
 ### Calendrier
 
-<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listYear/now" width="100%" height="500">
+<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listMonth/now" width="100%" height="400">
 
 </iframe>
 
 ### Séances à venir :
 
 
--   **18 septembre 2025 - AG ElementR 2025**\
+-   **18 septembre 2025, 14h - AG ElementR**\
     -   <u>Format</u> : Hybride\
-    -   <u>Salle</u> : salle 1.122 bâtiment Sud de Condorcet\
-    -   <u>Lien de visio</u> : à venir\
-    
-    
+    -   <u>En présentiel</u> : salle 1.122 bâtiment Sud de Condorcet\
+    -   <u>En visioconférence</u> : [lien zoom](https://cnrs.zoom.us/j/97697785040?pwd=nHP62xKVgnUSSWX9mltUKmLx0w8oxe.1)
 
 :::{.callout-important}
 
@@ -25,11 +23,12 @@ Pour rester informé, inscrivez-vous à la liste de diffusion : [**elementr\@ser
 
 :::
 
-\
 
--   **21 Octobre 2025 - Séance *Big data***\
+
+-   **21 Octobre 2025, 14h30-17h - Séance *Big data***\
     -   <u>Intervenant.es</u> : Robin Cura et Elina Marveaux\
-    -   <u>Salle et horaire</u> : à définir 
+    -   <u>Inscription obligatoire</u> : [Formulaire](https://evento.renater.fr/survey/elementr-manipulation-de-donnees-massives-6m302cvi)
+    -   <u>Lieu</u> : salle à définir (Condorcet)
 
 <!-- ::: panel-tabset -->
 <!-- #### **Retour d'experience** -->
