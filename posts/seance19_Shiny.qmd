@@ -1,0 +1,43 @@
+---
+title: "Créer une application interactive avec Shiny"
+subtitle: "Création d'une application web, avec le package shiny, pour mettre en place une interface graphique interactive autour d'un script R."
+date: 12/16/2025
+bibliography: biblio/session19.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+  - name: Aurélie Douet
+  - name: Robin Cura
+    orcid: 0000-0001-5926-1828
+
+image: img/shiny.png
+about:
+  template: marquee
+  image: img/shiny.png
+  image-width: 10em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance19_Shiny.qmd
+categories: 
+  - interactivité
+  - géovisualisation
+  - déploiement
+  - analyse exploratoire
+published-title: Date de séance
+author-title: Auteurs
+title-block-categories: false
+---
+
+### Résumé
+
+*À venir*
+
+### Données
+
+*À venir*
+
+### Support
+
+*À venir*

@@ -59,6 +59,10 @@ website:
             text: Premier pas en webscraping
           - href: posts/seance15_AR_semi_de_points.qmd
             text: Réseau et semi de points
+          - href: posts/seance18_Donnees_Massives.qmd
+            text: Manipulation de données tabulaires massives avec R
+          - href: posts/seance19_Shiny.qmd
+            text: Créer une application interactive avec Shiny
       - text: "---"
       - section: "<b>Tables rondes</b>"
         contents: 

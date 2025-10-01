@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sylvestre Duroudier">
+<meta name="author" content="Aurélie Douet">
+<meta name="author" content="Robin Cura">
 
-<title>Initiation à la statistique univariée et bivariée avec R – ElementR</title>
+<title>Créer une application interactive avec Shiny – ElementR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,26 +22,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -110,11 +92,11 @@ div.csl-indent {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="Initiation à la statistique univariée et bivariée avec R – ElementR">
-<meta name="twitter:description" content="Cours pratique">
-<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/initR.png">
-<meta name="twitter:image-height" content="510">
-<meta name="twitter:image-width" content="1280">
+<meta name="twitter:title" content="Créer une application interactive avec Shiny – ElementR">
+<meta name="twitter:description" content="Création d’une application web, avec le package shiny, pour mettre en place une interface graphique interactive autour d’un script R.">
+<meta name="twitter:image" content="https://elementr.gitpages.huma-num.fr/website/posts/img/shiny.png">
+<meta name="twitter:image-height" content="924">
+<meta name="twitter:image-width" content="800">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -328,7 +310,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance1.html"><b>Séances thématiques</b></a></li><li class="breadcrumb-item"><a href="../posts/seance11_uni_bivarie.html">Statistique uni et bivariée</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Créer une application interactive avec Shiny</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -406,7 +388,7 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/seance11_uni_bivarie.html" class="sidebar-item-text sidebar-link active">
+  <a href="../posts/seance11_uni_bivarie.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Statistique uni et bivariée</span></a>
   </div>
 </li>
@@ -426,6 +408,12 @@ div.csl-indent {
   <div class="sidebar-item-container"> 
   <a href="../posts/seance15_AR_semi_de_points.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Réseau et semi de points</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../posts/seance18_Donnees_Massives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Manipulation de données tabulaires massives avec R</span></a>
   </div>
 </li>
       </ul>
@@ -517,78 +505,62 @@ div.csl-indent {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <p><img src="img/ElementR.png" class="img-fluid"></p>
 </div></div>
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+  <ul>
+  <li><a href="#résumé" id="toc-résumé" class="nav-link active" data-scroll-target="#résumé">Résumé</a></li>
+  <li><a href="#données" id="toc-données" class="nav-link" data-scroll-target="#données">Données</a></li>
+  <li><a href="#support" id="toc-support" class="nav-link" data-scroll-target="#support">Support</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <div class="quarto-about-marquee column-body">
   <div class="about-image-container">
-    <img src="img/initR.png" class="about-image
-  rounded " style="width: 30em;">
+    <img src="img/shiny.png" class="about-image
+  rounded " style="width: 10em;">
   </div>
   <div class="about-contents">
-    <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/seance1.html"><b>Séances thématiques</b></a></li><li class="breadcrumb-item"><a href="../posts/seance11_uni_bivarie.html">Statistique uni et bivariée</a></li></ol></nav>
+    <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Initiation à la statistique univariée et bivariée avec R</h1>
-<p class="subtitle lead">Cours pratique</p>
+<h1 class="title">Créer une application interactive avec Shiny</h1>
+<p class="subtitle lead">Création d’une application web, avec le package shiny, pour mettre en place une interface graphique interactive autour d’un script R.</p>
   </div>
 <div class="quarto-title-meta column-body">
     <div>
-    <div class="quarto-title-meta-heading">Auteur·es</div>
+    <div class="quarto-title-meta-heading">Auteurs</div>
     <div class="quarto-title-meta-contents">
-             <p>Sylvestre Duroudier <a href="https://orcid.org/0000-0002-4415-2431" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Aurélie Douet </p>
+             <p>Robin Cura <a href="https://orcid.org/0000-0001-5926-1828" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Date de séance</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">21 mars 2024</p>
+      <p class="date">16 décembre 2025</p>
     </div>
   </div>
   </div>
 </header> <main class="content column-body" id="quarto-document-content">
 
-<p>Cette séance s’adresse aux débutant·e·s. Elle initie à l’ensemble des bases nécessaires à la pratique de R via l’interface de développement <a href="https://posit.co/download/rstudio-desktop/">Rstudio</a>.</p>
-<p><strong>Plan de séance :</strong></p>
-<ol type="1">
-<li>Des statistiques en géographie</li>
-<li>Statistiques univariées</li>
-<li>Bivarié quantitatif</li>
-</ol>
-<p><br>
-</p>
-<p><strong>Diaporama :</strong></p>
-<div class="nonicremental" style="font-size:80%;margin-top:-10px;margin-bottom:10px;">
-<ul>
-<li>Consulter en <a href="support/20240321_ElementR_Duroudier_Univarié et Bivarié quanti.pdf"><strong>plein écran</strong></a></li>
-</ul>
-</div>
-<div class="diapo">
-<object class="slide" data="support/20240321_ElementR_Duroudier_Univarié et Bivarié quanti.pdf" type="application/pdf">
-<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true">
-</iframe>
-</object>
-</div>
-<p><strong>Données et scripts :</strong></p>
-<p>Un script comportant l’utilisation des différentes fonctionnalités présentées durant la séance est téléchargeable ici :</p>
-<center>
-<a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/stats_uni_bi.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> stats_uni_bi.zip</a>
-</center>
-<p><br>
-</p>
-<p><strong>Conditions d’utilisation :</strong></p>
-<p>Le support utilisé pour cette séance est libre d’utilisation et d’adaptation (licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>). Vous devez néanmoins créditer l’œuvre, indiquer les éventuelles modifications et utiliser les mêmes conditions de partage.</p>
-<p><br>
-</p>
-<section id="bibliographie" class="level5">
-<h5 data-anchor-id="bibliographie">Bibliographie</h5>
-<div id="refs" role="list">
-</div>
+
+<section id="résumé" class="level3">
+<h3 data-anchor-id="résumé">Résumé</h3>
+<p><em>À venir</em></p>
+</section>
+<section id="données" class="level3">
+<h3 data-anchor-id="données">Données</h3>
+<p><em>À venir</em></p>
+</section>
+<section id="support" class="level3">
+<h3 data-anchor-id="support">Support</h3>
+<p><em>À venir</em></p>
 
 
 </section>
 </main> 
     <div class="about-footer"><div class="about-links">
-  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance11_uni_bivarie.qmd" class="about-link" rel="" target="">
+  <a href="https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance19_Shiny.qmd" class="about-link" rel="" target="">
     <i class="bi bi-github"></i>
      <span class="about-link-text">GitLab</span>
   </a>

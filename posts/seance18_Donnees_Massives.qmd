@@ -1,0 +1,45 @@
+---
+title: "Manipulation de données tabulaires massives avec R"
+subtitle: "Découverte de l'écosystème de manipulation de données massives."
+date: 10/21/2025
+bibliography: biblio/session18.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+- name: Robin Cura
+  orcid: 0000-0001-5926-1828
+- name: Elina Marveaux
+  orcid: 0009-0000-8667-3019
+
+image: img/bigdata_packages.png
+about:
+  template: marquee
+  image: img/bigdata_packages.png
+  image-width: 30em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance18_Donnees_Massives.qmd
+categories: 
+  - données
+  - bases de données
+  - statistique
+  - analyse spatiale
+  - information géographique
+published-title: Date de séance
+author-title: Auteur·es
+title-block-categories: false
+---
+
+### Résumé
+
+*À venir*
+
+### Données
+
+*À venir*
+
+### Support
+
+*À venir*

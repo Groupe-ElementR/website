@@ -10,24 +10,24 @@ title: "**Programme & inscriptions**"
 
 ### Séances à venir :
 
-
--  <s>18 septembre</s> **1er octobre, 14h - AG 2025/2026**
-    -   <u>Format</u> : Hybride\
-    -   <u>En présentiel</u> : salle 1.122, bâtiment Sud de Condorcet\
-    -   <u>En visioconférence</u> : [lien zoom](https://cnrs.zoom.us/j/97697785040?pwd=nHP62xKVgnUSSWX9mltUKmLx0w8oxe.1)
-
 :::{.callout-important}
 
-Le programme de 2026 sera discuté lors de l'AG du 18 septembre. \
+Le programme de 2026 a été discuté lors de l'AG du 1er octobre. \
 Pour rester informé, inscrivez-vous à la liste de diffusion : [**elementr\@services.cnrs.fr**](https://listes.services.cnrs.fr/wws/subscribe/elementr?previous_action=info)
 
 :::
-
 
 -   **21 Octobre, 14h30-17h - Manipulation de données tabulaires massives**\
     -   <u>Intervenant.es</u> : Robin Cura et Elina Marveaux\
     -   <u>Inscription obligatoire</u> : [Formulaire](https://evento.renater.fr/survey/elementr-manipulation-de-donnees-massives-6m302cvi)
     -   <u>Lieu</u> :  salle 1.023, bâtiment Sud de Condorcet\
+  
+\
+
+-   **16 Décembre, 14h00-16h30 - Créer une application interactive avec Shiny**\
+    -   <u>Intervenant.es</u> : Aurélie Douet et Robin Cura\
+    -   <u>Inscription obligatoire</u> : [Formulaire](https://evento.renater.fr/survey/elementr-16-12-2025-creer-une-application-interactive-avec-shiny-o8ubfvvs)
+    -   <u>Lieu</u> :  salle 3.023, bâtiment Sud de Condorcet\
 
 <!-- ::: panel-tabset -->
 <!-- #### **Retour d'experience** -->
