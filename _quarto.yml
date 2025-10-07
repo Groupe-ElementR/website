@@ -89,7 +89,7 @@ website:
 
             
 
-  page-footer: ElementR 2022 - [![licensebuttons by-nc](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0) - UMR Géographie-Cités · UMR PRODIG · UAR RIATE
+  page-footer: ElementR 2022 - [![licensebuttons by-nc](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0) - UMR Géographie-Cités · UMR PRODIG · UAR RIATE <script defer src="https://stats.fuzzy.guru/script.js" data-website-id="c2d42af0-488c-4b38-9041-c909af632786"></script>
   margin-header: |
     ![](img/ElementR.png)
 
