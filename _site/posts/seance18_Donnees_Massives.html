@@ -44,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-cccd2b3b80382436e6a438002f59f6c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e5c19ead0a862f3b41ee925160035a38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/bootstrap/bootstrap-dark-2a85743b2b482bd1f60b8089092db09d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-cccd2b3b80382436e6a438002f59f6c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e5c19ead0a862f3b41ee925160035a38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,21 +74,38 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <!-- Matomo -->
+
 <script>
+
   var _paq = window._paq = window._paq || [];
+
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+
   _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+
   _paq.push(['trackPageView']);
+
   _paq.push(['enableLinkTracking']);
+
   (function() {
+
     var u="https://analyseweb.huma-num.fr/";
+
     _paq.push(['setTrackerUrl', u+'matomo.php']);
+
     _paq.push(['setSiteId', '471']);
+
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+
   })();
+
 </script>
+
 <!-- End Matomo Code -->
+
+
 
 
 
@@ -522,8 +539,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
   <ul>
   <li><a href="#résumé" id="toc-résumé" class="nav-link active" data-scroll-target="#résumé">Résumé</a></li>
-  <li><a href="#données" id="toc-données" class="nav-link" data-scroll-target="#données">Données</a></li>
-  <li><a href="#support" id="toc-support" class="nav-link" data-scroll-target="#support">Support</a></li>
+  <li><a href="#script" id="toc-script" class="nav-link" data-scroll-target="#script">Script</a></li>
+  <li><a href="#présentation" id="toc-présentation" class="nav-link" data-scroll-target="#présentation">💻 Présentation</a></li>
   </ul>
 </nav>
     </div>
@@ -559,15 +576,27 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="résumé" class="level3">
 <h3 data-anchor-id="résumé">Résumé</h3>
-<p><em>À venir</em></p>
+<p>Cette séance propose de présenter différentes solutions pour accélérer un traitement, pour permettre la manipulation de données trop importantes pour tenir en mémoire, et pour manipuler des données en ligne sans les télécharger dans leur ensemble.</p>
+<p>On y introduit le format de données en mémoire <code>Apache Arrow</code> et les fonctions du package <code>arrow</code> qui permettent de manipuler des données tabulaires ; le système de gestion de bases de données <code>DuckDB</code> qui permet d’exécuter une chaîne de traitement via syntaxe <code>dplyr</code> sur un jeu de données non chargé en mémoire ; et enfin le format de données orienté colonne <code>Apache Parquet</code> qui accélère drastiquement la lecture et l’interrogation d’un jeu de données tabulaire tout en diminuant sa taille sur disque.</p>
 </section>
-<section id="données" class="level3">
-<h3 data-anchor-id="données">Données</h3>
-<p><em>À venir</em></p>
+<section id="script" class="level3">
+<h3 data-anchor-id="script">Script</h3>
+<ul>
+<li><a href="https://gitlab.huma-num.fr/elementr/session_bigdata/1_donnees_tabulaires/-/blob/main/ElementR_Donnees_Massives_tabulaires.R?ref_type=heads">Script complet des codes présentés dans la présentation</a></li>
+<li><a href="https://gitlab.huma-num.fr/elementr/session_bigdata/1_donnees_tabulaires/-/blob/main/ElementR_Donnees_Massives_spatiales.R?ref_type=heads">Script des expérimentations sur des données spatiales</a></li>
+</ul>
 </section>
-<section id="support" class="level3">
-<h3 data-anchor-id="support">Support</h3>
-<p><em>À venir</em></p>
+<section id="présentation" class="level3">
+<h3 data-anchor-id="présentation">💻 Présentation</h3>
+<div class="diapo">
+<iframe class="slide" src="https://1-donnees-tabulaires-a74886.gitpages.huma-num.fr/">
+</iframe>
+</div>
+<p><br>
+</p>
+<center>
+<a href="https://1-donnees-tabulaires-a74886.gitpages.huma-num.fr/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a>
+</center>
 
 
 </section>

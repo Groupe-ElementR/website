@@ -34,12 +34,24 @@ title-block-categories: false
 
 ### Résumé
 
-*À venir*
+Cette séance propose de présenter différentes solutions pour accélérer un traitement, pour permettre la manipulation de données trop importantes pour tenir en mémoire, et pour manipuler des données en ligne sans les télécharger dans leur ensemble.
 
-### Données
+On y introduit le format de données en mémoire `Apache Arrow` et les fonctions du package `arrow` qui permettent de manipuler des données tabulaires ; le système de gestion de bases de données `DuckDB` qui permet d'exécuter une chaîne de traitement via syntaxe `dplyr` sur un jeu de données non chargé en mémoire ; et enfin le format de données orienté colonne `Apache Parquet` qui accélère drastiquement la lecture et l'interrogation d'un jeu de données tabulaire tout en diminuant sa taille sur disque.
 
-*À venir*
 
-### Support
+### Script
 
-*À venir*
+- [Script complet des codes présentés dans la présentation](https://gitlab.huma-num.fr/elementr/session_bigdata/1_donnees_tabulaires/-/blob/main/ElementR_Donnees_Massives_tabulaires.R?ref_type=heads)
+- [Script des expérimentations sur des données spatiales](https://gitlab.huma-num.fr/elementr/session_bigdata/1_donnees_tabulaires/-/blob/main/ElementR_Donnees_Massives_spatiales.R?ref_type=heads)
+
+### 💻 Présentation
+
+::: diapo
+<iframe class="slide" src="https://1-donnees-tabulaires-a74886.gitpages.huma-num.fr/">
+
+</iframe>
+:::
+
+\
+
+<center><a href="https://1-donnees-tabulaires-a74886.gitpages.huma-num.fr/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
