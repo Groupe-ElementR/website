@@ -17,17 +17,11 @@ Pour rester informé, inscrivez-vous à la liste de diffusion : [**elementr\@ser
 
 :::
 
--   **21 Octobre, 14h30-17h - Manipulation de données tabulaires massives**\
-    -   <u>Intervenant.es</u> : Robin Cura et Elina Marveaux\
-    -   <u>Inscription obligatoire</u> : [Formulaire](https://evento.renater.fr/survey/elementr-manipulation-de-donnees-massives-6m302cvi)
-    -   <u>Lieu</u> :  salle 1.023, bâtiment Sud de Condorcet\
-  
-\
-
 -   **16 Décembre, 14h00-16h30 - Créer une application interactive avec Shiny**\
     -   <u>Intervenant.es</u> : Aurélie Douet et Robin Cura\
     -   <u>Inscription obligatoire</u> : [Formulaire](https://evento.renater.fr/survey/elementr-16-12-2025-creer-une-application-interactive-avec-shiny-o8ubfvvs)
     -   <u>Lieu</u> :  salle 3.023, bâtiment Sud de Condorcet\
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance19_Shiny.qmd)\
 
 <!-- ::: panel-tabset -->
 <!-- #### **Retour d'experience** -->
@@ -44,6 +38,10 @@ Pour rester informé, inscrivez-vous à la liste de diffusion : [**elementr\@ser
 
 ### Séances passées :
 
+
+-   **21 octobre 2025 - Manipulation de données tabulaires massives**\
+    -   <u>Format</u> : Hybride\
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance18_Donnees_Massives.qmd)\
 -   **13 mai 2025 - Utiliser OpenStreetMap avec R**\
     -   <u>Format</u> : Hybride\
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance17_OSM.qmd)\
