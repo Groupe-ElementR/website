@@ -1,0 +1,46 @@
+---
+title: "L’autocorrélation spatiale multivariée, le package `adespatial`"
+date: 02/13/2026
+bibliography: biblio/session20.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+  - name: Stéphane Dray
+    orcid: https://orcid.org/0000-0003-0153-1105
+    roles: author
+  - name: Paul Gourdon
+    orcid: https://orcid.org/0009-0008-7303-8583
+    roles: project administration
+image: https://raw.githubusercontent.com/adeverse/adespatial/refs/heads/master/man/figures/logo.svg
+about:
+  template: marquee
+  image: https://raw.githubusercontent.com/adeverse/adespatial/refs/heads/master/man/figures/logo.svg
+  image-width: 10em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance20_adespatial.qmd
+categories: 
+  - "A COMPLETER"
+published-title: Date de séance
+author-title: Auteur·es
+title-block-categories: false
+---
+
+### Résumé
+
+*À venir*
+
+### Script et données
+
+*À venir*
+
+### 💻 Présentation
+
+*À venir*
+
+##### Bibliographie
+
+::: {#refs}
+:::

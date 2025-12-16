@@ -17,11 +17,11 @@ Pour rester informé, inscrivez-vous à la liste de diffusion : [**elementr\@ser
 
 :::
 
--   **16 Décembre, 14h00-16h30 - Créer une application interactive avec Shiny**\
-    -   <u>Intervenant.es</u> : Aurélie Douet et Robin Cura\
-    -   <u>Inscription obligatoire</u> : [Formulaire](https://evento.renater.fr/survey/elementr-16-12-2025-creer-une-application-interactive-avec-shiny-o8ubfvvs)
-    -   <u>Lieu</u> :  salle 3.023, bâtiment Sud de Condorcet\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance19_Shiny.qmd)\
+-   **13 Février, 9h30-12h30 - Séance croisée avec le réseau [RUSS](https://russ.site.ined.fr/) - L’autocorrélation spatiale multivariée, le package adespatial**\
+    -   <u>Intervenant.es</u> : Stéphane Dray
+    -   <u>Inscription obligatoire</u> : *à venir*
+    -   <u>Lieu</u> :  Salle Sauvy, INED, Campus Condorcet\
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance20_adespatial.qmd)\
 
 <!-- ::: panel-tabset -->
 <!-- #### **Retour d'experience** -->
