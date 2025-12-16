@@ -38,7 +38,9 @@ Pour rester informé, inscrivez-vous à la liste de diffusion : [**elementr\@ser
 
 ### Séances passées :
 
-
+-   **16 Décembre, 14h00-16h30 - Créer une application interactive avec Shiny**\
+    -   <u>Format</u> : Présentiel\
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance19_Shiny.qmd)\
 -   **21 octobre 2025 - Manipulation de données tabulaires massives**\
     -   <u>Format</u> : Hybride\
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance18_Donnees_Massives.qmd)\
@@ -49,16 +51,16 @@ Pour rester informé, inscrivez-vous à la liste de diffusion : [**elementr\@ser
     -   <u>Format</u> : Hybride\
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance16_GWR.qmd) 
 -   **17 février 2025 - Analyse de semis de points sur un réseau spatial**\
-    -   <u>Format</u> : présentiel\
+    -   <u>Format</u> : Présentiel\
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance15_AR_semi_de_points.qmd)\
 -   **24 Janvier 2025 - \[Table ronde\] Les mains dans le code : organisation du travail, bricolage, reproductibilité avec R**\
     -   <u>Format</u> : Hybride\
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance14_TR_workflow.qmd)\
 -   **21 juin 2024 - Introduction au web scraping avec R**\
-    -   <u>Format</u> : présentiel\
+    -   <u>Format</u> : Présentiel\
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance13_webscraping.qmd)\
 -   **21 mai 2024 - Manipulation de données géographiques raster avec R**\
-    -   <u>Format</u> : présentiel\
+    -   <u>Format</u> : Présentiel\
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance12_raster_terra.qmd) 
 -   **21 mars 2024 - Séance statistiques uni et bivariées**\
     -   <u>Format</u> : Hybride\
