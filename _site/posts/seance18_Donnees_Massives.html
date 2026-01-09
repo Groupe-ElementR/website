@@ -43,9 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1daead622e627ff614cb186eabf6876d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-7e39f13300d5b093dfe52ed146a7b7e6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-1daead622e627ff614cb186eabf6876d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6ea221d97dd11d6cd7ebcfe53c861b29.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-3274bac18eafa0bb991fa6b7d40c7291.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-6ea221d97dd11d6cd7ebcfe53c861b29.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -395,7 +395,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../posts/seance12_raster_terra.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Manipulation de raster avec R</span></a>
+ <span class="menu-text">Manipulation de raster</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -420,6 +420,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../posts/seance19_Shiny.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Créer une application interactive avec Shiny</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../posts/seance20_adespatial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">L’autocorrélation spatiale multivariée (<code>adespatial</code>)</span></a>
   </div>
 </li>
       </ul>
@@ -554,6 +560,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-anchor-id="résumé">Résumé</h3>
 <p>Cette séance propose de présenter différentes solutions pour accélérer un traitement, pour permettre la manipulation de données trop importantes pour tenir en mémoire, et pour manipuler des données en ligne sans les télécharger dans leur ensemble.</p>
 <p>On y introduit le format de données en mémoire <code>Apache Arrow</code> et les fonctions du package <code>arrow</code> qui permettent de manipuler des données tabulaires ; le système de gestion de bases de données <code>DuckDB</code> qui permet d’exécuter une chaîne de traitement via syntaxe <code>dplyr</code> sur un jeu de données non chargé en mémoire ; et enfin le format de données orienté colonne <code>Apache Parquet</code> qui accélère drastiquement la lecture et l’interrogation d’un jeu de données tabulaire tout en diminuant sa taille sur disque.</p>
+<p><br>
+</p>
 </section>
 <section id="script" class="level3">
 <h3 data-anchor-id="script">Script</h3>
@@ -561,9 +569,13 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://gitlab.huma-num.fr/elementr/session_bigdata/1_donnees_tabulaires/-/blob/main/ElementR_Donnees_Massives_tabulaires.R?ref_type=heads">Script complet des codes présentés dans la présentation</a></li>
 <li><a href="https://gitlab.huma-num.fr/elementr/session_bigdata/1_donnees_tabulaires/-/blob/main/ElementR_Donnees_Massives_spatiales.R?ref_type=heads">Script des expérimentations sur des données spatiales</a></li>
 </ul>
+<p><br>
+</p>
 </section>
 <section id="présentation" class="level3">
 <h3 data-anchor-id="présentation">💻 Présentation</h3>
+<p><br>
+</p>
 <div class="diapo">
 <iframe class="slide" src="https://1-donnees-tabulaires-a74886.gitpages.huma-num.fr/">
 </iframe>

@@ -54,7 +54,7 @@ website:
           - href: posts/seance11_uni_bivarie.qmd
             text: Statistique uni et bivariée
           - href: posts/seance12_raster_terra.qmd
-            text: Manipulation de raster avec R
+            text: Manipulation de raster
           - href: posts/seance13_webscraping.qmd
             text: Premier pas en webscraping
           - href: posts/seance15_AR_semi_de_points.qmd
@@ -63,6 +63,8 @@ website:
             text: Manipulation de données tabulaires massives avec R
           - href: posts/seance19_Shiny.qmd
             text: Créer une application interactive avec Shiny
+          - href: posts/seance20_adespatial.qmd
+            text: L’autocorrélation spatiale multivariée (`adespatial`)
       - text: "---"
       - section: "<b>Tables rondes</b>"
         contents: 

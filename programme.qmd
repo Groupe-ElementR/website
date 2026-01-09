@@ -10,28 +10,35 @@ title: "**Programme & inscriptions**"
 
 ### Séances à venir :
 
-:::{.callout-important}
+::: callout-important
+## ElementR + RUSS
 
-Le programme de 2026 a été discuté lors de l'AG du 1er octobre. \
-Pour rester informé, inscrivez-vous à la liste de diffusion : [**elementr\@services.cnrs.fr**](https://listes.services.cnrs.fr/wws/subscribe/elementr?previous_action=info)
+![](img/RUSS.png)
 
+
+**La séance du 13 février est coorganisée avec** [**RUSS**](https://russ.site.ined.fr/), ***R à l'usage des sciences sociales***. 
+Pour cette raison, elle se déroulera dans les locaux de l'Ined, dans la salle Sauvy ((Campus Condorcet).
+
+
+ 
 :::
 
--   **13 Février, 9h30-12h30 - Séance croisée avec le réseau [RUSS](https://russ.site.ined.fr/) - L’autocorrélation spatiale multivariée, le package adespatial**\
+-   **13 Février, 9h30-12h - L’autocorrélation spatiale multivariée, le package adespatial**\
     -   <u>Intervenant.es</u> : Stéphane Dray
-    -   <u>Inscription obligatoire</u> : *à venir*
-    -   <u>Lieu</u> :  Salle Sauvy, INED, Campus Condorcet\
+    -   <u>Inscription obligatoire</u> : [formulaire](https://evento.renater.fr/survey/analyse-de-donnees-spatiales-et-multivariees-russ-elementr-1i5egilc)
+    -   <u>Format hybride</u> : Ined, salle Sauvy ou par Zoom\
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance20_adespatial.qmd)\
 
 <!-- ::: panel-tabset -->
-<!-- #### **Retour d'experience** -->
 
+<!-- #### **Retour d'experience** -->
 
 <!-- #### **Séance thématique** -->
 
 <!-- #### **Atelier pratique** -->
 
 <!-- #### **Table ronde** -->
+
 <!-- ::: -->
 
 \

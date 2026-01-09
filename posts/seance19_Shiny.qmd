@@ -36,13 +36,19 @@ Cette séance propose d'introduire à l'usage du package R `shiny` (@publishiny)
 
 La présentation s'articule autour d'un exemple, commenté pas à pas, de conversion d'un script statique et linéaire d'exploration de données issues du Mobiliscope (@vallee_2024_11111161), en une application ouverte permettant à chacun.e d'explorer ses propres données spatiales en en cartographiant les variables.
 
+\
 
 ### Script et données
 
-- [Scripts complets des codes présentés dans la présentation](https://gitlab.huma-num.fr/elementr/session_shiny/support/-/tree/main/applis?ref_type=heads)
-- [Scripts et données archivés](https://gitlab.huma-num.fr/elementr/session_shiny/support/-/raw/main/ElementR_Seance_Shiny.zip?ref_type=heads&inline=false)
+-   [Scripts complets des codes présentés dans la présentation](https://gitlab.huma-num.fr/elementr/session_shiny/support/-/tree/main/applis?ref_type=heads)
+-   [Scripts et données archivés](https://gitlab.huma-num.fr/elementr/session_shiny/support/-/raw/main/ElementR_Seance_Shiny.zip?ref_type=heads&inline=false)
+
+\
+
 
 ### 💻 Présentation
+
+\
 
 ::: diapo
 <iframe class="slide" src="https://support-11cdaf.gitpages.huma-num.fr/">
@@ -53,6 +59,9 @@ La présentation s'articule autour d'un exemple, commenté pas à pas, de conver
 \
 
 <center><a href="https://support-11cdaf.gitpages.huma-num.fr/" class="btn btn-outline-success" role="button" aria-disabled="true"><i class="bi bi-eye"></i> Consulter en plein écran</a></center>
+
+
+\
 
 
 ##### Bibliographie

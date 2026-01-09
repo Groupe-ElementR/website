@@ -41,9 +41,6 @@ La présentation sera étayée d’exemples d’application issus des travaux et
 Cette intervention se conclura par la présentation d’une chaine de traitement reproductible qui résumera les éléments abordés durant la séance et qui pourra utilement être remobilisée dans d’autres contextes spatiaux ou thématiques.
 
 
-
-\
-
 ### 💻 Présentation - Mise en contexte
 
 ::: diapo
