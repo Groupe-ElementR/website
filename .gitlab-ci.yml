@@ -1,10 +1,15 @@
-pages:
+default:
+  image: gitlab.huma-num.fr:7443/rcarto/quartocker:20250612
+
+create-pages:
   stage: deploy
-  script:
-  - mkdir public
-  - mv _site/* public/
+  environment: production
+  pages: true
   artifacts:
     paths:
-    - public
-  only:
-  - main
+      - public
+  script:
+    - quarto render
+    - mkdir public
+    - mv _site/* public/
+
