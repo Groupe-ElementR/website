@@ -1,5 +1,6 @@
 ---
 title: "**Programme & inscriptions**"
+toc: false
 ---
 
 ### Calendrier
@@ -8,25 +9,17 @@ title: "**Programme & inscriptions**"
 
 </iframe>
 
-### Séances à venir :
-
-::: callout-important
-## Crossover ElementR - RUSS
-
-![](img/RUSS.png)
+<!-- ### Séances à venir : -->
 
 
-**La [séance du 13 février](posts/seance20_adespatial.qmd) est coorganisée avec** [**RUSS**](https://russ.site.ined.fr/), ***R à l'usage des sciences sociales***. \
-Elle se déroulera dans les locaux de l'Ined, salle Sauvy (Campus Condorcet).\
-:::
 
-\
+<!-- \ -->
 
--   **13 Février, 9h30-12h - L’autocorrélation spatiale multivariée, le package adespatial**\
-    -   <u>Intervenant.es</u> : Stéphane Dray
-    -   <u>Inscription obligatoire</u> : [formulaire](https://evento.renater.fr/survey/analyse-de-donnees-spatiales-et-multivariees-russ-elementr-1i5egilc)
-    -   <u>Format hybride</u> : Ined, salle Sauvy ou par Zoom\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance20_adespatial.qmd)\
+<!-- -   **13 Février, 9h30-12h - L’autocorrélation spatiale multivariée, le package adespatial**\ -->
+<!--     -   <u>Intervenant.es</u> : Stéphane Dray -->
+<!--     -   <u>Inscription obligatoire</u> : [formulaire](https://evento.renater.fr/survey/analyse-de-donnees-spatiales-et-multivariees-russ-elementr-1i5egilc) -->
+<!--     -   <u>Format hybride</u> : Ined, salle Sauvy ou par Zoom\ -->
+<!--     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance20_adespatial.qmd)\ -->
 
 <!-- ::: panel-tabset -->
 
@@ -44,6 +37,9 @@ Elle se déroulera dans les locaux de l'Ined, salle Sauvy (Campus Condorcet).\
 
 ### Séances passées :
 
+-   **13 Février, 9h30-12h - L’autocorrélation spatiale multivariée, le package adespatial**\
+    -   <u>Format</u> : Hybride\
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance20_adespatial.qmd)\
 -   **16 Décembre, 14h00-16h30 - Créer une application interactive avec Shiny**\
     -   <u>Format</u> : Présentiel\
     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance19_Shiny.qmd)\
