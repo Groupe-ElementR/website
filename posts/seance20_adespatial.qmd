@@ -32,13 +32,29 @@ title-block-categories: false
 
 *À venir très prochainement*
 
-### Script et données
+### 💻 Diaporama
 
-*À venir*
 
-### 💻 Présentation
+::: diapo
 
-*À venir*
+<object class="slide" data="support/RUSS_Dray.pdf" type="application/pdf">
+
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="100">
+
+</iframe>
+
+</object>
+
+:::
+
+
+### 🎬 Captation vidéo
+
+La séance a été captée en vidéo. Elle est mise à disposition sur la chaine canalU de RUSS. 
+
+*Vidéo à venir*
+
+<!-- <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/ined/embed/158949?t=0" allowfullscreen></iframe> -->
 
 ##### Bibliographie
 

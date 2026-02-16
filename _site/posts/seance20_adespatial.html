@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -54,17 +54,18 @@ div.csl-indent {
 <link href="../img/ElementR.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4966929807c2310220b05ce9dfe07d83.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-3274bac18eafa0bb991fa6b7d40c7291.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4966929807c2310220b05ce9dfe07d83.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-cccd2b3b80382436e6a438002f59f6c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2a85743b2b482bd1f60b8089092db09d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-cccd2b3b80382436e6a438002f59f6c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -92,38 +93,21 @@ div.csl-indent {
   }
 }</script>
 <!-- Matomo -->
-
 <script>
-
   var _paq = window._paq = window._paq || [];
-
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-
   _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-
   _paq.push(['trackPageView']);
-
   _paq.push(['enableLinkTracking']);
-
   (function() {
-
     var u="https://analyseweb.huma-num.fr/";
-
     _paq.push(['setTrackerUrl', u+'matomo.php']);
-
     _paq.push(['setSiteId', '471']);
-
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-
   })();
-
 </script>
-
 <!-- End Matomo Code -->
-
-
 
 
 
@@ -303,6 +287,8 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">ElementR</span>
     </a>
@@ -354,6 +340,10 @@ div.csl-indent {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      </a>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -555,8 +545,8 @@ div.csl-indent {
     <h2 id="toc-title">Sur cette page</h2>
   <ul>
   <li><a href="#résumé" id="toc-résumé" class="nav-link active" data-scroll-target="#résumé">Résumé</a></li>
-  <li><a href="#script-et-données" id="toc-script-et-données" class="nav-link" data-scroll-target="#script-et-données">Script et données</a></li>
-  <li><a href="#présentation" id="toc-présentation" class="nav-link" data-scroll-target="#présentation">💻 Présentation</a></li>
+  <li><a href="#diaporama" id="toc-diaporama" class="nav-link" data-scroll-target="#diaporama">💻 Diaporama</a></li>
+  <li><a href="#captation-vidéo" id="toc-captation-vidéo" class="nav-link" data-scroll-target="#captation-vidéo">🎬 Captation vidéo</a></li>
   </ul>
 </nav>
     </div>
@@ -593,13 +583,20 @@ div.csl-indent {
 <h3 data-anchor-id="résumé">Résumé</h3>
 <p><em>À venir très prochainement</em></p>
 </section>
-<section id="script-et-données" class="level3">
-<h3 data-anchor-id="script-et-données">Script et données</h3>
-<p><em>À venir</em></p>
+<section id="diaporama" class="level3">
+<h3 data-anchor-id="diaporama">💻 Diaporama</h3>
+<div class="diapo">
+<object class="slide" data="support/RUSS_Dray.pdf" type="application/pdf">
+<iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="100">
+</iframe>
+</object>
+</div>
 </section>
-<section id="présentation" class="level3">
-<h3 data-anchor-id="présentation">💻 Présentation</h3>
-<p><em>À venir</em></p>
+<section id="captation-vidéo" class="level3">
+<h3 data-anchor-id="captation-vidéo">🎬 Captation vidéo</h3>
+<p>La séance a été captée en vidéo. Elle est mise à disposition sur la chaine canalU de RUSS.</p>
+<p><em>Vidéo à venir</em></p>
+<!-- <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/ined/embed/158949?t=0" allowfullscreen></iframe> -->
 <section id="bibliographie" class="level5">
 <h5 data-anchor-id="bibliographie">Bibliographie</h5>
 <div id="refs" role="list">
@@ -676,13 +673,14 @@ div.csl-indent {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
