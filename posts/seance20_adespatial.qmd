@@ -15,7 +15,7 @@ image: https://raw.githubusercontent.com/adeverse/adespatial/refs/heads/master/m
 about:
   template: marquee
   image: https://raw.githubusercontent.com/adeverse/adespatial/refs/heads/master/man/figures/logo.svg
-  image-width: 10em
+  image-width: 15em
   image-shape: rounded
   links:
     - icon: github
