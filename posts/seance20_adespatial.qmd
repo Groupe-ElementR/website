@@ -8,9 +8,7 @@ author:
   - name: Stéphane Dray
     orcid: https://orcid.org/0000-0003-0153-1105
     roles: author
-  - name: Paul Gourdon
-    orcid: https://orcid.org/0009-0008-7303-8583
-    roles: project administration
+
 image: https://raw.githubusercontent.com/adeverse/adespatial/refs/heads/master/man/figures/logo.svg
 about:
   template: marquee
@@ -30,14 +28,11 @@ title-block-categories: false
 
 ### Résumé
 
-Les méthodes d’analyse multivariée visent à identifier et résumer les principales structures de jeux de données contenant la description d’individus par plusieurs variables. Dans de nombreux cas, de l’information spatiale peut-être également disponible pour chaque observation (e.g., coordonnées géographiques). Il est alors possible d’intégrer ces deux aspects (spatial et multivarié) afin de résumer les structures de covariation entre variables dans l’espace géographique. Dans la pratique, atteindre cet objectif représente un défi statistique et plusieurs méthodes ont été développées afin d’intégrer les contraintes spatiales sous différentes formes (e.g., distance géographique, graphe de voisinage) dans l’analyse multivariée. Cette question méthodologique a été et reste un enjeu majeur en écologie des communautés, où les assemblages d’espèces (c’est-à-dire la covariation entre les abondances des espèces) sont souvent déterminés par des processus spatiaux (e.g., environnement, interactions biotiques, dispersion). 
+Les méthodes d’analyse multivariée visent à identifier et résumer les principales structures de jeux de données contenant la description d’individus par plusieurs variables. Dans de nombreux cas, de l’information spatiale peut-être également disponible pour chaque observation (e.g., coordonnées géographiques). Il est alors possible d’intégrer ces deux aspects (spatial et multivarié) afin de résumer les structures de covariation entre variables dans l’espace géographique. Dans la pratique, atteindre cet objectif représente un défi statistique et plusieurs méthodes ont été développées afin d’intégrer les contraintes spatiales sous différentes formes (e.g., distance géographique, graphe de voisinage) dans l’analyse multivariée. Cette question méthodologique a été et reste un enjeu majeur en écologie des communautés, où les assemblages d’espèces (c’est-à-dire la covariation entre les abondances des espèces) sont souvent déterminés par des processus spatiaux (e.g., environnement, interactions biotiques, dispersion).
 
 ### 💻 Diaporama
 
-
-
 ::: diapo
-
 <object class="slide" data="support/RUSS_Dray.pdf" type="application/pdf">
 
 <iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&amp;embedded=true" width="20">
@@ -45,7 +40,6 @@ Les méthodes d’analyse multivariée visent à identifier et résumer les prin
 </iframe>
 
 </object>
-
 :::
 
 \
@@ -54,19 +48,11 @@ Les méthodes d’analyse multivariée visent à identifier et résumer les prin
 
 \
 
-
-
-
-
 ### 🎬 Captation vidéo
 
-:::{.callout-note}
 
-La séance a été captée en vidéo. Elle sera prochainement mise à disposition sur la chaine canalU du séminaire RUSS. Elle sera également directement consultable sur cette page.
+<a href="https://www.canal-u.tv/chaines/ined/analyse-de-donnees-spatiales-et-multivariees-l-autocorrelation-spatiale-multivariee-0"><img src="img/adespatial.png" alt="paysage_lugubre" width="750"/><a/>
 
-:::
-
-
-<!-- <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/ined/embed/158949?t=0" allowfullscreen></iframe> -->
+La séance est mise à disposition sur la [**chaine canalU du séminaire RUSS**](https://www.canal-u.tv/chaines/ined/analyse-de-donnees-spatiales-et-multivariees-l-autocorrelation-spatiale-multivariee-0). 
 
 
