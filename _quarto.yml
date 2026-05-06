@@ -65,6 +65,8 @@ website:
             text: Créer une application interactive avec Shiny
           - href: posts/seance20_adespatial.qmd
             text: L’autocorrélation spatiale multivariée (`adespatial`)
+          - href: posts/seance21_packagesR.qmd
+            text: Création de packages
       - text: "---"
       - section: "<b>Tables rondes</b>"
         contents: 

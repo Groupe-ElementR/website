@@ -1,0 +1,40 @@
+---
+title: "Création de packages R"
+date: 28/05/2026
+bibliography: biblio/session20.bib
+nocite: '@*'
+csl: geo.csl
+author: 
+  - name: Timothée Giraud
+    orcid: https://orcid.org/0000-0002-1932-3323
+    roles: author
+  - name: Antoine Béroud
+  - name: Kévin Poisson
+
+image: https://pbs.twimg.com/media/DfqjHpNU0AIuufg.jpg
+about:
+  template: marquee
+  image: https://pbs.twimg.com/media/DfqjHpNU0AIuufg.jpg
+  image-width: 15em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitLab
+      href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance21_packagesR.qmd
+categories: 
+  - package
+  - développement
+  - workflow
+published-title: Date de séance
+author-title: Auteurs
+title-block-categories: false
+---
+
+### Résumé
+
+A venir...
+
+
+
+\
+

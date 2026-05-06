@@ -20,7 +20,9 @@ about:
       text: GitLab
       href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance20_adespatial.qmd
 categories: 
-  - "A COMPLETER"
+  - analyse spatiale
+  - classification
+  - multivariée
 published-title: Date de séance
 author-title: Auteur·es
 title-block-categories: false
@@ -50,9 +52,6 @@ Les méthodes d’analyse multivariée visent à identifier et résumer les prin
 
 ### 🎬 Captation vidéo
 
-
 <a href="https://www.canal-u.tv/chaines/ined/analyse-de-donnees-spatiales-et-multivariees-l-autocorrelation-spatiale-multivariee-0"><img src="img/adespatial.png" alt="paysage_lugubre" width="750"/><a/>
 
-La séance est mise à disposition sur la [**chaine canalU du séminaire RUSS**](https://www.canal-u.tv/chaines/ined/analyse-de-donnees-spatiales-et-multivariees-l-autocorrelation-spatiale-multivariee-0). 
-
-
+La séance est mise à disposition sur la [**chaine canalU du séminaire RUSS**](https://www.canal-u.tv/chaines/ined/analyse-de-donnees-spatiales-et-multivariees-l-autocorrelation-spatiale-multivariee-0).

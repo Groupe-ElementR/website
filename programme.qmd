@@ -5,21 +5,18 @@ toc: false
 
 ### Calendrier
 
-<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listMonth/now" width="100%" height="400">
+<iframe src="https://framagenda.org/apps/calendar/embed/d3TL5XK9tRBJNnmC/listMonth/now" width="100%" height="250">
 
 </iframe>
 
-<!-- ### Séances à venir : -->
+### Séances à venir :
 
+-   **28 Mai, 9h30-12h30 - Création de packages R**\
 
-
-<!-- \ -->
-
-<!-- -   **13 Février, 9h30-12h - L’autocorrélation spatiale multivariée, le package adespatial**\ -->
-<!--     -   <u>Intervenant.es</u> : Stéphane Dray -->
-<!--     -   <u>Inscription obligatoire</u> : [formulaire](https://evento.renater.fr/survey/analyse-de-donnees-spatiales-et-multivariees-russ-elementr-1i5egilc) -->
-<!--     -   <u>Format hybride</u> : Ined, salle Sauvy ou par Zoom\ -->
-<!--     -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance20_adespatial.qmd)\ -->
+    -   <u>Intervenants</u> : Timothée Giraud, Antoine Béroud, Kévin Poisson
+    -   <u>Inscription obligatoire</u> : [formulaire](https://evento.renater.fr/survey/elementr-28-05-2026-creer-package-r-hocxcxuc)
+    -   <u>Format hybride</u> : salle 1.122, Bâtiment sud du Campus Condorcet\
+    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance21_packagesR.qmd)\
 
 <!-- ::: panel-tabset -->
 
