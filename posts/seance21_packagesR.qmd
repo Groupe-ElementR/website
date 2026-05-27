@@ -11,14 +11,14 @@ author:
   - name: Antoine Béroud
   - name: Kévin Poisson
 
-image: https://pbs.twimg.com/media/DfqjHpNU0AIuufg.jpg
+image: img/hexa2.png
 about:
   template: marquee
-  image: https://pbs.twimg.com/media/DfqjHpNU0AIuufg.jpg
+  image: img/hexa2.png
   image-width: 15em
   image-shape: rounded
   links:
-    - icon: github
+    - icon: git
       text: GitLab
       href: https://gitlab.huma-num.fr/elementr/website/-/blob/main/posts/seance21_packagesR.qmd
 categories: 
@@ -31,10 +31,17 @@ title-block-categories: false
 ---
 
 ### Résumé
+Cette séance est une introduction à la création de packages pour le logiciel R. 
+Une courte présentation introductive montrera les différents enjeux liés à la création de packages. 
+Deux jeunes chercheurs présenteront leurs retours d'expériences sur la création de package dans le cadre de leur thèse ou de projet de recherche. 
+Un atelier pratique menant à la création d'un package à partir de scripts terminera la session. 
 
-A venir...
+### Supports
 
+Les supports seront disponibles ici après la séance. 
 
+### Script et données
+Un projet RStudio comportant les scripts utilisés pendant la séance est téléchargeable ici :
 
-\
+<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/data/mapmix.zip?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> mapmix.zip</a></center>
 
