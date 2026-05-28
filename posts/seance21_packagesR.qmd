@@ -1,6 +1,6 @@
 ---
 title: "Création de packages R"
-date: 28/05/2026
+date: 28 05 2026
 bibliography: biblio/session20.bib
 nocite: '@*'
 csl: geo.csl
@@ -39,6 +39,12 @@ Un atelier pratique menant à la création d'un package à partir de scripts ter
 ### Supports
 
 Les supports seront disponibles ici après la séance. 
+
+Crepackages.pdf
+
+<center><a href="https://gitlab.huma-num.fr/elementr/website/-/raw/main/posts/support/Crepackages.pdf?inline=false" class="btn btn-success" role="button" aria-disabled="true"><i class="bi bi-cloud-arrow-down"></i> Support</a></center>
+
+
 
 ### Script et données
 Un projet RStudio comportant les scripts utilisés pendant la séance est téléchargeable ici :
