@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/index.html</loc>
-    <lastmod>2025-05-14T08:29:48.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance20_adespatial.html</loc>
-    <lastmod>2026-05-19T13:53:13.609Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance6_geomatique_sf.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance18_Donnees_Massives.html</loc>
-    <lastmod>2026-05-27T12:37:36.129Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance19_Shiny.html</loc>
-    <lastmod>2026-05-19T13:53:13.609Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance1.html</loc>
-    <lastmod>2026-05-27T12:37:36.129Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance8_quarto.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance5_carto_mapsf.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance10_table_ronde_analyse_textuelle.html</loc>
-    <lastmod>2026-05-27T12:37:36.129Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance2.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance12_raster_terra.html</loc>
-    <lastmod>2026-05-27T12:37:36.129Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance17_OSM.html</loc>
-    <lastmod>2026-05-19T13:53:13.609Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/apropos.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/seance.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/programme.html</loc>
-    <lastmod>2026-05-19T13:53:13.625Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance16_GWR.html</loc>
-    <lastmod>2026-05-27T12:37:36.129Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/atelier_enquete_sncf.html</loc>
-    <lastmod>2026-05-27T12:37:36.129Z</lastmod>
+    <lastmod>2026-08-21T16:07:28.728Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance21_packagesR.html</loc>
-    <lastmod>2026-05-28T14:14:45.854Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance15_AR_semi_de_points.html</loc>
-    <lastmod>2026-05-27T12:37:36.129Z</lastmod>
+    <lastmod>2026-08-21T16:05:13.459Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance9_R_et_these.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance13_webscraping.html</loc>
-    <lastmod>2026-05-27T12:52:03.837Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance14_TR_workflow.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance11_uni_bivarie.html</loc>
-    <lastmod>2026-05-27T12:37:36.129Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance4_ggplot.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
+    <lastmod>2026-03-10T10:59:38.582Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance7_igraph.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance5_carto_mapsf.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance3.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance19_Shiny.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance17_OSM.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance15_AR_semi_de_points.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance13_webscraping.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance11_uni_bivarie.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance1.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/index.html</loc>
+    <lastmod>2026-03-10T10:59:38.559Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/apropos.html</loc>
+    <lastmod>2026-03-10T10:59:38.558Z</lastmod>
   </url>
   <url>
     <loc>https://elementr.gitpages.huma-num.fr/website/contact.html</loc>
-    <lastmod>2025-05-14T08:09:54.000Z</lastmod>
+    <lastmod>2026-03-10T10:59:38.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/atelier_enquete_sncf.html</loc>
+    <lastmod>2026-03-10T10:59:38.559Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance10_table_ronde_analyse_textuelle.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance12_raster_terra.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance14_TR_workflow.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance16_GWR.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance18_Donnees_Massives.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance2.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance4_ggplot.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance6_geomatique_sf.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance8_quarto.html</loc>
+    <lastmod>2026-03-10T10:59:38.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/posts/seance20_adespatial.html</loc>
+    <lastmod>2026-08-21T16:05:13.459Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elementr.gitpages.huma-num.fr/website/seance.html</loc>
+    <lastmod>2026-03-10T10:59:38.677Z</lastmod>
   </url>
 </urlset>

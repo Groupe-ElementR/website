@@ -9,14 +9,9 @@ toc: false
 
 </iframe>
 
-### Séances à venir :
+<!-- ### Séances à venir : -->
 
--   **28 Mai, 9h30-12h30 - Création de packages R**\
 
-    -   <u>Intervenants</u> : Timothée Giraud, Antoine Béroud, Kévin Poisson
-    -   <u>Inscription obligatoire</u> : [formulaire](https://evento.renater.fr/survey/elementr-28-05-2026-creer-package-r-hocxcxuc)
-    -   <u>Format hybride</u> : salle 1.122, Bâtiment sud du Campus Condorcet\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance21_packagesR.qmd)\
 
 <!-- ::: panel-tabset -->
 
@@ -34,66 +29,71 @@ toc: false
 
 ### Séances passées :
 
--   **13 Février, 9h30-12h - L’autocorrélation spatiale multivariée, le package adespatial**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance20_adespatial.qmd)\
--   **16 Décembre, 14h00-16h30 - Créer une application interactive avec Shiny**\
-    -   <u>Format</u> : Présentiel\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance19_Shiny.qmd)\
--   **21 octobre 2025 - Manipulation de données tabulaires massives**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance18_Donnees_Massives.qmd)\
--   **13 mai 2025 - Utiliser OpenStreetMap avec R**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance17_OSM.qmd)\
--   **20 mars 2025 - La GWR : théorie et pratique en R**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance16_GWR.qmd) 
--   **17 février 2025 - Analyse de semis de points sur un réseau spatial**\
-    -   <u>Format</u> : Présentiel\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance15_AR_semi_de_points.qmd)\
--   **24 Janvier 2025 - \[Table ronde\] Les mains dans le code : organisation du travail, bricolage, reproductibilité avec R**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance14_TR_workflow.qmd)\
--   **21 juin 2024 - Introduction au web scraping avec R**\
-    -   <u>Format</u> : Présentiel\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance13_webscraping.qmd)\
--   **21 mai 2024 - Manipulation de données géographiques raster avec R**\
-    -   <u>Format</u> : Présentiel\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance12_raster_terra.qmd) 
--   **21 mars 2024 - Séance statistiques uni et bivariées**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance11_uni_bivarie.qmd) 
--   **16 janvier 2024 - \[Table ronde\] Faire de l'analyse textuelle sur R : pourquoi et comment ?**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance10_table_ronde_analyse_textuelle.qmd)\
--   **14 novembre 2023 - R au long cours : trois années de thèse avec R en géographie**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance9_R_et_these.qmd)\
--   **3 octobre 2023 - Production de documents computationnels**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance8_quarto.qmd)\
--   **23 mai 2023 - Analyse de réseau avec le package `igraph`**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance7_igraph.qmd)\
--   **21 avril 2023 - Manipulation de données géographiques vectorielles avec`sf`**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance6_geomatique_sf.qmd)\
--   **27 mars 2023 - Initiation à la cartographie avec le package `mapsf`**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance5_carto_mapsf.qmd)\
--   **14 février 2023 - Atelier pratique d'exploration de données d'enquête**\
-    -   <u>Format</u> : Présentiel\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/atelier_enquete_sncf.qmd)\
--   **25 Janvier 2023 - Représentation graphique avec R (et ggplot2)**\
-    -   <u>Format</u> : Présentiel\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance4_ggplot.qmd)\
--   **16 décembre 2022 - Initiation à R (pratique)**\
-    -   <u>Format</u> : Présentiel\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance3.qmd)\
--   **2 décembre 2022 - Initiation à R (théorique)**\
-    -   <u>Format</u> : Présentiel\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance2.qmd)\
--   **14 octobre 2022 - Séance introductive ElementR**\
-    -   <u>Format</u> : Hybride\
-    -   <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance1.qmd)\
+\
+
+- **28 Mai, 9h30-12h30 - Création de packages R**\
+  - <u>Format</u> : Hybride\
+   - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance21_packagesR.qmd)\
+- **13 Février, 9h30-12h - L’autocorrélation spatiale multivariée, le package adespatial**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance20_adespatial.qmd)\
+- **16 Décembre, 14h00-16h30 - Créer une application interactive avec Shiny**\
+  - <u>Format</u> : Présentiel\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance19_Shiny.qmd)\
+- **21 octobre 2025 - Manipulation de données tabulaires massives**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance18_Donnees_Massives.qmd)\
+- **13 mai 2025 - Utiliser OpenStreetMap avec R**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance17_OSM.qmd)\
+- **20 mars 2025 - La GWR : théorie et pratique en R**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance16_GWR.qmd) 
+- **17 février 2025 - Analyse de semis de points sur un réseau spatial**\
+  - <u>Format</u> : Présentiel\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance15_AR_semi_de_points.qmd)\
+- **24 Janvier 2025 - \[Table ronde\] Les mains dans le code : organisation du travail, bricolage, reproductibilité avec R**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance14_TR_workflow.qmd)\
+- **21 juin 2024 - Introduction au web scraping avec R**\
+  - <u>Format</u> : Présentiel\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance13_webscraping.qmd)\
+- **21 mai 2024 - Manipulation de données géographiques raster avec R**\
+  - <u>Format</u> : Présentiel\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance12_raster_terra.qmd) 
+- **21 mars 2024 - Séance statistiques uni et bivariées**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance11_uni_bivarie.qmd) 
+- **16 janvier 2024 - \[Table ronde\] Faire de l'analyse textuelle sur R : pourquoi et comment ?**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance10_table_ronde_analyse_textuelle.qmd)\
+- **14 novembre 2023 - R au long cours : trois années de thèse avec R en géographie**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance9_R_et_these.qmd)\
+- **3 octobre 2023 - Production de documents computationnels**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance8_quarto.qmd)\
+- **23 mai 2023 - Analyse de réseau avec le package `igraph`**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance7_igraph.qmd)\
+- **21 avril 2023 - Manipulation de données géographiques vectorielles avec`sf`**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance6_geomatique_sf.qmd)\
+- **27 mars 2023 - Initiation à la cartographie avec le package `mapsf`**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance5_carto_mapsf.qmd)\
+- **14 février 2023 - Atelier pratique d'exploration de données d'enquête**\
+  - <u>Format</u> : Présentiel\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/atelier_enquete_sncf.qmd)\
+- **25 Janvier 2023 - Représentation graphique avec R (et ggplot2)**\
+  - <u>Format</u> : Présentiel\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance4_ggplot.qmd)\
+- **16 décembre 2022 - Initiation à R (pratique)**\
+  - <u>Format</u> : Présentiel\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance3.qmd)\
+- **2 décembre 2022 - Initiation à R (théorique)**\
+  - <u>Format</u> : Présentiel\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance2.qmd)\
+- **14 octobre 2022 - Séance introductive ElementR**\
+  - <u>Format</u> : Hybride\
+  - <u>Résumé & supports</u> : [Consulter la page dédiée](posts/seance1.qmd)\
